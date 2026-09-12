@@ -23,6 +23,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Correr el escáner
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python escaner.py
 
       - name: Publicar el resultado en el repo
