@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Agente de trading - Dashboard</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
 <style>
   :root {
     --bg: #0a0e1a;
@@ -33,7 +32,7 @@
     font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
     background: var(--bg);
     color: var(--text);
-    max-width: 780px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 24px 16px 60px;
   }
@@ -64,9 +63,12 @@
     display: inline-block; font-size: 11px; color: var(--blue-text);
     background: var(--blue-bg); border-radius: 6px; padding: 2px 8px; margin-left: 8px;
   }
+  #signals-list {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 12px;
+  }
   .signal {
     background: var(--card); border: 1px solid var(--border); border-radius: 12px;
-    padding: 16px; margin-bottom: 12px;
+    padding: 16px;
   }
   .signal.tiene-señal { border-color: var(--border-strong); }
   .signal-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
@@ -107,7 +109,7 @@
   .headline-item a { color: var(--text); text-decoration: none; }
   .headline-item a:hover { color: var(--blue-text); text-decoration: underline; }
   .headline-fuente { color: var(--text-muted); font-size: 11px; display: block; margin-top: 2px; }
-  .empty { text-align: center; color: var(--text-muted); padding: 40px 0; font-size: 14px; }
+  .empty { grid-column: 1 / -1; text-align: center; color: var(--text-muted); padding: 40px 0; font-size: 14px; }
   .disclaimer { font-size: 12px; color: var(--text-muted); text-align: center; margin-top: 30px; }
 </style>
 </head>
@@ -146,7 +148,28 @@
 
 <script>
 let currentData = null;
-let chartInstances = {};
+
+function sparklineSVG(historial, ancho = 300, alto = 56) {
+  if (!historial || historial.length < 2) return "";
+  const valores = historial.map(p => p.cierre);
+  const min = Math.min(...valores);
+  const max = Math.max(...valores);
+  const rango = (max - min) || 1;
+  const paso = ancho / (valores.length - 1);
+  const puntos = valores.map((v, i) => {
+    const x = i * paso;
+    const y = alto - ((v - min) / rango) * (alto - 8) - 4;
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(" ");
+  const subiendo = valores[valores.length - 1] >= valores[0];
+  const color = subiendo ? "#4ade80" : "#f87171";
+  const colorFondo = subiendo ? "rgba(34,197,94,0.15)" : "rgba(239,68,68,0.15)";
+  const areaPuntos = `0,${alto} ${puntos} ${ancho},${alto}`;
+  return `<svg viewBox="0 0 ${ancho} ${alto}" width="100%" height="${alto}" preserveAspectRatio="none">
+    <polyline points="${areaPuntos}" fill="${colorFondo}" stroke="none"></polyline>
+    <polyline points="${puntos}" fill="none" stroke="${color}" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"></polyline>
+  </svg>`;
+}
 
 function badgeDireccion(d) {
   if (d === "long") return `<span class="badge long">↑ Long</span>`;
@@ -222,9 +245,6 @@ function renderSignals() {
 
   const list = document.getElementById("signals-list");
 
-  Object.values(chartInstances).forEach(c => c.destroy());
-  chartInstances = {};
-
   if (items.length === 0) {
     list.innerHTML = `<div class="empty">No hay resultados con estos filtros.</div>`;
     return;
@@ -253,8 +273,8 @@ function renderSignals() {
         `).join("")}
       </div>` : "";
 
-    const grafico = (r.historial_precios && r.historial_precios.length) ? `
-      <div class="chart-wrap"><canvas id="${idSeguro(r.ticker)}"></canvas></div>` : "";
+    const grafico = (r.historial_precios && r.historial_precios.length > 1) ? `
+      <div class="chart-wrap">${sparklineSVG(r.historial_precios)}</div>` : "";
 
     if (!r.hay_señal) {
       return `
@@ -286,37 +306,6 @@ function renderSignals() {
         ${headlines}
       </div>`;
   }).join("");
-
-  items.forEach(r => {
-    if (!r.historial_precios || !r.historial_precios.length) return;
-    const ctx = document.getElementById(idSeguro(r.ticker));
-    if (!ctx) return;
-    if (typeof Chart === "undefined") return; // Chart.js no cargó (ej. bloqueado por una extensión)
-    try {
-      const labels = r.historial_precios.map(p => p.fecha.slice(5));
-      const datos = r.historial_precios.map(p => p.cierre);
-      const subiendo = datos[datos.length - 1] >= datos[0];
-      chartInstances[r.ticker] = new Chart(ctx, {
-        type: "line",
-        data: {
-          labels,
-          datasets: [{
-            data: datos,
-            borderColor: subiendo ? "#4ade80" : "#f87171",
-            backgroundColor: subiendo ? "rgba(34,197,94,0.08)" : "rgba(239,68,68,0.08)",
-            borderWidth: 1.5, pointRadius: 0, fill: true, tension: 0.25
-          }]
-        },
-        options: {
-          responsive: true, maintainAspectRatio: false,
-          plugins: { legend: { display: false }, tooltip: { enabled: true } },
-          scales: { x: { display: false }, y: { display: false } }
-        }
-      });
-    } catch (e) {
-      console.warn("No se pudo dibujar el gráfico de " + r.ticker, e);
-    }
-  });
 }
 
 async function loadData() {
