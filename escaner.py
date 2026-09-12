@@ -35,7 +35,7 @@ MIN_RATIO_RIESGO_BENEFICIO = 1.5
 MULTIPLICADOR_OBJETIVO = 2.0
 
 # Modelo de Gemini a usar para analizar noticias (gratis en Google AI Studio)
-MODELO_GEMINI = "gemini-2.5-flash"
+MODELO_GEMINI = "gemini-3.6-flash"
 CANTIDAD_TITULARES = 5
 
 
