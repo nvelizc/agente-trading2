@@ -19,6 +19,7 @@ import json
 from datetime import datetime, timezone
 
 import numpy as np
+import requests
 import yfinance as yf
 
 # -----------------------------------------------------------------
@@ -32,6 +33,10 @@ MIN_RATIO_RIESGO_BENEFICIO = 1.5
 
 # Multiplicador de riesgo usado para fijar el objetivo (objetivo = entrada + N * riesgo)
 MULTIPLICADOR_OBJETIVO = 2.0
+
+# Modelo de Gemini a usar para analizar noticias (gratis en Google AI Studio)
+MODELO_GEMINI = "gemini-2.5-flash"
+CANTIDAD_TITULARES = 5
 
 
 # -----------------------------------------------------------------
@@ -176,6 +181,86 @@ def pasa_filtro_de_calidad(señal: dict) -> bool:
 
 
 # -----------------------------------------------------------------
+# 3B. NOTICIAS + ANÁLISIS DE SENTIMIENTO CON GEMINI (capa de IA)
+# -----------------------------------------------------------------
+
+def obtener_titulares(ticker: str, cantidad: int = CANTIDAD_TITULARES) -> list:
+    """Trae los títulos de noticias más recientes de un ticker (gratis, sin API key)."""
+    try:
+        t = yf.Ticker(ticker)
+        noticias = t.news or []
+        titulares = []
+        for n in noticias[:cantidad]:
+            contenido = n.get("content", n)  # yfinance a veces anida bajo "content"
+            titulo = contenido.get("title") or n.get("title")
+            if titulo:
+                titulares.append(titulo)
+        return titulares
+    except Exception:
+        return []
+
+
+def analizar_sentimiento_noticias(api_key: str, ticker: str, titulares: list) -> dict:
+    """Le pide a Gemini que evalúe el sentimiento de los titulares recientes."""
+    if not titulares:
+        return {"sentimiento": "neutral", "resumen": "No hay titulares recientes disponibles."}
+
+    lista_titulares = "\n".join(f"- {t}" for t in titulares)
+    prompt = f"""Sos un analista financiero. Estos son los titulares de noticias más recientes sobre {ticker}:
+
+{lista_titulares}
+
+Evaluá el sentimiento general para alguien que está pensando en operar esta acción en el corto plazo.
+Respondé SOLO con un JSON, sin texto adicional ni markdown, con esta forma exacta:
+
+{{
+  "sentimiento": "positivo" o "negativo" o "neutral",
+  "resumen": "una oración breve en español simple explicando por qué"
+}}
+"""
+
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO_GEMINI}:generateContent?key={api_key}"
+    body = {"contents": [{"parts": [{"text": prompt}]}]}
+
+    try:
+        resp = requests.post(url, json=body, timeout=25)
+        resp.raise_for_status()
+        data = resp.json()
+        texto = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        texto = texto.replace("```json", "").replace("```", "").strip()
+        return json.loads(texto)
+    except Exception as e:
+        return {"sentimiento": "neutral", "resumen": f"No se pudo analizar el sentimiento ({type(e).__name__})."}
+
+
+def combinar_señal_con_noticias(señal: dict, sentimiento: dict) -> dict:
+    """Ajusta la confianza de la señal técnica según si las noticias la confirman o la contradicen."""
+    nota_noticias = f" Noticias recientes: sentimiento {sentimiento['sentimiento']} — {sentimiento['resumen']}"
+
+    if not señal.get("hay_señal"):
+        señal["razon"] = (señal.get("razon") or "") + nota_noticias
+        return señal
+
+    alineado = (
+        (señal["direccion"] == "long" and sentimiento["sentimiento"] == "positivo")
+        or (señal["direccion"] == "short" and sentimiento["sentimiento"] == "negativo")
+    )
+    contradice = (
+        (señal["direccion"] == "long" and sentimiento["sentimiento"] == "negativo")
+        or (señal["direccion"] == "short" and sentimiento["sentimiento"] == "positivo")
+    )
+
+    if alineado:
+        señal["confianza"] = "alta"
+    elif contradice:
+        señal["confianza"] = "baja"
+    # si es neutral, se deja la confianza que ya tenía el análisis técnico
+
+    señal["razon"] = señal["razon"] + nota_noticias
+    return señal
+
+
+# -----------------------------------------------------------------
 # 4. GUARDAR RESULTADOS
 # -----------------------------------------------------------------
 
@@ -200,6 +285,11 @@ def guardar_log(resultados: list):
 # -----------------------------------------------------------------
 
 def main():
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("Aviso: no encontré GEMINI_API_KEY. El análisis técnico va a correr igual, "
+              "pero sin la capa de noticias.\n")
+
     print(f"Escaneando {len(WATCHLIST)} acciones... ({datetime.now(timezone.utc).isoformat()})\n")
 
     resultados = []
@@ -214,6 +304,12 @@ def main():
         señal = evaluar_setup(datos)
         señal["ticker"] = ticker
         señal["precio_al_momento_del_analisis"] = datos["precio_actual"]
+
+        if api_key:
+            titulares = obtener_titulares(ticker)
+            sentimiento = analizar_sentimiento_noticias(api_key, ticker, titulares)
+            señal = combinar_señal_con_noticias(señal, sentimiento)
+
         resultados.append(señal)
 
         if pasa_filtro_de_calidad(señal):
