@@ -16,6 +16,7 @@ Requisitos:
 
 import os
 import json
+import time
 from datetime import datetime, timezone
 
 import numpy as np
@@ -222,19 +223,21 @@ Respondé SOLO con un JSON, sin texto adicional ni markdown, con esta forma exac
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO_GEMINI}:generateContent?key={api_key}"
     body = {"contents": [{"parts": [{"text": prompt}]}]}
 
-    try:
-        resp = requests.post(url, json=body, timeout=25)
-        resp.raise_for_status()
-        data = resp.json()
-        texto = data["candidates"][0]["content"]["parts"][0]["text"].strip()
-        texto = texto.replace("```json", "").replace("```", "").strip()
-        return json.loads(texto)
-    except requests.exceptions.HTTPError as e:
-        print(f"[DEBUG Gemini] {ticker}: HTTP {e.response.status_code} -> {e.response.text[:500]}")
-        return {"sentimiento": "neutral", "resumen": "No se pudo analizar el sentimiento (HTTPError)."}
-    except Exception as e:
-        print(f"[DEBUG Gemini] {ticker}: {type(e).__name__} -> {e}")
-        return {"sentimiento": "neutral", "resumen": f"No se pudo analizar el sentimiento ({type(e).__name__})."}
+    for intento in range(2):  # probamos hasta 2 veces antes de rendirnos
+        try:
+            resp = requests.post(url, json=body, timeout=45)
+            resp.raise_for_status()
+            data = resp.json()
+            texto = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+            texto = texto.replace("```json", "").replace("```", "").strip()
+            return json.loads(texto)
+        except requests.exceptions.HTTPError as e:
+            print(f"[DEBUG Gemini] {ticker} (intento {intento+1}): HTTP {e.response.status_code} -> {e.response.text[:300]}")
+        except Exception as e:
+            print(f"[DEBUG Gemini] {ticker} (intento {intento+1}): {type(e).__name__} -> {e}")
+        time.sleep(8)  # esperamos antes de reintentar
+
+    return {"sentimiento": "neutral", "resumen": "No se pudo analizar el sentimiento después de reintentar."}
 
 
 def combinar_señal_con_noticias(señal: dict, sentimiento: dict) -> dict:
@@ -313,6 +316,7 @@ def main():
             titulares = obtener_titulares(ticker)
             sentimiento = analizar_sentimiento_noticias(api_key, ticker, titulares)
             señal = combinar_señal_con_noticias(señal, sentimiento)
+            time.sleep(3)
 
         resultados.append(señal)
 
