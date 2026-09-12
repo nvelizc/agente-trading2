@@ -27,7 +27,42 @@ import yfinance as yf
 # 1. CONFIGURACIÓN - editá esto a tu gusto
 # -----------------------------------------------------------------
 
-WATCHLIST = ["AAPL", "MSFT", "NVDA", "TSLA", "AMZN"]
+# Watchlist organizada por sector — editá libremente
+WATCHLIST_POR_SECTOR = {
+    "Tecnología": ["AAPL", "MSFT", "NVDA"],
+    "Finanzas": ["JPM", "V"],
+    "Energía": ["XOM", "CVX"],
+    "Consumo": ["AMZN", "KO"],
+    "Índices": ["SPY", "QQQ"],
+}
+WATCHLIST = [ticker for tickers in WATCHLIST_POR_SECTOR.values() for ticker in tickers]
+
+# Cuántos tickers en tendencia sumar por corrida (gainers + losers + most actives)
+CANTIDAD_TENDENCIAS = 8
+
+
+def obtener_tickers_en_tendencia(cantidad: int = CANTIDAD_TENDENCIAS) -> list:
+    """Trae acciones que más se mueven HOY (más suben, más bajan, más volumen),
+    que suele reflejar dónde está la atención de las noticias financieras en ese momento."""
+    encontrados = []
+    for screener in ["day_gainers", "day_losers", "most_actives"]:
+        try:
+            resultado = yf.screen(screener, count=6)
+            quotes = resultado.get("quotes", []) if isinstance(resultado, dict) else []
+            for q in quotes:
+                simbolo = q.get("symbol")
+                if simbolo and simbolo not in encontrados:
+                    encontrados.append(simbolo)
+        except Exception as e:
+            print(f"[DEBUG] No se pudo traer el screener '{screener}': {type(e).__name__} -> {e}")
+    return encontrados[:cantidad]
+
+
+def sector_de(ticker: str) -> str:
+    for sector, tickers in WATCHLIST_POR_SECTOR.items():
+        if ticker in tickers:
+            return sector
+    return "Tendencia del día"
 
 # Ratio riesgo/beneficio mínimo para que una señal se considere válida
 MIN_RATIO_RIESGO_BENEFICIO = 1.5
@@ -73,6 +108,11 @@ def obtener_datos(ticker: str):
     ultimo = hist.iloc[-1]
     anteultimo = hist.iloc[-2]
 
+    historial_precios = [
+        {"fecha": idx.strftime("%Y-%m-%d"), "cierre": round(float(val), 2)}
+        for idx, val in hist["Close"].tail(30).items()
+    ]
+
     return {
         "ticker": ticker,
         "precio_actual": round(float(ultimo["Close"]), 2),
@@ -87,6 +127,7 @@ def obtener_datos(ticker: str):
         "min20": round(float(ultimo["MIN20"]), 2),
         "high_hoy": round(float(ultimo["High"]), 2),
         "low_hoy": round(float(ultimo["Low"]), 2),
+        "historial_precios": historial_precios,
     }
 
 
@@ -185,38 +226,62 @@ def pasa_filtro_de_calidad(señal: dict) -> bool:
 # 3B. NOTICIAS + ANÁLISIS DE SENTIMIENTO CON GEMINI (capa de IA)
 # -----------------------------------------------------------------
 
-def obtener_titulares(ticker: str, cantidad: int = CANTIDAD_TITULARES) -> list:
-    """Trae los títulos de noticias más recientes de un ticker (gratis, sin API key)."""
+def obtener_noticias(ticker: str, cantidad: int = CANTIDAD_TITULARES) -> list:
+    """Trae noticias recientes de un ticker con título, link y fuente (gratis, sin API key)."""
     try:
         t = yf.Ticker(ticker)
-        noticias = t.news or []
-        titulares = []
-        for n in noticias[:cantidad]:
+        crudo = t.news or []
+        noticias = []
+        for n in crudo[:cantidad]:
             contenido = n.get("content", n)  # yfinance a veces anida bajo "content"
             titulo = contenido.get("title") or n.get("title")
-            if titulo:
-                titulares.append(titulo)
-        return titulares
+            if not titulo:
+                continue
+
+            link = None
+            if isinstance(contenido.get("canonicalUrl"), dict):
+                link = contenido["canonicalUrl"].get("url")
+            elif isinstance(contenido.get("clickThroughUrl"), dict):
+                link = contenido["clickThroughUrl"].get("url")
+
+            fuente = None
+            if isinstance(contenido.get("provider"), dict):
+                fuente = contenido["provider"].get("displayName")
+
+            noticias.append({"titulo": titulo, "link": link, "fuente": fuente})
+        return noticias
     except Exception:
         return []
 
 
-def analizar_sentimiento_noticias(api_key: str, ticker: str, titulares: list) -> dict:
-    """Le pide a Gemini que evalúe el sentimiento de los titulares recientes."""
-    if not titulares:
-        return {"sentimiento": "neutral", "resumen": "No hay titulares recientes disponibles."}
+def analizar_sentimiento_noticias(api_key: str, ticker: str, noticias: list) -> dict:
+    """Le pide a Gemini que evalúe el sentimiento de las noticias y dé una perspectiva de corto plazo."""
+    if not noticias:
+        return {
+            "sentimiento": "neutral",
+            "resumen": "No hay titulares recientes disponibles.",
+            "perspectiva": "lateral",
+            "prediccion": "Sin noticias recientes suficientes para armar una perspectiva.",
+        }
 
-    lista_titulares = "\n".join(f"- {t}" for t in titulares)
+    lista_titulares = "\n".join(f"- {n['titulo']}" for n in noticias)
     prompt = f"""Sos un analista financiero. Estos son los titulares de noticias más recientes sobre {ticker}:
 
 {lista_titulares}
 
-Evaluá el sentimiento general para alguien que está pensando en operar esta acción en el corto plazo.
+Con base SOLO en estos titulares (no inventes datos que no estén ahí), armá:
+1. El sentimiento general para alguien pensando en operar esta acción en el corto plazo.
+2. Una perspectiva de hacia dónde podría inclinarse el precio en los próximos días: alcista, bajista, o lateral.
+3. Una predicción breve (2-3 oraciones, en español simple, para alguien que no sabe de trading) explicando el porqué,
+   dejando claro que es una lectura de noticias y NO una certeza.
+
 Respondé SOLO con un JSON, sin texto adicional ni markdown, con esta forma exacta:
 
 {{
   "sentimiento": "positivo" o "negativo" o "neutral",
-  "resumen": "una oración breve en español simple explicando por qué"
+  "resumen": "una oración breve explicando el sentimiento",
+  "perspectiva": "alcista" o "bajista" o "lateral",
+  "prediccion": "2-3 oraciones explicando la perspectiva de corto plazo basada en estas noticias"
 }}
 """
 
@@ -237,33 +302,40 @@ Respondé SOLO con un JSON, sin texto adicional ni markdown, con esta forma exac
             print(f"[DEBUG Gemini] {ticker} (intento {intento+1}): {type(e).__name__} -> {e}")
         time.sleep(8)  # esperamos antes de reintentar
 
-    return {"sentimiento": "neutral", "resumen": "No se pudo analizar el sentimiento después de reintentar."}
+    return {
+        "sentimiento": "neutral",
+        "resumen": "No se pudo analizar el sentimiento después de reintentar.",
+        "perspectiva": "lateral",
+        "prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo.",
+    }
 
 
-def combinar_señal_con_noticias(señal: dict, sentimiento: dict) -> dict:
-    """Ajusta la confianza de la señal técnica según si las noticias la confirman o la contradicen."""
-    nota_noticias = f" Noticias recientes: sentimiento {sentimiento['sentimiento']} — {sentimiento['resumen']}"
+def combinar_señal_con_noticias(señal: dict, análisis: dict) -> dict:
+    """Agrega la predicción de noticias como campos propios y ajusta la confianza de la señal técnica."""
+    señal["noticias_sentimiento"] = análisis.get("sentimiento")
+    señal["noticias_resumen"] = análisis.get("resumen")
+    señal["noticias_perspectiva"] = análisis.get("perspectiva")
+    señal["noticias_prediccion"] = análisis.get("prediccion")
 
     if not señal.get("hay_señal"):
-        señal["razon"] = (señal.get("razon") or "") + nota_noticias
         return señal
 
+    perspectiva = análisis.get("perspectiva")
     alineado = (
-        (señal["direccion"] == "long" and sentimiento["sentimiento"] == "positivo")
-        or (señal["direccion"] == "short" and sentimiento["sentimiento"] == "negativo")
+        (señal["direccion"] == "long" and perspectiva == "alcista")
+        or (señal["direccion"] == "short" and perspectiva == "bajista")
     )
     contradice = (
-        (señal["direccion"] == "long" and sentimiento["sentimiento"] == "negativo")
-        or (señal["direccion"] == "short" and sentimiento["sentimiento"] == "positivo")
+        (señal["direccion"] == "long" and perspectiva == "bajista")
+        or (señal["direccion"] == "short" and perspectiva == "alcista")
     )
 
     if alineado:
         señal["confianza"] = "alta"
     elif contradice:
         señal["confianza"] = "baja"
-    # si es neutral, se deja la confianza que ya tenía el análisis técnico
+    # si es lateral, se deja la confianza que ya tenía el análisis técnico
 
-    señal["razon"] = señal["razon"] + nota_noticias
     return señal
 
 
@@ -297,12 +369,17 @@ def main():
         print("Aviso: no encontré GEMINI_API_KEY. El análisis técnico va a correr igual, "
               "pero sin la capa de noticias.\n")
 
-    print(f"Escaneando {len(WATCHLIST)} acciones... ({datetime.now(timezone.utc).isoformat()})\n")
+    tickers_tendencia = obtener_tickers_en_tendencia()
+    tickers_a_escanear = WATCHLIST + [t for t in tickers_tendencia if t not in WATCHLIST]
+
+    print(f"Escaneando {len(tickers_a_escanear)} acciones "
+          f"({len(WATCHLIST)} fijas + {len(tickers_tendencia)} en tendencia hoy)... "
+          f"({datetime.now(timezone.utc).isoformat()})\n")
 
     resultados = []
     señales_validas = []
 
-    for ticker in WATCHLIST:
+    for ticker in tickers_a_escanear:
         datos = obtener_datos(ticker)
         if datos is None:
             print(f"[{ticker}] No se pudieron obtener suficientes datos.")
@@ -310,11 +387,15 @@ def main():
 
         señal = evaluar_setup(datos)
         señal["ticker"] = ticker
+        señal["sector"] = sector_de(ticker)
         señal["precio_al_momento_del_analisis"] = datos["precio_actual"]
+        señal["historial_precios"] = datos["historial_precios"]
+
+        noticias = obtener_noticias(ticker)
+        señal["noticias"] = noticias
 
         if api_key:
-            titulares = obtener_titulares(ticker)
-            sentimiento = analizar_sentimiento_noticias(api_key, ticker, titulares)
+            sentimiento = analizar_sentimiento_noticias(api_key, ticker, noticias)
             señal = combinar_señal_con_noticias(señal, sentimiento)
             time.sleep(3)
 
