@@ -291,44 +291,56 @@ function renderSignals() {
     if (!r.historial_precios || !r.historial_precios.length) return;
     const ctx = document.getElementById(idSeguro(r.ticker));
     if (!ctx) return;
-    const labels = r.historial_precios.map(p => p.fecha.slice(5));
-    const datos = r.historial_precios.map(p => p.cierre);
-    const subiendo = datos[datos.length - 1] >= datos[0];
-    chartInstances[r.ticker] = new Chart(ctx, {
-      type: "line",
-      data: {
-        labels,
-        datasets: [{
-          data: datos,
-          borderColor: subiendo ? "#4ade80" : "#f87171",
-          backgroundColor: subiendo ? "rgba(34,197,94,0.08)" : "rgba(239,68,68,0.08)",
-          borderWidth: 1.5, pointRadius: 0, fill: true, tension: 0.25
-        }]
-      },
-      options: {
-        responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display: false }, tooltip: { enabled: true } },
-        scales: { x: { display: false }, y: { display: false } }
-      }
-    });
+    if (typeof Chart === "undefined") return; // Chart.js no cargó (ej. bloqueado por una extensión)
+    try {
+      const labels = r.historial_precios.map(p => p.fecha.slice(5));
+      const datos = r.historial_precios.map(p => p.cierre);
+      const subiendo = datos[datos.length - 1] >= datos[0];
+      chartInstances[r.ticker] = new Chart(ctx, {
+        type: "line",
+        data: {
+          labels,
+          datasets: [{
+            data: datos,
+            borderColor: subiendo ? "#4ade80" : "#f87171",
+            backgroundColor: subiendo ? "rgba(34,197,94,0.08)" : "rgba(239,68,68,0.08)",
+            borderWidth: 1.5, pointRadius: 0, fill: true, tension: 0.25
+          }]
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: { legend: { display: false }, tooltip: { enabled: true } },
+          scales: { x: { display: false }, y: { display: false } }
+        }
+      });
+    } catch (e) {
+      console.warn("No se pudo dibujar el gráfico de " + r.ticker, e);
+    }
   });
 }
 
 async function loadData() {
   document.getElementById("updated-label").textContent = "Cargando...";
+  let data;
   try {
     const res = await fetch("logs/latest.json?_=" + Date.now());
     if (!res.ok) throw new Error("no data yet");
-    const data = await res.json();
-    currentData = data;
-    document.getElementById("updated-label").textContent = "Último escaneo: " + formatFecha(data.actualizado);
-    renderMetrics(data.resultados);
-    poblarSectores(data.resultados);
-    renderSignals();
+    data = await res.json();
   } catch (e) {
     document.getElementById("updated-label").textContent = "Todavía no hay datos (esperá al primer escaneo automático o corré el workflow a mano).";
     document.getElementById("metrics").innerHTML = "";
     document.getElementById("signals-list").innerHTML = "";
+    return;
+  }
+
+  currentData = data;
+  document.getElementById("updated-label").textContent = "Último escaneo: " + formatFecha(data.actualizado);
+  try {
+    renderMetrics(data.resultados);
+    poblarSectores(data.resultados);
+    renderSignals();
+  } catch (e) {
+    console.error("Error al renderizar el dashboard", e);
   }
 }
 
