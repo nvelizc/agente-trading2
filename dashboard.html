@@ -4,24 +4,36 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Agente de trading - Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
 <style>
   :root {
-    --bg: #f7f6f2;
-    --card: #ffffff;
-    --border: #e4e2da;
-    --text: #1c1c1a;
-    --text-secondary: #6b6a63;
-    --text-muted: #98978f;
-    --green-bg: #eaf3de; --green-text: #27500a;
-    --red-bg: #fcebeb; --red-text: #791f1f;
-    --amber-bg: #faeeda; --amber-text: #633806;
+    --bg: #0a0e1a;
+    --card: #111827;
+    --card-hover: #151d2e;
+    --border: #1e2939;
+    --border-strong: #2a3850;
+    --text: #e5e9f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --blue: #3b82f6;
+    --blue-bg: #132039;
+    --blue-text: #7db4ff;
+    --green: #22c55e;
+    --green-bg: #0f2a1a;
+    --green-text: #4ade80;
+    --red: #ef4444;
+    --red-bg: #2a1414;
+    --red-text: #f87171;
+    --amber: #f59e0b;
+    --amber-bg: #2a2010;
+    --amber-text: #fbbf24;
   }
   * { box-sizing: border-box; }
   body {
     font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
     background: var(--bg);
     color: var(--text);
-    max-width: 720px;
+    max-width: 780px;
     margin: 0 auto;
     padding: 24px 16px 60px;
   }
@@ -29,49 +41,72 @@
     display: flex; justify-content: space-between; align-items: center;
     margin-bottom: 20px; flex-wrap: wrap; gap: 8px;
   }
-  .header h1 { font-size: 18px; font-weight: 600; margin: 0; }
+  .header h1 { font-size: 19px; font-weight: 600; margin: 0; color: var(--text); }
   .header .updated { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
   button {
-    border: 1px solid var(--border); background: var(--card); border-radius: 8px;
+    border: 1px solid var(--border-strong); background: var(--card); border-radius: 8px;
     padding: 8px 14px; font-size: 14px; cursor: pointer; color: var(--text);
   }
-  button:hover { background: #f0efe9; }
+  button:hover { background: var(--card-hover); border-color: var(--blue); }
   .metrics {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
     gap: 10px; margin-bottom: 20px;
   }
   .metric { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
   .metric .label { font-size: 12px; color: var(--text-muted); margin-bottom: 4px; }
-  .metric .value { font-size: 22px; font-weight: 600; }
-  .filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .metric .value { font-size: 22px; font-weight: 600; color: var(--blue-text); }
+  .filters { display: flex; gap: 8px; margin-bottom: 18px; flex-wrap: wrap; }
   select {
-    border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px;
+    border: 1px solid var(--border-strong); border-radius: 8px; padding: 8px 10px;
     font-size: 13px; background: var(--card); color: var(--text);
+  }
+  .sector-tag {
+    display: inline-block; font-size: 11px; color: var(--blue-text);
+    background: var(--blue-bg); border-radius: 6px; padding: 2px 8px; margin-left: 8px;
   }
   .signal {
     background: var(--card); border: 1px solid var(--border); border-radius: 12px;
-    padding: 16px; margin-bottom: 10px;
+    padding: 16px; margin-bottom: 12px;
   }
-  .signal.sin-señal { opacity: 0.65; }
+  .signal.tiene-señal { border-color: var(--border-strong); }
   .signal-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
-  .ticker { font-weight: 600; font-size: 15px; }
+  .ticker { font-weight: 600; font-size: 16px; color: var(--text); }
   .setup { font-size: 12px; color: var(--text-muted); text-transform: capitalize; margin-left: 8px; }
-  .badges { display: flex; gap: 6px; }
-  .badge { font-size: 11px; padding: 3px 8px; border-radius: 6px; font-weight: 500; }
+  .precio-actual { font-size: 13px; color: var(--text-secondary); margin-left: 8px; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; }
+  .badge { font-size: 11px; padding: 3px 8px; border-radius: 6px; font-weight: 600; }
   .badge.long { background: var(--green-bg); color: var(--green-text); }
   .badge.short { background: var(--red-bg); color: var(--red-text); }
   .badge.alta { background: var(--green-bg); color: var(--green-text); }
   .badge.media { background: var(--amber-bg); color: var(--amber-text); }
-  .badge.baja { background: #eee; color: #555; }
+  .badge.baja { background: var(--card-hover); color: var(--text-secondary); }
+  .badge.alcista { background: var(--green-bg); color: var(--green-text); }
+  .badge.bajista { background: var(--red-bg); color: var(--red-text); }
+  .badge.lateral { background: var(--card-hover); color: var(--text-secondary); }
+  .chart-wrap { position: relative; height: 70px; margin: 10px 0; }
   .grid-datos {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-    gap: 8px; font-size: 13px; margin-bottom: 8px;
+    gap: 8px; font-size: 13px; margin-bottom: 10px;
   }
   .grid-datos .l { color: var(--text-muted); font-size: 11px; }
-  .grid-datos .v { font-weight: 600; }
+  .grid-datos .v { font-weight: 600; color: var(--text); }
   .v.stop { color: var(--red-text); }
   .v.obj { color: var(--green-text); }
-  .razon { font-size: 13px; color: var(--text-secondary); border-top: 1px solid var(--border); padding-top: 8px; }
+  .razon { font-size: 13px; color: var(--text-secondary); border-top: 1px solid var(--border); padding-top: 10px; line-height: 1.5; }
+  .noticias {
+    margin-top: 10px; padding-top: 0; border-top: none;
+    background: var(--blue-bg); border-radius: 8px; padding: 10px 12px; margin-top: 10px;
+  }
+  .noticias-top { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .noticias-label { font-size: 11px; color: var(--blue-text); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
+  .noticias-texto { font-size: 13px; color: var(--text-secondary); line-height: 1.5; }
+  .headlines { margin-top: 10px; }
+  .headline-item {
+    font-size: 13px; padding: 6px 0; border-top: 1px solid var(--border);
+  }
+  .headline-item a { color: var(--text); text-decoration: none; }
+  .headline-item a:hover { color: var(--blue-text); text-decoration: underline; }
+  .headline-fuente { color: var(--text-muted); font-size: 11px; display: block; margin-top: 2px; }
   .empty { text-align: center; color: var(--text-muted); padding: 40px 0; font-size: 14px; }
   .disclaimer { font-size: 12px; color: var(--text-muted); text-align: center; margin-top: 30px; }
 </style>
@@ -100,6 +135,9 @@
       <option value="long">Solo long</option>
       <option value="short">Solo short</option>
     </select>
+    <select id="filter-sector">
+      <option value="todos">Todos los sectores</option>
+    </select>
   </div>
 
   <div id="signals-list"></div>
@@ -108,6 +146,7 @@
 
 <script>
 let currentData = null;
+let chartInstances = {};
 
 function badgeDireccion(d) {
   if (d === "long") return `<span class="badge long">↑ Long</span>`;
@@ -117,6 +156,11 @@ function badgeDireccion(d) {
 function badgeConfianza(c) {
   if (!c) return "";
   return `<span class="badge ${c}">Confianza ${c}</span>`;
+}
+function badgePerspectiva(p) {
+  if (!p) return "";
+  const etiquetas = { alcista: "↑ Alcista", bajista: "↓ Bajista", lateral: "→ Lateral" };
+  return `<span class="badge ${p}">${etiquetas[p] || p}</span>`;
 }
 
 function formatFecha(iso) {
@@ -145,19 +189,41 @@ function renderMetrics(resultados) {
   `).join("");
 }
 
+function poblarSectores(resultados) {
+  const select = document.getElementById("filter-sector");
+  const actuales = new Set(Array.from(select.options).map(o => o.value));
+  const sectores = [...new Set(resultados.map(r => r.sector).filter(Boolean))].sort();
+  sectores.forEach(s => {
+    if (!actuales.has(s)) {
+      const opt = document.createElement("option");
+      opt.value = s; opt.textContent = s;
+      select.appendChild(opt);
+    }
+  });
+}
+
+function idSeguro(ticker) {
+  return "chart-" + ticker.replace(/[^a-zA-Z0-9]/g, "");
+}
+
 function renderSignals() {
   if (!currentData) return;
   const confFiltro = document.getElementById("filter-confianza").value;
   const dirFiltro = document.getElementById("filter-direccion").value;
+  const sectorFiltro = document.getElementById("filter-sector").value;
 
   let items = currentData.resultados.slice();
   items = items.filter(r => {
     if (confFiltro !== "todas" && r.confianza !== confFiltro) return false;
     if (dirFiltro !== "todas" && r.direccion !== dirFiltro) return false;
+    if (sectorFiltro !== "todos" && r.sector !== sectorFiltro) return false;
     return true;
   });
 
   const list = document.getElementById("signals-list");
+
+  Object.values(chartInstances).forEach(c => c.destroy());
+  chartInstances = {};
 
   if (items.length === 0) {
     list.innerHTML = `<div class="empty">No hay resultados con estos filtros.</div>`;
@@ -165,22 +231,50 @@ function renderSignals() {
   }
 
   list.innerHTML = items.map(r => {
+    const sectorTag = r.sector ? `<span class="sector-tag">${r.sector}</span>` : "";
+    const precioTag = r.precio_al_momento_del_analisis ? `<span class="precio-actual">$${r.precio_al_momento_del_analisis}</span>` : "";
+
+    const bloqueNoticias = r.noticias_prediccion ? `
+      <div class="noticias">
+        <div class="noticias-top">
+          <span class="noticias-label">Predicción IA</span>
+          ${badgePerspectiva(r.noticias_perspectiva)}
+        </div>
+        <div class="noticias-texto">${r.noticias_prediccion}</div>
+      </div>` : "";
+
+    const headlines = (r.noticias && r.noticias.length) ? `
+      <div class="headlines">
+        ${r.noticias.map(n => `
+          <div class="headline-item">
+            <a href="${n.link || '#'}" target="_blank" rel="noopener">${n.titulo}</a>
+            ${n.fuente ? `<span class="headline-fuente">${n.fuente}</span>` : ""}
+          </div>
+        `).join("")}
+      </div>` : "";
+
+    const grafico = (r.historial_precios && r.historial_precios.length) ? `
+      <div class="chart-wrap"><canvas id="${idSeguro(r.ticker)}"></canvas></div>` : "";
+
     if (!r.hay_señal) {
       return `
-        <div class="signal sin-señal">
+        <div class="signal">
           <div class="signal-top">
-            <span class="ticker">${r.ticker}</span>
-            <span class="setup" style="margin-left:0;">Sin señal</span>
+            <div><span class="ticker">${r.ticker}</span>${precioTag}${sectorTag}<span class="setup" style="margin-left:8px;">Sin señal técnica</span></div>
           </div>
+          ${grafico}
           <div class="razon">${r.razon || ""}</div>
+          ${bloqueNoticias}
+          ${headlines}
         </div>`;
     }
     return `
-      <div class="signal">
+      <div class="signal tiene-señal">
         <div class="signal-top">
-          <div><span class="ticker">${r.ticker}</span><span class="setup">${r.tipo_setup || ""}</span></div>
+          <div><span class="ticker">${r.ticker}</span>${precioTag}${sectorTag}<span class="setup">${r.tipo_setup || ""}</span></div>
           <div class="badges">${badgeDireccion(r.direccion)}${badgeConfianza(r.confianza)}</div>
         </div>
+        ${grafico}
         <div class="grid-datos">
           <div><div class="l">Entrada</div><div class="v">${r.entrada}</div></div>
           <div><div class="l">Stop loss</div><div class="v stop">${r.stop_loss}</div></div>
@@ -188,8 +282,36 @@ function renderSignals() {
           <div><div class="l">Ratio R:B</div><div class="v">1:${r.ratio_riesgo_beneficio}</div></div>
         </div>
         <div class="razon">${r.razon || ""}</div>
+        ${bloqueNoticias}
+        ${headlines}
       </div>`;
   }).join("");
+
+  items.forEach(r => {
+    if (!r.historial_precios || !r.historial_precios.length) return;
+    const ctx = document.getElementById(idSeguro(r.ticker));
+    if (!ctx) return;
+    const labels = r.historial_precios.map(p => p.fecha.slice(5));
+    const datos = r.historial_precios.map(p => p.cierre);
+    const subiendo = datos[datos.length - 1] >= datos[0];
+    chartInstances[r.ticker] = new Chart(ctx, {
+      type: "line",
+      data: {
+        labels,
+        datasets: [{
+          data: datos,
+          borderColor: subiendo ? "#4ade80" : "#f87171",
+          backgroundColor: subiendo ? "rgba(34,197,94,0.08)" : "rgba(239,68,68,0.08)",
+          borderWidth: 1.5, pointRadius: 0, fill: true, tension: 0.25
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: { enabled: true } },
+        scales: { x: { display: false }, y: { display: false } }
+      }
+    });
+  });
 }
 
 async function loadData() {
@@ -201,6 +323,7 @@ async function loadData() {
     currentData = data;
     document.getElementById("updated-label").textContent = "Último escaneo: " + formatFecha(data.actualizado);
     renderMetrics(data.resultados);
+    poblarSectores(data.resultados);
     renderSignals();
   } catch (e) {
     document.getElementById("updated-label").textContent = "Todavía no hay datos (esperá al primer escaneo automático o corré el workflow a mano).";
@@ -211,6 +334,7 @@ async function loadData() {
 
 document.getElementById("filter-confianza").addEventListener("change", renderSignals);
 document.getElementById("filter-direccion").addEventListener("change", renderSignals);
+document.getElementById("filter-sector").addEventListener("change", renderSignals);
 document.getElementById("refresh-btn").addEventListener("click", loadData);
 
 loadData();
