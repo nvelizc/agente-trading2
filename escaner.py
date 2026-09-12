@@ -70,6 +70,9 @@ MIN_RATIO_RIESGO_BENEFICIO = 1.5
 # Multiplicador de riesgo usado para fijar el objetivo (objetivo = entrada + N * riesgo)
 MULTIPLICADOR_OBJETIVO = 2.0
 
+# Tope máximo de distancia del stop respecto al precio de entrada (8% = riesgo razonable)
+MAX_RIESGO_PORCENTAJE = 0.08
+
 # Modelo de Gemini a usar para analizar noticias (gratis en Google AI Studio)
 MODELO_GEMINI = "gemini-3.6-flash"
 CANTIDAD_TITULARES = 5
@@ -135,17 +138,29 @@ def obtener_datos(ticker: str):
 # 3. REGLAS DE DETECCIÓN (reemplaza al modelo de IA)
 # -----------------------------------------------------------------
 
-def construir_plan(entrada, stop_loss, es_long=True):
-    """Calcula objetivo y ratio riesgo/beneficio a partir de entrada y stop."""
+def limitar_stop(entrada, stop_crudo, es_long=True):
+    """Si el stop calculado queda demasiado lejos del precio (por una suba/baja muy fuerte
+    reciente), lo acerca a un máximo razonable en vez de usar el mínimo/máximo de 20 días tal cual."""
+    distancia_pct = abs(entrada - stop_crudo) / entrada
+    if distancia_pct <= MAX_RIESGO_PORCENTAJE:
+        return stop_crudo
+    if es_long:
+        return round(entrada * (1 - MAX_RIESGO_PORCENTAJE), 2)
+    return round(entrada * (1 + MAX_RIESGO_PORCENTAJE), 2)
+
+
+def construir_plan(entrada, stop_crudo, es_long=True):
+    """Calcula objetivo y ratio riesgo/beneficio a partir de entrada y stop, limitando el riesgo."""
+    stop_loss = limitar_stop(entrada, stop_crudo, es_long)
     riesgo = abs(entrada - stop_loss)
     if riesgo == 0:
-        return None, None
+        return None, None, None
     if es_long:
         objetivo = entrada + riesgo * MULTIPLICADOR_OBJETIVO
     else:
         objetivo = entrada - riesgo * MULTIPLICADOR_OBJETIVO
     ratio = round((abs(objetivo - entrada)) / riesgo, 2)
-    return round(objetivo, 2), ratio
+    return stop_loss, round(objetivo, 2), ratio
 
 
 def evaluar_setup(d: dict) -> dict:
@@ -158,8 +173,8 @@ def evaluar_setup(d: dict) -> dict:
 
     # 1) RUPTURA: el precio de hoy superó el máximo de los últimos 20 días, con volumen alto
     if d["high_hoy"] >= d["max20"] * 0.999 and volumen_alto:
-        stop = round(d["min20"], 2)
-        objetivo, ratio = construir_plan(precio, stop, es_long=True)
+        stop_crudo = round(d["min20"], 2)
+        stop, objetivo, ratio = construir_plan(precio, stop_crudo, es_long=True)
         return {
             "hay_señal": True, "tipo_setup": "ruptura", "direccion": "long", "confianza": "alta",
             "entrada": precio, "stop_loss": stop, "objetivo": objetivo, "ratio_riesgo_beneficio": ratio,
@@ -169,8 +184,8 @@ def evaluar_setup(d: dict) -> dict:
     # 2) MOMENTUM: variación de 5 días fuerte + volumen creciente
     if abs(d["variacion_5d_pct"]) >= 6 and volumen_alto:
         es_long = d["variacion_5d_pct"] > 0
-        stop = round(d["min20"], 2) if es_long else round(d["max20"], 2)
-        objetivo, ratio = construir_plan(precio, stop, es_long=es_long)
+        stop_crudo = round(d["min20"], 2) if es_long else round(d["max20"], 2)
+        stop, objetivo, ratio = construir_plan(precio, stop_crudo, es_long=es_long)
         return {
             "hay_señal": True, "tipo_setup": "momentum", "direccion": "long" if es_long else "short", "confianza": "media",
             "entrada": precio, "stop_loss": stop, "objetivo": objetivo, "ratio_riesgo_beneficio": ratio,
@@ -179,8 +194,8 @@ def evaluar_setup(d: dict) -> dict:
 
     # 3) PULLBACK: tendencia alcista clara, precio retrocedió cerca de la SMA20 sin romperla
     if tendencia_alcista and precio > d["sma20"] * 0.98 and precio < d["sma20"] * 1.02 and d["variacion_pct"] < 0:
-        stop = round(d["sma20"] * 0.97, 2)
-        objetivo, ratio = construir_plan(precio, stop, es_long=True)
+        stop_crudo = round(d["sma20"] * 0.97, 2)
+        stop, objetivo, ratio = construir_plan(precio, stop_crudo, es_long=True)
         return {
             "hay_señal": True, "tipo_setup": "pullback", "direccion": "long", "confianza": "media",
             "entrada": precio, "stop_loss": stop, "objetivo": objetivo, "ratio_riesgo_beneficio": ratio,
@@ -190,8 +205,8 @@ def evaluar_setup(d: dict) -> dict:
     # 4) REVERSIÓN: RSI en zona extrema
     if d["rsi14"] is not None and (d["rsi14"] >= 72 or d["rsi14"] <= 28):
         es_long = d["rsi14"] <= 28
-        stop = round(d["min20"], 2) if es_long else round(d["max20"], 2)
-        objetivo, ratio = construir_plan(precio, stop, es_long=es_long)
+        stop_crudo = round(d["min20"], 2) if es_long else round(d["max20"], 2)
+        stop, objetivo, ratio = construir_plan(precio, stop_crudo, es_long=es_long)
         return {
             "hay_señal": True, "tipo_setup": "reversion", "direccion": "long" if es_long else "short", "confianza": "media",
             "entrada": precio, "stop_loss": stop, "objetivo": objetivo, "ratio_riesgo_beneficio": ratio,
