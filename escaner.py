@@ -229,7 +229,11 @@ Respondé SOLO con un JSON, sin texto adicional ni markdown, con esta forma exac
         texto = data["candidates"][0]["content"]["parts"][0]["text"].strip()
         texto = texto.replace("```json", "").replace("```", "").strip()
         return json.loads(texto)
+    except requests.exceptions.HTTPError as e:
+        print(f"[DEBUG Gemini] {ticker}: HTTP {e.response.status_code} -> {e.response.text[:500]}")
+        return {"sentimiento": "neutral", "resumen": "No se pudo analizar el sentimiento (HTTPError)."}
     except Exception as e:
+        print(f"[DEBUG Gemini] {ticker}: {type(e).__name__} -> {e}")
         return {"sentimiento": "neutral", "resumen": f"No se pudo analizar el sentimiento ({type(e).__name__})."}
 
 
