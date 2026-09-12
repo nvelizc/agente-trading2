@@ -269,60 +269,81 @@ def obtener_noticias(ticker: str, cantidad: int = CANTIDAD_TITULARES) -> list:
         return []
 
 
-def analizar_sentimiento_noticias(api_key: str, ticker: str, noticias: list) -> dict:
-    """Le pide a Gemini que evalúe el sentimiento de las noticias y dé una perspectiva de corto plazo."""
-    if not noticias:
-        return {
-            "sentimiento": "neutral",
-            "resumen": "No hay titulares recientes disponibles.",
-            "perspectiva": "lateral",
-            "prediccion": "Sin noticias recientes suficientes para armar una perspectiva.",
-        }
+def analizar_noticias_batch(api_key: str, noticias_por_ticker: dict) -> dict:
+    """Le pide a Gemini que analice TODOS los tickers en una sola consulta,
+    en vez de una consulta por acción — esto evita chocar con el límite de
+    velocidad del nivel gratuito cuando hay muchas acciones."""
 
-    lista_titulares = "\n".join(f"- {n['titulo']}" for n in noticias)
-    prompt = f"""Sos un analista financiero. Estos son los titulares de noticias más recientes sobre {ticker}:
+    tickers = list(noticias_por_ticker.keys())
 
-{lista_titulares}
+    partes = []
+    for ticker in tickers:
+        noticias = noticias_por_ticker[ticker]
+        if noticias:
+            lista = "\n".join(f"  - {n['titulo']}" for n in noticias)
+        else:
+            lista = "  (sin noticias recientes disponibles)"
+        partes.append(f"TICKER: {ticker}\n{lista}")
+    texto_tickers = "\n\n".join(partes)
 
-Con base SOLO en estos titulares (no inventes datos que no estén ahí), armá:
-1. El sentimiento general para alguien pensando en operar esta acción en el corto plazo.
+    prompt = f"""Sos un analista financiero. A continuación tenés varias acciones con sus
+titulares de noticias más recientes.
+
+{texto_tickers}
+
+Para CADA UNO de estos tickers, con base SOLO en sus titulares (no inventes datos que no
+estén ahí), armá:
+1. El sentimiento general para alguien pensando en operar esa acción en el corto plazo.
 2. Una perspectiva de hacia dónde podría inclinarse el precio en los próximos días: alcista, bajista, o lateral.
-3. Una predicción breve (2-3 oraciones, en español simple, para alguien que no sabe de trading) explicando el porqué,
-   dejando claro que es una lectura de noticias y NO una certeza.
+3. Una predicción breve (2-3 oraciones, en español simple, para alguien que no sabe de trading)
+   explicando el porqué, dejando claro que es una lectura de noticias y NO una certeza.
 
-Respondé SOLO con un JSON, sin texto adicional ni markdown, con esta forma exacta:
+Respondé SOLO con un JSON (sin texto adicional, sin markdown), con UNA CLAVE POR CADA TICKER
+de la lista de arriba, en este formato exacto:
 
 {{
-  "sentimiento": "positivo" o "negativo" o "neutral",
-  "resumen": "una oración breve explicando el sentimiento",
-  "perspectiva": "alcista" o "bajista" o "lateral",
-  "prediccion": "2-3 oraciones explicando la perspectiva de corto plazo basada en estas noticias"
+  "TICKER1": {{
+    "sentimiento": "positivo" o "negativo" o "neutral",
+    "resumen": "una oración breve explicando el sentimiento",
+    "perspectiva": "alcista" o "bajista" o "lateral",
+    "prediccion": "2-3 oraciones explicando la perspectiva de corto plazo"
+  }},
+  "TICKER2": {{ ... }}
 }}
+
+Incluí TODOS los tickers de la lista, ninguno de más ni de menos.
 """
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO_GEMINI}:generateContent?key={api_key}"
-    body = {"contents": [{"parts": [{"text": prompt}]}]}
+    body = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {"maxOutputTokens": 8192},
+    }
 
-    for intento in range(2):  # probamos hasta 2 veces antes de rendirnos
+    for intento in range(3):
         try:
-            resp = requests.post(url, json=body, timeout=45)
+            resp = requests.post(url, json=body, timeout=90)
             resp.raise_for_status()
             data = resp.json()
             texto = data["candidates"][0]["content"]["parts"][0]["text"].strip()
             texto = texto.replace("```json", "").replace("```", "").strip()
-            return json.loads(texto)
+            resultado = json.loads(texto)
+            if isinstance(resultado, dict) and resultado:
+                return resultado
+            print(f"[DEBUG Gemini batch] intento {intento+1}: respuesta vacía o con formato inesperado")
         except requests.exceptions.HTTPError as e:
-            print(f"[DEBUG Gemini] {ticker} (intento {intento+1}): HTTP {e.response.status_code} -> {e.response.text[:300]}")
+            print(f"[DEBUG Gemini batch] intento {intento+1}: HTTP {e.response.status_code} -> {e.response.text[:400]}")
         except Exception as e:
-            print(f"[DEBUG Gemini] {ticker} (intento {intento+1}): {type(e).__name__} -> {e}")
-        time.sleep(8)  # esperamos antes de reintentar
+            print(f"[DEBUG Gemini batch] intento {intento+1}: {type(e).__name__} -> {e}")
+        time.sleep(15)
 
-    return {
+    # Si después de reintentar no se pudo, devolvemos un valor neutral para todos
+    return {t: {
         "sentimiento": "neutral",
         "resumen": "No se pudo analizar el sentimiento después de reintentar.",
         "perspectiva": "lateral",
         "prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo.",
-    }
+    } for t in tickers}
 
 
 def combinar_señal_con_noticias(señal: dict, análisis: dict) -> dict:
@@ -393,6 +414,7 @@ def main():
 
     resultados = []
     señales_validas = []
+    noticias_por_ticker = {}
 
     for ticker in tickers_a_escanear:
         datos = obtener_datos(ticker)
@@ -408,21 +430,27 @@ def main():
 
         noticias = obtener_noticias(ticker)
         señal["noticias"] = noticias
-
-        if api_key:
-            sentimiento = analizar_sentimiento_noticias(api_key, ticker, noticias)
-            señal = combinar_señal_con_noticias(señal, sentimiento)
-            time.sleep(3)
+        noticias_por_ticker[ticker] = noticias
 
         resultados.append(señal)
 
+    if api_key and noticias_por_ticker:
+        print(f"\nAnalizando noticias de {len(noticias_por_ticker)} acciones con Gemini "
+              f"(una sola consulta para todas)...")
+        analisis_por_ticker = analizar_noticias_batch(api_key, noticias_por_ticker)
+        for señal in resultados:
+            analisis = analisis_por_ticker.get(señal["ticker"])
+            if analisis:
+                combinar_señal_con_noticias(señal, analisis)
+
+    for señal in resultados:
         if pasa_filtro_de_calidad(señal):
             señales_validas.append(señal)
-            print(f"[{ticker}] ✅ SEÑAL: {señal['tipo_setup']} ({señal['direccion']}) "
+            print(f"[{señal['ticker']}] ✅ SEÑAL: {señal['tipo_setup']} ({señal['direccion']}) "
                   f"- Entrada: {señal['entrada']} / Stop: {señal['stop_loss']} / "
                   f"Objetivo: {señal['objetivo']} / R:B 1:{señal['ratio_riesgo_beneficio']}")
         else:
-            print(f"[{ticker}] Sin señal de alta calidad por ahora.")
+            print(f"[{señal['ticker']}] Sin señal de alta calidad por ahora.")
 
     guardar_log(resultados)
 
