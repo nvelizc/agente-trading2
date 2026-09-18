@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-18T01:13:21.883060+00:00",
+  "actualizado": "2026-09-18T07:22:23.297269+00:00",
   "resultados": [
     {
       "hay_señal": false,
@@ -10,10 +10,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "AAPL",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 337.0,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -133,7 +133,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 337.0
         }
       ],
       "noticias": [
@@ -148,6 +148,11 @@
           "fuente": "Yahoo Finance"
         },
         {
+          "titulo": "Berkshire Hathaway (BRK.A) Moved Today, What Is Drawing Fresh Attention?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-brk-moved-today-031715162.html",
+          "fuente": "Simply Wall St."
+        },
+        {
           "titulo": "Warren Buffett Has More Than 50% of His Portfolio in These 3 Stocks. Which One Is the Best Buy Today?",
           "link": "https://www.fool.com/investing/2026/09/17/warren-buffett-has-more-than-50-of-his-portfolio-i/",
           "fuente": "Motley Fool"
@@ -156,17 +161,12 @@
           "titulo": "Apple (AAPL) Challenges Secret UK Order For An iPhone Backdoor",
           "link": "https://finance.yahoo.com/technology/articles/apple-aapl-challenges-secret-uk-231950589.html",
           "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "$500,000 Split Between VOO and QQQ Owns the Same Seven Stocks Twice, and Nobody Adds Up the Overlap",
-          "link": "https://247wallst.com/investing/etf/2026/09/17/500000-split-between-voo-and-qqq-owns-the-same-seven-stocks-twice-and-nobody-adds-up-the-overlap/",
-          "fuente": "24/7 Wall St."
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "La empresa enfrenta un desafío legal en el Reino Unido por cuestiones de privacidad mientras persisten temores macroeconómicos.",
+      "noticias_resumen": "Noticias mixtas que combinan riesgos macroeconómicos de tasas con desafíos legales en el Reino Unido.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "En el corto plazo, el precio de la acción podría mantenerse en un rango lateral sin grandes fluctuaciones. Las tensiones regulatorias en el Reino Unido y la cautela por las tasas de interés frenan un posible impulso comprador. Recuerde que esta es solo una lectura de las noticias actuales y no constituye una certeza."
+      "noticias_prediccion": "Las noticias muestran un contexto mixto entre incertidumbres por las tasas de interés y tensiones regulatorias británicas. Por esta razón, el precio podría mantenerse estable o moverse de forma lateral en el corto plazo. Tenga en cuenta que esto es solo una lectura de titulares y no una certeza financiera."
     },
     {
       "hay_señal": false,
@@ -177,10 +177,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "MSFT",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 497.75,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -300,7 +300,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 497.75
         }
       ],
       "noticias": [
@@ -310,9 +310,14 @@
           "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "Microsoft (MSFT) Puts a Clock on Free Xbox Cloud Gaming",
-          "link": "https://finance.yahoo.com/technology/articles/microsoft-msft-puts-clock-free-235334777.html",
-          "fuente": "Insider Monkey"
+          "titulo": "Traders Wary Of Rising AI Risks: Market Snapshot",
+          "link": "https://finance.yahoo.com/video/traders-wary-rising-ai-risks-045555548.html",
+          "fuente": "Bloomberg"
+        },
+        {
+          "titulo": "Marvell Technology (MRVL) Deepens Its AI Infrastructure Footprint",
+          "link": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-mrvl-deepens-ai-031612345.html",
+          "fuente": "Simply Wall St."
         },
         {
           "titulo": "Tech Companies’ Staff Knew Their AI Tools Posed ‘Existential Threat’ to Publishers",
@@ -320,20 +325,15 @@
           "fuente": "The Wall Street Journal"
         },
         {
-          "titulo": "$500,000 Split Between VOO and QQQ Owns the Same Seven Stocks Twice, and Nobody Adds Up the Overlap",
-          "link": "https://247wallst.com/investing/etf/2026/09/17/500000-split-between-voo-and-qqq-owns-the-same-seven-stocks-twice-and-nobody-adds-up-the-overlap/",
-          "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "This eVTOL Stock Could Turn $1,000 Into $100,000",
-          "link": "https://www.fool.com/investing/2026/09/17/this-evtol-stock-could-turn-1000-into-100000/",
-          "fuente": "Motley Fool"
+          "titulo": "Microsoft (MSFT) Puts a Clock on Free Xbox Cloud Gaming",
+          "link": "https://finance.yahoo.com/technology/articles/microsoft-msft-puts-clock-free-235334777.html",
+          "fuente": "Insider Monkey"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Se registran noticias sobre límites de tiempo en Xbox Cloud y debates sobre el impacto ético de sus herramientas de inteligencia artificial.",
+      "noticias_resumen": "Precaución del mercado frente a los riesgos de la inteligencia artificial y cambios en servicios de juego.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Es probable que la cotización se mantenga estable o con movimientos laterales durante los próximos días. La moderación de los rendimientos de los bonos compensa las noticias mixtas en el sector de juegos e IA. Tenga en cuenta que este análisis se basa estrictamente en la información de los titulares."
+      "noticias_prediccion": "La cautela de los inversores ante los riesgos de la inteligencia artificial y los límites en su oferta de juegos en la nube frenan el entusiasmo. Debido a esto, se anticipa un comportamiento del precio predominantemente lateral en los próximos días. Esta apreciación surge únicamente de la interpretación de las noticias."
     },
     {
       "hay_señal": false,
@@ -344,10 +344,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "NVDA",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 219.34,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -467,7 +467,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 219.34
         }
       ],
       "noticias": [
@@ -482,25 +482,25 @@
           "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "1 Tech Stock That's Too Good to Pass On as We Approach the Fourth Quarter",
-          "link": "https://www.fool.com/investing/2026/09/17/1-tech-stock-thats-too-good-to-pass-on/",
+          "titulo": "Is Axsome Therapeutics a Buy on the Dip?",
+          "link": "https://www.fool.com/investing/2026/09/18/is-axsome-therapeutics-a-buy-on-the-dip/",
           "fuente": "Motley Fool"
         },
         {
-          "titulo": "Prediction: The Invesco QQQ Trust Beats the S&P 500 Again Over the Next 5 Years",
-          "link": "https://www.fool.com/investing/2026/09/17/prediction-the-invesco-qqq-trust-beats-the-s-and-p-500-again-over-the-next-5-years/",
+          "titulo": "Tesla vs SpaceX: Which Is the Better Elon Musk-Backed Stock to Buy?",
+          "link": "https://www.fool.com/investing/2026/09/18/tesla-vs-spacex-which-is-the-better-elon-musk-back/",
           "fuente": "Motley Fool"
         },
         {
-          "titulo": "Why GE Vernova Stock Bumped Higher Today",
-          "link": "https://www.fool.com/investing/2026/09/17/why-ge-vernova-stock-bumped-higher-today/",
+          "titulo": "This Overlooked Grid-Technology Stock Could Be Your Ticket to Millionaire Status",
+          "link": "https://www.fool.com/investing/2026/09/18/this-overlooked-grid-technology-stock-could-be-you/",
           "fuente": "Motley Fool"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "La industria reconoce el liderazgo continuo de la empresa en inteligencia artificial y el mercado mantiene el optimismo.",
+      "noticias_resumen": "Reconocimiento continuo del liderazgo de la empresa y de su CEO en el sector de inteligencia artificial.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La perspectiva a corto plazo se inclina hacia un movimiento alcista impulsado por la confianza generalizada en su posición dominante en IA. La recepción favorable del mercado hacia el sector tecnológico impulsa las expectativas de compra. Esta estimación representa únicamente una interpretación del tono periodístico."
+      "noticias_prediccion": "El liderazgo indiscutido de su director ejecutivo en la industria de la inteligencia artificial continúa generando fuerte optimismo. Esto podría impulsar el precio hacia arriba a corto plazo según las opiniones reflejadas. Recuerde que esta es solo una lectura del tono periodístico actual."
     },
     {
       "hay_señal": false,
@@ -511,10 +511,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 349.31,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -634,7 +634,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 349.31
         }
       ],
       "noticias": [
@@ -654,34 +654,34 @@
           "fuente": "Yahoo Finance"
         },
         {
+          "titulo": "Charles River Laboratories International (CRL) Stock Fair Value Rises After Analysts Lift Targets",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/charles-river-laboratories-international-crl-051459478.html",
+          "fuente": "Simply Wall St."
+        },
+        {
           "titulo": "JPMorgan Chase (JPM) Commits $750 Billion to Rebuilding America’s Housing Supply",
           "link": "https://finance.yahoo.com/real-estate/articles/jpmorgan-chase-jpm-commits-750-003942638.html",
           "fuente": "Insider Monkey"
-        },
-        {
-          "titulo": "Jefferies to Benefit From Increased Investment Banking Momentum, Oppenheimer Says",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-benefit-increased-investment-banking-211629164.html",
-          "fuente": "MT Newswires"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "El director ejecutivo destaca un buen momento en los pequeños negocios y la firma anunció un gran compromiso financiero en vivienda.",
+      "noticias_resumen": "Comentarios optimistas del CEO sobre pequeñas empresas y un fuerte compromiso de inversión en vivienda.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El precio de la acción podría inclinarse al alza en los próximos días gracias a los fuertes compromisos de inversión y las señales positivas en el sector empresarial. Aunque persisten dudas sobre la inflación, el balance general de noticias favorece a la entidad. Tenga presente que esta visión responde únicamente a los titulares analizados."
+      "noticias_prediccion": "Las declaraciones sobre un auge en las pequeñas empresas y la enorme inversión en vivienda transmiten una imagen de solidez. Por ello, la acción muestra una inclinación favorable para los próximos días. Esta proyección es solo una lectura de la información disponible en prensa."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "pullback",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 369.93,
+      "stop_loss": 363.66,
+      "objetivo": 382.47,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 369.93,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -801,10 +801,20 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 369.93
         }
       ],
       "noticias": [
+        {
+          "titulo": "Visa (V) Sets AI Payment Standards, Is The Stock Fairly Valued?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-sets-ai-payment-031620516.html",
+          "fuente": "Simply Wall St."
+        },
+        {
+          "titulo": "Payment Giant Visa Is Doubling Down on Stablecoins. Here's What Crypto Investors Need to Know.",
+          "link": "https://www.fool.com/investing/2026/09/17/payment-giant-visa-is-doubling-down-on-stablecoins/",
+          "fuente": "Motley Fool"
+        },
         {
           "titulo": "Why Banks Suddenly Want Stablecoins, and Why It May Matter for You",
           "link": "https://beincrypto.com/why-banks-want-stablecoins/",
@@ -819,36 +829,26 @@
           "titulo": "Visa Slips as AI Agents Gain a Shared Passport",
           "link": "https://finance.yahoo.com/technology/ai/articles/visa-slips-ai-agents-gain-191238927.html",
           "fuente": "GuruFocus.com"
-        },
-        {
-          "titulo": "Mastercard Gets In on Agentic Payment Systems of the Future",
-          "link": "https://www.barrons.com/articles/mastercard-ai-agentic-payment-bot-future-86f7ddb6?siteid=yhoof2&yptr=yahoo",
-          "fuente": "Barrons.com"
-        },
-        {
-          "titulo": "PayPal's Venmo Expands NIL Partnerships: Can It Support Growth?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/paypals-venmo-expands-nil-partnerships-165900855.html",
-          "fuente": "Zacks"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "La compañía lanzó un producto vinculado a criptomonedas pero enfrenta una competencia creciente de nuevos sistemas de pago.",
+      "noticias_resumen": "Avances estratégicos en pagos con criptomonedas compensados por caídas recientes debido a la competencia.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "La acción podría mostrar un comportamiento lateral o con ligeras oscilaciones a corto plazo. El entusiasmo por la innovación en tarjetas con monedas estables se ve neutralizado por la presión competitiva en tecnología de pagos. Considere que esto es solo una inferencia derivada de la prensa."
+      "noticias_prediccion": "Existen titulares favorables sobre su innovación en pagos digitales, pero también reportes de caídas recientes ante la competencia tecnológica. Esto sugiere que el precio podría consolidarse sin una tendencia marcada en el corto plazo. Es únicamente un análisis basado en los titulares disponibles."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "pullback",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 163.27,
+      "stop_loss": 157.91,
+      "objetivo": 173.99,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 163.27,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -968,7 +968,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 163.27
         }
       ],
       "noticias": [
@@ -976,6 +976,11 @@
           "titulo": "Exxon eyes a return to Venezuela oil market",
           "link": "https://finance.yahoo.com/video/exxon-eyes-return-venezuela-oil-152900774.html",
           "fuente": "Yahoo Finance Video"
+        },
+        {
+          "titulo": "Exxon Mobil CFO warns of hidden risks behind oil supply shock",
+          "link": "https://www.thestreet.com/investing/stocks/exxon-mobil-cfo-warning-hidden-risks-oil-supply-shock",
+          "fuente": "TheStreet"
         },
         {
           "titulo": "Best Dividend Stocks to Buy for Dependable Dividend Growth",
@@ -991,17 +996,12 @@
           "titulo": "Even With $262,000 in VYM, You Wouldn’t Get a $500 Check Every Month",
           "link": "https://247wallst.com/investing/etf/2026/09/17/even-with-262000-in-vym-you-wouldnt-get-a-500-check-every-month/",
           "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "ExxonMobil (XOM) Holds Early Talks On A Return To Venezuela",
-          "link": "https://finance.yahoo.com/energy/articles/exxonmobil-xom-holds-early-talks-170956450.html",
-          "fuente": "Simply Wall St."
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Existen conversaciones tempranas para regresar al mercado petrolero venezolano y la acción sigue siendo valorada por sus dividendos.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La cotización tiene margen para registrar un sesgo alcista en el corto plazo ante la posibilidad de reabrir operaciones en Venezuela. El interés persistente de los inversores en acciones generadoras de dividendos sostiene el valor. Recuerde que esta proyección se apoya solo en las noticias recientes."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "Oportunidades de expansión en Venezuela enfrentadas a advertencias internas sobre riesgos de suministro.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "La posible reapertura en el mercado venezolano y su atractivo de dividendos se ven neutralizados por advertencias de su propia gerencia sobre riesgos petroleros. Debido a estas fuerzas contrapuestas, el precio podría moverse sin dirección clara a corto plazo. Es una lectura mediática y no un hecho garantizado."
     },
     {
       "hay_señal": false,
@@ -1012,10 +1012,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 211.57,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -1135,7 +1135,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 211.57
         }
       ],
       "noticias": [
@@ -1150,6 +1150,11 @@
           "fuente": "Kiplinger"
         },
         {
+          "titulo": "Vitesse Completes Acquisition in Denver-Julesburg Basin",
+          "link": "https://finance.yahoo.com/energy/articles/vitesse-completes-acquisition-denver-julesburg-182321968.html",
+          "fuente": "Rigzone.com"
+        },
+        {
           "titulo": "Can Strong Oil Prices Drive ExxonMobil's Business Growth?",
           "link": "https://finance.yahoo.com/energy/articles/strong-oil-prices-drive-exxonmobils-162200348.html",
           "fuente": "Zacks"
@@ -1158,17 +1163,12 @@
           "titulo": "Vitesse Energy Expands DJ Basin Footprint With $26M Deal",
           "link": "https://finance.yahoo.com/energy/articles/vitesse-energy-expands-dj-basin-151200146.html",
           "fuente": "Zacks"
-        },
-        {
-          "titulo": "How Large Does Your Portfolio Need to Be to Generate $10,600 a Month?",
-          "link": "https://247wallst.com/personal-finance/2026/09/17/how-large-does-your-portfolio-need-to-be-to-generate-10600-a-month/",
-          "fuente": "24/7 Wall St."
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Los sólidos precios del petróleo respaldan las perspectivas del negocio e impulsan el atractivo de la compañía por dividendos.",
+      "noticias_resumen": "Sólida posición en el sector energético impulsada por buenos dividendos y precios firmes del crudo.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Se prevé una tendencia alcista moderada para los próximos días debido al entorno favorable en las materias primas energéticas. El perfil de la empresa como pagadora confiable de dividendos atrae el flujo de capitales. Esta lectura no representa una certeza financiera."
+      "noticias_prediccion": "El interés general en acciones petroleras pagadoras de dividendos y el sostén de los precios del petróleo benefician al valor. Con base en esto, el precio podría mostrar un sesgo positivo en los próximos días. No olvide que esta previsión depende únicamente de los titulares analizados."
     },
     {
       "hay_señal": false,
@@ -1179,10 +1179,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "AMZN",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 251.19,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -1302,7 +1302,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 251.19
         }
       ],
       "noticias": [
@@ -1312,30 +1312,30 @@
           "fuente": "Yahoo Finance"
         },
         {
+          "titulo": "Traders Wary Of Rising AI Risks: Market Snapshot",
+          "link": "https://finance.yahoo.com/video/traders-wary-rising-ai-risks-045555548.html",
+          "fuente": "Bloomberg"
+        },
+        {
+          "titulo": "Amazon makes $1.5 billion move for U.S. workers",
+          "link": "https://www.thestreet.com/employment/amazon-us-worker-pay-benefits",
+          "fuente": "TheStreet"
+        },
+        {
+          "titulo": "What Amazon.com (AMZN)'s US$8 Billion Backup Power Deal With Generac Means For Shareholders",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-us-8-021233361.html",
+          "fuente": "Simply Wall St."
+        },
+        {
           "titulo": "Why Generac Stock Soared Today",
           "link": "https://www.fool.com/investing/2026/09/17/why-generac-stock-soared-today/",
           "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "AI Security Debate — Amazon Says AI Models To Be Released Only When 'Ready And Safe'",
-          "link": "https://stocktwits.com/news-articles/markets/equity/amazon-says-ai-models-to-be-released-only-when-ready-and-safe/cZts5oiRBdt",
-          "fuente": "Stocktwits"
-        },
-        {
-          "titulo": "S&P 500, Nasdaq, Dow End Higher As Drop In Oil Prices Allays Inflationary Concerns — NVDA, MCD, CRWV, LMT, AMZN In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-nasdaq-dow-end-higher-amid-drop-in-oil-prices/cZtscNsRBdY",
-          "fuente": "Stocktwits"
-        },
-        {
-          "titulo": "$500,000 Split Between VOO and QQQ Owns the Same Seven Stocks Twice, and Nobody Adds Up the Overlap",
-          "link": "https://247wallst.com/investing/etf/2026/09/17/500000-split-between-voo-and-qqq-owns-the-same-seven-stocks-twice-and-nobody-adds-up-the-overlap/",
-          "fuente": "24/7 Wall St."
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "La demanda de centros de datos impulsa a socios comerciales y la empresa mantiene una postura cautelosa y responsable sobre IA.",
+      "noticias_resumen": "Anuncios de inversión en trabajadores y acuerdos multimillonarios de infraestructura energética.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El valor de la acción podría inclinarse favorablemente hacia la subida en el corto plazo. La calma inflacionaria y el repunte general del sector tecnológico benefician la percepción de la compañía. Cabe aclarar que esta apreciación surge exclusivamente de los titulares."
+      "noticias_prediccion": "Grandes inversiones en fuerza laboral y un contrato masivo de energía para centros de datos reflejan un crecimiento sostenido. Es probable que estos catalizadores impulsen el valor de la acción al alza en el corto plazo. Considere que es una conclusión basada solo en las noticias publicadas."
     },
     {
       "hay_señal": false,
@@ -1346,10 +1346,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "KO",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 88.06,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -1469,10 +1469,15 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 88.06
         }
       ],
       "noticias": [
+        {
+          "titulo": "Coca-Cola Plans $10 Billion US Investment Through 2030 — Here's Where the Beverage Giant Will Build Out its Network",
+          "link": "https://finance.yahoo.com/economy/articles/coca-cola-plans-10-billion-003023553.html",
+          "fuente": "Benzinga"
+        },
         {
           "titulo": "Non-Tech Stocks Can Still Deliver Huge Gains",
           "link": "https://finance.yahoo.com/markets/stocks/articles/non-tech-stocks-still-deliver-000800931.html",
@@ -1492,17 +1497,12 @@
           "titulo": "Why Coca-Cola (KO) Is Getting So Much Attention Now",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-coca-cola-ko-getting-170904762.html",
           "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "Nike’s Days in the Dow May Be Numbered",
-          "link": "https://www.barrons.com/articles/nike-djia-stock-b12ecac5?siteid=yhoof2&yptr=yahoo",
-          "fuente": "Barrons.com"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "La acción gana atención por su sólido rendimiento de dividendos y por ser una opción defensiva muy atractiva fuera del sector tecnológico.",
+      "noticias_resumen": "Planes de inversión de $10 mil millones y fuerte atractivo por el pago constante de dividendos.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Es esperable que el precio se mantenga firme o busque zonas alcistas moderadas en los próximos días. La búsqueda de estabilidad y dividendos consistentes por parte del mercado respalda la demanda del título. Tenga en cuenta que este análisis no garantiza resultados futuros."
+      "noticias_prediccion": "El anuncio de un plan de inversión millonario hacia el 2030 y el respaldo de inversores como Warren Buffett generan gran atractivo. Por este motivo, la perspectiva de precio sugiere un movimiento ascendente a corto plazo. Se trata de una lectura basada estrictamente en la prensa reciente."
     },
     {
       "hay_señal": false,
@@ -1513,10 +1513,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 762.6,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -1636,10 +1636,15 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 762.6
         }
       ],
       "noticias": [
+        {
+          "titulo": "Stock Market: Will S&P 500 Open Up or Down Today?",
+          "link": "https://www.benzinga.com/markets/prediction-markets/26/09/61860116/stock-market-will-sp-500-open-up-or-down-today-40?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
+          "fuente": "Benzinga Prediction Markets"
+        },
         {
           "titulo": "ETF Oasis at Future Proof: Tuesday Highlights",
           "link": "http://www.etf.com/sections/conferences/etf-oasis-future-proof-tuesday-highlights?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss",
@@ -1659,17 +1664,12 @@
           "titulo": "Trump's Inflation Approval Slumps to 19%: What Do Prediction Markets Say About the Midterms?",
           "link": "https://www.benzinga.com/markets/prediction-markets/26/09/61854623/trump-inflation-approval-midterms-democrats-polymarket?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
           "fuente": "Benzinga Prediction Markets"
-        },
-        {
-          "titulo": "ChargePoint Just Gained 61% in a Month: Is It Too Late to Buy CHPT Stock Now?",
-          "link": "https://247wallst.com/investing/2026/09/17/chargepoint-just-gained-61-in-a-month-is-it-too-late-to-buy-chpt-stock-now/",
-          "fuente": "24/7 Wall St."
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "El índice general cerró en alza impulsado por la baja del petróleo y el alivio temporal de las preocupaciones inflacionarias.",
+      "noticias_resumen": "Cierre bursátil favorable tras el descenso en los precios del petróleo que alivia la inflación.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El mercado muestra posibilidades de sostener un sesgo alcista en el corto plazo tras la calma en el precio de la energía. La expectativa sobre las próximas decisiones de tasas mantiene la atención de los inversores. Recuerde que esta es solo una lectura interpretativa del panorama periodístico."
+      "noticias_prediccion": "La caída en los precios del petróleo disminuyó la preocupación inflacionaria, ayudando a que el mercado en general cierre en verde. Esta dinámica favorece una inclinación de subida de precio para los próximos días. Se aclara que es un análisis descriptivo de titulares y no una certeza."
     },
     {
       "hay_señal": false,
@@ -1680,10 +1680,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "QQQ",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 716.92,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -1803,10 +1803,15 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 716.92
         }
       ],
       "noticias": [
+        {
+          "titulo": "A $100 Monthly Investment in QQQ Could Grow Into This Over 20 Years",
+          "link": "https://www.fool.com/investing/2026/09/17/100-monthly-investment-qqq-grow-20-years/",
+          "fuente": "Motley Fool"
+        },
         {
           "titulo": "Prediction: The Invesco QQQ Trust Beats the S&P 500 Again Over the Next 5 Years",
           "link": "https://www.fool.com/investing/2026/09/17/prediction-the-invesco-qqq-trust-beats-the-s-and-p-500-again-over-the-next-5-years/",
@@ -1826,31 +1831,26 @@
           "titulo": "QQQI’s $0.65 Monthly Check Hides $10.97 Per Share in Forgone Gains",
           "link": "https://247wallst.com/investing/etf/2026/09/17/qqqis-0-65-monthly-check-hides-10-97-per-share-in-forgone-gains/",
           "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "Daily ETF Flows: QQQ Inflows Total Nearly $1B",
-          "link": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-qqq-inflows-total-nearly-1b?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss",
-          "fuente": "etf.com"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "El fondo registró un gran ingreso de capital de casi mil millones de dólares y mantiene proyecciones muy favorables a futuro.",
+      "noticias_resumen": "Subidas en el sector tecnológico favorecidas por la menor presión inflacionaria y proyecciones a futuro.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La trayectoria del precio apunta a inclinarse hacia el terreno alcista en los próximos días gracias a los masivos flujos de entrada. El optimismo renovado en las grandes empresas de tecnología actúa como un fuerte motor. Considere que esta previsión deriva únicamente de las noticias publicadas."
+      "noticias_prediccion": "El alivio de la inflación benefició el cierre de las empresas tecnológicas y se mantienen previsiones optimistas de rendimiento. En consecuencia, el precio podría experimentar cierto impulso positivo en el futuro cercano. Recuerde que esto representa solo una síntesis del sentimiento periodístico."
     },
     {
       "hay_señal": true,
-      "tipo_setup": "reversion",
-      "direccion": "short",
-      "confianza": "baja",
-      "entrada": NaN,
-      "stop_loss": NaN,
-      "objetivo": NaN,
-      "ratio_riesgo_beneficio": NaN,
-      "razon": "El RSI está en 72.7, una zona de sobrecompra que históricamente anticipa un posible giro.",
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 30.24,
+      "stop_loss": 27.82,
+      "objetivo": 35.08,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 5.6x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "SDGR",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 30.24,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -1970,7 +1970,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 30.24
         }
       ],
       "noticias": [
@@ -2001,23 +2001,23 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "El título se disparó más de un 12% tras ser destacado entre las acciones líderes en el desarrollo de fármacos mediante inteligencia artificial.",
+      "noticias_resumen": "Fuerte salto en cotización y entusiasmo por el uso de inteligencia artificial en farmacología.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El precio podría conservar una inercia alcista a corto plazo impulsado por el fuerte interés en la IA aplicada a la medicina. Sin embargo, tras un salto rápido, no se descarta cierta volatilidad por toma de ganancias. Tenga presente que este escenario se basa únicamente en los titulares provistos."
+      "noticias_prediccion": "El repentino aumento superior al 12% y su posicionamiento en el desarrollo de fármacos con inteligencia artificial generan optimismo. Es factible que la acción mantenga una trayectoria favorable en los siguientes días. Esta apreciación es una estimación basada estrictamente en las noticias."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 207.23,
+      "stop_loss": 190.65,
+      "objetivo": 240.39,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 6.0x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "GNRC",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 207.23,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -2137,10 +2137,15 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 207.23
         }
       ],
       "noticias": [
+        {
+          "titulo": "What Amazon.com (AMZN)'s US$8 Billion Backup Power Deal With Generac Means For Shareholders",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-us-8-021233361.html",
+          "fuente": "Simply Wall St."
+        },
         {
           "titulo": "Why Generac Stock Soared Today",
           "link": "https://www.fool.com/investing/2026/09/17/why-generac-stock-soared-today/",
@@ -2160,31 +2165,26 @@
           "titulo": "Why Does Generac Stock Cost More Than Its Faster-Growing Peers?",
           "link": "https://www.trefis.com/articles/615690/why-does-generac-stock-cost-more-than-its-faster-growing-peers/2026-09-17",
           "fuente": "Trefis"
-        },
-        {
-          "titulo": "Stocks to Watch Recap: Lennar, Generac, Volvo",
-          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-17-2026/card/stocks-to-watch-lennar-generac-volvo-DAol7UnkE6rwaNoVAkBo?siteid=yhoof2&yptr=yahoo",
-          "fuente": "The Wall Street Journal"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "La cotización aumentó significativamente tras cerrar un acuerdo para abastecer de energía a los centros de datos de Amazon.",
+      "noticias_resumen": "Fuerte subida accionaria impulsada por un megacontrato de $8 mil millones con Amazon.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La tendencia a corto plazo es claramente alcista debido al gran impacto del contrato comercial anunciado con Amazon. El mercado valora de forma muy favorable a las empresas energéticas ligadas a la infraestructura de IA. Aclare que esto es solo una lectura de las noticias y no una garantía."
+      "noticias_prediccion": "El anuncio del contrato de suministro energético con Amazon hizo que el valor de la empresa se disparara en la bolsa. Esta noticia sustenta una clara inclinación alcista para el precio a corto plazo. Tenga presente que es un análisis de titulares y no un rendimiento garantizado."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 216.39,
+      "stop_loss": 199.08,
+      "objetivo": 251.01,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió 21.53% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "VICR",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 216.39,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -2304,10 +2304,15 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 216.39
         }
       ],
       "noticias": [
+        {
+          "titulo": "These 5 Green Stocks Have Crushed Clean Energy ETFs, S&P 500 And AI Funds In 2026",
+          "link": "https://stocktwits.com/news-articles/markets/equity/these-5-green-stocks-have-crushed-clean-energy-et-fs-s-and-p-500-and-ai-funds-in-2026/cZtuNbNRB3J",
+          "fuente": "Stocktwits"
+        },
         {
           "titulo": "3 Stocks Put Traders Are Targeting Today",
           "link": "https://finance.yahoo.com/markets/options/articles/3-stocks-put-traders-targeting-152656651.html",
@@ -2327,31 +2332,26 @@
           "titulo": "Vicor Shares Rise 11% Following AI Power Delivery Technology Licensing Agreement",
           "link": "https://investorshub.advfn.com/market-news/article/36468/vicor-shares-rise-11-following-ai-power-delivery-technology-licensing-agreement",
           "fuente": "InvestorsHub"
-        },
-        {
-          "titulo": "Why Is VICR Stock Jumping Over 10% Overnight?",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-is-vicr-stock-jumping-over-10-overnight/cZtriwBRB5W",
-          "fuente": "Stocktwits"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "La acción saltó más de un 10% tras la firma de un acuerdo de licencia tecnológica para la entrega de energía en sistemas de IA.",
+      "noticias_resumen": "Alza significativa en las acciones tras anunciar un acuerdo de licencias para inteligencia artificial.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Se prevé que el precio mantenga un sesgo alcista en los próximos días debido a la excelente recepción del acuerdo de licenciamiento. La demanda de soluciones avanzadas de potencia entusiasma a los operadores del mercado. Recuerde que la predicción responde estrictamente a la prensa reciente."
+      "noticias_prediccion": "El acuerdo de licencia tecnológica para inteligencia artificial impulsó el valor de las acciones más de un 11%. Este hito genera un sentimiento muy favorable que podría mantener el precio en alza en el corto plazo. Cabe remarcar que es solo la interpretación de los titulares."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "long",
+      "confianza": "baja",
+      "entrada": 13.89,
+      "stop_loss": 12.78,
+      "objetivo": 16.11,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió 8.6% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "BHVN",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 13.89,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -2471,7 +2471,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 13.89
         }
       ],
       "noticias": [
@@ -2502,23 +2502,23 @@
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "La acción sufrió una fuerte caída tras una suspensión parcial por parte de la FDA sobre los ensayos de su fármaco contra la epilepsia.",
+      "noticias_resumen": "Fuerte desplome de la acción debido a la suspensión parcial de un ensayo clínico por la FDA.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "La cotización se enfrenta a una perspectiva bajista para el corto plazo ante el revés regulatorio recibido. El freno impuesto por las autoridades genera incertidumbre y desconfianza inmediata entre los inversores. Esta apreciación es una mera interpretación de los titulares negativos."
+      "noticias_prediccion": "La traba regulatoria impuesta por la FDA a su ensayo para un fármaco contra la epilepsia generó caídas de hasta 17%. Con este panorama de incertidumbre, la dirección más probable del precio es a la baja a corto plazo. Se recuerda que esta conclusión deriva únicamente de la prensa."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 80.36,
+      "stop_loss": 73.93,
+      "objetivo": 93.22,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.0x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "TEM",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 80.36,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -2638,7 +2638,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 80.36
         }
       ],
       "noticias": [
@@ -2669,9 +2669,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "El valor subió hasta un 30% esta semana impulsado por la mejora en las perspectivas de ingresos por parte de Morgan Stanley.",
+      "noticias_resumen": "Fuerte optimismo de ingresos y subida del 30% respaldada por firmas financieras e inversores de alto perfil.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El movimiento del precio apunta a sostenerse al alza a corto plazo gracias al sólido respaldo de las firmas de análisis. El optimismo en torno al mercado de la medicina personalizada continúa atrayendo compradores. Tenga en cuenta que esta estimación no implica certeza de mercado."
+      "noticias_prediccion": "La mejora de perspectivas por parte de Morgan Stanley y la compra de acciones por inversores conocidos han disparado el título. Dicho dinamismo proyecta una clara tendencia al alza para los próximos días. Esta afirmación responde solo a la lectura de los titulares."
     },
     {
       "hay_señal": false,
@@ -2682,10 +2682,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "PURR",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 12.83,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -2805,7 +2805,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 12.83
         }
       ],
       "noticias": [
@@ -2836,23 +2836,23 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Analistas destacan un potencial de subida superior al 60% tras registrar incrementos significativos de precio e impulso en agosto.",
+      "noticias_resumen": "Elevados objetivos de precio fijados por analistas y un rendimiento sobresaliente en el último mes.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La acción muestra una proyección alcista para los próximos días empujada por las recomendaciones de compra y su fuerte momento de mercado. El interés especulativo alrededor de la firma mantiene alta la demanda. Considere que este análisis se basa únicamente en la lectura de los titulares."
+      "noticias_prediccion": "Los informes de analistas proyectando fuertes subidas y el impulso de haber aumentado un 94% recientemente generan gran interés comprador. Por ende, la inclinación del precio se perfila al alza a corto plazo. Considere que esto es un resumen del sentimiento periodístico."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 174.88,
+      "stop_loss": 188.87,
+      "objetivo": 146.9,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió -15.61% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "AN",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 174.88,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -2972,7 +2972,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 174.88
         }
       ],
       "noticias": [
@@ -3003,23 +3003,23 @@
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Analistas recomiendan mantener la acción en cartera, aunque existen advertencias sobre el desempeño futuro del sector automotor.",
+      "noticias_resumen": "Recomendaciones de mantener la acción frente a advertencias de menor rentabilidad sectorial para los concesionarios.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "La acción podría registrar un comportamiento lateral en el corto plazo debido a la falta de catalizadores claros. La recomendación de conservar el papel contrarresta las precauciones sobre posibles descensos en las ganancias de la industria. Recuerde que esto surge solo de la información periodística."
+      "noticias_prediccion": "Las sugerencias de conservar el título chocan con advertencias de analistas sobre menores ganancias futuras en la industria automotriz. Este balance entre cautela y moderación sugiere un movimiento de precio lateral a corto plazo. Es una lectura exclusiva de titulares y no una garantía."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "short",
+      "confianza": "baja",
+      "entrada": 65.95,
+      "stop_loss": 71.23,
+      "objetivo": 55.39,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió -13.35% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "SAH",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 65.95,
       "historial_precios": [
         {
           "fecha": "2026-08-06",
@@ -3139,7 +3139,7 @@
         },
         {
           "fecha": "2026-09-17",
-          "cierre": NaN
+          "cierre": 65.95
         }
       ],
       "noticias": [
@@ -3170,9 +3170,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "La empresa fortaleció su expansión en el segmento de lujo con la compra de un concesionario Porsche y es destacada por sus dividendos.",
+      "noticias_resumen": "Expansión del negocio mediante la compra de un concesionario de lujo y sólido perfil de dividendos.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Es probable que la acción se incline al alza a corto plazo motivada por la adquisición estratégica del negocio de lujo y su atractivo perfil de dividendo. La noticia genera una valoración positiva sobre la estrategia comercial de la firma. Cabe resaltar que esta lectura no es un pronóstico definitivo."
+      "noticias_prediccion": "La adquisición de un concesionario Porsche refuerza su presencia en el segmento de lujo y ratifica su atractivo de dividendos. Esto genera una perspectiva favorable para que el precio continúe avanzando en el corto plazo. Recuerde que este análisis depende de los titulares informados."
     }
   ]
 }
