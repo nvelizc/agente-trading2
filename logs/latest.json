@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-19T09:23:36.868069+00:00",
+  "actualizado": "2026-09-19T13:52:43.804165+00:00",
   "resultados": [
     {
       "hay_señal": true,
       "tipo_setup": "ruptura",
       "direccion": "long",
-      "confianza": "alta",
+      "confianza": "baja",
       "entrada": 336.13,
       "stop_loss": 309.24,
       "objetivo": 389.91,
@@ -158,21 +158,21 @@
           "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
-          "link": "https://www.fool.com/investing/2026/09/19/sp-500-returned-annually-etf-trust-30-years-vti/",
+          "titulo": "John Ternus's First iPhone Launch Prompted a Bank of America Price Target Cut. Is Apple Stock a Buy?",
+          "link": "https://www.fool.com/investing/2026/09/19/john-ternuss-first-iphone-launch-prompted-a-bank-o/",
           "fuente": "Motley Fool"
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Hay expectativas positivas por la fuerte demanda de sus nuevos modelos de iPhone y su liderazgo.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Con base en los titulares sobre altas ventas proyectadas de sus nuevos dispositivos y confianza en su directiva, la acción podría mostrar una inclinación alcista en el corto plazo. Sin embargo, el aumento de precios por costos de memoria podría limitar parte del avance. Recordá que esta es solo una lectura del tono noticioso y no constituye un pronóstico seguro."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Hay incertidumbre por recortes de precio objetivo de analistas y sobrecostos en la producción del iPhone.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "Las noticias reflejan presión por el encarecimiento de memorias e incrementos de precios en nuevos modelos, además de rebajas en el precio objetivo por parte de bancos. Esto podría empujar el valor a la baja en los próximos días. Tené en cuenta que esto es solo una lectura de los titulares actuales y no una garantía financiera."
     },
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
-      "confianza": "baja",
+      "confianza": "media",
       "entrada": 493.78,
       "stop_loss": 482.58,
       "objetivo": 516.18,
@@ -305,9 +305,14 @@
       ],
       "noticias": [
         {
-          "titulo": "'Astonishing theft of unprecedented proportions': NYT vs. OpenAI, Microsoft lawsuit",
-          "link": "https://finance.yahoo.com/video/astonishing-theft-unprecedented-proportions-nyt-134822530.html",
-          "fuente": "Yahoo Finance Video"
+          "titulo": "Bill Ackman's Pershing Square IPO Breaks Out",
+          "link": "https://www.investors.com/news/bill-ackman-pershing-square-ipo-stock-setting-up/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
+        },
+        {
+          "titulo": "The Agent Economy Runs on Concrete: Why $660 Billion Is Pouring Into Physical Infrastructure",
+          "link": "https://finance.yahoo.com/technology/articles/agent-economy-runs-concrete-why-101127688.html",
+          "fuente": "Forkast News"
         },
         {
           "titulo": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
@@ -323,17 +328,12 @@
           "titulo": "How to position for the next wave of AI-led scientific breakthroughs",
           "link": "https://finance.yahoo.com/technology/ai/articles/position-next-wave-ai-led-013630980.html",
           "fuente": "Investing.com"
-        },
-        {
-          "titulo": "CRWD Stock Keeps Climbing. Should You Climb On?",
-          "link": "https://www.trefis.com/articles/615810/crwd-stock-keeps-climbing-should-you-climb-on/2026-09-18",
-          "fuente": "Trefis"
         }
       ],
-      "noticias_sentimiento": "negativo",
-      "noticias_resumen": "El sentimiento se ve afectado por demandas judiciales y la creciente desconfianza hacia el sector de la IA.",
-      "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "La acción podría inclinarse a la baja debido a la presión mediática por litigios de derechos de autor y cuestionamientos sobre los beneficios de la inteligencia artificial. Estos titulares sugieren un periodo de mayor cautela entre los inversores. Ten en cuenta que esto es solo una evaluación basada en las noticias y no garantiza el movimiento real del mercado."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "Los titulares muestran debate sobre el impacto real de la inteligencia artificial y el gasto en infraestructura.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "El mercado parece estar evaluando si las masivas inversiones en IA justifican las expectativas a corto plazo. Debido a las opiniones divididas, es probable que la acción mantenga un comportamiento estable o sin grandes saltos. Recordá que se trata de un análisis de titulares y no de un resultado certero."
     },
     {
       "hay_señal": false,
@@ -477,30 +477,30 @@
           "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "Why Salesforce CEO Marc Benioff thinks AI chip king Nvidia is 'exquisite'",
-          "link": "https://finance.yahoo.com/markets/stocks/article/why-salesforce-ceo-marc-benioff-thinks-ai-chip-king-nvidia-is-exquisite-094642002.html",
-          "fuente": "Yahoo Finance"
-        },
-        {
-          "titulo": "Prediction: The Hard Times Are Ending for These 3 Leading Cryptocurrencies",
-          "link": "https://www.fool.com/investing/2026/09/19/prediction-the-hard-times-are-ending-for-these-3-l/",
+          "titulo": "Is Arm Holdings Still a Hidden Winner of the AI Chip Race?",
+          "link": "https://www.fool.com/investing/2026/09/19/is-arm-holdings-still-a-hidden-winner-ai-chip-race/",
           "fuente": "Motley Fool"
         },
         {
-          "titulo": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
-          "link": "https://www.fool.com/investing/2026/09/19/sp-500-returned-annually-etf-trust-30-years-vti/",
+          "titulo": "What History Says About Owning Berkshire Hathaway Through a Recession",
+          "link": "https://www.fool.com/investing/2026/09/19/what-history-says-about-owning-berkshire-hathaway/",
           "fuente": "Motley Fool"
         },
         {
-          "titulo": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
-          "link": "https://www.fool.com/investing/2026/09/19/sam-altman-ai-industry-worry-nvidia-microsoft/",
+          "titulo": "Fed Chair Kevin Warsh and the FOMC Just Hiked Interest Rates, and 36 Years of History Make Clear What Comes Next for Stocks",
+          "link": "https://www.fool.com/investing/2026/09/19/fed-chair-kevin-warsh-fomc-hiked-interest-rates-36-years-history-make-clear-what-next-for-stocks/",
+          "fuente": "Motley Fool"
+        },
+        {
+          "titulo": "History Says This Investment Strategy Can Build a $1 Million Portfolio. Here's How.",
+          "link": "https://www.fool.com/investing/2026/09/19/history-investment-build-million-portfolio-vti/",
           "fuente": "Motley Fool"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Muestra una combinación de elogios por su liderazgo tecnológico y dudas generales sobre la industria de la IA.",
+      "noticias_resumen": "La acción no protagoniza noticias directas de gran peso, dentro de un contexto de mercado dubitativo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "El precio de la acción podría moverse de forma lateral en los próximos días mientras el mercado equilibra las buenas opiniones sobre sus chips con la incertidumbre del sector. Las noticias actuales reflejan posturas divididas sin un catalizador claro en una sola dirección. Es importante recordar que esta lectura de titulares no es una certeza financiera."
+      "noticias_prediccion": "Al no haber anuncios drásticos específicos sobre la empresa en estos titulares, el precio podría acoplarse al ritmo general del mercado. Es esperable un movimiento sin una tendencia definida en el cortísimo plazo. Esta proyección es solo una interpretación de la prensa y no una certeza."
     },
     {
       "hay_señal": false,
@@ -639,6 +639,11 @@
       ],
       "noticias": [
         {
+          "titulo": "Kevin O’Leary Warns Investors About the ‘Biggest Killer’ of Investment Value: 'Your Equity Can get Wiped Out Fast' When Markets Turn",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kevin-o-leary-warns-investors-113019086.html",
+          "fuente": "Benzinga"
+        },
+        {
           "titulo": "JPMorgan sends stark warning on $100 oil",
           "link": "https://www.thestreet.com/latest-news/jpmorgan-oil-supply-warning",
           "fuente": "TheStreet"
@@ -657,17 +662,12 @@
           "titulo": "PG&E (PCG) Stock Fair Value Edges Lower As Analysts Split On Wildfire Risk",
           "link": "https://finance.yahoo.com/markets/stocks/articles/pg-e-pcg-stock-fair-201026325.html",
           "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "500th Episode: Investing Tips from 11 Years of Podcasting About Stocks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/500th-episode-investing-tips-11-192400433.html",
-          "fuente": "Zacks"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Predomina la cautela debido a las severas advertencias de la entidad sobre el impacto del petróleo a $100.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Se prevé que el valor cotice de manera lateral dada la falta de noticias directas sobre sus resultados y el enfoque en sus alertas económicas globales. Los inversores suelen reaccionar con prudencia ante los análisis de riesgo sobre la energía. Considerá que esta interpretación proviene de los titulares y no es un resultado garantizado."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Destacan las advertencias de la firma sobre riesgos del mercado y el impacto del petróleo caro.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "El tono de las noticias resalta llamados de alerta sobre posibles caídas abruptas de capitales y presión económica por el crudo. Esta postura precavida podría generar cierta cautela y caídas leves en la cotización. Considerá que esto representa una lectura del clima de noticias, no una verdad absoluta."
     },
     {
       "hay_señal": true,
@@ -832,9 +832,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Destaca el enorme crecimiento en liquidaciones con criptomonedas estables e innovación en compras con IA.",
+      "noticias_resumen": "Resalta el fuerte crecimiento en liquidaciones con criptomonedas estables a pesar de acuerdos legales.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El precio podría experimentar un impulso alcista gracias al aumento significativo en el uso de sus redes para nuevas tecnologías de pago. Aunque existen acuerdos legales menores, la atención se centra en su expansión operativa. Esta perspectiva se basa únicamente en la información de los titulares y no es infalible."
+      "noticias_prediccion": "El impulso por la adopción de nuevas tecnologías de pago como las stablecoins supera el impacto de arreglos judiciales pasados. Esto genera optimismo entre los inversores para los próximos días. Tené presente que esto es un análisis basado en la prensa y no asegura rendimientos."
     },
     {
       "hay_señal": false,
@@ -999,9 +999,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Resalta la solidez de sus activos, fortaleza en refinación y atractivo de sus dividendos.",
+      "noticias_resumen": "Se destacan sus activos sólidos, solidez en refinación y atractivo de dividendos en el sector energético.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La tendencia podría orientarse al alza apoyada en la confianza hacia la seguridad de sus dividendos y la solidez de sus activos. Las interrupciones operativas temporales en la industria tienden a sostener los precios de los combustibles favoreciendo al sector. Ten presente que esto representa una lectura noticiosa y no una garantía de rendimiento."
+      "noticias_prediccion": "La fortaleza operativa de la empresa y la firmeza del mercado petrolero respaldan una visión favorable a corto plazo. El precio podría inclinarse al alza empujado por estas perspectivas favorables de negocio. Recordá que se trata de una estimación de noticias y no de un hecho garantizado."
     },
     {
       "hay_señal": true,
@@ -1166,9 +1166,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Las noticias resaltan un liderazgo sólido, oportunidades en Venezuela y buena posición ante el petróleo alto.",
+      "noticias_resumen": "Destacan el liderazgo de su directiva, expansiones estratégicas y el atractivo de su dividendo.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Existe un sesgo alcista respaldado por sus planes de expansión internacional y la valoración positiva de su dirección ejecutiva. A pesar de las alertas de demanda en Asia y Europa, el contexto energético favorece su perfil de dividendos. Recordá que esta interpretación no constituye una certeza de inversión."
+      "noticias_prediccion": "La combinación de buenas recomendaciones de analistas y nuevos acuerdos en regiones estratégicas beneficia la imagen de la empresa. Es probable un movimiento alcista moderado en el corto plazo. Evaluá esto como una lectura informativa y no como una certeza bursátil."
     },
     {
       "hay_señal": false,
@@ -1307,6 +1307,11 @@
       ],
       "noticias": [
         {
+          "titulo": "Cathie Wood Is Selling 2 Magnificent Seven Stocks, but Piling Into Another",
+          "link": "https://www.fool.com/investing/2026/09/19/cathie-wood-is-selling-2-magnificent-seven-stocks/",
+          "fuente": "Motley Fool"
+        },
+        {
           "titulo": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
           "link": "https://www.fool.com/investing/2026/09/19/sp-500-returned-annually-etf-trust-30-years-vti/",
           "fuente": "Motley Fool"
@@ -1325,17 +1330,12 @@
           "titulo": "Is Affirm Holdings, Inc. (AFRM) Stock a Buy After Goldman Sachs Raised Its Price Target?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/affirm-holdings-inc-afrm-stock-080841812.html",
           "fuente": "Insider Monkey"
-        },
-        {
-          "titulo": "Amazon (AMZN) Is Reworking Its Air Fleet With 30 A330 Freighters By 2027",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-reworking-air-fleet-041803486.html",
-          "fuente": "Simply Wall St."
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Genera optimismo la expansión masiva de su flota de carga aérea para fortalecer su red logística.",
+      "noticias_resumen": "Las declaraciones de su directiva sobre avances en tecnología impulsan la confianza del mercado.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La acción podría tomar un rumbo alcista favorecida por las inversiones estratégicas en su propia infraestructura de transporte hacia 2027. El mercado suele ponderar positivamente la mejora de sus capacidades operativas. Ten en cuenta que esto es solo un análisis del tono periodístico y no un hecho seguro."
+      "noticias_prediccion": "La empresa genera entusiasmo por sus soluciones clave en inteligencia artificial y compras por parte de fondos conocidos. El valor podría continuar con sesgo positivo en los días siguientes. Considerá que esta predicción deriva de titulares y no garantiza resultados."
     },
     {
       "hay_señal": false,
@@ -1500,9 +1500,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Sobresale por su firmeza frente a caídas de competidores y una fuerte inversión de $10 mil millones.",
+      "noticias_resumen": "Muestra mayor firmeza que sus competidores e importantes anuncios de inversión en infraestructura.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La perspectiva apunta a ser alcista gracias a su resiliencia en el mercado de consumo masivo y su compromiso millonario con la infraestructura en EE. UU. Esto refuerza la percepción de estabilidad para los inversores a corto plazo. Recordá que esta conclusión surge solo de los titulares actuales y no es definitiva."
+      "noticias_prediccion": "La compañía demuestra resiliencia ante caídas en el sector de consumo y proyecta fuertes inversiones a futuro. Esto suele atraer a inversores que buscan refugio en el corto plazo. Tené en cuenta que es una interpretación de noticias y no una garantía de precio."
     },
     {
       "hay_señal": false,
@@ -1667,9 +1667,9 @@
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Afectado por el mal desempeño del mercado general, que registró su peor semana en seis meses.",
+      "noticias_resumen": "El índice refleja preocupación por la caída semanal del mercado, altas tasas y suba del petróleo.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "La inclinación del precio se percibe bajista debido a las caídas recientes del mercado amplio, el alza en los rendimientos y la tensión en el petróleo. El fondo cotizado refleja el retroceso generalizado de los activos de mayor riesgo. Esta es una lectura de los titulares y no debe tomarse como un dato certero."
+      "noticias_prediccion": "Un entorno macroeconómico complicado con tasas altas y caídas en las bolsas presiona a este fondo cotizado a la baja. Es esperable que el precio muestre debilidad en las próximas jornadas. Recordá que este diagnóstico se basa solo en titulares y no constituye una certeza."
     },
     {
       "hay_señal": false,
@@ -1834,9 +1834,9 @@
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Sufre la presión de la caída general de las acciones tecnológicas y la volatilidad del mercado.",
+      "noticias_resumen": "Caídas en el sector tecnológico y peores rendimientos semanales condicionan al índice.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "El índice muestra probabilidades de continuar a la baja en el corto plazo por la debilidad generalizada del sector tecnológico y las caídas a mitad de jornada. Aunque algunas empresas individuales repuntaron, el tono del conjunto es de corrección. Esto es solo una interpretación de noticias y no una garantía."
+      "noticias_prediccion": "El retroceso en varias acciones tecnológicas importantes afecta de manera directa la cotización de este fondo. Es probable una tendencia bajista o de ajuste en el corto plazo. Tomá esto como un análisis de publicaciones y no como una predicción infalible."
     },
     {
       "hay_señal": true,
@@ -2001,9 +2001,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Muestra gran dinamismo impulsado por un salto del 16% en la acción y el repunte de Bitcoin sobre $80,000.",
+      "noticias_resumen": "Fuerte suba impulsada por el avance del Bitcoin y novedades regulatorias favorables.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El rumbo se proyecta alcista favorecido por el rally de la principal criptomoneda y resoluciones legislativas favorables para los activos digitales. El fuerte impulso comprador reciente suele dar continuidad en el corto plazo. Ten en cuenta que la volatilidad es alta y esto no asegura rendimientos futuros."
+      "noticias_prediccion": "La firme recuperación del mercado de criptomonedas le da un impulso directo y acelerado a la acción. Podría mantener una trayectoria ascendente en los próximos días si persiste el entusiasmo del sector. Tené presente que es una lectura de noticias y no un resultado seguro."
     },
     {
       "hay_señal": true,
@@ -2168,9 +2168,9 @@
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Anuncia expansiones millonarias en infraestructura de IA, aunque el precio de la acción sufrió caídas.",
+      "noticias_resumen": "Gran expansión en infraestructura de inteligencia artificial contrastada con caídas en el precio de la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "El precio podría fluctuar de forma lateral mientras los inversores asimilan los anuncios de su cartera de $7 mil millones en IA frente a los recientes retrocesos en cotización. Hay fuerzas contrapuestas entre buenos fundamentales e inestabilidad del precio. Recordá que esta evaluación se basa solo en noticias y no es segura."
+      "noticias_prediccion": "Aunque los datos de crecimiento del negocio son prometedores, la cotización mostró retrocesos recientes por cautela sobre el gasto en IA. Esto sugiere un movimiento sin dirección clara a corto plazo. Considerá que es una evaluación de titulares y no una certeza."
     },
     {
       "hay_señal": true,
@@ -2335,15 +2335,15 @@
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Presenta volatilidad contrapuesta, combinando un rally mensual con retrocesos recientes superiores al mercado.",
+      "noticias_resumen": "A pesar de subas recientes considerables, la cotización muestra volatilidad y caídas frente al mercado general.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Se espera un movimiento lateral en los próximos días mientras el mercado decide si tomar ganancias tras el alza del 21% o aprovechar la reciente caída. El entusiasmo del sector cripto contrasta con sus bajas puntuales. Esta proyección es solo una lectura noticiosa y no una certeza."
+      "noticias_prediccion": "El título enfrenta una toma de ganancias luego de subas importantes en el mes, equilibrando las fuerzas de compra y venta. Por ello, el precio podría estabilizarse sin grandes variaciones inmediatas. Tomá esto como una interpretación informativa, no como una garantía."
     },
     {
       "hay_señal": true,
       "tipo_setup": "ruptura",
       "direccion": "long",
-      "confianza": "baja",
+      "confianza": "alta",
       "entrada": 49.83,
       "stop_loss": 45.84,
       "objetivo": 57.81,
@@ -2476,6 +2476,11 @@
       ],
       "noticias": [
         {
+          "titulo": "Bill Ackman's Pershing Square IPO Breaks Out",
+          "link": "https://www.investors.com/news/bill-ackman-pershing-square-ipo-stock-setting-up/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
+        },
+        {
           "titulo": "Bill Ackman Says Nike ‘Needs Help’ as Alexandre Arnault Joins Board: ‘Great Development’",
           "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-says-nike-needs-013111888.html",
           "fuente": "Benzinga"
@@ -2494,17 +2499,12 @@
           "titulo": "Bill Ackman bets AI will make this old-school business stronger",
           "link": "https://www.thestreet.com/investing/bill-ackman-bets-ai-will-strengthen-intercontinental-exchange-ice",
           "fuente": "TheStreet"
-        },
-        {
-          "titulo": "Bill Ackman's surprising $934 million bet after dumping Alphabet",
-          "link": "https://www.thestreet.com/investing/bill-ackman-surprising-934-million-netflix-bet-after-dumping-alphabet",
-          "fuente": "TheStreet"
         }
       ],
-      "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Enfrenta previsiones negativas de analistas que pronostican caídas adicionales en sus posiciones clave.",
-      "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "La perspectiva tiende a ser bajista debido a los informes de analistas de Wall Street que prevén mayores pérdidas en sus inversiones más recientes. La cobertura mediática sobre pérdidas pasadas y caídas del 21% condiciona la confianza. Ten presente que esto refleja únicamente titulares y no garantiza el desempeño."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "Combina salidas a bolsa exitosas con posiciones en empresas que sufren bajas importantes.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "Los movimientos contrastantes en el portafolio del fondo generan opiniones divididas entre los analistas de Wall Street. Se anticipa una cotización sin una tendencia dominante en las próximas sesiones. Recordá que esta perspectiva se basa únicamente en titulares."
     },
     {
       "hay_señal": false,
@@ -2669,9 +2669,9 @@
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Sufre el impacto de caídas en su cotización y dudas sobre si la acción está sobrevalorada.",
+      "noticias_resumen": "Pese al repunte de algunas criptomonedas, la acción genera dudas sobre su valoración actual tras caídas previas.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "La inclinación a corto plazo se anticipa bajista ante los retrocesos recientes del papel y la percepción de que no representa una oportunidad barata. A pesar del dinamismo cripto general, su caso particular muestra debilidad informativa. Esto es solo una interpretación de titulares sin certeza bursátil."
+      "noticias_prediccion": "La desconfianza sobre si el precio actual es una oportunidad o un riesgo frena la entrada de nuevos compradores. Esto podría mantener la acción bajo presión vendedora en el corto plazo. Tené en cuenta que es una simple lectura de prensa y no una verdad absoluta."
     },
     {
       "hay_señal": true,
@@ -2815,14 +2815,14 @@
           "fuente": "Yahoo Finance Video"
         },
         {
+          "titulo": "Dow Jones Futures: Will The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
+        },
+        {
           "titulo": "Coinbase Stock Jumped 12% Yesterday. Bitcoin’s Breakout Wasn’t the Whole Story.",
           "link": "https://www.tikr.com/blog/coinbase-stock-jumped-12-yesterday-bitcoins-breakout-wasnt-the-whole-story?ref=yahoofinance",
           "fuente": "TIKR"
-        },
-        {
-          "titulo": "Dow Jones Futures: Nasdaq, S&P 500 Hold; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
         },
         {
           "titulo": "Bitwise CIO Matt Hougan Adjusts His Crypto Outlook After the Senate Vote. Here’s What He Changed",
@@ -2836,9 +2836,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Impulsado por el salto reciente del 12% y avances regulatorios hacia la tokenización de acciones.",
+      "noticias_resumen": "Impulsada por subas fuertes en su cotización, avances en tokens y un clima regulatorio favorable.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La acción se muestra con potencial alcista gracias al clima regulatorio favorable y la fuerte subida experimentada en las últimas jornadas. El apoyo de la SEC a nuevos formatos de mercado fortalece el optimismo sobre la plataforma. Recordá que este análisis de titulares no garantiza resultados en el mercado."
+      "noticias_prediccion": "El positivismo en el ecosistema cripto y decisiones institucionales apoyan la suba de la plataforma. La acción tiene margen para continuar con tono favorable en los próximos días. Considerá que esta previsión surge de noticias y no implica certeza bursátil."
     },
     {
       "hay_señal": true,
@@ -3003,9 +3003,9 @@
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Sufre un desplome severo de más del 30% tras la suspensión de las pruebas de su medicamento estrella.",
+      "noticias_resumen": "La suspensión de pruebas de un medicamento clave provocó el desplome inmediato de la acción.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "El panorama se presenta claramente bajista para los próximos días debido al duro golpe recibido por la pausa en sus ensayos clínicos. En la industria biotecnológica, estos reveses suelen mantener la presión de venta durante un tiempo. Esto es una lectura del tono de las noticias y no una certeza."
+      "noticias_prediccion": "Un tropiezo grave en el desarrollo de sus fármacos ha generado pánico y ventas masivas entre los inversores. Es muy probable que la presión a la baja continúe en las próximas jornadas. Recordá que esto refleja el estado actual de las noticias y no es una certeza."
     },
     {
       "hay_señal": false,
@@ -3169,10 +3169,10 @@
           "fuente": "24/7 Wall St."
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Muestra una marcada volatilidad alternando fuertes subidas por apoyo del Congreso con caídas del 7%.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Se prevé una dinámica de cotización lateral debido a las fuerzas opuestas entre los incentivos legislativos al sector nuclear y las tomas de ganancias inmediatas. Los titulares reflejan cambios bruscos de dirección en pocos días. Ten en cuenta que esto es solo una lectura noticiosa y no una predicción definitiva."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Cancelaciones de salidas a bolsa en el sector nuclear arrastran a la baja a la empresa.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "La pérdida de entusiasmo tras votaciones y malas noticias de empresas competidoras afectan el sentimiento de los inversores. Esto podría provocar correcciones adicionales en el precio a corto plazo. Tomá este análisis como una lectura de la prensa actual y no como una garantía."
     }
   ]
 }
