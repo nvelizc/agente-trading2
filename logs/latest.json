@@ -1,24 +1,20 @@
 {
-  "actualizado": "2026-09-21T06:14:00.098362+00:00",
+  "actualizado": "2026-09-21T13:56:33.789099+00:00",
   "resultados": [
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 336.13,
-      "stop_loss": 309.24,
-      "objetivo": 389.91,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.0x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "AAPL",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 336.13,
+      "precio_al_momento_del_analisis": 335.97,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 313.06
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 308.26
@@ -134,58 +130,58 @@
         {
           "fecha": "2026-09-18",
           "cierre": 336.13
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 335.97
         }
       ],
       "noticias": [
         {
-          "titulo": "‘RAMageddon’: tech crunch hikes the price of your next iPhone by £100",
-          "link": "https://uk.finance.yahoo.com/news/ramageddon-tech-crunch-hikes-price-060037819.html",
-          "fuente": "The Guardian"
+          "titulo": "Zacks Investment Ideas feature highlights: Intel, SK Hynix, Nvidia, Microsoft and Apple",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-130200708.html",
+          "fuente": "Zacks"
         },
         {
-          "titulo": "Apple (AAPL)’s New CEO Bets Big on a $1,999 Foldable iPhone",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-ceo-bets-big-233948726.html",
-          "fuente": "Insider Monkey"
+          "titulo": "Zacks Investment Ideas feature highlights: Microsoft, NVIDIA and Apple",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-130100092.html",
+          "fuente": "Zacks"
         },
         {
-          "titulo": "Your iPhone gives Apple an advantage you may not be comfortable with.",
-          "link": "https://www.thestreet.com/technology/apples-new-ceo-reveals-how-ai-will-change-your-life",
-          "fuente": "TheStreet"
+          "titulo": "Investors Heavily Search Apple Inc. (AAPL): Here is What You Need to Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-apple-inc-130002172.html",
+          "fuente": "Zacks"
         },
         {
-          "titulo": "10 Years Later: 5 Low-Risk Stocks for the Next Year",
-          "link": "https://www.fool.com/investing/2026/09/20/10-years-later-5-low-risk-stocks-for-the-next-year/",
-          "fuente": "Motley Fool"
+          "titulo": "Can Cars And Data Centers Carry Qualcomm Stock Past Apple?",
+          "link": "https://www.trefis.com/articles/616030/can-cars-and-data-centers-carry-qualcomm-stock-past-apple/2026-09-21",
+          "fuente": "Trefis"
         },
         {
-          "titulo": "Apple Wants to Enter the AI Inference Market. It Will Have to Swallow Its Pride First.",
-          "link": "https://www.barchart.com/story/news/4702934/apple-wants-to-enter-the-ai-inference-market-it-will-have-to-swallow-its-pride-first",
-          "fuente": "Barchart"
+          "titulo": "Apple Siri settlement claims window now open. How to file for money",
+          "link": "https://www.usatoday.com/story/money/personal-finance/income/2026/09/21/apple-siri-class-action-settlement-claims-window-file/91869875007/",
+          "fuente": "USA TODAY"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Los titulares presentan una mezcla entre el aumento de costos de componentes y el interés en nuevos mercados como la inteligencia artificial.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "El precio de la acción podría mantenerse en un rango lateral en los próximos días debido al impacto que podría tener el alza en los costos de producción. Aunque las metas en el sector de inteligencia artificial llaman la atención, existen dudas sobre los márgenes de ganancia inmediatos. Tenga presente que este análisis es una lectura basada en noticias y no constituye una certeza de mercado."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "pullback",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 493.78,
-      "stop_loss": 482.58,
-      "objetivo": 516.18,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "MSFT",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 493.78,
+      "precio_al_momento_del_analisis": 495.24,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 499.05
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 505.11
@@ -301,39 +297,43 @@
         {
           "fecha": "2026-09-18",
           "cierre": 493.78
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 495.24
         }
       ],
       "noticias": [
         {
-          "titulo": "NOK Stock Rises Overnight: Nokia’s EURO STOXX 50 Index Return On Monday Adds To AI-Fueled Momentum",
-          "link": "https://stocktwits.com/news-articles/markets/equity/nok-stock-rises-overnight-nokia-s-euro-stoxx-50-index-return-on-monday-adds-to-ai-fueled-momentum/cZMRdyoRB4Q",
-          "fuente": "Stocktwits"
-        },
-        {
-          "titulo": "Michael Burry Warns Hyperscalers Are Hiding $3 Trillion In AI Liabilities — And Wall Street Isn’t Looking: ‘When The Music’s Over…’",
-          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-warns-hyperscalers-are-hiding-3-trillion-in-ai-liabilities-and-wall-street-isn-t-looking-when-the-music-s-over/cZMRbsvRB4I",
-          "fuente": "Stocktwits"
-        },
-        {
-          "titulo": "Neocloud Boom: Comparing Nebius, CoreWeave, & IREN",
-          "link": "https://finance.yahoo.com/technology/ai/articles/neocloud-boom-comparing-nebius-coreweave-020300874.html",
+          "titulo": "IREN Expands Its 5GW+ Pipeline: Can Execution Match Ambition?",
+          "link": "https://finance.yahoo.com/technology/ai/articles/iren-expands-5gw-pipeline-execution-132900207.html",
           "fuente": "Zacks"
         },
         {
-          "titulo": "BofA cuts to the chase on AI data center demand",
-          "link": "https://www.thestreet.com/investing/stocks/bank-of-america-says-ai-data-center-demand-strong",
-          "fuente": "TheStreet"
+          "titulo": "Azure, AI Capex, and What to Expect Out of Microsoft Through The End of 2026",
+          "link": "https://247wallst.com/investing/2026/09/21/azure-ai-capex-and-what-to-expect-out-of-microsoft-through-the-end-of-2026/",
+          "fuente": "24/7 Wall St."
         },
         {
-          "titulo": "Bill Ackman Built a $2.4 Billion Stake in Microsoft, Calling It a \"Core Holding\" Bought at a \"Highly Compelling Valuation.\" Here's Why He's Betting Big on Big Tech.",
-          "link": "https://www.fool.com/investing/2026/09/20/bill-ackman-built-a-24-billion-stake-in-microsoft/",
-          "fuente": "Motley Fool"
+          "titulo": "Oracle’s Co-CEOs Deliver Explosive Growth, but Stock Plunges 50% in Their First Year",
+          "link": "https://247wallst.com/investing/2026/09/21/oracles-co-ceos-deliver-explosive-growth-but-stock-plunges-50-in-their-first-year/",
+          "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "Zacks Investment Ideas feature highlights: Intel, SK Hynix, Nvidia, Microsoft and Apple",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-130200708.html",
+          "fuente": "Zacks"
+        },
+        {
+          "titulo": "Zacks Investment Ideas feature highlights: Microsoft, NVIDIA and Apple",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-130100092.html",
+          "fuente": "Zacks"
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Destaca la fuerte compra realizada por el inversor Bill Ackman, lo que supera las advertencias generales sobre el sector de inteligencia artificial.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La importante inversión revelada por Bill Ackman suele ser percibida como una señal de confianza que puede impulsar la cotización hacia arriba a corto plazo. A pesar de las alertas globales sobre la sostenibilidad del gasto en inteligencia artificial, la posición de la empresa se mantiene sólida. Tenga en cuenta que esto es solo una interpretación de las noticias y el mercado puede reaccionar de forma distinta."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -347,12 +347,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "NVDA",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 222.27,
+      "precio_al_momento_del_analisis": 224.08,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 223.71
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 217.31
@@ -468,39 +464,43 @@
         {
           "fecha": "2026-09-18",
           "cierre": 222.27
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 224.08
         }
       ],
       "noticias": [
         {
-          "titulo": "Investing $150 per Month in This S&P 500 ETF Could Grow Into $300,000 Over 30 Years. Here's the Math.",
-          "link": "https://www.fool.com/investing/2026/09/21/investing-150-per-month-in-this-sp-500-etf-could-g/",
+          "titulo": "Stock Market Today: Dow Rallies As Oil Prices, Treasury Yields Fall; Nvidia At Early Buy Trigger (Live Coverage)",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-nvidia-stock-nvda-buy-point/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
+        },
+        {
+          "titulo": "Jensen Huang Just Delivered Incredible News for Nvidia Stock Investors",
+          "link": "https://www.fool.com/investing/2026/09/21/jensen-huang-incredible-news-nvidia-stock-investor/",
           "fuente": "Motley Fool"
         },
         {
-          "titulo": "Amazon.com vs. Uber Technologies: Analyzing Recent Quarterly Revenue Trends Between Two Consumer Companies",
-          "link": "https://www.fool.com/coverage/charts/2026/09/21/amazon-com-vs-uber-technologies-analyzing-recent-quarterly-revenue-trends-between-two-consumer-companies/",
+          "titulo": "AMD Rises 5% as Report Flags 10% Chip Price Increase; NVIDIA and Taiwan Semiconductor Tick Up",
+          "link": "https://247wallst.com/investing/2026/09/21/amd-rises-5-as-report-flags-10-chip-price-increase-nvidia-and-taiwan-semiconductor-tick-up/",
+          "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "Wall Street Analysts Think Nvidia (NVDA) Is a Good Investment: Is It?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-nvidia-133003752.html",
+          "fuente": "Zacks"
+        },
+        {
+          "titulo": "AGNC Investment Is Joining the S&P MidCap 400 Index. Here's What That Means for Its 14%+ Yield.",
+          "link": "https://www.fool.com/investing/2026/09/21/agnc-investment-is-joining-the-s-and-p-midcap-400-index-here-s-what-that-means-for-its-14-yield/",
           "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "Tesla's Free Cash Flow Went Negative. It Still Has a $43.5 Billion Cash Cushion.",
-          "link": "https://www.fool.com/investing/2026/09/21/teslas-free-cash-flow-went-negative-it-still-has-a/",
-          "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "AMD Stock Jumped 8% Last Week. It Could Bring 325% More, Here’s How.",
-          "link": "https://www.tikr.com/blog/amd-stock-jumped-8-last-week-it-could-bring-325-more-heres-how?ref=yahoofinance",
-          "fuente": "TIKR"
-        },
-        {
-          "titulo": "AI Is the Real Drama of the Trump-Xi Talks",
-          "link": "https://www.barrons.com/articles/trump-xi-us-china-ai-summit-talks-2692e1a5?siteid=yhoof2&yptr=yahoo",
-          "fuente": "Barrons.com"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Las menciones sobre la empresa en los titulares son mayormente indirectas o vinculadas al panorama político general.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Dado que las noticias no ofrecen catalizadores directos y exclusivos para la acción, se espera que el precio se mueva de manera lateral en el corto plazo. Los inversores parecen estar atentos a factores geopolíticos más amplios relacionados con el sector tecnológico. Recuerde que esta lectura proviene de los titulares presentados y no representa una garantía financiera."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -514,12 +514,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 349.67,
+      "precio_al_momento_del_analisis": 352.85,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 357.52
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 359.79
@@ -635,58 +631,58 @@
         {
           "fecha": "2026-09-18",
           "cierre": 349.67
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 352.85
         }
       ],
       "noticias": [
         {
-          "titulo": "JPMorgan Sees Dealmaking On Track for Record Year",
-          "link": "https://finance.yahoo.com/video/jpmorgan-sees-dealmaking-track-record-053126538.html",
-          "fuente": "Bloomberg"
+          "titulo": "Sector Update: Financial Stocks Advance Pre-Bell Monday",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-advance-pre-132335682.html",
+          "fuente": "MT Newswires"
         },
         {
-          "titulo": "The Ultimate Dividend Growth stock to Buy With $1,000 Right Now.",
-          "link": "https://www.fool.com/investing/2026/09/20/the-ultimate-dividend-growth-stock-to-buy-with-100/",
-          "fuente": "Motley Fool"
+          "titulo": "Fed Rate Hike Fails to Lift Bank Stocks as Market Reprices the Rally",
+          "link": "https://247wallst.com/investing/2026/09/21/fed-rate-hike-fails-to-lift-bank-stocks-as-market-reprices-the-rally/",
+          "fuente": "24/7 Wall St."
         },
         {
-          "titulo": "Prediction: The Best-Performing Big Bank Stock of the Next 2 Years Is Not JPMorgan Chase",
-          "link": "https://www.fool.com/investing/2026/09/20/prediction-the-best-performing-big-bank-stock-of/",
-          "fuente": "Motley Fool"
+          "titulo": "Qatar Investment Authority, JPMorgan Announce $20 Billion Partnership",
+          "link": "https://www.wsj.com/finance/investing/qatar-investment-authority-jpmorgan-announce-20-billion-partnership-63037e76?siteid=yhoof2&yptr=yahoo",
+          "fuente": "The Wall Street Journal"
         },
         {
-          "titulo": "The Bond Market Is Rattled, and History Says That Could Be a Warning Signal to Investors",
-          "link": "https://www.fool.com/investing/2026/09/20/the-bond-market-is-rattled-and-history-says-that-c/",
-          "fuente": "Motley Fool"
+          "titulo": "Zacks Market Edge Highlights: ExxonMobil, JPMorgan Chase and NVIDIA",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-market-edge-highlights-exxonmobil-130200702.html",
+          "fuente": "Zacks"
         },
         {
-          "titulo": "Why Greek banks deserve your attention",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-greek-banks-deserve-attention-060113402.html",
-          "fuente": "Investing.com"
+          "titulo": "Investors Heavily Search JPMorgan Chase & Co. (JPM): Here is What You Need to Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-jpmorgan-chase-130003199.html",
+          "fuente": "Zacks"
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "La perspectiva de un año récord en volumen de negocios bancarios impulsa el atractivo de la firma.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Las proyecciones de ingresos por transacciones récord brindan un impulso alcista que podría sostener el valor de la acción en los próximos días. Si bien surgen alertas sobre el mercado de bonos en general, la fortaleza operativa de la institución genera optimismo. Considere que este pronóstico se basa estrictamente en la lectura de titulares."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
-      "confianza": "alta",
-      "entrada": 368.29,
-      "stop_loss": 363.79,
-      "objetivo": 377.29,
+      "confianza": "media",
+      "entrada": 367.61,
+      "stop_loss": 363.62,
+      "objetivo": 375.59,
       "ratio_riesgo_beneficio": 2.0,
       "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 368.29,
+      "precio_al_momento_del_analisis": 367.61,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 361.83
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 360.65
@@ -802,58 +798,58 @@
         {
           "fecha": "2026-09-18",
           "cierre": 368.29
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 367.61
         }
       ],
       "noticias": [
         {
-          "titulo": "Visa Moves to Close Meme Coin Credit Card Rewards Loophole",
-          "link": "https://decrypt.co/378697/visa-close-meme-coin-credit-card-rewards-loophole",
-          "fuente": "decrypt"
+          "titulo": "Visa Inc. (V) is Attracting Investor Attention: Here is What You Should Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-inc-v-attracting-investor-130006315.html",
+          "fuente": "Zacks"
         },
         {
-          "titulo": "Could Circle Internet Group (CRCL) Become A Bigger Force In Onchain Finance?",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/could-circle-internet-group-crcl-201021105.html",
+          "titulo": "Digital Payment Today - FMPay Revolutionizes Payments With New Acquiring Model",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/digital-payment-today-fmpay-revolutionizes-123736367.html",
           "fuente": "Simply Wall St."
         },
         {
-          "titulo": "Visa Has Quietly Gained 6% in 2026 While the Market Got Distracted: Is V Stock Still a Buy?",
-          "link": "https://www.tikr.com/blog/visa-has-quietly-gained-6-in-2026-while-the-market-got-distracted-is-v-stock-still-a-buy?ref=yahoofinance",
-          "fuente": "TIKR"
-        },
-        {
-          "titulo": "Europe Has Agent Payment Rails Live Across 30+ Banks. The US Is Still Debating Who Pays When They Break.",
-          "link": "https://finance.yahoo.com/technology/ai/articles/europe-agent-payment-rails-live-204127439.html",
+          "titulo": "Visa, Mastercard, and Ant International Build First Cross-Network Know Your Agent Framework",
+          "link": "https://finance.yahoo.com/technology/ai/articles/visa-mastercard-ant-international-build-111358124.html",
           "fuente": "Forkast News"
         },
         {
-          "titulo": "Card companies are on a ‘land grab’ to set the standards for AI shopping, even as consumers aren’t yet comfortable handing over purchases to a bot",
-          "link": "https://finance.yahoo.com/technology/ai/articles/card-companies-land-grab-set-195808189.html",
-          "fuente": "Fortune"
+          "titulo": "Visa Just Fired 2,600 People. Here’s Where That Money Is Going",
+          "link": "https://www.tikr.com/blog/visa-just-fired-2600-people-heres-where-that-money-is-going?ref=yahoofinance",
+          "fuente": "TIKR"
+        },
+        {
+          "titulo": "Visa’s Stablecoin Settlement Just Hit $20 Billion. The Rail Is Built Before the Rules Are.",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/visa-stablecoin-settlement-just-hit-094445367.html",
+          "fuente": "Forkast News"
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Se observa un rendimiento constante e iniciativas para consolidar estándares de pago en comercio digital e inteligencia artificial.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El avance silencioso del precio y las maniobras para liderar las tecnologías de pago con IA favorecen una inclinación alcista en el corto plazo. La empresa sigue mostrando adaptabilidad ante las nuevas tendencias financieras, lo que atrae el interés comprador. Es importante recordar que esta evaluación no es un hecho seguro sino una interpretación de noticias."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "hay_señal": true,
+      "tipo_setup": "pullback",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 160.13,
+      "stop_loss": 157.54,
+      "objetivo": 165.31,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 163.54,
+      "precio_al_momento_del_analisis": 160.13,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 152.06
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 158.76
@@ -969,9 +965,23 @@
         {
           "fecha": "2026-09-18",
           "cierre": 163.54
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 160.13
         }
       ],
       "noticias": [
+        {
+          "titulo": "Zacks Market Edge Highlights: ExxonMobil, JPMorgan Chase and NVIDIA",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-market-edge-highlights-exxonmobil-130200702.html",
+          "fuente": "Zacks"
+        },
+        {
+          "titulo": "Same Conference, Same Day, Same Bet: Chevron and ExxonMobil Double Down on LNG",
+          "link": "https://finance.yahoo.com/energy/articles/same-conference-same-day-same-094121233.html",
+          "fuente": "Insider Monkey"
+        },
         {
           "titulo": "Big Oil’s Production Keeps Soaring Despite Deep Spending Cuts",
           "link": "https://finance.yahoo.com/energy/articles/big-oil-production-keeps-soaring-230000062.html",
@@ -986,41 +996,27 @@
           "titulo": "Targa Resources (TRGP) Gets a Fresh Vote of Confidence from TD Cowen",
           "link": "https://finance.yahoo.com/markets/stocks/articles/targa-resources-trgp-gets-fresh-155123097.html",
           "fuente": "Insider Monkey"
-        },
-        {
-          "titulo": "ExxonMobil Stock And Oil Majors Facing New Pressure On Global Supply Routes",
-          "link": "https://finance.yahoo.com/energy/articles/exxonmobil-stock-oil-majors-facing-101123454.html",
-          "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "The S&P 500 Has Returned About 11% Annually Since 1958. Here's the ETF I'd Trust for the Next 30 Years.",
-          "link": "https://www.fool.com/investing/2026/09/19/sp-500-returned-annually-etf-trust-30-years-vti/",
-          "fuente": "Motley Fool"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "El incremento en la producción petrolera y la posible reapertura en Venezuela compensan los riesgos de las rutas de suministro.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "El valor de la acción podría negociarse en una franja lateral mientras el mercado equilibra el aumento productivo con las incertidumbres en las rutas comerciales. El interés por volver a operar en Venezuela aporta un tinte favorable, pero requiere tiempo para consolidarse. Tenga presente que esta estimación surge únicamente de las noticias recientes."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
       "confianza": "media",
-      "entrada": 209.51,
-      "stop_loss": 202.34,
-      "objetivo": 223.85,
+      "entrada": 206.74,
+      "stop_loss": 202.41,
+      "objetivo": 215.4,
       "ratio_riesgo_beneficio": 2.0,
       "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 209.51,
+      "precio_al_momento_del_analisis": 206.74,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 184.95
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 193.22
@@ -1136,9 +1132,28 @@
         {
           "fecha": "2026-09-18",
           "cierre": 209.51
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 206.74
         }
       ],
       "noticias": [
+        {
+          "titulo": "Chevron vs. Occidental Petroleum: Which Oil Stock Is a Better Buy in 2026?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/09/21/chevron-vs-occidental-petroleum-which-oil-stock-is-a-better-buy-in-2026/",
+          "fuente": "Motley Fool"
+        },
+        {
+          "titulo": "Same Conference, Same Day, Same Bet: Chevron and ExxonMobil Double Down on LNG",
+          "link": "https://finance.yahoo.com/energy/articles/same-conference-same-day-same-094121233.html",
+          "fuente": "Insider Monkey"
+        },
+        {
+          "titulo": "MARKETS LIVE: Wall Street heads for a positive start as oil prices slide",
+          "link": "https://www.proactiveinvestors.com/companies/news/1098793/markets-live-wall-street-head-for-a-positive-start-as-oil-prices-slide-1098793.html",
+          "fuente": "Proactive"
+        },
         {
           "titulo": "Big Oil’s Production Keeps Soaring Despite Deep Spending Cuts",
           "link": "https://finance.yahoo.com/energy/articles/big-oil-production-keeps-soaring-230000062.html",
@@ -1148,27 +1163,12 @@
           "titulo": "Chevron CEO sends a strong message on oil price and the economy",
           "link": "https://www.thestreet.com/economy/chevron-ceo-sends-a-strong-message-on-oil-price-and-the-economy",
           "fuente": "TheStreet"
-        },
-        {
-          "titulo": "Chevron (CVX) Supercharges its Venezuela Bet with More Oil Rigs",
-          "link": "https://finance.yahoo.com/energy/articles/chevron-cvx-supercharges-venezuela-bet-151837921.html",
-          "fuente": "Insider Monkey"
-        },
-        {
-          "titulo": "Jim Cramer Believes Chevron Corporation (NYSE:CVX)’s CEO Is A “Beacon”",
-          "link": "https://finance.yahoo.com/energy/articles/jim-cramer-believes-chevron-corporation-231552841.html",
-          "fuente": "Insider Monkey"
-        },
-        {
-          "titulo": "Red Flags Emerge for Oil Prices in Europe and China",
-          "link": "https://www.barrons.com/articles/oil-prices-europe-china-iran-war-ae5143f9?siteid=yhoof2&yptr=yahoo",
-          "fuente": "Barrons.com"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Las noticias positivas sobre la gestión y sus operaciones en Venezuela se ven frenadas por las alertas en los precios globales del crudo.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Se prevé un comportamiento lateral en la cotización debido a que las señales de debilidad en la demanda de petróleo en Europa y China limitan las buenas noticias corporativas. A pesar del respaldo del mercado a su dirección ejecutiva, el entorno macroeconómico actual ejerce cierta cautela. Recuerde que esta proyección es una lectura de titulares y no un pronóstico garantizado."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -1179,15 +1179,11 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "AMZN",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 253.71,
+      "precio_al_momento_del_analisis": 254.63,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 274.48
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 278.09
@@ -1303,58 +1299,58 @@
         {
           "fecha": "2026-09-18",
           "cierre": 253.71
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 254.63
         }
       ],
       "noticias": [
         {
-          "titulo": "Amazon.com vs. Uber Technologies: Analyzing Recent Quarterly Revenue Trends Between Two Consumer Companies",
-          "link": "https://www.fool.com/coverage/charts/2026/09/21/amazon-com-vs-uber-technologies-analyzing-recent-quarterly-revenue-trends-between-two-consumer-companies/",
-          "fuente": "Motley Fool"
+          "titulo": "Could You Have Seen Warner Bros Discovery Stock's Run Coming?",
+          "link": "https://www.trefis.com/articles/616000/could-you-have-seen-warner-bros-discovery-stocks-run-coming/2026-09-21",
+          "fuente": "Trefis"
         },
         {
-          "titulo": "Michael Burry Warns Hyperscalers Are Hiding $3 Trillion In AI Liabilities — And Wall Street Isn’t Looking: ‘When The Music’s Over…’",
-          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-warns-hyperscalers-are-hiding-3-trillion-in-ai-liabilities-and-wall-street-isn-t-looking-when-the-music-s-over/cZMRbsvRB4I",
-          "fuente": "Stocktwits"
+          "titulo": "Kuehne+Nagel signs long-term logistics deal with Amazon, AWS",
+          "link": "https://qz.com/kuehne-nagel-amazon-aws-logistics-deal-092126",
+          "fuente": "Quartz"
         },
         {
-          "titulo": "Nvidia's Jensen Huang Beats Zuckerberg, Bezos for Trump's AI Favor as Stock Climbs",
-          "link": "https://beincrypto.com/jensen-huang-trump-ai-ally-nvidia/",
-          "fuente": "BeInCrypto"
+          "titulo": "Oracle’s Co-CEOs Deliver Explosive Growth, but Stock Plunges 50% in Their First Year",
+          "link": "https://247wallst.com/investing/2026/09/21/oracles-co-ceos-deliver-explosive-growth-but-stock-plunges-50-in-their-first-year/",
+          "fuente": "24/7 Wall St."
         },
         {
-          "titulo": "Neocloud Boom: Comparing Nebius, CoreWeave, & IREN",
-          "link": "https://finance.yahoo.com/technology/ai/articles/neocloud-boom-comparing-nebius-coreweave-020300874.html",
+          "titulo": "We’re More Bullish on Amazon Than Wall Street Is. Here’s the Math.",
+          "link": "https://247wallst.com/investing/2026/09/21/were-more-bullish-on-amazon-than-wall-street-is-heres-the-math/",
+          "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "The Zacks Analyst Blog Highlights Microsoft, Amazon, Oracle and Alphabet",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-microsoft-130000455.html",
           "fuente": "Zacks"
-        },
-        {
-          "titulo": "BofA cuts to the chase on AI data center demand",
-          "link": "https://www.thestreet.com/investing/stocks/bank-of-america-says-ai-data-center-demand-strong",
-          "fuente": "TheStreet"
         }
       ],
-      "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Existen advertencias sobre deudas no registradas en el sector de IA y menciones de pérdida de protagonismo político.",
-      "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "La cautela de los inversores ante los altos costos y pasivos asociados a la inteligencia artificial podría presionar el precio a la baja en los próximos días. Asimismo, la falta de catalizadores positivos directos en los titulares resta fuerza a la cotización. Considere que esta conclusión refleja solo los titulares expuestos y no una certeza."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "hay_señal": true,
+      "tipo_setup": "pullback",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 87.66,
+      "stop_loss": 85.76,
+      "objetivo": 91.46,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "KO",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 88.25,
+      "precio_al_momento_del_analisis": 87.66,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 86.53
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 86.35
@@ -1470,9 +1466,23 @@
         {
           "fecha": "2026-09-18",
           "cierre": 88.25
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 87.66
         }
       ],
       "noticias": [
+        {
+          "titulo": "Monster Beverage and Coca-Cola Beat the S&P 500 Over the Last 5 Years. Here's Whether the Next 5 Years Will Look the Same.",
+          "link": "https://www.fool.com/investing/2026/09/21/monster-beverage-and-coca-cola-beat-the-sp-500-ove/",
+          "fuente": "Motley Fool"
+        },
+        {
+          "titulo": "MARKETS LIVE: Wall Street heads for a positive start as oil prices slide",
+          "link": "https://www.proactiveinvestors.com/companies/news/1098793/markets-live-wall-street-head-for-a-positive-start-as-oil-prices-slide-1098793.html",
+          "fuente": "Proactive"
+        },
         {
           "titulo": "The Ultimate Dividend Growth stock to Buy With $1,000 Right Now.",
           "link": "https://www.fool.com/investing/2026/09/20/the-ultimate-dividend-growth-stock-to-buy-with-100/",
@@ -1487,22 +1497,12 @@
           "titulo": "Coca-Cola’s $10B Buildout Fuels Industrial Demand",
           "link": "https://www.credaily.com/briefs/coca-colas-10b-buildout-fuels-industrial-demand/",
           "fuente": "CRE Daily"
-        },
-        {
-          "titulo": "Prediction: Here's What a $15,000 Investment in Coca-Cola (KO) Stock Could Be Worth in 5 Years",
-          "link": "https://www.fool.com/investing/2026/09/20/prediction-15000-investment-in-coca-cola-ko-stock/",
-          "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "History Says This Is the Amount of Yearly Dividend Income a $25,000 Investment in Coca-Cola Stock Could Generate By 2036.",
-          "link": "https://www.fool.com/investing/2026/09/20/history-says-this-is-the-amount-of-yearly-dividend/",
-          "fuente": "Motley Fool"
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Una gran inversión en infraestructura de 10 mil millones de dólares refuerza su imagen como una opción sólida de crecimiento y dividendos.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El anuncio del plan de expansión millonario y el constante enfoque favorable sobre sus dividendos sugieren que el precio podría inclinarse al alza a corto plazo. La acción continúa siendo percibida como un refugio seguro con capacidad de generar flujo de caja. Tenga en cuenta que esta estimación es una interpretación de noticias."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -1516,12 +1516,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 761.69,
+      "precio_al_momento_del_analisis": 767.47,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 771.34
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 771.12
@@ -1637,39 +1633,43 @@
         {
           "fecha": "2026-09-18",
           "cierre": 761.69
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 767.47
         }
       ],
       "noticias": [
         {
-          "titulo": "Stock Market: Will S&P 500 Open Up or Down Today?",
-          "link": "https://www.benzinga.com/markets/prediction-markets/26/09/61886941/stock-market-will-sp-500-open-up-or-down-today-41?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
-          "fuente": "Benzinga Prediction Markets"
-        },
-        {
-          "titulo": "Biotech Week Ahead: XLV Beats The Market — Here Are The Stocks, Readouts And Events To Watch Next",
-          "link": "https://stocktwits.com/news-articles/markets/equity/biotech-week-ahead-xlv-beats-market-stocks-readouts-events-watch/cZMRPApRB4O",
-          "fuente": "Stocktwits"
-        },
-        {
-          "titulo": "How to Build $3,250 a Month in Dividend Income to Cover a Married Couple’s Social Security Checks, Starting From Zero",
-          "link": "https://247wallst.com/personal-finance/2026/09/20/how-to-build-3250-a-month-in-dividend-income-to-cover-a-married-couples-social-security-checks-starting-from-zero/",
+          "titulo": "Warner Bros. Discovery Jumps 7%, Paramount Skydance Climbs 5% as Antitrust Settlement Talks Advance; Netflix Sits Out the Rally",
+          "link": "https://247wallst.com/investing/2026/09/21/warner-bros-discovery-jumps-7-paramount-skydance-climbs-5-as-antitrust-settlement-talks-advance-netflix-sits-out-the-rally/",
           "fuente": "24/7 Wall St."
         },
         {
-          "titulo": "If You Had Invested $500 a Month in VOO Since Its 2010 Launch, You Would Have About $330,000 Today",
-          "link": "https://247wallst.com/investing/etf/2026/09/20/if-you-had-invested-500-a-month-in-voo-since-its-2010-launch-you-would-have-about-330000-today/",
+          "titulo": "Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html",
+          "fuente": "MT Newswires"
+        },
+        {
+          "titulo": "Azure, AI Capex, and What to Expect Out of Microsoft Through The End of 2026",
+          "link": "https://247wallst.com/investing/2026/09/21/azure-ai-capex-and-what-to-expect-out-of-microsoft-through-the-end-of-2026/",
           "fuente": "24/7 Wall St."
         },
         {
-          "titulo": "Is Berkshire Hathaway Stock a Better Buy Than an S&P 500 Index Fund?",
-          "link": "https://www.fool.com/investing/2026/09/19/is-berkshire-hathaway-stock-a-better-buy-than-an/",
-          "fuente": "Motley Fool"
+          "titulo": "Strategy Jumps 6% as Bitcoin Hits Highest Level Since January; MARA Climbs 5%, Riot Rises 4%",
+          "link": "https://247wallst.com/investing/2026/09/21/strategy-jumps-6-as-bitcoin-hits-highest-level-since-january-mara-climbs-5-riot-rises-4/",
+          "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "Critical Metals Surges 25% as Greenland Security Pact Puts Tanbreez Rare Earth Permit in Focus; USA Rare Earth Climbs 6%, MP Materials Rises 4%",
+          "link": "https://247wallst.com/investing/2026/09/21/critical-metals-surges-25-as-greenland-security-pact-puts-tanbreez-rare-earth-permit-in-focus-usa-rare-earth-climbs-6-mp-materials-rises-4/",
+          "fuente": "24/7 Wall St."
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Los titulares se enfocan en comparaciones históricas y estrategias generales de acumulación a largo plazo.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Ante la ausencia de eventos de gran impacto inmediato en los titulares, el fondo cotizado tiende a mostrar una evolución lateral en los próximos días. Los inversores parecen centrados en evaluar rendimientos pasados más que en catalizadores de corto plazo. Recuerde que esta lectura no es más que una deducción basada en titulares."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -1683,12 +1683,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "QQQ",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 721.45,
+      "precio_al_momento_del_analisis": 732.24,
       "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 723.03
-        },
         {
           "fecha": "2026-08-10",
           "cierre": 720.87
@@ -1804,58 +1800,392 @@
         {
           "fecha": "2026-09-18",
           "cierre": 721.45
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 732.24
         }
       ],
       "noticias": [
         {
+          "titulo": "Stock Market Today: Dow Rallies As Oil Prices, Treasury Yields Fall; Nvidia At Early Buy Trigger (Live Coverage)",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-nvidia-stock-nvda-buy-point/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
+        },
+        {
+          "titulo": "AMD Rises 5% as Report Flags 10% Chip Price Increase; NVIDIA and Taiwan Semiconductor Tick Up",
+          "link": "https://247wallst.com/investing/2026/09/21/amd-rises-5-as-report-flags-10-chip-price-increase-nvidia-and-taiwan-semiconductor-tick-up/",
+          "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "Exchange-Traded Funds Rise, Equity Futures up Pre-Bell Monday as Oil Prices Decline",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-132324903.html",
+          "fuente": "MT Newswires"
+        },
+        {
+          "titulo": "Nasdaq, S&P 500, Dow Futures Rise Ahead Of Trump-Xi Summit This Week: NVDA, META, CRML, GLND, SPCX, RKLB, BE Stocks In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-dow-futures-rise-ahead-of-trump-xi-summit-this-week-nvda-meta-crml-glnd-spcx-rklb-be-stocks-in-focus/cZMR9EBRB4n",
+          "fuente": "Stocktwits"
+        },
+        {
           "titulo": "Biotech Week Ahead: XLV Beats The Market — Here Are The Stocks, Readouts And Events To Watch Next",
           "link": "https://stocktwits.com/news-articles/markets/equity/biotech-week-ahead-xlv-beats-market-stocks-readouts-events-watch/cZMRPApRB4O",
           "fuente": "Stocktwits"
-        },
-        {
-          "titulo": "If the AI Bubble Bursts as the Dot-Com Did, History Says the QQQ Might Not Recover Until 2042",
-          "link": "https://www.fool.com/investing/2026/09/20/if-the-ai-bubble-bursts-as-the-dot-com-did-history-says-the-qqq-might-not-recover-until-2042/",
-          "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "History Says Buying the Nasdaq-100 at the Dot-Com Peak Still (Eventually) Turned $10,000 Into About $72,000",
-          "link": "https://www.fool.com/investing/2026/09/19/history-says-buying-the-nasdaq-100-at-the-dot-com-peak-still-eventually-turned-usd10-000-into-about-usd72-000/",
-          "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "SpaceX Nasdaq 100 weight to jump to 2.82% in quarterly rebalance -Bloomberg",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-nasdaq-100-weight-jump-192658519.html",
-          "fuente": "Investing.com"
-        },
-        {
-          "titulo": "Dow Drops To Record Worst Week In Six Months Amid Elevated Yields, Oil — NVDA, TSLA, SPCX, ONON In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/dow-drops-to-record-worst-week-in-six-months-amid-elevated-yields-oil-nvda-tsla-spcx-onon-in-focus/cZtHOYsRBEK",
-          "fuente": "Stocktwits"
         }
       ],
-      "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Se mencionan temores sobre una posible burbuja en las acciones tecnológicas y recientes caídas generales en el mercado.",
-      "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "La presencia de advertencias sobre correcciones severas en el sector tecnológico podría generar una inclinación bajista en el precio durante las próximas jornadas. Las altas tasas de rendimiento y la reciente caída semanal del mercado añaden presión vendedora. Considere que esto es un análisis informativo de titulares y no un hecho asegurado."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 153.92,
-      "stop_loss": 141.61,
-      "objetivo": 178.54,
+      "tipo_setup": "reversion",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 98.65,
+      "stop_loss": 101.57,
+      "objetivo": 92.81,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.0x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "MSTR",
+      "razon": "El RSI está en 76.7, una zona de sobrecompra que históricamente anticipa un posible giro.",
+      "ticker": "GRAL",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 153.92,
+      "precio_al_momento_del_analisis": 98.65,
       "historial_precios": [
         {
-          "fecha": "2026-08-07",
-          "cierre": 100.01
+          "fecha": "2026-08-10",
+          "cierre": 74.84
         },
+        {
+          "fecha": "2026-08-11",
+          "cierre": 75.48
+        },
+        {
+          "fecha": "2026-08-12",
+          "cierre": 68.94
+        },
+        {
+          "fecha": "2026-08-13",
+          "cierre": 68.24
+        },
+        {
+          "fecha": "2026-08-14",
+          "cierre": 67.87
+        },
+        {
+          "fecha": "2026-08-17",
+          "cierre": 69.95
+        },
+        {
+          "fecha": "2026-08-18",
+          "cierre": 70.89
+        },
+        {
+          "fecha": "2026-08-19",
+          "cierre": 73.96
+        },
+        {
+          "fecha": "2026-08-20",
+          "cierre": 77.97
+        },
+        {
+          "fecha": "2026-08-21",
+          "cierre": 79.54
+        },
+        {
+          "fecha": "2026-08-24",
+          "cierre": 76.58
+        },
+        {
+          "fecha": "2026-08-25",
+          "cierre": 82.54
+        },
+        {
+          "fecha": "2026-08-26",
+          "cierre": 79.59
+        },
+        {
+          "fecha": "2026-08-27",
+          "cierre": 82.5
+        },
+        {
+          "fecha": "2026-08-28",
+          "cierre": 80.0
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 79.37
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 79.79
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 80.56
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 80.62
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 80.34
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 79.1
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 77.48
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 77.56
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 76.23
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 75.53
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 75.89
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 75.11
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 79.95
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 80.77
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 98.65
+        }
+      ],
+      "noticias": [
+        {
+          "titulo": "FDA Decision Watch: MRK, MIRM, INCY, GRAL Face Key Regulatory Catalysts This Week",
+          "link": "https://stocktwits.com/news-articles/markets/equity/fda-decision-watch-mrk-mirm-incy-gral-winrevair-zilurgisertib-galleri/cZMRWEgRB4r",
+          "fuente": "Stocktwits"
+        },
+        {
+          "titulo": "Grail CFO Aaron Freidin Sells 7,900 Shares for $672,000",
+          "link": "https://www.fool.com/coverage/filings/2026/09/08/grail-cfo-aaron-freidin-sells-7900-shares-for-672000/",
+          "fuente": "Motley Fool"
+        },
+        {
+          "titulo": "Grail Stock Jumps in August as FDA Schedules a Key Meeting for its Galleri Cancer Test",
+          "link": "https://www.fool.com/investing/2026/09/04/grail-stock-jumps-in-august-as-fda-schedules-a-key/",
+          "fuente": "Motley Fool"
+        },
+        {
+          "titulo": "GRAIL Highlights Galleri Growth Ahead of Key FDA Advisory Meeting",
+          "link": "https://www.marketbeat.com/instant-alerts/grail-highlights-galleri-growth-ahead-of-key-fda-advisory-meeting-2026-08-14/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "fuente": "MarketBeat"
+        },
+        {
+          "titulo": "GRAIL (GRAL) Q2 2026 Earnings Call Transcript",
+          "link": "https://www.fool.com/earnings/call-transcripts/2026/08/13/grail-gral-q2-2026-earnings-call-transcript/",
+          "fuente": "Motley Fool"
+        }
+      ],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "ticker": "ARM",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 304.66,
+      "historial_precios": [
+        {
+          "fecha": "2026-08-10",
+          "cierre": 267.85
+        },
+        {
+          "fecha": "2026-08-11",
+          "cierre": 268.93
+        },
+        {
+          "fecha": "2026-08-12",
+          "cierre": 271.87
+        },
+        {
+          "fecha": "2026-08-13",
+          "cierre": 278.65
+        },
+        {
+          "fecha": "2026-08-14",
+          "cierre": 279.44
+        },
+        {
+          "fecha": "2026-08-17",
+          "cierre": 271.43
+        },
+        {
+          "fecha": "2026-08-18",
+          "cierre": 253.32
+        },
+        {
+          "fecha": "2026-08-19",
+          "cierre": 249.34
+        },
+        {
+          "fecha": "2026-08-20",
+          "cierre": 250.72
+        },
+        {
+          "fecha": "2026-08-21",
+          "cierre": 243.32
+        },
+        {
+          "fecha": "2026-08-24",
+          "cierre": 238.78
+        },
+        {
+          "fecha": "2026-08-25",
+          "cierre": 241.56
+        },
+        {
+          "fecha": "2026-08-26",
+          "cierre": 251.06
+        },
+        {
+          "fecha": "2026-08-27",
+          "cierre": 255.21
+        },
+        {
+          "fecha": "2026-08-28",
+          "cierre": 239.05
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 241.91
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 234.82
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 234.86
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 242.59
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 252.09
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 261.53
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 264.23
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 254.18
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 264.79
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 239.01
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 241.83
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 243.98
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 264.9
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 275.61
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 304.66
+        }
+      ],
+      "noticias": [
+        {
+          "titulo": "Intel and Arm Stocks Are Jumping. Thank Meta’s Muse AI Agent.",
+          "link": "https://www.barrons.com/articles/intel-stock-price-arm-meta-muse-2a81cacf?siteid=yhoof2&yptr=yahoo",
+          "fuente": "Barrons.com"
+        },
+        {
+          "titulo": "SoftBank Seeks $11 Billion in What Would Be a Record Junk Bond Sale",
+          "link": "https://finance.yahoo.com/markets/options/articles/softbank-seeks-11-billion-record-122341820.html",
+          "fuente": "GuruFocus.com"
+        },
+        {
+          "titulo": "2 Cryptocurrencies Worth Buying Over AI Stocks Right Now",
+          "link": "https://www.fool.com/investing/2026/09/21/2-cryptocurrencies-worth-buying-over-ai-stocks-rig/",
+          "fuente": "Motley Fool"
+        },
+        {
+          "titulo": "Better Artificial Intelligence Stock: Arm Holdings vs. ASML",
+          "link": "https://www.fool.com/coverage/better-buy/2026/09/20/better-artificial-intelligence-stock-arm-holdings-vs-asml/",
+          "fuente": "Motley Fool"
+        },
+        {
+          "titulo": "Better Artificial Intelligence Stock: Arm Holdings vs. SK Hynix",
+          "link": "https://www.fool.com/coverage/better-buy/2026/09/19/better-artificial-intelligence-stock-arm-holdings-vs-sk-hynix/",
+          "fuente": "Motley Fool"
+        }
+      ],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "ticker": "MSTR",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 167.55,
+      "historial_precios": [
         {
           "fecha": "2026-08-10",
           "cierre": 97.33
@@ -1971,1041 +2301,544 @@
         {
           "fecha": "2026-09-18",
           "cierre": 153.92
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 167.55
         }
       ],
       "noticias": [
         {
-          "titulo": "Michael Saylor Hints at More MicroStrategy Bitcoin Buys After “Dead Cat Bounce” Debate",
-          "link": "https://beincrypto.com/saylor-hints-microstrategy-bitcoin-buys-dead-cat/",
-          "fuente": "BeInCrypto"
+          "titulo": "Tech stocks rise, Bitcoin rallied as Treasury yields ease: AlphaCheck",
+          "link": "https://finance.yahoo.com/markets/article/tech-stocks-rise-bitcoin-rallied-as-treasury-yields-ease-alphacheck-135033093.html",
+          "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "Strategy Is Up 53% in the Past Month. Here's the Bull and Bear Case for One of Wall Street's Most Polarizing Stocks.",
-          "link": "https://www.fool.com/investing/2026/09/20/strategy-up-past-month-bull-bear-wall-street-stock/",
-          "fuente": "Motley Fool"
+          "titulo": "Strategy Buys $75 Million of Bitcoin As Price Rallies",
+          "link": "https://www.cryptoprowl.com/releases/strategy-buys-75-million-of-bitcoin-as-price-rallies-7096",
+          "fuente": "CryptoProwl"
         },
         {
-          "titulo": "Michael Saylor Calls CLARITY Act Rejection A ‘Positive Inflection Point’ For Crypto Industry",
-          "link": "https://stocktwits.com/news-articles/markets/equity/michael-saylor-clarity-act-rejection-warning-mstr/cZtC5AZRBEx",
-          "fuente": "Stocktwits"
+          "titulo": "Strategy Inc (MSTR) Is a Trending Stock: Facts to Know Before Betting on It",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/strategy-inc-mstr-trending-stock-130004461.html",
+          "fuente": "Zacks"
         },
         {
-          "titulo": "Cathie Wood Says ‘Bitcoin Is Not A Dead Cat’, Days After ARK Sold Its Own Bitcoin ETF",
-          "link": "https://stocktwits.com/news-articles/markets/cryptocurrency/cathie-wood-says-bitcoin-is-not-a-dead-cat-days-after-ark-sold-its-own-bitcoin-etf/cZtxd5FRBEr",
-          "fuente": "Stocktwits"
+          "titulo": "Strategy's Bitcoin Pile Nears June Record After $76M Purchase",
+          "link": "https://decrypt.co/378737/strategys-bitcoin-pile-nears-june-record-after-76m-purchase",
+          "fuente": "decrypt"
         },
         {
-          "titulo": "MARA Stock Rose 14% Friday. JPMorgan and Morgan Stanley Still Don’t Agree.",
-          "link": "https://www.tikr.com/blog/mara-stock-rose-14-friday-jpmorgan-and-morgan-stanley-still-dont-agree?ref=yahoofinance",
-          "fuente": "TIKR"
-        }
-      ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "La acción mantiene un fuerte ritmo ascendente impulsada por expectativas de nuevas compras de Bitcoin y balances positivos.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El optimismo generado por el rendimiento del último mes y el compromiso de su directiva con los criptoactivos apuntan a que el precio podría seguir subiendo. El entusiasmo en torno al sector cripto actúa como un motor directo para la cotización. Cabe aclarar que esta proyección es una lectura de la prensa y la volatilidad suele ser alta."
-    },
-    {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 12.97,
-      "stop_loss": 11.93,
-      "objetivo": 15.05,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.6x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "BTDR",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 12.97,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 10.88
-        },
-        {
-          "fecha": "2026-08-10",
-          "cierre": 8.69
-        },
-        {
-          "fecha": "2026-08-11",
-          "cierre": 8.69
-        },
-        {
-          "fecha": "2026-08-12",
-          "cierre": 9.02
-        },
-        {
-          "fecha": "2026-08-13",
-          "cierre": 8.76
-        },
-        {
-          "fecha": "2026-08-14",
-          "cierre": 9.13
-        },
-        {
-          "fecha": "2026-08-17",
-          "cierre": 9.39
-        },
-        {
-          "fecha": "2026-08-18",
-          "cierre": 9.0
-        },
-        {
-          "fecha": "2026-08-19",
-          "cierre": 9.63
-        },
-        {
-          "fecha": "2026-08-20",
-          "cierre": 10.43
-        },
-        {
-          "fecha": "2026-08-21",
-          "cierre": 11.37
-        },
-        {
-          "fecha": "2026-08-24",
-          "cierre": 10.91
-        },
-        {
-          "fecha": "2026-08-25",
-          "cierre": 11.29
-        },
-        {
-          "fecha": "2026-08-26",
-          "cierre": 10.67
-        },
-        {
-          "fecha": "2026-08-27",
-          "cierre": 11.33
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 10.32
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 10.85
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 10.35
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 10.74
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 11.91
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 12.38
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 12.67
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 12.33
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 11.53
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 11.96
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 11.66
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 10.91
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 11.03
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 11.24
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 12.97
-        }
-      ],
-      "noticias": [
-        {
-          "titulo": "Bitdeer (BTDR) Fully Contracts A102. Can Signed Demand Become Profitable AI Revenue?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/bitdeer-btdr-fully-contracts-a102-210458313.html",
-          "fuente": "Insider Monkey"
-        },
-        {
-          "titulo": "Strategy (MSTR) Surges 16% on Growing Digital Asset Adoption — A New Catalyst Looms Next Week",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-surges-16-growing-230649452.html",
-          "fuente": "Insider Monkey"
-        },
-        {
-          "titulo": "Bitdeer adds 65.1MW Johor AI facility, estimates cloud pipeline above $7 billion",
-          "link": "https://blockspace.media/insight/bitdeer-adds-johor-ai-capacity-cloud-pipeline/",
-          "fuente": "Blockspace"
-        },
-        {
-          "titulo": "Bitdeer Says AI Pipeline Has Crossed $7B After Malaysia Expansion: BTDR Stock Still Slips",
-          "link": "https://stocktwits.com/news-articles/markets/equity/bitdeer-ai-pipeline-crossed-7b-malaysia-expansion-btdr-stock/cZtm3ilRBRr",
-          "fuente": "Stocktwits"
-        },
-        {
-          "titulo": "Investor Who Went 30 Years Without a Loss Just Bet $125 Million on Bitcoin",
-          "link": "https://beincrypto.com/druckenmiller-125-million-bitcoin-miners/",
-          "fuente": "BeInCrypto"
+          "titulo": "Saylor’s Strategy Makes First Purchase of Bitcoin Since August",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/saylor-strategy-makes-first-purchase-125606718.html",
+          "fuente": "Bloomberg"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Aunque la empresa amplió su cartera de negocios en IA a más de 7 mil millones, la acción registró caídas recientes.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "La cotización podría consolidarse de forma lateral mientras el mercado evalúa si el enorme potencial en infraestructura de IA se traduce en ganancias reales. La reacción negativa inicial del precio contrasta con los datos positivos de expansión, generando indecisión. Tenga presente que este análisis depende únicamente de la información proporcionada."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 13.24,
-      "stop_loss": 12.18,
-      "objetivo": 15.36,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.6x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "MARA",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "ticker": "LUNR",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 13.24,
+      "precio_al_momento_del_analisis": 14.98,
       "historial_precios": [
         {
-          "fecha": "2026-08-07",
-          "cierre": 10.09
-        },
-        {
           "fecha": "2026-08-10",
-          "cierre": 9.56
+          "cierre": 15.78
         },
         {
           "fecha": "2026-08-11",
-          "cierre": 9.68
+          "cierre": 16.48
         },
         {
           "fecha": "2026-08-12",
-          "cierre": 9.64
+          "cierre": 16.95
         },
         {
           "fecha": "2026-08-13",
-          "cierre": 9.21
+          "cierre": 17.56
         },
         {
           "fecha": "2026-08-14",
-          "cierre": 9.2
+          "cierre": 19.01
         },
         {
           "fecha": "2026-08-17",
-          "cierre": 9.72
+          "cierre": 20.38
         },
         {
           "fecha": "2026-08-18",
-          "cierre": 8.96
+          "cierre": 19.31
         },
         {
           "fecha": "2026-08-19",
-          "cierre": 9.65
+          "cierre": 18.52
         },
         {
           "fecha": "2026-08-20",
-          "cierre": 11.15
+          "cierre": 17.93
         },
         {
           "fecha": "2026-08-21",
-          "cierre": 11.26
+          "cierre": 18.32
         },
         {
           "fecha": "2026-08-24",
-          "cierre": 11.18
+          "cierre": 16.66
         },
         {
           "fecha": "2026-08-25",
-          "cierre": 11.83
+          "cierre": 16.6
         },
         {
           "fecha": "2026-08-26",
-          "cierre": 11.22
+          "cierre": 16.11
         },
         {
           "fecha": "2026-08-27",
-          "cierre": 11.87
+          "cierre": 16.18
         },
         {
           "fecha": "2026-08-28",
-          "cierre": 10.67
+          "cierre": 15.37
         },
         {
           "fecha": "2026-08-31",
-          "cierre": 10.77
+          "cierre": 15.36
         },
         {
           "fecha": "2026-09-01",
-          "cierre": 10.23
+          "cierre": 14.72
         },
         {
           "fecha": "2026-09-02",
-          "cierre": 10.47
+          "cierre": 14.86
         },
         {
           "fecha": "2026-09-03",
-          "cierre": 11.6
+          "cierre": 14.7
         },
         {
           "fecha": "2026-09-04",
-          "cierre": 11.31
+          "cierre": 14.81
         },
         {
           "fecha": "2026-09-08",
-          "cierre": 11.83
+          "cierre": 15.68
         },
         {
           "fecha": "2026-09-09",
-          "cierre": 11.92
+          "cierre": 14.94
         },
         {
           "fecha": "2026-09-10",
-          "cierre": 11.43
+          "cierre": 14.62
         },
         {
           "fecha": "2026-09-11",
-          "cierre": 11.98
+          "cierre": 14.35
         },
         {
           "fecha": "2026-09-14",
-          "cierre": 11.5
+          "cierre": 13.88
         },
         {
           "fecha": "2026-09-15",
-          "cierre": 11.24
+          "cierre": 13.87
         },
         {
           "fecha": "2026-09-16",
-          "cierre": 11.04
+          "cierre": 13.87
         },
         {
           "fecha": "2026-09-17",
-          "cierre": 11.64
+          "cierre": 14.79
         },
         {
           "fecha": "2026-09-18",
-          "cierre": 13.24
+          "cierre": 13.92
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 14.98
         }
       ],
       "noticias": [
         {
-          "titulo": "MARA Stock Rose 14% Friday. JPMorgan and Morgan Stanley Still Don’t Agree.",
-          "link": "https://www.tikr.com/blog/mara-stock-rose-14-friday-jpmorgan-and-morgan-stanley-still-dont-agree?ref=yahoofinance",
+          "titulo": "RKLB, ASTS, VOYG, LUNR Steal SpaceX’s Thunder — Here’s What Lit Up Space Stocks This Week",
+          "link": "https://stocktwits.com/news-articles/markets/equity/rklb-asts-voyg-lunr-steal-spacex-thunder-what-lit-up-space-stocks-this-week/cZtuNpRRB3O",
+          "fuente": "Stocktwits"
+        },
+        {
+          "titulo": "Rocket Lab Is Playing a Much Bigger Game Than Rocket Launches, Eyes 90% Upside",
+          "link": "https://247wallst.com/investing/2026/09/17/rocket-lab-is-playing-a-much-bigger-game-than-rocket-launches-eyes-90-upside/",
+          "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "Is Intuitive Machines (LUNR) Cheap As SiriusXM Satellite Handover Tests Its Valuation?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-lunr-cheap-siriusxm-201046398.html",
+          "fuente": "Simply Wall St."
+        },
+        {
+          "titulo": "Intuitive Machines (LUNR) Stock Looks Above Fair Value As Its 239% Run Continues",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-lunr-stock-looks-181104094.html",
+          "fuente": "Simply Wall St."
+        },
+        {
+          "titulo": "Advance Auto Parts vs. Intuitive Machines: Which Stock Is a Better Buy in 2026?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/09/16/advance-auto-parts-vs-intuitive-machines-which-stock-is-a-better-buy-in-2026/",
+          "fuente": "Motley Fool"
+        }
+      ],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "ticker": "AXTI",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 75.99,
+      "historial_precios": [
+        {
+          "fecha": "2026-08-10",
+          "cierre": 73.81
+        },
+        {
+          "fecha": "2026-08-11",
+          "cierre": 73.78
+        },
+        {
+          "fecha": "2026-08-12",
+          "cierre": 78.47
+        },
+        {
+          "fecha": "2026-08-13",
+          "cierre": 77.45
+        },
+        {
+          "fecha": "2026-08-14",
+          "cierre": 81.64
+        },
+        {
+          "fecha": "2026-08-17",
+          "cierre": 95.97
+        },
+        {
+          "fecha": "2026-08-18",
+          "cierre": 82.31
+        },
+        {
+          "fecha": "2026-08-19",
+          "cierre": 73.43
+        },
+        {
+          "fecha": "2026-08-20",
+          "cierre": 73.12
+        },
+        {
+          "fecha": "2026-08-21",
+          "cierre": 70.74
+        },
+        {
+          "fecha": "2026-08-24",
+          "cierre": 65.4
+        },
+        {
+          "fecha": "2026-08-25",
+          "cierre": 67.45
+        },
+        {
+          "fecha": "2026-08-26",
+          "cierre": 65.18
+        },
+        {
+          "fecha": "2026-08-27",
+          "cierre": 66.92
+        },
+        {
+          "fecha": "2026-08-28",
+          "cierre": 58.63
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 60.61
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 56.11
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 56.95
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 56.2
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 61.64
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 69.56
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 68.91
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 64.7
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 64.77
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 57.06
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 57.7
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 64.3
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 67.75
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 70.03
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 75.99
+        }
+      ],
+      "noticias": [
+        {
+          "titulo": "Bear of the Day: Qualcomm (QCOM)",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bear-day-qualcomm-qcom-110000513.html",
+          "fuente": "Zacks"
+        },
+        {
+          "titulo": "Bull of the Day: AXT (AXTI)",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bull-day-axt-axti-092000532.html",
+          "fuente": "Zacks"
+        },
+        {
+          "titulo": "AXT (AXTI) Jumped, So What Is Driving Attention Now?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/axt-axti-jumped-driving-attention-121028372.html",
+          "fuente": "Simply Wall St."
+        },
+        {
+          "titulo": "AXTI Stock Jumped 11% Yesterday. The Index Nod Wasn’t the Whole Story.",
+          "link": "https://www.tikr.com/blog/axti-stock-jumped-11-yesterday-the-index-nod-wasnt-the-whole-story?ref=yahoofinance",
           "fuente": "TIKR"
         },
         {
-          "titulo": "Strategy (MSTR) Surges 16% on Growing Digital Asset Adoption — A New Catalyst Looms Next Week",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-surges-16-growing-230649452.html",
-          "fuente": "Insider Monkey"
+          "titulo": "AXT (AXTI) Stock Could Be Fully Priced Despite Its Huge 3 Year Run",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/axt-axti-stock-could-fully-031423830.html",
+          "fuente": "Simply Wall St."
+        }
+      ],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "ticker": "INTC",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 117.73,
+      "historial_precios": [
+        {
+          "fecha": "2026-08-10",
+          "cierre": 97.52
         },
         {
-          "titulo": "Strategy, Circle, and Coinbase Lead Crypto Stock Rally on Tokenized Stock Approval",
-          "link": "https://finance.yahoo.com/markets/crypto/articles/strategy-circle-coinbase-lead-crypto-162625930.html",
-          "fuente": "GuruFocus.com"
+          "fecha": "2026-08-11",
+          "cierre": 97.71
         },
         {
-          "titulo": "Can Applied Digital Stock Recover On Leases It Has Already Signed?",
-          "link": "https://www.trefis.com/articles/615734/can-applied-digital-stock-recover-on-leases-it-has-already-signed/2026-09-17",
+          "fecha": "2026-08-12",
+          "cierre": 100.95
+        },
+        {
+          "fecha": "2026-08-13",
+          "cierre": 104.56
+        },
+        {
+          "fecha": "2026-08-14",
+          "cierre": 102.5
+        },
+        {
+          "fecha": "2026-08-17",
+          "cierre": 103.49
+        },
+        {
+          "fecha": "2026-08-18",
+          "cierre": 96.69
+        },
+        {
+          "fecha": "2026-08-19",
+          "cierre": 92.8
+        },
+        {
+          "fecha": "2026-08-20",
+          "cierre": 92.13
+        },
+        {
+          "fecha": "2026-08-21",
+          "cierre": 90.07
+        },
+        {
+          "fecha": "2026-08-24",
+          "cierre": 87.26
+        },
+        {
+          "fecha": "2026-08-25",
+          "cierre": 87.48
+        },
+        {
+          "fecha": "2026-08-26",
+          "cierre": 88.24
+        },
+        {
+          "fecha": "2026-08-27",
+          "cierre": 92.09
+        },
+        {
+          "fecha": "2026-08-28",
+          "cierre": 89.47
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 89.51
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 88.97
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 90.05
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 91.67
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 95.8
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 104.47
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 106.24
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 100.32
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 102.94
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 97.19
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 97.14
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 101.05
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 108.8
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 108.6
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 117.73
+        }
+      ],
+      "noticias": [
+        {
+          "titulo": "Tech stocks rise, Bitcoin rallied as Treasury yields ease: AlphaCheck",
+          "link": "https://finance.yahoo.com/markets/article/tech-stocks-rise-bitcoin-rallied-as-treasury-yields-ease-alphacheck-135033093.html",
+          "fuente": "Yahoo Finance"
+        },
+        {
+          "titulo": "Zacks Investment Ideas feature highlights: Intel, SK Hynix, Nvidia, Microsoft and Apple",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-130200708.html",
+          "fuente": "Zacks"
+        },
+        {
+          "titulo": "Wall St set for higher open as AI stocks rise, oil slides",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-rise-ai-115836672.html",
+          "fuente": "Reuters"
+        },
+        {
+          "titulo": "Can Cars And Data Centers Carry Qualcomm Stock Past Apple?",
+          "link": "https://www.trefis.com/articles/616030/can-cars-and-data-centers-carry-qualcomm-stock-past-apple/2026-09-21",
           "fuente": "Trefis"
         },
         {
-          "titulo": "MARA Holdings Just Rallied 21% in a Month: Take Profits, or Buy More?",
-          "link": "https://247wallst.com/investing/2026/09/17/mara-holdings-just-rallied-21-in-a-month-take-profits-or-buy-more/",
-          "fuente": "24/7 Wall St."
-        }
-      ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Registra alzas destacadas apoyadas en el repunte del sector de activos digitales, aunque con debates sobre toma de ganancias.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La reciente subida en la cotización indica un claro sesgo alcista a corto plazo respaldado por el apetito del mercado hacia las criptomonedas. Aunque existe la posibilidad de que algunos inversores vendan para asegurar beneficios, la tendencia inmediata favorece a los compradores. Recuerde que esto es una simple deducción basada en noticias."
-    },
-    {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 49.83,
-      "stop_loss": 45.84,
-      "objetivo": 57.81,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 4.3x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "PS",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 49.83,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 37.88
-        },
-        {
-          "fecha": "2026-08-10",
-          "cierre": 37.33
-        },
-        {
-          "fecha": "2026-08-11",
-          "cierre": 39.43
-        },
-        {
-          "fecha": "2026-08-12",
-          "cierre": 38.8
-        },
-        {
-          "fecha": "2026-08-13",
-          "cierre": 41.4
-        },
-        {
-          "fecha": "2026-08-14",
-          "cierre": 40.83
-        },
-        {
-          "fecha": "2026-08-17",
-          "cierre": 39.38
-        },
-        {
-          "fecha": "2026-08-18",
-          "cierre": 39.91
-        },
-        {
-          "fecha": "2026-08-19",
-          "cierre": 39.81
-        },
-        {
-          "fecha": "2026-08-20",
-          "cierre": 40.23
-        },
-        {
-          "fecha": "2026-08-21",
-          "cierre": 40.06
-        },
-        {
-          "fecha": "2026-08-24",
-          "cierre": 40.95
-        },
-        {
-          "fecha": "2026-08-25",
-          "cierre": 42.65
-        },
-        {
-          "fecha": "2026-08-26",
-          "cierre": 42.11
-        },
-        {
-          "fecha": "2026-08-27",
-          "cierre": 42.12
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 42.17
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 42.92
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 38.52
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 36.5
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 37.01
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 39.08
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 41.49
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 36.48
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 36.8
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 37.67
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 39.97
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 39.0
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 41.01
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 43.83
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 49.83
-        }
-      ],
-      "noticias": [
-        {
-          "titulo": "Bill Ackman Built a $2.4 Billion Stake in Microsoft, Calling It a \"Core Holding\" Bought at a \"Highly Compelling Valuation.\" Here's Why He's Betting Big on Big Tech.",
-          "link": "https://www.fool.com/investing/2026/09/20/bill-ackman-built-a-24-billion-stake-in-microsoft/",
-          "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "Billionaire Bill Ackman Dumps Alphabet and Loads Up On a Mega-Cap Stock Down 15% From Its Peak",
-          "link": "https://www.fool.com/investing/2026/09/20/billionaire-bill-ackman-dumps-alphabet-loads-meta/",
-          "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "Bill Ackman Has 45% of His New Hedge Fund's Portfolio Invested in Just 3 Incredible Growth Stocks",
-          "link": "https://www.fool.com/investing/2026/09/20/bill-ackman-has-45-of-his-new-hedge-funds-portfoli/",
-          "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "Bill Ackman's Pershing Square IPO Breaks Out",
-          "link": "https://www.investors.com/news/bill-ackman-pershing-square-ipo-stock-setting-up/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
-        },
-        {
-          "titulo": "Bill Ackman Says Nike ‘Needs Help’ as Alexandre Arnault Joins Board: ‘Great Development’",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-says-nike-needs-013111888.html",
-          "fuente": "Benzinga"
-        }
-      ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "El éxito en la salida a bolsa de la firma de Bill Ackman y la reestructuración de su portafolio atraen el interés del mercado.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La recepción positiva del mercado hacia su debut bursátil y los grandes movimientos en acciones de crecimiento sugieren un movimiento al alza en el corto plazo. La figura de su fundador continúa generando confianza entre los participantes del mercado. Tenga en cuenta que esta perspectiva se deriva solo de los titulares vigentes."
-    },
-    {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
-      "ticker": "SBET",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 9.35,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 6.43
-        },
-        {
-          "fecha": "2026-08-10",
-          "cierre": 6.18
-        },
-        {
-          "fecha": "2026-08-11",
-          "cierre": 6.23
-        },
-        {
-          "fecha": "2026-08-12",
-          "cierre": 6.18
-        },
-        {
-          "fecha": "2026-08-13",
-          "cierre": 6.32
-        },
-        {
-          "fecha": "2026-08-14",
-          "cierre": 6.26
-        },
-        {
-          "fecha": "2026-08-17",
-          "cierre": 6.51
-        },
-        {
-          "fecha": "2026-08-18",
-          "cierre": 6.29
-        },
-        {
-          "fecha": "2026-08-19",
-          "cierre": 7.08
-        },
-        {
-          "fecha": "2026-08-20",
-          "cierre": 7.59
-        },
-        {
-          "fecha": "2026-08-21",
-          "cierre": 7.91
-        },
-        {
-          "fecha": "2026-08-24",
-          "cierre": 8.27
-        },
-        {
-          "fecha": "2026-08-25",
-          "cierre": 8.35
-        },
-        {
-          "fecha": "2026-08-26",
-          "cierre": 8.32
-        },
-        {
-          "fecha": "2026-08-27",
-          "cierre": 8.88
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 8.2
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 8.63
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 8.15
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 8.1
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 8.98
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 8.68
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 8.82
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 8.54
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 8.43
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 8.88
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 9.15
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 8.33
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 7.98
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 8.26
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 9.35
-        }
-      ],
-      "noticias": [
-        {
-          "titulo": "Strategy (MSTR) Surges 16% on Growing Digital Asset Adoption — A New Catalyst Looms Next Week",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-surges-16-growing-230649452.html",
-          "fuente": "Insider Monkey"
-        },
-        {
-          "titulo": "Bitmine Climbs 4% as Ethereum Rallies Despite CLARITY Act Failure; Sharplink Gains 3%",
-          "link": "https://247wallst.com/investing/2026/09/18/bitmine-climbs-4-as-ethereum-rallies-despite-clarity-act-failure-sharplink-gains-3/",
-          "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "Bitmine Surges 8% on Ethereum Strength After Cantor Fitzgerald Doubles Its Target, SharpLink Advances 9%, Strategy Gains 4%",
-          "link": "https://247wallst.com/investing/2026/09/11/bitmine-surges-8-on-ethereum-strength-after-cantor-fitzgerald-doubles-its-target-sharplink-advances-9-strategy-gains-4/",
-          "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "Sharplink (SBET) Stock Dropped, So What Is Driving Attention Now?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sharplink-sbet-stock-dropped-driving-130727868.html",
-          "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "SharpLink (SBET) Stock May Be No Bargain After Sales Stay Rich",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sharplink-sbet-stock-may-no-090704753.html",
-          "fuente": "Simply Wall St."
-        }
-      ],
-      "noticias_sentimiento": "negativo",
-      "noticias_resumen": "El valor ha sufrido caídas recientes y los comentarios de mercado ponen en duda su atractivo de compra.",
-      "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "El tono negativo de las publicaciones y el reciente retroceso del precio indican que la presión hacia la baja podría mantenerse en los próximos días. La falta de noticias catalizadoras dificulta un rebote inmediato en la cotización. Considere que este pronóstico es una lectura de las noticias disponibles y no una certeza."
-    },
-    {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 194.25,
-      "stop_loss": 178.71,
-      "objetivo": 225.33,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.0x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "COIN",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 194.25,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 153.6
-        },
-        {
-          "fecha": "2026-08-10",
-          "cierre": 148.68
-        },
-        {
-          "fecha": "2026-08-11",
-          "cierre": 148.58
-        },
-        {
-          "fecha": "2026-08-12",
-          "cierre": 149.04
-        },
-        {
-          "fecha": "2026-08-13",
-          "cierre": 153.9
-        },
-        {
-          "fecha": "2026-08-14",
-          "cierre": 148.47
-        },
-        {
-          "fecha": "2026-08-17",
-          "cierre": 150.55
-        },
-        {
-          "fecha": "2026-08-18",
-          "cierre": 146.23
-        },
-        {
-          "fecha": "2026-08-19",
-          "cierre": 160.2
-        },
-        {
-          "fecha": "2026-08-20",
-          "cierre": 172.35
-        },
-        {
-          "fecha": "2026-08-21",
-          "cierre": 186.49
-        },
-        {
-          "fecha": "2026-08-24",
-          "cierre": 179.48
-        },
-        {
-          "fecha": "2026-08-25",
-          "cierre": 187.16
-        },
-        {
-          "fecha": "2026-08-26",
-          "cierre": 181.78
-        },
-        {
-          "fecha": "2026-08-27",
-          "cierre": 190.72
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 178.64
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 188.12
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 176.82
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 174.96
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 192.7
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 184.64
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 178.94
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 174.72
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 172.28
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 175.26
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 191.45
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 172.11
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 164.51
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 173.97
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 194.25
-        }
-      ],
-      "noticias": [
-        {
-          "titulo": "Coinbase Stock Jumped 12% Last Friday. Bitcoin’s Breakout Wasn’t the Only Reason.",
-          "link": "https://www.tikr.com/blog/coinbase-stock-jumped-12-last-friday-bitcoins-breakout-wasnt-the-only-reason?ref=yahoofinance",
-          "fuente": "TIKR"
-        },
-        {
-          "titulo": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
-        },
-        {
-          "titulo": "Robinhood CEO Says Crypto Event-Contracts Will Overtake Sports Markets",
-          "link": "https://beincrypto.com/robinhood-ceo-crypto-overtake-sports-markets/",
-          "fuente": "BeInCrypto"
-        },
-        {
-          "titulo": "Crypto Blew Its Big Moment—and the Blame Game Has Begun",
-          "link": "https://www.wsj.com/finance/currencies/crypto-blew-its-big-momentand-the-blame-game-has-begun-dff66a10?siteid=yhoof2&yptr=yahoo",
-          "fuente": "The Wall Street Journal"
-        },
-        {
-          "titulo": "3 Bullish Setups for the Week Ahead",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/3-bullish-setups-week-ahead-211400218.html",
-          "fuente": "Zacks"
-        }
-      ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Un fuerte repunte reciente del 12% y su inclusión en análisis con potencial de subida favorecen a la empresa.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El notable aumento en el precio del viernes y el interés del mercado por su plataforma apoyan una perspectiva alcista para los próximos días. A pesar de la incertidumbre general en el ámbito cripto, los datos propios de la acción son alentadores. Es importante recordar que esta evaluación surge de las noticias y no constituye un hecho garantizado."
-    },
-    {
-      "hay_señal": true,
-      "tipo_setup": "momentum",
-      "direccion": "short",
-      "confianza": "alta",
-      "entrada": 39.75,
-      "stop_loss": 42.93,
-      "objetivo": 33.39,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -32.23% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
-      "ticker": "XENE",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 39.75,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-07",
-          "cierre": 63.36
-        },
-        {
-          "fecha": "2026-08-10",
-          "cierre": 64.23
-        },
-        {
-          "fecha": "2026-08-11",
-          "cierre": 63.22
-        },
-        {
-          "fecha": "2026-08-12",
-          "cierre": 65.26
-        },
-        {
-          "fecha": "2026-08-13",
-          "cierre": 64.23
-        },
-        {
-          "fecha": "2026-08-14",
-          "cierre": 62.35
-        },
-        {
-          "fecha": "2026-08-17",
-          "cierre": 62.36
-        },
-        {
-          "fecha": "2026-08-18",
-          "cierre": 63.18
-        },
-        {
-          "fecha": "2026-08-19",
-          "cierre": 62.32
-        },
-        {
-          "fecha": "2026-08-20",
-          "cierre": 59.73
-        },
-        {
-          "fecha": "2026-08-21",
-          "cierre": 60.77
-        },
-        {
-          "fecha": "2026-08-24",
-          "cierre": 60.56
-        },
-        {
-          "fecha": "2026-08-25",
-          "cierre": 60.42
-        },
-        {
-          "fecha": "2026-08-26",
-          "cierre": 63.79
-        },
-        {
-          "fecha": "2026-08-27",
-          "cierre": 61.93
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 59.99
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 60.22
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 60.0
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 60.16
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 60.4
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 59.75
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 59.55
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 58.98
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 58.8
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 58.65
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 58.19
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 56.28
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 56.76
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 57.35
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 39.75
-        }
-      ],
-      "noticias": [
-        {
-          "titulo": "Why Xenon Pharmaceuticals (XENE) Is Down 32.2% After Pausing Psychiatry Trials Despite Positive NDA Data",
-          "link": "https://finance.yahoo.com/healthcare/articles/why-xenon-pharmaceuticals-xene-down-002009302.html",
-          "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "This Biotech Surged 50% On Positive Data In March. Now, It's Completely Gone.",
-          "link": "https://www.investors.com/news/technology/xenon-pharmaceuticals-azetukalner-side-effects-biotech-stock/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
-        },
-        {
-          "titulo": "Sector Update: Healthcare Stocks Softer Late Afternoon",
-          "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-softer-afternoon-195502310.html",
-          "fuente": "MT Newswires"
-        },
-        {
-          "titulo": "XENE Stock Plummets as Xenon Pharmaceuticals Pauses Drug Trial",
-          "link": "https://www.barchart.com/story/news/4685352/xene-stock-plummets-as-xenon-pharmaceuticals-pauses-drug-trial",
-          "fuente": "Barchart"
-        },
-        {
-          "titulo": "Xenon Stock Craters 30% on Drug Trial Setback. Its Failure Could Be This Biotech’s Gain.",
-          "link": "https://www.barrons.com/articles/xenon-stock-depression-drug-b140382d?siteid=yhoof2&yptr=yahoo",
+          "titulo": "Intel and Arm Stocks Are Jumping. Thank Meta’s Muse AI Agent.",
+          "link": "https://www.barrons.com/articles/intel-stock-price-arm-meta-muse-2a81cacf?siteid=yhoof2&yptr=yahoo",
           "fuente": "Barrons.com"
         }
       ],
-      "noticias_sentimiento": "negativo",
-      "noticias_resumen": "La acción se desplomó alrededor de un 30% tras la suspensión de ensayos clínicos de sus medicamentos.",
-      "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "Es probable que el precio continúe bajo fuerte presión bajista en el corto plazo debido al severo revés en el desarrollo de sus fármacos. La pérdida de confianza por parte de los inversores ante estos retrasos dificulta una recuperación rápida. Tenga en cuenta que esta deducción responde exclusivamente a los titulares presentados."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -3017,162 +2850,329 @@
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
-      "ticker": "SMR",
+      "ticker": "TLX",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 8.27,
+      "precio_al_momento_del_analisis": 11.3,
       "historial_precios": [
         {
-          "fecha": "2026-08-07",
-          "cierre": 9.82
-        },
-        {
           "fecha": "2026-08-10",
-          "cierre": 9.18
+          "cierre": 11.79
         },
         {
           "fecha": "2026-08-11",
-          "cierre": 9.89
+          "cierre": 12.0
         },
         {
           "fecha": "2026-08-12",
-          "cierre": 9.59
+          "cierre": 11.97
         },
         {
           "fecha": "2026-08-13",
-          "cierre": 9.85
+          "cierre": 12.33
         },
         {
           "fecha": "2026-08-14",
-          "cierre": 9.39
+          "cierre": 11.82
         },
         {
           "fecha": "2026-08-17",
-          "cierre": 9.19
+          "cierre": 11.73
         },
         {
           "fecha": "2026-08-18",
-          "cierre": 8.64
+          "cierre": 11.88
         },
         {
           "fecha": "2026-08-19",
-          "cierre": 9.29
+          "cierre": 12.12
         },
         {
           "fecha": "2026-08-20",
-          "cierre": 9.07
+          "cierre": 12.42
         },
         {
           "fecha": "2026-08-21",
-          "cierre": 9.4
+          "cierre": 11.33
         },
         {
           "fecha": "2026-08-24",
-          "cierre": 9.05
+          "cierre": 11.68
         },
         {
           "fecha": "2026-08-25",
-          "cierre": 9.81
+          "cierre": 11.69
         },
         {
           "fecha": "2026-08-26",
-          "cierre": 9.27
+          "cierre": 11.13
         },
         {
           "fecha": "2026-08-27",
-          "cierre": 9.74
+          "cierre": 11.38
         },
         {
           "fecha": "2026-08-28",
-          "cierre": 9.29
+          "cierre": 11.29
         },
         {
           "fecha": "2026-08-31",
-          "cierre": 9.27
+          "cierre": 11.09
         },
         {
           "fecha": "2026-09-01",
-          "cierre": 9.21
+          "cierre": 10.85
         },
         {
           "fecha": "2026-09-02",
-          "cierre": 9.56
+          "cierre": 11.45
         },
         {
           "fecha": "2026-09-03",
-          "cierre": 9.75
+          "cierre": 11.74
         },
         {
           "fecha": "2026-09-04",
-          "cierre": 9.7
+          "cierre": 11.94
         },
         {
           "fecha": "2026-09-08",
-          "cierre": 11.18
+          "cierre": 11.98
         },
         {
           "fecha": "2026-09-09",
-          "cierre": 10.81
+          "cierre": 12.34
         },
         {
           "fecha": "2026-09-10",
-          "cierre": 10.21
+          "cierre": 11.9
         },
         {
           "fecha": "2026-09-11",
-          "cierre": 8.61
+          "cierre": 11.29
         },
         {
           "fecha": "2026-09-14",
-          "cierre": 8.51
+          "cierre": 11.78
         },
         {
           "fecha": "2026-09-15",
-          "cierre": 8.43
+          "cierre": 12.83
         },
         {
           "fecha": "2026-09-16",
-          "cierre": 8.3
+          "cierre": 11.83
         },
         {
           "fecha": "2026-09-17",
-          "cierre": 9.04
+          "cierre": 12.51
         },
         {
           "fecha": "2026-09-18",
-          "cierre": 8.27
+          "cierre": 12.59
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 11.3
         }
       ],
       "noticias": [
         {
-          "titulo": "Stock Market Midday, Sept. 18: Stocks Slip, Crypto Gains",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/09/18/stock-market-midday-sept-18-stocks-slip-crypto-gains/",
-          "fuente": "Motley Fool"
+          "titulo": "Telix Beefs Up Radioisotopes Supply With $2.35 Billion Deal; Shares Crash",
+          "link": "https://www.investors.com/news/technology/telix-pharmaceuticals-telix-stock-itm-merger/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
         },
         {
-          "titulo": "NuScale Power Drops 7% as Nuclear Stocks Hand Back the Vote Rally; Oklo Falls 5%, Centrus Energy Slides 3%",
-          "link": "https://247wallst.com/investing/2026/09/18/nuscale-power-drops-7-as-nuclear-stocks-hand-back-the-vote-rally-oklo-falls-5-centrus-energy-slides-3/",
-          "fuente": "24/7 Wall St."
+          "titulo": "Telix to Buy Germany's ITM Isotope in Deal Worth Up to $2.35 Billion",
+          "link": "https://finance.yahoo.com/healthcare/articles/telix-buy-germany-apos-itm-111730818.html",
+          "fuente": "MT Newswires"
         },
         {
-          "titulo": "Why Did Nuclear Stocks OKLO, SMR, NNE, LEU, XE Jump On Thursday?",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-did-nuclear-stocks-oklo-smr-nne-leu-xe-jump-on-thursday/cZtuW2xRBdu",
+          "titulo": "Telix to acquire ITM in deal worth up to $2.35bn",
+          "link": "https://www.pharmaceutical-technology.com/news/telix-to-acquire-itm/",
+          "fuente": "Pharmaceutical Technology"
+        },
+        {
+          "titulo": "TLX Stock Clocks 5% Gain This Week Ahead Of FDA Decision On Brain Cancer Imaging Agent",
+          "link": "https://stocktwits.com/news-articles/markets/equity/tlx-stock-clocks-5-gain-this-week-ahead-of-fda-decision-on-brain-cancer-imaging-agent/cZsDXHGRJD9",
           "fuente": "Stocktwits"
         },
         {
-          "titulo": "SMR Developer Holtec Just Cancelled Its IPO. Should NuScale Power and Oklo Investors Panic?",
-          "link": "https://www.fool.com/investing/2026/09/17/smr-developer-holtec-just-cancelled-its-ipo-should-nuscale-power-and-oklo-investors-panic/",
-          "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "Oklo Jumps 13%, NuScale Power Climbs 10%: Does the House Data Center Power Vote Reach Nuclear?",
-          "link": "https://247wallst.com/investing/2026/09/17/oklo-jumps-13-nuscale-power-climbs-10-does-the-house-data-center-power-vote-reach-nuclear/",
-          "fuente": "24/7 Wall St."
+          "titulo": "Sector Update: Healthcare Stocks Advance Late Afternoon",
+          "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-advance-afternoon-194354357.html",
+          "fuente": "MT Newswires"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "El sector presenta una alta volatilidad, combinando subidas por la demanda de centros de datos con caídas por la cancelación de proyectos de la competencia.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "El precio de la acción podría oscilar de forma lateral debido a las señales contradictorias entre el entusiasmo por la energía nuclear y los temores del sector. Los movimientos bruscos recientes muestran que el mercado aún busca una dirección clara. Recuerde que este análisis es una interpretación de noticias y no una garantía de rendimiento."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "ticker": "ZTO",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 19.36,
+      "historial_precios": [
+        {
+          "fecha": "2026-08-10",
+          "cierre": 23.93
+        },
+        {
+          "fecha": "2026-08-11",
+          "cierre": 23.15
+        },
+        {
+          "fecha": "2026-08-12",
+          "cierre": 23.14
+        },
+        {
+          "fecha": "2026-08-13",
+          "cierre": 22.92
+        },
+        {
+          "fecha": "2026-08-14",
+          "cierre": 22.9
+        },
+        {
+          "fecha": "2026-08-17",
+          "cierre": 22.91
+        },
+        {
+          "fecha": "2026-08-18",
+          "cierre": 23.13
+        },
+        {
+          "fecha": "2026-08-19",
+          "cierre": 21.51
+        },
+        {
+          "fecha": "2026-08-20",
+          "cierre": 21.38
+        },
+        {
+          "fecha": "2026-08-21",
+          "cierre": 21.37
+        },
+        {
+          "fecha": "2026-08-24",
+          "cierre": 21.28
+        },
+        {
+          "fecha": "2026-08-25",
+          "cierre": 21.4
+        },
+        {
+          "fecha": "2026-08-26",
+          "cierre": 21.32
+        },
+        {
+          "fecha": "2026-08-27",
+          "cierre": 21.19
+        },
+        {
+          "fecha": "2026-08-28",
+          "cierre": 21.5
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 21.17
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 21.06
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 20.96
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 20.91
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 20.95
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 20.84
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 20.72
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 20.85
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 20.61
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 20.9
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 20.42
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 20.21
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 20.86
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 20.96
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 19.36
+        }
+      ],
+      "noticias": [
+        {
+          "titulo": "ZTO Express Cayman (ZTO) Down 6% Since Last Earnings Report: Can It Rebound?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zto-express-cayman-zto-down-153003205.html",
+          "fuente": "Zacks"
+        },
+        {
+          "titulo": "Broadcom upgraded, Ultragenyx downgraded: Wall Street's top analyst calls",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-upgraded-ultragenyx-downgraded-wall-133157671.html",
+          "fuente": "The Fly"
+        },
+        {
+          "titulo": "Here Are Thursday’s Top Wall Street Analyst Research Calls: Broadcom, Deere & Company, Dell Technologies, Devon Energy, Moderna, Permian Resources, PG&E, Thermo Fisher, Viper Energy, and More",
+          "link": "https://247wallst.com/investing/2026/09/03/here-are-thursdays-top-wall-street-analyst-research-calls-broadcom-deere-company-dell-technologies-devon-energy-moderna-permian-resources-pge-thermo-fisher-viper-energy-and-more/",
+          "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "ZTO Express Q2 Earnings & Revenues Increase Year Over Year",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zto-express-q2-earnings-revenues-171900344.html",
+          "fuente": "Zacks"
+        },
+        {
+          "titulo": "ZTO Express Shares Slip Despite Strong Second-Quarter Profit Growth",
+          "link": "https://investorshub.advfn.com/market-news/article/34607/zto-express-shares-slip-despite-strong-second-quarter-profit-growth",
+          "fuente": "InvestorsHub"
+        }
+      ],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     }
   ]
 }
