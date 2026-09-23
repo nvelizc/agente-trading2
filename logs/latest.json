@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-22T21:59:38.364062+00:00",
+  "actualizado": "2026-09-23T00:22:25.709590+00:00",
   "resultados": [
     {
       "hay_señal": false,
@@ -10,10 +10,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "AAPL",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 339.75,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -133,7 +133,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 339.75
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -153,14 +153,14 @@
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "3 Monthly Income ETFs to Buy Once That Have Paid You Every Single Month for More Than a Decade",
-          "link": "https://247wallst.com/investing/etf/2026/09/22/3-monthly-income-etfs-to-buy-once-that-have-paid-you-every-single-month-for-more-than-a-decade/",
-          "fuente": "24/7 Wall St."
+          "titulo": "Invest Like Buffett: Lessons From the Oracle of Omaha",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/invest-buffett-lessons-oracle-omaha-182900634.html",
+          "fuente": "Zacks"
         },
         {
-          "titulo": "Nasdaq Jumps To Close At Record As Chipmakers Climb, Oil Prices Cool — AAPL, META, SPCX, MSFT, VKTX In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-jumps-to-close-at-record-as-chipmakers-climb-oil-prices-cool-aapl-meta-spcx-msft-vktx-in-focus/cZM5GHbRB7L",
-          "fuente": "Stocktwits"
+          "titulo": "VGT Holders Bought ‘Tech’ and Own No Google, Meta, or Amazon: The Sector Rule That Decides What’s Inside",
+          "link": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/",
+          "fuente": "24/7 Wall St."
         }
       ],
       "noticias_sentimiento": "neutral",
@@ -169,18 +169,18 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "pullback",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": 498.0,
-      "stop_loss": 483.99,
-      "objetivo": 526.02,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "MSFT",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 498.0,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -300,7 +300,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 498.0
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -315,19 +315,19 @@
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "3 Monthly Income ETFs to Buy Once That Have Paid You Every Single Month for More Than a Decade",
-          "link": "https://247wallst.com/investing/etf/2026/09/22/3-monthly-income-etfs-to-buy-once-that-have-paid-you-every-single-month-for-more-than-a-decade/",
+          "titulo": "Reddit And 2 Other Quality Stocks To Own",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/reddit-2-other-quality-stocks-232426002.html",
+          "fuente": "Simply Wall St."
+        },
+        {
+          "titulo": "Microsoft is killing an Office app you've used for decades",
+          "link": "https://www.thestreet.com/technology/microsoft-kills-35-year-old-office-app-publisher-oct-1",
+          "fuente": "TheStreet"
+        },
+        {
+          "titulo": "VGT Holders Bought ‘Tech’ and Own No Google, Meta, or Amazon: The Sector Rule That Decides What’s Inside",
+          "link": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/",
           "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "Nasdaq Jumps To Close At Record As Chipmakers Climb, Oil Prices Cool — AAPL, META, SPCX, MSFT, VKTX In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-jumps-to-close-at-record-as-chipmakers-climb-oil-prices-cool-aapl-meta-spcx-msft-vktx-in-focus/cZM5GHbRB7L",
-          "fuente": "Stocktwits"
-        },
-        {
-          "titulo": "How Far Could CRM Stock Swing In A Year?",
-          "link": "https://www.trefis.com/articles/616138/how-far-could-crm-stock-swing-in-a-year/2026-09-22",
-          "fuente": "Trefis"
         }
       ],
       "noticias_sentimiento": "neutral",
@@ -344,10 +344,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "NVDA",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 228.87,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -467,7 +467,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 228.87
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -482,19 +482,19 @@
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "3 Monthly Income ETFs to Buy Once That Have Paid You Every Single Month for More Than a Decade",
-          "link": "https://247wallst.com/investing/etf/2026/09/22/3-monthly-income-etfs-to-buy-once-that-have-paid-you-every-single-month-for-more-than-a-decade/",
-          "fuente": "24/7 Wall St."
+          "titulo": "Google Goes Nuclear With Power Upgrade Agreement in Georgia",
+          "link": "https://www.fool.com/investing/2026/09/22/google-goes-nuclear-with-power-upgrade-agreement-in-georgia/",
+          "fuente": "Motley Fool"
         },
         {
-          "titulo": "JEPI’s 4.42% Gain Looks Modest Next to FYEE’s 12.4% Run in 2026",
-          "link": "https://247wallst.com/investing/etf/2026/09/22/jepis-4-42-gain-looks-modest-next-to-fyees-12-4-run-in-2026/",
-          "fuente": "24/7 Wall St."
+          "titulo": "What $3,000 Invested in SpaceX Stock Could Grow to by September 2027",
+          "link": "https://www.fool.com/investing/2026/09/22/what-3000-invested-in-spacex-stock-could-grow-to-b/",
+          "fuente": "Motley Fool"
         },
         {
-          "titulo": "Here Group Limited Q4 2026 Earnings Call Summary",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-here-group-limited-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-          "fuente": "Moby"
+          "titulo": "2 Beaten-Down Stocks to Buy Before They Bounce Back",
+          "link": "https://www.fool.com/investing/2026/09/22/2-beaten-down-stocks-to-buy-before-they-bounce-back/",
+          "fuente": "Motley Fool"
         }
       ],
       "noticias_sentimiento": "neutral",
@@ -511,10 +511,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 340.0,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -634,33 +634,33 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 340.0
+          "cierre": NaN
         }
       ],
       "noticias": [
         {
+          "titulo": "JPMorgan Drops 3.8% as $2.6 Billion AI Deal Meets Geopolitics",
+          "link": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-drops-3-8-2-223204369.html",
+          "fuente": "GuruFocus.com"
+        },
+        {
+          "titulo": "JPMorgan strongly recommends buying tumbling energy leader",
+          "link": "https://www.thestreet.com/investing/stocks/jpmorgan-strongly-recommends-nexgen-energy-stock",
+          "fuente": "TheStreet"
+        },
+        {
+          "titulo": "JPMorgan Chase & Co. (JPM) Stock Moves -3.34%: What You Should Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-jpm-stock-214503311.html",
+          "fuente": "Zacks"
+        },
+        {
+          "titulo": "Meta’s Muse Comes for Financial Stocks",
+          "link": "https://www.wsj.com/finance/investing/metas-muse-comes-for-financial-stocks-17bdf11a?siteid=yhoof2&yptr=yahoo",
+          "fuente": "The Wall Street Journal"
+        },
+        {
           "titulo": "PayPal Announces Meta Muse Partnership. It’s a Lifeline for the Stock.",
           "link": "https://www.barrons.com/articles/paypal-meta-muse-partnership-stock-34ed47ca?siteid=yhoof2&yptr=yahoo",
-          "fuente": "Barrons.com"
-        },
-        {
-          "titulo": "Charles Schwab, JPMorgan Chase Slide On Vanguard-Backed AI Threat",
-          "link": "https://www.investors.com/news/schwab-stock-charles-schw-jpmorgan-case-altruist-vanguard-ai-sp-500/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
-        },
-        {
-          "titulo": "The Nasdaq Set a Record and the Dow Lost 270 Points on the Same Morning",
-          "link": "https://www.fool.com/investing/2026/09/22/nasdaq-set-a-record-and-dow-lost-270-points/",
-          "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "JPMorgan Chase Falls 3% Despite New $20B QIA Partnership; Goldman Sachs Eases, Bank of America Slips",
-          "link": "https://247wallst.com/investing/2026/09/22/jpmorgan-chase-falls-3-despite-new-20b-qia-partnership-goldman-sachs-eases-bank-of-america-slips/",
-          "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "A Bad Day for Bank Stocks Is Killing the Dow",
-          "link": "https://www.barrons.com/livecoverage/stock-market-news-today-092226/card/a-bad-day-for-bank-stocks-is-killing-the-dow-SCU5xXpoqwKssznKRiiI?siteid=yhoof2&yptr=yahoo",
           "fuente": "Barrons.com"
         }
       ],
@@ -678,10 +678,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 362.04,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -801,7 +801,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 362.04
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -809,6 +809,11 @@
           "titulo": "Fed's vice chair is trying to ensure banks protect themselves from AI risks",
           "link": "https://finance.yahoo.com/video/feds-vice-chair-trying-ensure-193723932.html",
           "fuente": "Yahoo Finance Video"
+        },
+        {
+          "titulo": "Visa (V) Stock Moves -2.14%: What You Should Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/visa-v-stock-moves-2-214508023.html",
+          "fuente": "Zacks"
         },
         {
           "titulo": "Circle and Binance Trade Transactional Friction for Long-Term Alignment",
@@ -824,11 +829,6 @@
           "titulo": "What Does Mastercard (MA) Signal With Its AI Payments And Biometric Push?",
           "link": "https://finance.yahoo.com/technology/ai/articles/does-mastercard-ma-signal-ai-151443409.html",
           "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "Merchants call card-fee pact unconstitutional",
-          "link": "https://www.paymentsdive.com/news/merchants-call-card-fee-pact-unconstitutional/830998/",
-          "fuente": "Payments Dive"
         }
       ],
       "noticias_sentimiento": "neutral",
@@ -845,10 +845,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 158.71,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -968,7 +968,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 158.71
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -1012,10 +1012,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 202.41,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -1135,7 +1135,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 202.41
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -1179,10 +1179,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "AMZN",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 254.98,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -1302,7 +1302,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 254.98
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -1322,13 +1322,13 @@
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Amazon.com (AMZN) Blocks Rival AI Shopping Agent On Its Platform",
-          "link": "https://finance.yahoo.com/technology/ai/articles/amazon-com-amzn-blocks-rival-211459832.html",
-          "fuente": "Simply Wall St."
+          "titulo": "VGT Holders Bought ‘Tech’ and Own No Google, Meta, or Amazon: The Sector Rule That Decides What’s Inside",
+          "link": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/",
+          "fuente": "24/7 Wall St."
         },
         {
-          "titulo": "How Much Upside Is Left In eBay Stock?",
-          "link": "https://www.trefis.com/articles/616127/how-much-upside-is-left-in-ebay-stock/2026-09-22",
+          "titulo": "$223 Billion Back To Shareholders: Inside The MSFT Machine",
+          "link": "https://www.trefis.com/articles/616107/223-billion-back-to-shareholders-inside-the-msft-machine/2026-09-22",
           "fuente": "Trefis"
         }
       ],
@@ -1346,10 +1346,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "KO",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 88.61,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -1469,7 +1469,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 88.61
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -1505,18 +1505,18 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "pullback",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": 773.38,
-      "stop_loss": 740.67,
-      "objetivo": 838.8,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 773.38,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -1636,10 +1636,25 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 773.38
+          "cierre": NaN
         }
       ],
       "noticias": [
+        {
+          "titulo": "Invest Like Buffett: Lessons From the Oracle of Omaha",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/invest-buffett-lessons-oracle-omaha-182900634.html",
+          "fuente": "Zacks"
+        },
+        {
+          "titulo": "The Market Is Near Another All-Time High and You’re 66 With Cash to Invest. Buying Now Feels Like the Top. These 3 ETFs Are How You Get In Anyway",
+          "link": "https://247wallst.com/investing/etf/2026/09/22/the-market-is-near-another-all-time-high-and-youre-66-with-cash-to-invest-buying-now-feels-like-the-top-these-3-etfs-are-how-you-get-in-anyway/",
+          "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "VGT Holders Bought ‘Tech’ and Own No Google, Meta, or Amazon: The Sector Rule That Decides What’s Inside",
+          "link": "https://247wallst.com/investing/etf/2026/09/22/vgt-holders-bought-tech-and-own-no-google-meta-or-amazon-the-sector-rule-that-decides-whats-inside/",
+          "fuente": "24/7 Wall St."
+        },
         {
           "titulo": "Nasdaq Jumps To Close At Record As Chipmakers Climb, Oil Prices Cool — AAPL, META, SPCX, MSFT, VKTX In Focus",
           "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-jumps-to-close-at-record-as-chipmakers-climb-oil-prices-cool-aapl-meta-spcx-msft-vktx-in-focus/cZM5GHbRB7L",
@@ -1648,21 +1663,6 @@
         {
           "titulo": "Skyworks Just Surged 33% in a Month: Is It Too Late to Buy SWKS Stock Now?",
           "link": "https://247wallst.com/investing/2026/09/22/skyworks-just-surged-33-in-a-month-is-it-too-late-to-buy-swks-stock-now/",
-          "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "Adobe Is Down 32% This Year: Is ADBE Stock Dead Money or Due for a Bounce?",
-          "link": "https://247wallst.com/investing/2026/09/22/adobe-is-down-32-this-year-is-adbe-stock-dead-money-or-due-for-a-bounce/",
-          "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "ETF Zoo: 6 Pundits Walk Into a Bar",
-          "link": "http://www.etf.com/sections/podcasts/etf-zoo-6-pundits-walk-bar?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss",
-          "fuente": "etf.com"
-        },
-        {
-          "titulo": "Cleveland-Cliffs Jumps 5% as Month-Long Rebound Extends; Nucor and Steel Dynamics Tick Up",
-          "link": "https://247wallst.com/investing/2026/09/22/cleveland-cliffs-jumps-5-as-month-long-rebound-extends-nucor-and-steel-dynamics-tick-up/",
           "fuente": "24/7 Wall St."
         }
       ],
@@ -1680,10 +1680,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "QQQ",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 747.46,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -1803,7 +1803,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 747.46
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -1839,18 +1839,18 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 40.85,
-      "stop_loss": 37.58,
-      "objetivo": 47.39,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 10.0x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "VKTX",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 40.85,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -1970,7 +1970,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 40.85
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -1978,6 +1978,11 @@
           "titulo": "Viking Therapeutics stock surges on promising weight-loss data: A closer look",
           "link": "https://finance.yahoo.com/video/viking-therapeutics-stock-surges-promising-140706374.html",
           "fuente": "Yahoo Finance Video"
+        },
+        {
+          "titulo": "Viking Therapeutics (VKTX) Rockets 35.7% After Weight Loss Drug Trial — What’s The Selling Point?",
+          "link": "https://finance.yahoo.com/healthcare/articles/viking-therapeutics-vktx-rockets-35-223731784.html",
+          "fuente": "Insider Monkey"
         },
         {
           "titulo": "Lilly Rises Higher as Viking Preserves Up to 90% Monthly",
@@ -1993,11 +1998,6 @@
           "titulo": "Sandisk, Lennar, Viking Therapeutics, Shopify, GameStop, and More Stocks That Explain Today’s Market",
           "link": "https://www.barrons.com/articles/stock-movers-328a306e?siteid=yhoof2&yptr=yahoo",
           "fuente": "Barrons.com"
-        },
-        {
-          "titulo": "VKTX Stock Jumps 36% As Oppenheimer Hikes Target, Peers Call Data A Win",
-          "link": "https://stocktwits.com/news-articles/markets/equity/vktx-stock-jumps-36-as-oppenheimer-hikes-target-peers-call-data-a-win/cZMPCXvRB7W",
-          "fuente": "Stocktwits"
         }
       ],
       "noticias_sentimiento": "neutral",
@@ -2006,18 +2006,18 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 9.93,
-      "stop_loss": 9.14,
-      "objetivo": 11.51,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 3.8x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "BFLY",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 9.93,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -2137,10 +2137,15 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 9.93
+          "cierre": NaN
         }
       ],
       "noticias": [
+        {
+          "titulo": "Butterfly Network (BFLY) Gets New ‘Buy’ Reco, Climbs 22%; Hedge Fund Holdings More-Than-Double",
+          "link": "https://finance.yahoo.com/healthcare/articles/butterfly-network-bfly-gets-buy-231418577.html",
+          "fuente": "Insider Monkey"
+        },
         {
           "titulo": "Executive Waves Goodbye to Nearly 14,000 Shares, Valued at More Than $100,000",
           "link": "https://www.fool.com/coverage/filings/2026/09/15/executive-waves-goodbye-to-nearly-14-000-shares-valued-at-more-than-usd100-000/",
@@ -2160,11 +2165,6 @@
           "titulo": "Butterfly Network Stock Is Just One Of 3 AI Small Cap Stocks",
           "link": "https://finance.yahoo.com/technology/ai/articles/butterfly-network-stock-just-one-201108866.html",
           "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "Sam Altman-Backed Merge Labs Picked Butterfly’s Chips for Brain Interfaces. Is This the Breakout BFLY Needed?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/sam-altman-backed-merge-labs-033132473.html",
-          "fuente": "Insider Monkey"
         }
       ],
       "noticias_sentimiento": "neutral",
@@ -2173,18 +2173,18 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 268.34,
-      "stop_loss": 246.87,
-      "objetivo": 311.28,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.4x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "VICR",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 268.34,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -2304,7 +2304,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 268.34
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -2340,18 +2340,18 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 15.8,
-      "stop_loss": 14.54,
-      "objetivo": 18.32,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 3.1x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "SGRY",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 15.8,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -2471,7 +2471,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 15.8
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -2507,18 +2507,18 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 69.97,
-      "stop_loss": 64.37,
-      "objetivo": 81.17,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 4.6x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "INOD",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 69.97,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -2638,10 +2638,15 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 69.97
+          "cierre": NaN
         }
       ],
       "noticias": [
+        {
+          "titulo": "INOD Stock Rallies After Hunterbrook Ties Firm To Meta’s Muse, Reveals Long Position",
+          "link": "https://stocktwits.com/news-articles/markets/equity/inod-stock-rallies-after-hunterbrook-ties-firm-to-meta-s-muse-reveals-long-position/cZM5PgxRB7j",
+          "fuente": "Stocktwits"
+        },
         {
           "titulo": "Innodata (INOD) Could Be 50% Undervalued Following The Board Appointment",
           "link": "https://finance.yahoo.com/markets/stocks/articles/innodata-inod-could-50-undervalued-191312273.html",
@@ -2661,11 +2666,6 @@
           "titulo": "Innodata's Customer Diversification Effort: Is It Finally Paying Off?",
           "link": "https://finance.yahoo.com/technology/ai/articles/innodatas-customer-diversification-effort-finally-151200402.html",
           "fuente": "Zacks"
-        },
-        {
-          "titulo": "3 AI Stocks Poised to Outperform Micron and Sandisk as the Next Infrastructure Bottleneck Builds",
-          "link": "https://www.fool.com/investing/2026/09/15/x-ai-stock-poised-to-outperform-micron-and-sandisk/",
-          "fuente": "Motley Fool"
         }
       ],
       "noticias_sentimiento": "neutral",
@@ -2674,18 +2674,18 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "momentum",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": 25.53,
-      "stop_loss": 23.49,
-      "objetivo": 29.61,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió 6.86% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "TNGX",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 25.53,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -2805,7 +2805,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 25.53
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -2841,18 +2841,18 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "momentum",
-      "direccion": "short",
-      "confianza": "media",
-      "entrada": 33.51,
-      "stop_loss": 36.19,
-      "objetivo": 28.15,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -12.98% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "CLDX",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 33.51,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -2972,7 +2972,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 33.51
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -3008,18 +3008,18 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "momentum",
-      "direccion": "short",
-      "confianza": "media",
-      "entrada": 42.6,
-      "stop_loss": 46.01,
-      "objetivo": 35.78,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -16.16% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "PLNT",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 42.6,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-11",
@@ -3139,7 +3139,7 @@
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 42.6
+          "cierre": NaN
         }
       ],
       "noticias": [
