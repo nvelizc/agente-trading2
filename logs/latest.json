@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-28T20:31:15.702408+00:00",
+  "actualizado": "2026-09-29T00:57:07.057554+00:00",
   "resultados": [
     {
       "hay_señal": false,
@@ -10,10 +10,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "AAPL",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 338.4,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -133,54 +133,54 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 338.4
+          "cierre": NaN
         }
       ],
       "noticias": [
         {
-          "titulo": "'So much cash': Nvidia stock jumps after largest share buyback ever",
-          "link": "https://finance.yahoo.com/markets/article/so-much-cash-nvidia-stock-jumps-after-largest-share-buyback-ever-134349202.html",
-          "fuente": "Yahoo Finance"
+          "titulo": "What Nvidia's $150 billion stock buyback means for shareholders and potential investors",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/what-nvidias-150-billion-stock-buyback-means-for-shareholders-and-potential-investors-211828747.html",
+          "fuente": "Yahoo Personal Finance"
         },
         {
-          "titulo": "The impact that AI will have on advertising, according to Sir Martin Sorrell",
-          "link": "https://finance.yahoo.com/video/impact-ai-advertising-according-sir-144000439.html",
+          "titulo": "Nvidia & Meta deliver big updates, while Trump reconsiders Biden's fuel mandates",
+          "link": "https://finance.yahoo.com/video/nvidia-meta-deliver-big-updates-151329273.html",
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Stocks fall; oil prices off highs amid renewed hopes for Middle East negotiations",
-          "link": "https://finance.yahoo.com/markets/articles/stocks-cautious-asia-oil-gains-005009179.html",
-          "fuente": "Reuters"
+          "titulo": "Why Qualcomm (QCOM) Stock Is Down Today",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-qualcomm-qcom-stock-down-235036316.html",
+          "fuente": "StockStory"
         },
         {
-          "titulo": "Nvidia, Apple Partner TSMC Reveals These Clues On How To Read Charts",
-          "link": "https://www.investors.com/research/how-to-find-the-best-stocks-to-buy/tsmc-stock-nvidia-amd-apple-partner-etches-buy-points/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
+          "titulo": "1 Monster AI Stock Greg Abel and Warren Buffett Are Extremely Bullish On",
+          "link": "https://www.fool.com/investing/2026/09/28/monster-ai-stock-greg-abel-warren-buffett-bullish/",
+          "fuente": "Motley Fool"
         },
         {
-          "titulo": "Nvidia’s $235 Billion Buyback Shows Who Is Really Winning the AI Boom",
-          "link": "https://www.barrons.com/articles/nvidia-buyback-ai-stock-b4000b02?siteid=yhoof2&yptr=yahoo",
-          "fuente": "Barrons.com"
+          "titulo": "Forget SPY: Invesco’s Fund Gives the Smallest S&P 500 Company the Same Say as the Largest",
+          "link": "https://247wallst.com/investing/etf/2026/09/28/forget-spy-invescos-fund-gives-the-smallest-sp-500-company-the-same-say-as-the-largest/",
+          "fuente": "24/7 Wall St."
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Las noticias recopiladas muestran información variada del mercado general sin eventos directos determinantes para la empresa.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Ante la ausencia de catalizadores específicos y de gran impacto en las últimas noticias, el precio podría mantenerse estable sin una dirección fija. Se espera una consolidación en el corto plazo mientras el mercado busca señales más claras. Ten en cuenta que esta estimación surge únicamente del análisis de los titulares y no constituye una certeza de mercado."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "pullback",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": 509.22,
-      "stop_loss": 484.83,
-      "objetivo": 558.0,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "MSFT",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 509.22,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -300,40 +300,40 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 509.22
+          "cierre": NaN
         }
       ],
       "noticias": [
         {
-          "titulo": "Veteran marketer defends controversial Sydney Sweeney jeans ad campaign: The publicity was 'worth billions'",
-          "link": "https://finance.yahoo.com/markets/stocks/article/veteran-marketer-defends-controversial-sydney-sweeney-jeans-ad-campaign-the-publicity-was-worth-billions-195605772.html",
+          "titulo": "Former Microsoft strategy chief explains why most digital ads 'are not very good' — and how AI will help",
+          "link": "https://finance.yahoo.com/media-advertising/article/former-microsoft-strategy-chief-explains-why-most-digital-ads-are-not-very-good--and-how-ai-will-help-204809643.html",
           "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "Meta hires MongoDB CEO to run new 'Meta Enterprise' platform",
-          "link": "https://finance.yahoo.com/video/meta-hires-mongodb-ceo-to-run-new-meta-enterprise-platform-140449664.html",
+          "titulo": "The impact that AI will have on advertising, according to Sir Martin Sorrell",
+          "link": "https://finance.yahoo.com/video/impact-ai-advertising-according-sir-144000439.html",
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Nvidia’s $235 Billion Buyback Shows Who Is Really Winning the AI Boom",
-          "link": "https://www.barrons.com/articles/nvidia-buyback-ai-stock-b4000b02?siteid=yhoof2&yptr=yahoo",
-          "fuente": "Barrons.com"
+          "titulo": "Why most ads are terrible: Former Microsoft CSO",
+          "link": "https://finance.yahoo.com/video/why-most-ads-terrible-former-100000360.html",
+          "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Can CoreWeave’s (CRWV) Computing Advantage Become a Lasting Moat?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-crwv-computing-advantage-become-195220773.html",
-          "fuente": "Insider Monkey"
+          "titulo": "Should Microsoft (MSFT) Investors Worry About A $3 Trillion Hidden AI Risk?",
+          "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-investors-worry-3-000824730.html",
+          "fuente": "Simply Wall St."
         },
         {
-          "titulo": "Meta Platform Takes Aim at Salesforce, ServiceNow With AI Push",
-          "link": "https://finance.yahoo.com/technology/ai/articles/meta-platform-takes-aim-salesforce-194111319.html",
-          "fuente": "GuruFocus.com"
+          "titulo": "Samsung Commits $1.0 Billion to AI Infrastructure Firm Backed by KKR, Nvidia",
+          "link": "https://www.wsj.com/tech/ai/samsung-commits-1-billion-to-ai-infrastructure-firm-backed-by-kkr-nvidia-d1039c57?siteid=yhoof2&yptr=yahoo",
+          "fuente": "The Wall Street Journal"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Se debate el impacto de la inteligencia artificial junto a comentarios sobre posibles riesgos financieros a largo plazo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Aunque la empresa sigue liderando en innovación tecnológica, las menciones sobre riesgos financieros generan cierta moderación entre los inversores. Por este motivo, el precio podría moverse en un rango lateral durante los próximos días. Cabe recordar que este pronóstico se basa en la lectura de titulares y no garantiza el resultado real."
     },
     {
       "hay_señal": false,
@@ -344,10 +344,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "NVDA",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 228.86,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -467,40 +467,40 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 228.86
+          "cierre": NaN
         }
       ],
       "noticias": [
         {
-          "titulo": "Stock market today: Dow, S&P 500, Nasdaq fall as Treasury yields continue to climb",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-28-dow-sp-500-nasdaq-080420627.html",
+          "titulo": "What Nvidia's $150 billion stock buyback means for shareholders and potential investors",
+          "link": "https://finance.yahoo.com/personal-finance/investing/article/what-nvidias-150-billion-stock-buyback-means-for-shareholders-and-potential-investors-211828747.html",
+          "fuente": "Yahoo Personal Finance"
+        },
+        {
+          "titulo": "Nvidia announces jaw-dropping $150 billion stock buyback, largest single authorization in history",
+          "link": "https://finance.yahoo.com/technology/article/nvidia-announces-jaw-dropping-150-billion-stock-buyback-largest-single-authorization-in-history-121342628.html",
           "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "Chip stocks fall as AI breach fuels safety concerns, but Nvidia bucks the trend: Chart of the Day",
-          "link": "https://finance.yahoo.com/markets/article/chip-stocks-fall-as-ai-breach-fuels-safety-concerns-but-nvidia-bucks-the-trend-chart-of-the-day-151753993.html",
+          "titulo": "'So much cash': Nvidia stock jumps after largest share buyback ever",
+          "link": "https://finance.yahoo.com/markets/article/so-much-cash-nvidia-stock-jumps-after-largest-share-buyback-ever-134349202.html",
           "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "Nvidia & Meta deliver big updates, while Trump reconsiders Biden's fuel mandates",
-          "link": "https://finance.yahoo.com/video/nvidia-meta-deliver-big-updates-151329273.html",
+          "titulo": "The impact that AI will have on advertising, according to Sir Martin Sorrell",
+          "link": "https://finance.yahoo.com/video/impact-ai-advertising-according-sir-144000439.html",
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Trump hosted Anthropic's CEO for dinner at the White House. Here's why that matters.",
-          "link": "https://finance.yahoo.com/video/trump-hosted-anthropics-ceo-dinner-135033848.html",
+          "titulo": "Nvidia latest: What to know about its new AI security system & stock buyback increase",
+          "link": "https://finance.yahoo.com/video/nvidia-latest-know-ai-security-131452946.html",
           "fuente": "Yahoo Finance Video"
-        },
-        {
-          "titulo": "Trump-Iran Tensions Trigger Fresh Wall Street Selloff",
-          "link": "https://finance.yahoo.com/markets/articles/trump-iran-tensions-trigger-fresh-202442782.html",
-          "fuente": "GuruFocus.com"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "El masivo programa de recompra de acciones por $150 mil millones e innovaciones en IA impulsan el entusiasmo comprador.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "El anuncio histórico de recompra de acciones genera un fuerte optimismo que suele atraer más inversores en el corto plazo. Esto sugiere una clara inclinación hacia un movimiento alcista en la cotización de los próximos días. Aclaramos que esta conclusión se deriva del análisis de prensa y no representa un hecho seguro."
     },
     {
       "hay_señal": false,
@@ -511,10 +511,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 336.59,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -634,10 +634,15 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 336.59
+          "cierre": NaN
         }
       ],
       "noticias": [
+        {
+          "titulo": "Why JPMorgan Chase & Co. (JPM) Dipped More Than Broader Market Today",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-jpmorgan-chase-co-jpm-204503686.html",
+          "fuente": "Zacks"
+        },
         {
           "titulo": "JPMorgan Names Stocks Most Exposed to Agentic AI",
           "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-names-stocks-most-exposed-202718853.html",
@@ -657,17 +662,12 @@
           "titulo": "Market Chatter: Citigroup Eyes $3 Billion IPO for Mexico's Banamex",
           "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-citigroup-eyes-3-185808774.html",
           "fuente": "MT Newswires"
-        },
-        {
-          "titulo": "JPMorgan Stock Slips 1% as Bank Agents Get an Open Safety Layer",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-stock-slips-1-bank-170131116.html",
-          "fuente": "GuruFocus.com"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Registra una caída reciente frente al mercado general, contrarrestada por alianzas estratégicas internacionales.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "El retroceso reciente de la acción se equilibra con anuncios de alianzas estratégicas de gran volumen a futuro. En consecuencia, es probable que la cotización oscile de manera lateral mientras se asimilan ambas noticias. Esta perspectiva se fundamenta únicamente en los titulares disponibles y no es una predicción garantizada."
     },
     {
       "hay_señal": false,
@@ -678,10 +678,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 367.74,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -801,7 +801,7 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 367.74
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -832,9 +832,9 @@
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Surgen interrogantes sobre la competencia de las criptomonedas estables frente a factores financieros favorables.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "La incertidumbre que generan las nuevas tecnologías de pago se compensa con métricas financieras sólidas reportadas en las noticias. Esta combinación de fuerzas sugiere un comportamiento lateral del precio a corto plazo. Es importante considerar que esta es solo una lectura interpretativa y no una certeza."
     },
     {
       "hay_señal": false,
@@ -845,10 +845,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 162.52,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -968,10 +968,20 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 162.52
+          "cierre": NaN
         }
       ],
       "noticias": [
+        {
+          "titulo": "Crescent Energy and Kosmos Energy Stocks Trade Up, What You Need To Know",
+          "link": "https://finance.yahoo.com/energy/articles/crescent-energy-kosmos-energy-stocks-223036276.html",
+          "fuente": "StockStory"
+        },
+        {
+          "titulo": "Exxon Mobil Holdings (XOM) Gains As Market Dips: What You Should Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/exxon-mobil-holdings-xom-gains-204504735.html",
+          "fuente": "Zacks"
+        },
         {
           "titulo": "TD Cowen highlights top oil stocks ahead of earnings season",
           "link": "https://finance.yahoo.com/energy/articles/td-cowen-highlights-top-oil-181901328.html",
@@ -983,25 +993,15 @@
           "fuente": "Benzinga Prediction Markets"
         },
         {
-          "titulo": "Why Your Energy Bill Is About to Skyrocket $1,465 a Year Higher — Unless This Happens",
-          "link": "https://247wallst.com/investing/2026/09/28/why-your-energy-bill-is-about-to-skyrocket-1465-a-year-higher-unless-this-happens/",
-          "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "Update: US Equity Futures Drop Pre-Bell as Oil Prices Rise Amid US Rejection of Iran's Proposal to Reopen Strait of Hormuz",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-drop-pre-124651902.html",
-          "fuente": "MT Newswires"
-        },
-        {
-          "titulo": "The Zacks Analyst Blog Highlights ExxonMobil, Automatic Data Processing and Cadence Design, BranchOut Food",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-exxonmobil-061800247.html",
-          "fuente": "Zacks"
+          "titulo": "Chevron, ExxonMobil Agree Potential Crude Supply to Vietnam",
+          "link": "https://finance.yahoo.com/energy/articles/chevron-exxonmobil-agree-potential-crude-151710400.html",
+          "fuente": "Rigzone.com"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Ganancias destacadas en días de caída de mercado y nuevos acuerdos internacionales de suministro de crudo.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "El rendimiento positivo frente a caídas generales del mercado y la firma de acuerdos estratégicos refuerzan el interés en la acción. Estos factores podrían impulsar el precio al alza en los próximos días. Ten en cuenta que esta proyección se basa solo en titulares y no es un hecho definitivo."
     },
     {
       "hay_señal": false,
@@ -1012,10 +1012,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 206.37,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -1135,12 +1135,17 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 206.37
+          "cierre": NaN
         }
       ],
       "noticias": [
         {
-          "titulo": "Stock Market Today: Dow Off Lows After Iran Report; Leisure Play Tests Entry, MongoDB Dives (Live Coverage)",
+          "titulo": "Crescent Energy and Kosmos Energy Stocks Trade Up, What You Need To Know",
+          "link": "https://finance.yahoo.com/energy/articles/crescent-energy-kosmos-energy-stocks-223036276.html",
+          "fuente": "StockStory"
+        },
+        {
+          "titulo": "Stock Market Today: Dow Ends Lower But Nvidia Pops On This; Leisure Play Tests Entry, MongoDB Dives",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-oil-prices-treasury-yields/?src=A00220&yptr=yahoo",
           "fuente": "Investor's Business Daily"
         },
@@ -1150,25 +1155,20 @@
           "fuente": "Barrons.com"
         },
         {
+          "titulo": "Chevron, ExxonMobil Agree Potential Crude Supply to Vietnam",
+          "link": "https://finance.yahoo.com/energy/articles/chevron-exxonmobil-agree-potential-crude-151710400.html",
+          "fuente": "Rigzone.com"
+        },
+        {
           "titulo": "Chevron Is Expanding Its Presence in the Mediterranean. Here's What It Means for CVX Stock.",
           "link": "https://www.fool.com/investing/2026/09/28/chevron-is-expanding-its-presence-in-mediterranean/",
           "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "Chevron and Egypt Move to Speed Up Aphrodite Gas Project",
-          "link": "https://finance.yahoo.com/energy/articles/chevron-egypt-move-speed-aphrodite-144800899.html",
-          "fuente": "Zacks"
-        },
-        {
-          "titulo": "Update: US Equity Futures Drop Pre-Bell as Oil Prices Rise Amid US Rejection of Iran's Proposal to Reopen Strait of Hormuz",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-drop-pre-124651902.html",
-          "fuente": "MT Newswires"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Expansión en el Mediterráneo y acuerdos de suministro de petróleo fortalecen las perspectivas de crecimiento.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "Los titulares sobre su expansión geográfica y nuevos acuerdos comerciales suelen generar confianza inmediata en los inversores. Se anticipa una inclinación alcista en el precio para las próximas jornadas. Recuerda que este análisis proviene de la lectura de prensa y no constituye una garantía."
     },
     {
       "hay_señal": false,
@@ -1179,10 +1179,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "AMZN",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 246.15,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -1302,7 +1302,7 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 246.15
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -1317,39 +1317,39 @@
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Amazon (AMZN) vs. Alibaba (BABA): Which AI Bet Is Starting to Pay Off?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-vs-alibaba-baba-200303828.html",
-          "fuente": "Insider Monkey"
+          "titulo": "Samsung Commits $1.0 Billion to AI Infrastructure Firm Backed by KKR, Nvidia",
+          "link": "https://www.wsj.com/tech/ai/samsung-commits-1-billion-to-ai-infrastructure-firm-backed-by-kkr-nvidia-d1039c57?siteid=yhoof2&yptr=yahoo",
+          "fuente": "The Wall Street Journal"
         },
         {
-          "titulo": "Nvidia’s $235 Billion Buyback Shows Who Is Really Winning the AI Boom",
-          "link": "https://www.barrons.com/articles/nvidia-buyback-ai-stock-b4000b02?siteid=yhoof2&yptr=yahoo",
-          "fuente": "Barrons.com"
+          "titulo": "Robotaxi Firms Quietly Growing Real Estate Footprint, Even Where They're Not Yet Legal",
+          "link": "https://www.bisnow.com/news/new-york/industrial/robotaxi-firms-quietly-growing-real-estate-footprint-even-where-they-re-not-yet-legal",
+          "fuente": "Bisnow"
         },
         {
-          "titulo": "Can CoreWeave’s (CRWV) Computing Advantage Become a Lasting Moat?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-crwv-computing-advantage-become-195220773.html",
-          "fuente": "Insider Monkey"
+          "titulo": "The S&P 500 Has Only Grown Earnings This Fast Twice Before. History Says This Is What Happens Next",
+          "link": "https://www.fool.com/investing/2026/09/28/the-s-and-p-500-has-only-grown-earnings-this-fast-twice-before-history-says-this-is-what-happens-next/",
+          "fuente": "Motley Fool"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Noticias enfocadas en tendencias generales de tecnología e IA sin catalizadores directos explícitos para la empresa.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "La falta de noticias específicas de alto impacto para la compañía sugiere un periodo de calma en la acción. Por ello, el precio probablemente fluctuará de manera lateral en el corto plazo siguiendo al mercado general. Esta lectura no representa una certeza y se basa únicamente en los titulares recopilados."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "pullback",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": 87.18,
-      "stop_loss": 85.25,
-      "objetivo": 91.04,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "KO",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 87.18,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -1469,7 +1469,7 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 87.18
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -1499,24 +1499,24 @@
           "fuente": "Motley Fool"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Contratación de un alto ejecutivo de Monster para liderar la unidad de América del Norte.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "La llegada de un nuevo liderazgo experimentado para una región clave suele ser vista como un catalizador favorable. Esto podría dar un impulso alcista moderado a la acción en el corto plazo. Aclaramos que esta es una interpretación de noticias y no una garantía de inversión."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "pullback",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": 765.61,
-      "stop_loss": 741.01,
-      "objetivo": 814.81,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 765.61,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -1636,10 +1636,25 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 765.61
+          "cierre": NaN
         }
       ],
       "noticias": [
+        {
+          "titulo": "I Make $150,000 a Year, But It Feels Like I’m Just Middle Class in a World Full of Rich People",
+          "link": "https://247wallst.com/personal-finance/2025/07/16/i-make-150000-a-year-but-it-feels-like-im-just-middle-class-in-a-world-full-of-rich-people/",
+          "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-drop-under-pressure-from-elevated-yields/cZMjBLyRBXW",
+          "fuente": "Stocktwits"
+        },
+        {
+          "titulo": "Forget SPY: Invesco’s Fund Gives the Smallest S&P 500 Company the Same Say as the Largest",
+          "link": "https://247wallst.com/investing/etf/2026/09/28/forget-spy-invescos-fund-gives-the-smallest-sp-500-company-the-same-say-as-the-largest/",
+          "fuente": "24/7 Wall St."
+        },
         {
           "titulo": "MP Materials Just Sank 21% in a Month. Is It Time to Sell, or Is This a Prime Buying Opportunity?",
           "link": "https://247wallst.com/investing/2026/09/28/mp-materials-just-sank-21-in-a-month-is-it-time-to-sell-or-is-this-a-prime-buying-opportunity/",
@@ -1649,27 +1664,12 @@
           "titulo": "Cleveland-Cliffs Sinks 9% as Selloff Outruns Steel Group; Nucor and Steel Dynamics Pull Back",
           "link": "https://247wallst.com/investing/2026/09/28/cleveland-cliffs-sinks-9-as-selloff-outruns-steel-group-nucor-and-steel-dynamics-pull-back/",
           "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "AMC Spikes 13% as Refinancing Rally Extends; Cinemark and IMAX Edge Higher",
-          "link": "https://247wallst.com/investing/2026/09/28/amc-spikes-13-as-refinancing-rally-extends-cinemark-and-imax-edge-higher/",
-          "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "Bloom Energy Sinks 8% as Sharp Run Unwinds; Plug Power Drops 6%, FuelCell Eases",
-          "link": "https://247wallst.com/investing/2026/09/28/bloom-energy-sinks-8-as-sharp-run-unwinds-plug-power-drops-6-fuelcell-eases/",
-          "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "BlackBerry Jumps 4% as Record QNX Revenue Lifts Full-Year Outlook; Mobileye and Aptiv Dip",
-          "link": "https://247wallst.com/investing/2026/09/28/blackberry-jumps-5-as-record-qnx-revenue-lifts-full-year-outlook-mobileye-and-aptiv-dip/",
-          "fuente": "24/7 Wall St."
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Presión a la baja en el mercado general debido al incremento en los rendimientos de los bonos.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "El aumento en las tasas de interés de los bonos tiende a restar atractivo a las acciones, arrastrando al índice principal. Por este motivo, la perspectiva de corto plazo se orienta hacia la baja. Ten presente que esta estimación surge del análisis de las noticias y no es una verdad absoluta."
     },
     {
       "hay_señal": false,
@@ -1680,10 +1680,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "QQQ",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 736.53,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -1803,10 +1803,15 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 736.53
+          "cierre": NaN
         }
       ],
       "noticias": [
+        {
+          "titulo": "S&P 500, Dow, Nasdaq Drop Under Pressure From Elevated Yields As Investors Shrug Off Trump’s Iran Sanction Relief — NVDA, BA, AMD, NVTS, CBRS In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/s-and-p-500-dow-nasdaq-drop-under-pressure-from-elevated-yields/cZMjBLyRBXW",
+          "fuente": "Stocktwits"
+        },
         {
           "titulo": "Trade Desk Is Down 68% This Year. Is It Time to Sell, or Is This a Lifetime Opportunity?",
           "link": "https://247wallst.com/investing/2026/09/28/trade-desk-is-down-68-this-year-is-it-time-to-sell-or-is-this-a-lifetime-opportunity/",
@@ -1826,31 +1831,26 @@
           "titulo": "Super Micro and Dell Drop 5% as AI Server Rally Reverses; Hewlett Packard Enterprise Falls 3%",
           "link": "https://247wallst.com/investing/2026/09/28/super-micro-and-dell-drop-5-as-ai-server-rally-reverses-hewlett-packard-enterprise-falls-3/",
           "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "Applied Digital Falls 6% Despite $70 Buy Initiation at Jones Trading; TeraWulf and Core Scientific Drop 4%",
-          "link": "https://247wallst.com/investing/2026/09/28/applied-digital-falls-6-despite-70-buy-initiation-at-jones-trading-terawulf-and-core-scientific-drop-4/",
-          "fuente": "24/7 Wall St."
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Caída en el sector tecnológico y retrocesos significativos en empresas asociadas a servidores de IA.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "La toma de ganancias y caídas en importantes empresas tecnológicas presionan a la baja a todo el sector representado por este ETF. Es probable que la tendencia baje en los días inmediatos mientras continúa la corrección. Esta previsión se fundamenta en los titulares y no es una certeza de mercado."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 89.92,
-      "stop_loss": 82.73,
-      "objetivo": 104.3,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 13.9x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "KOD",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 89.92,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -1970,10 +1970,20 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 89.92
+          "cierre": NaN
         }
       ],
       "noticias": [
+        {
+          "titulo": "Kodiak Sciences (KOD) Climbs Nearly 3x on Promising Wet AMD Trial",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/kodiak-sciences-kod-climbs-nearly-231435477.html",
+          "fuente": "Insider Monkey"
+        },
+        {
+          "titulo": "Nvidia, Micron, Meta, Kodiak Sciences, MongoDB, SpaceX, and More Stocks That Explain Today’s Market",
+          "link": "https://www.barrons.com/articles/stock-movers-4aac0ea6?siteid=yhoof2&yptr=yahoo",
+          "fuente": "Barrons.com"
+        },
         {
           "titulo": "Update: US Equity Indexes Fall as Iran Talks Stall, Fed Governor Points to Higher Rates, Inflation",
           "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-iran-202125640.html",
@@ -1988,36 +1998,26 @@
           "titulo": "Sector Update: Healthcare Stocks Rise Late Afternoon",
           "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-rise-afternoon-195243721.html",
           "fuente": "MT Newswires"
-        },
-        {
-          "titulo": "Update: US Equity Indexes Fall as Iran Settlement Talks Lose Momentum",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-fall-iran-193437834.html",
-          "fuente": "MT Newswires"
-        },
-        {
-          "titulo": "Inside the Eye-Drug Breakthrough That Sent Kodiak Sciences Up 183%",
-          "link": "https://www.barrons.com/articles/kodiak-sciences-stock-eye-disease-drugs-a958d76d?siteid=yhoof2&yptr=yahoo",
-          "fuente": "Barrons.com"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Disparo en el precio de la acción tras resultados altamente prometedores en un ensayo clínico ocular.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "El éxito en las pruebas médicas provocó compras masivas y un entusiasmo desbordado en el mercado. Este fuerte impulso positivo podría mantener el precio en trayectoria alcista durante los próximos días. Recuerda que esto es un análisis basado en la lectura de noticias y no un resultado garantizado."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 17.95,
-      "stop_loss": 16.51,
-      "objetivo": 20.83,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.3x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "MAAS",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 17.95,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -2137,7 +2137,7 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 17.95
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -2168,23 +2168,23 @@
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Rápido crecimiento reciente seguido de advertencias sobre una valoración potencialmente ajustada o máxima.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Tras una subida acelerada en el último mes, los titulares sugieren que la acción podría haber alcanzado un techo temporal. Esto suele llevar a una fase de pausa o consolidación lateral en los próximos días. Cabe señalar que esta lectura depende exclusivamente de los titulares y no es segura."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 13.92,
-      "stop_loss": 12.81,
-      "objetivo": 16.14,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.8x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "ABCL",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 13.92,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -2304,7 +2304,7 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 13.92
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -2334,24 +2334,24 @@
           "fuente": "Motley Fool"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Gran subida impulsada por avances en fármacos candidato y acuerdos estratégicos con otras farmacéuticas.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "Los importantes avances en el desarrollo de sus medicamentos y el respaldo de grandes alianzas generan fuerte optimismo en los inversores. Por lo tanto, se espera que el precio continúe con sesgo alcista a corto plazo. Es importante recordar que esta es una lectura de prensa y no una garantía."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 26.05,
-      "stop_loss": 23.97,
-      "objetivo": 30.21,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 4.3x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "CAAP",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 26.05,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -2471,7 +2471,7 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 26.05
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -2501,24 +2501,24 @@
           "fuente": "GuruFocus.com"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Caída del precio tras no cumplir con los resultados de ganancias esperados en el segundo trimestre.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "A pesar de ciertos avances regulatorios, la decepción en los resultados financieros trimestrales pesa sobre el sentimiento de los inversores. Esto mantendrá probablemente una presión bajista en la cotización a corto plazo. Considera que este análisis refleja las noticias actuales y no asegura el comportamiento futuro."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 73.95,
-      "stop_loss": 68.03,
-      "objetivo": 85.79,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.4x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "HHH",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 73.95,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -2638,7 +2638,7 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 73.95
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -2668,10 +2668,10 @@
           "fuente": "Zacks"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Compras de acciones por parte de ejecutivos y respaldo público de inversores reconocidos.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "Las compras de acciones por parte de la propia directiva y comentarios favorables del mercado señalan una alta confianza interna. Esto suele atraer compradores e impulsar el precio al alza en los días venideros. Aclaramos que esta es solo una estimación basada en los titulares."
     },
     {
       "hay_señal": false,
@@ -2682,10 +2682,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "ADMA",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 10.12,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -2805,7 +2805,7 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 10.12
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -2836,23 +2836,23 @@
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Opiniones positivas de analistas contrastan con caídas recientes en el precio frente al mercado.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Existe una discrepancia entre la caída reciente del precio y el entusiasmo de los analistas hacia el futuro de la empresa. Dicha mezcla de señales puede provocar que el precio oscile lateralmente en el corto plazo sin una dirección clara. Ten en cuenta que este pronóstico es una interpretación periodística sin certeza."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "momentum",
-      "direccion": "short",
-      "confianza": "media",
-      "entrada": 334.68,
-      "stop_loss": 361.45,
-      "objetivo": 281.14,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -17.83% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "MDB",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 334.68,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -2972,7 +2972,7 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 334.68
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -2987,39 +2987,39 @@
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Why MongoDB Sank Today",
-          "link": "https://www.fool.com/investing/2026/09/28/why-mongodb-sank-today/",
-          "fuente": "Motley Fool"
+          "titulo": "Why Atlassian (TEAM) Stock Is Down Today",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-atlassian-team-stock-down-001436323.html",
+          "fuente": "StockStory"
         },
         {
-          "titulo": "Sector Update: Tech Stocks Fall Late Afternoon",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-195704336.html",
-          "fuente": "MT Newswires"
+          "titulo": "Why MongoDB (MDB) Stock Is Nosediving",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-mongodb-mdb-stock-nosediving-215836190.html",
+          "fuente": "StockStory"
         },
         {
-          "titulo": "What Needs To Be True To Buy Twilio Stock Now?",
-          "link": "https://www.trefis.com/articles/616782/what-needs-to-be-true-to-buy-twilio-stock-now/2026-09-28",
-          "fuente": "Trefis"
+          "titulo": "MongoDB Stock Crashes Nearly 20% After CEO Desai Leaves to Meta",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/mongodb-stock-crashes-nearly-20-204547121.html",
+          "fuente": "GuruFocus.com"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Derrumbe de casi 20% en la cotización debido a la salida repentina de su Director Ejecutivo.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "La renuncia inesperada del CEO para unirse a un competidor generó incertidumbre y ventas de pánico entre los accionistas. Es muy probable que el impacto negativo mantenga el precio a la baja en los próximos días. Esta visión proviene de los titulares recientes y no es un hecho garantizado."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "momentum",
-      "direccion": "short",
-      "confianza": "media",
-      "entrada": 35.18,
-      "stop_loss": 37.99,
-      "objetivo": 29.56,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -16.22% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
       "ticker": "GFI",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 35.18,
+      "precio_al_momento_del_analisis": NaN,
       "historial_precios": [
         {
           "fecha": "2026-08-17",
@@ -3139,7 +3139,7 @@
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 35.18
+          "cierre": NaN
         }
       ],
       "noticias": [
@@ -3169,10 +3169,10 @@
           "fuente": "MT Newswires"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Caída superior al 13% tras el rechazo a su propuesta de adquisición multimillonaria.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "El rechazo de la oferta de compra eliminó un catalizador clave de crecimiento y provocó una fuerte reacción negativa. Debido a esto, se anticipa que la cotización siga bajo presión bajista a corto plazo. Recuerda que esto se basa puramente en el análisis de las noticias y no constituye una certeza."
     }
   ]
 }
