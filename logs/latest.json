@@ -1,19 +1,19 @@
 {
-  "actualizado": "2026-10-02T01:33:26.872016+00:00",
+  "actualizado": "2026-10-02T08:22:21.065518+00:00",
   "resultados": [
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "pullback",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 330.32,
+      "stop_loss": 321.67,
+      "objetivo": 347.62,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "AAPL",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 330.32,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -133,14 +133,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 330.32
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de la empresa.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Al no haber titulares recientes, no existen catalizadores de noticias que impulsen la acción hacia ninguna dirección. Por ello, se proyecta un comportamiento lateral en los próximos días. Esta estimación responde únicamente a la falta de información actual y no constituye una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": false,
@@ -151,10 +151,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "MSFT",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 512.8,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -274,14 +274,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 512.8
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se registran titulares recientes para determinar un sentimiento del mercado.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Sin noticias disponibles en este momento, el precio carece de un impulso informativo claro en el corto plazo. Es esperable que la cotización se mueva de manera lateral mientras no surjan novedades. Recordá que esta es solo una lectura por ausencia de datos y no una garantía."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": false,
@@ -292,10 +292,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "NVDA",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 230.86,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -415,14 +415,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 230.86
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay información de titulares recientes para analizar esta acción.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican eventos inmediatos que modifiquen su tendencia. Se prevé que el precio se mantenga estable o lateral en el corto plazo. Tené en cuenta que esto refleja la falta de titulares y no representa una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": false,
@@ -433,10 +433,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 333.18,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -556,14 +556,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 333.18
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Ausencia de noticias recientes para generar una lectura de sentimiento.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Al no disponer de titulares de prensa, no hay factores externos conocidos que afecten el valor de forma inmediata. Se contempla una inclinación de precio lateral para los días venideros. Es importante saber que esto es solo una interpretación informativa y no una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": false,
@@ -574,10 +574,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 359.85,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -697,14 +697,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 359.85
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No existen noticias recientes para juzgar el sentimiento a corto plazo.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "La falta de información reciente impide detectar catalizadores alcistas o bajistas. Por este motivo, la trayectoria más probable es un movimiento lateral a corto plazo. Aclaramos que esta conclusión surge de la falta de noticias y no es una predicción segura."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": false,
@@ -715,10 +715,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 163.82,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -838,14 +838,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 163.82
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Sin publicaciones ni noticias recientes sobre la empresa.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Ante la falta de noticias relevantes, la cotización no presenta motivos informativos para fluctuaciones bruscas. La expectativa para los próximos días se orienta a un comportamiento lateral. Este análisis es estrictamente una lectura de titulares y no una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": false,
@@ -856,10 +856,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 207.1,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -979,14 +979,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 207.1
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se dispone de noticias recientes para esta compañía.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Dado que no hay titulares disponibles, el activo carece de estímulos inmediatos que alteren su precio. Es probable que mantenga una tendencia lateral en el corto plazo. Recordá que este diagnóstico deriva de la ausencia de novedades y no implica certeza absoluta."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": false,
@@ -997,10 +997,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "AMZN",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 248.23,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -1120,14 +1120,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 248.23
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes que modifiquen la perspectiva del activo.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Sin novedades informativas a la vista, el mercado no cuenta con incentivos para un movimiento marcado. La inclinación del precio tenderá a ser lateral durante los próximos días. Esto debe tomarse como una lectura sobre datos ausentes y no como una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": false,
@@ -1138,10 +1138,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "KO",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 86.1,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -1261,14 +1261,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 86.1
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Falta de titulares recientes para definir un sentimiento en la acción.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Al no registrarse noticias recientes, no hay fundamentos en los titulares que guíen una subida o bajada. Se anticipa una dinámica de precio lateral a corto plazo. Cabe señalar que esta perspectiva se basa solo en los titulares y no es una garantía."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": false,
@@ -1279,10 +1279,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 763.99,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -1402,14 +1402,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 763.99
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Sin información periodística reciente para evaluar el ETF.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "La ausencia de titulares recientes implica una falta de catalizadores informativos inmediatos. La opción más prudente es proyectar un comportamiento lateral para los siguientes días. Esta postura responde exclusivamente a la falta de datos y no es una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": false,
@@ -1420,10 +1420,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "QQQ",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 742.03,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -1543,28 +1543,28 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 742.03
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay datos de noticias recientes disponibles para el análisis.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Sin noticias recientes sobre el fondo, no hay eventos de impacto que motiven cambios fuertes en su cotización. La expectativa a corto plazo es un curso fundamentalmente lateral. Se aclara que es un análisis de noticias y en absoluto representa una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 15.04,
+      "stop_loss": 13.84,
+      "objetivo": 17.44,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 5.6x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "MAT",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 15.04,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -1684,28 +1684,28 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 15.04
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se registran noticias recientes en el listado de este activo.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "La falta de titulares sobre la empresa deja al valor sin una dirección definida por noticias. Lo más factible es un desempeño lateral del precio en el corto plazo. Tené en cuenta que esto es solo una evaluación sobre la falta de noticias y no una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 212.3,
+      "stop_loss": 195.32,
+      "objetivo": 246.26,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 4.4x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "ACN",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 212.3,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -1825,28 +1825,28 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 212.3
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Sin noticias recientes para fundamentar un sentimiento específico.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Al no contar con información mediática reciente, la acción carece de catalizadores para variar significativamente. Su cotización podría mantenerse de forma lateral durante los próximos días. Es necesario resaltar que esto es una lectura según la prensa disponible y no una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 490.54,
+      "stop_loss": 451.3,
+      "objetivo": 569.02,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.9x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "SNPS",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 490.54,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -1966,28 +1966,28 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 490.54
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay titulares de prensa disponibles en el presente listado.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la inexistencia de noticias recientes, no existen motivos informativos para prever alzas o bajas. La tendencia de precio se perfila como lateral en el plazo inmediato. Entendé esto como un análisis limitado a la ausencia de titulares y jamás como una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
       "hay_señal": true,
-      "tipo_setup": "reversion",
-      "direccion": "long",
+      "tipo_setup": "momentum",
+      "direccion": "short",
       "confianza": "media",
-      "entrada": NaN,
-      "stop_loss": NaN,
-      "objetivo": NaN,
-      "ratio_riesgo_beneficio": NaN,
-      "razon": "El RSI está en 15.7, una zona de sobreventa que históricamente anticipa un posible giro.",
+      "entrada": 661.75,
+      "stop_loss": 714.69,
+      "objetivo": 555.87,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió -22.74% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "FICO",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 661.75,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -2107,28 +2107,28 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 661.75
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Ausencia total de noticias recientes para evaluar este ticker.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Sin información reciente emitida sobre la empresa, el valor no recibe influencias claras de los medios. Se proyecta que su precio se incline por un movimiento lateral. Recordá que se trata de un análisis de titulares y no de una verdad garantizada."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 25.44,
+      "stop_loss": 23.4,
+      "objetivo": 29.52,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 3.5x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "EFXT",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 25.44,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -2248,28 +2248,28 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 25.44
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se cuenta con noticias recientes para fundamentar una posición.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Al no haber noticias recientes disponibles, no se identifican detonantes para una variación brusca del activo. La dirección proyectada para los próximos días es lateral. Considerá que esta postura se basa en la carencia de noticias y no es una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 319.19,
+      "stop_loss": 293.65,
+      "objetivo": 370.27,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió 9.83% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "COHR",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 319.19,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -2389,28 +2389,28 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 319.19
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Sin noticias recientes publicadas para la evaluación de mercado.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "La falta de titulares vigentes deja a la acción sin un impulso noticioso claro. Se aguarda un comportamiento lateral de la cotización en los días que vienen. Vale destacar que esta conclusión parte únicamente del volumen de prensa y no constituye una certeza."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 12.57,
+      "stop_loss": 13.58,
+      "objetivo": 10.55,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió -84.18% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "CTVA",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 12.57,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -2530,28 +2530,28 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 12.57
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay datos de prensa recientes atribuidos a esta empresa.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Ante la inexistencia de noticias recientes, no hay factores que precipiten el valor en una dirección específica. Se espera una evolución lateral en el horizonte de corto plazo. Se recuerda que este es solo un diagnóstico por falta de titulares y no representa certeza alguna."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 9.34,
+      "stop_loss": 10.09,
+      "objetivo": 7.84,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió -8.25% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "PSKY",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 9.34,
       "historial_precios": [
         {
           "fecha": "2026-08-20",
@@ -2671,14 +2671,14 @@
         },
         {
           "fecha": "2026-10-01",
-          "cierre": NaN
+          "cierre": 9.34
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Inexistencia de noticias recientes para valorar la firma.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar la acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Sin la presencia de noticias recientes, el activo no posee disparadores informativos para sus precios. Por lo tanto, se inclina hacia un desempeño lateral en los días inmediatos. Considerá que esta interpretación se limita a los datos brindados y no asegura resultados."
+      "noticias_prediccion": "Al no contar con noticias recientes, no se identifican eventos o catalizadores que muevan el precio en alguna dirección específica. Por esta razón, la perspectiva para los próximos días se inclina hacia un movimiento lateral. Tenga en cuenta que esto es solo una interpretación ante la falta de novedades y no una certeza."
     }
   ]
 }
