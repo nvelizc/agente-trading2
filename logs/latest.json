@@ -1,24 +1,20 @@
 {
-  "actualizado": "2026-10-09T13:04:37.736600+00:00",
+  "actualizado": "2026-10-09T19:26:38.109645+00:00",
   "resultados": [
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "hay_señal": true,
+      "tipo_setup": "pullback",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 337.39,
+      "stop_loss": 325.37,
+      "objetivo": 361.43,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "AAPL",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 340.42,
+      "precio_al_momento_del_analisis": 337.39,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 314.58
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 319.7
@@ -134,13 +130,17 @@
         {
           "fecha": "2026-10-08",
           "cierre": 340.42
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 337.39
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -154,12 +154,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "MSFT",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 522.61,
+      "precio_al_momento_del_analisis": 535.8,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 505.06
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 513.53
@@ -275,32 +271,32 @@
         {
           "fecha": "2026-10-08",
           "cierre": 522.61
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 535.8
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
       "confianza": "media",
-      "entrada": 230.48,
-      "stop_loss": 219.39,
-      "objetivo": 252.66,
+      "entrada": 229.87,
+      "stop_loss": 219.96,
+      "objetivo": 249.69,
       "ratio_riesgo_beneficio": 2.0,
       "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "NVDA",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 230.48,
+      "precio_al_momento_del_analisis": 229.87,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 227.73
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 217.31
@@ -416,13 +412,17 @@
         {
           "fecha": "2026-10-08",
           "cierre": 230.48
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 229.87
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -436,12 +436,8 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 331.42,
+      "precio_al_momento_del_analisis": 333.46,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 352.46
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 355.84
@@ -557,13 +553,17 @@
         {
           "fecha": "2026-10-08",
           "cierre": 331.42
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 333.46
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -577,12 +577,8 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 375.1,
+      "precio_al_momento_del_analisis": 385.22,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 379.66
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 381.6
@@ -698,13 +694,17 @@
         {
           "fecha": "2026-10-08",
           "cierre": 375.1
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 385.22
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -718,12 +718,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 168.5,
+      "precio_al_momento_del_analisis": 168.72,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 156.44
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 156.71
@@ -839,13 +835,17 @@
         {
           "fecha": "2026-10-08",
           "cierre": 168.5
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 168.72
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -859,12 +859,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 211.55,
+      "precio_al_momento_del_analisis": 211.65,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 199.77
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 201.86
@@ -980,13 +976,17 @@
         {
           "fecha": "2026-10-08",
           "cierre": 211.55
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 211.65
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -1000,12 +1000,8 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "AMZN",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 254.06,
+      "precio_al_momento_del_analisis": 261.73,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 256.26
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 266.43
@@ -1121,13 +1117,17 @@
         {
           "fecha": "2026-10-08",
           "cierre": 254.06
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 261.73
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -1141,12 +1141,8 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "KO",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 87.77,
+      "precio_al_momento_del_analisis": 88.32,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 88.53
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 89.13
@@ -1262,32 +1258,32 @@
         {
           "fecha": "2026-10-08",
           "cierre": 87.77
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 88.32
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "pullback",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": 773.93,
-      "stop_loss": 743.79,
-      "objetivo": 834.21,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 773.93,
+      "precio_al_momento_del_analisis": 779.14,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 769.19
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 767.44
@@ -1403,32 +1399,32 @@
         {
           "fecha": "2026-10-08",
           "cierre": 773.93
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 779.14
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "pullback",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": 747.58,
-      "stop_loss": 713.43,
-      "objetivo": 815.88,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "QQQ",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 747.58,
+      "precio_al_momento_del_analisis": 751.71,
       "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 720.36
-        },
         {
           "fecha": "2026-08-28",
           "cierre": 715.68
@@ -1544,1000 +1540,440 @@
         {
           "fecha": "2026-10-08",
           "cierre": 747.58
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 751.71
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 12.98,
+      "stop_loss": 11.94,
+      "objetivo": 15.06,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió 24.09% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "ticker": "NVAX",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 12.98,
+      "historial_precios": [
+        {
+          "fecha": "2026-08-28",
+          "cierre": 9.26
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 9.37
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 10.12
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 10.32
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 10.34
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 10.22
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 10.19
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 9.85
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 9.3
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 9.42
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 9.59
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 9.23
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 9.35
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 10.0
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 10.11
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 10.41
+        },
+        {
+          "fecha": "2026-09-22",
+          "cierre": 10.83
+        },
+        {
+          "fecha": "2026-09-23",
+          "cierre": 10.55
+        },
+        {
+          "fecha": "2026-09-24",
+          "cierre": 10.6
+        },
+        {
+          "fecha": "2026-09-25",
+          "cierre": 10.63
+        },
+        {
+          "fecha": "2026-09-28",
+          "cierre": 10.8
+        },
+        {
+          "fecha": "2026-09-29",
+          "cierre": 10.82
+        },
+        {
+          "fecha": "2026-09-30",
+          "cierre": 10.81
+        },
+        {
+          "fecha": "2026-10-01",
+          "cierre": 10.6
+        },
+        {
+          "fecha": "2026-10-02",
+          "cierre": 10.46
+        },
+        {
+          "fecha": "2026-10-05",
+          "cierre": 12.56
+        },
+        {
+          "fecha": "2026-10-06",
+          "cierre": 11.32
+        },
+        {
+          "fecha": "2026-10-07",
+          "cierre": 11.22
+        },
+        {
+          "fecha": "2026-10-08",
+          "cierre": 11.01
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 12.98
+        }
+      ],
+      "noticias": [],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 29.56,
+      "stop_loss": 27.2,
+      "objetivo": 34.28,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió 14.53% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "ticker": "FSLY",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 29.56,
+      "historial_precios": [
+        {
+          "fecha": "2026-08-28",
+          "cierre": 23.04
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 22.79
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 20.77
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 20.43
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 21.12
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 20.59
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 21.49
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 22.71
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 22.71
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 23.16
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 24.86
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 24.3
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 23.54
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 24.57
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 23.86
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 27.42
+        },
+        {
+          "fecha": "2026-09-22",
+          "cierre": 26.08
+        },
+        {
+          "fecha": "2026-09-23",
+          "cierre": 29.65
+        },
+        {
+          "fecha": "2026-09-24",
+          "cierre": 26.68
+        },
+        {
+          "fecha": "2026-09-25",
+          "cierre": 24.96
+        },
+        {
+          "fecha": "2026-09-28",
+          "cierre": 24.92
+        },
+        {
+          "fecha": "2026-09-29",
+          "cierre": 25.48
+        },
+        {
+          "fecha": "2026-09-30",
+          "cierre": 25.67
+        },
+        {
+          "fecha": "2026-10-01",
+          "cierre": 26.39
+        },
+        {
+          "fecha": "2026-10-02",
+          "cierre": 25.81
+        },
+        {
+          "fecha": "2026-10-05",
+          "cierre": 26.01
+        },
+        {
+          "fecha": "2026-10-06",
+          "cierre": 25.51
+        },
+        {
+          "fecha": "2026-10-07",
+          "cierre": 25.28
+        },
+        {
+          "fecha": "2026-10-08",
+          "cierre": 25.29
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 29.56
+        }
+      ],
+      "noticias": [],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": true,
       "tipo_setup": "ruptura",
       "direccion": "long",
       "confianza": "alta",
-      "entrada": 119.47,
-      "stop_loss": 109.91,
-      "objetivo": 138.59,
+      "entrada": 78.32,
+      "stop_loss": 72.05,
+      "objetivo": 90.86,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 4.1x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "HAE",
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.4x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "ticker": "CCI",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 119.47,
+      "precio_al_momento_del_analisis": 78.32,
       "historial_precios": [
         {
-          "fecha": "2026-08-27",
-          "cierre": 105.0
-        },
-        {
           "fecha": "2026-08-28",
-          "cierre": 103.96
+          "cierre": 75.05
         },
         {
           "fecha": "2026-08-31",
-          "cierre": 103.07
+          "cierre": 75.05
         },
         {
           "fecha": "2026-09-01",
-          "cierre": 101.95
+          "cierre": 74.75
         },
         {
           "fecha": "2026-09-02",
-          "cierre": 102.92
+          "cierre": 74.3
         },
         {
           "fecha": "2026-09-03",
-          "cierre": 102.85
+          "cierre": 76.15
         },
         {
           "fecha": "2026-09-04",
-          "cierre": 102.92
+          "cierre": 74.74
         },
         {
           "fecha": "2026-09-08",
-          "cierre": 102.84
+          "cierre": 74.88
         },
         {
           "fecha": "2026-09-09",
-          "cierre": 103.16
+          "cierre": 74.1
         },
         {
           "fecha": "2026-09-10",
-          "cierre": 101.06
+          "cierre": 72.81
         },
         {
           "fecha": "2026-09-11",
-          "cierre": 102.69
+          "cierre": 74.54
         },
         {
           "fecha": "2026-09-14",
-          "cierre": 106.31
+          "cierre": 73.11
         },
         {
           "fecha": "2026-09-15",
-          "cierre": 106.2
+          "cierre": 73.25
         },
         {
           "fecha": "2026-09-16",
-          "cierre": 106.24
+          "cierre": 73.22
         },
         {
           "fecha": "2026-09-17",
-          "cierre": 107.6
+          "cierre": 73.74
         },
         {
           "fecha": "2026-09-18",
-          "cierre": 108.4
+          "cierre": 73.06
         },
         {
           "fecha": "2026-09-21",
-          "cierre": 108.73
+          "cierre": 73.22
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 108.52
+          "cierre": 72.37
         },
         {
           "fecha": "2026-09-23",
-          "cierre": 106.82
+          "cierre": 70.23
         },
         {
           "fecha": "2026-09-24",
-          "cierre": 106.0
+          "cierre": 67.63
         },
         {
           "fecha": "2026-09-25",
-          "cierre": 105.3
+          "cierre": 67.84
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 105.79
+          "cierre": 67.1
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 105.8
+          "cierre": 67.07
         },
         {
           "fecha": "2026-09-30",
-          "cierre": 105.3
+          "cierre": 66.65
         },
         {
           "fecha": "2026-10-01",
-          "cierre": 104.37
+          "cierre": 66.12
         },
         {
           "fecha": "2026-10-02",
-          "cierre": 104.68
+          "cierre": 66.44
         },
         {
           "fecha": "2026-10-05",
-          "cierre": 104.68
+          "cierre": 67.58
         },
         {
           "fecha": "2026-10-06",
-          "cierre": 103.52
+          "cierre": 68.28
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 101.71
+          "cierre": 69.01
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 119.47
+          "cierre": 68.89
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 78.32
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
-    },
-    {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 126.63,
-      "stop_loss": 116.5,
-      "objetivo": 146.89,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 3.7x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "MANE",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 126.63,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 101.81
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 97.93
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 98.41
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 97.51
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 98.46
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 97.75
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 98.51
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 103.83
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 99.67
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 98.14
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 98.97
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 101.7
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 103.89
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 102.42
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 108.68
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 106.75
-        },
-        {
-          "fecha": "2026-09-21",
-          "cierre": 112.8
-        },
-        {
-          "fecha": "2026-09-22",
-          "cierre": 118.14
-        },
-        {
-          "fecha": "2026-09-23",
-          "cierre": 115.78
-        },
-        {
-          "fecha": "2026-09-24",
-          "cierre": 115.72
-        },
-        {
-          "fecha": "2026-09-25",
-          "cierre": 116.57
-        },
-        {
-          "fecha": "2026-09-28",
-          "cierre": 115.0
-        },
-        {
-          "fecha": "2026-09-29",
-          "cierre": 117.82
-        },
-        {
-          "fecha": "2026-09-30",
-          "cierre": 121.23
-        },
-        {
-          "fecha": "2026-10-01",
-          "cierre": 117.22
-        },
-        {
-          "fecha": "2026-10-02",
-          "cierre": 116.76
-        },
-        {
-          "fecha": "2026-10-05",
-          "cierre": 118.87
-        },
-        {
-          "fecha": "2026-10-06",
-          "cierre": 108.96
-        },
-        {
-          "fecha": "2026-10-07",
-          "cierre": 110.95
-        },
-        {
-          "fecha": "2026-10-08",
-          "cierre": 126.63
-        }
-      ],
-      "noticias": [],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
-    },
-    {
-      "hay_señal": true,
-      "tipo_setup": "momentum",
-      "direccion": "short",
-      "confianza": "media",
-      "entrada": 12.66,
-      "stop_loss": 13.67,
-      "objetivo": 10.64,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -7.86% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
-      "ticker": "SECZ",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 12.66,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 6.67
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 6.29
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 6.46
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 6.25
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 6.51
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 7.1
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 7.42
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 8.25
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 8.43
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 8.04
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 8.27
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 8.21
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 7.97
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 7.77
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 8.93
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 10.86
-        },
-        {
-          "fecha": "2026-09-21",
-          "cierre": 13.5
-        },
-        {
-          "fecha": "2026-09-22",
-          "cierre": 13.0
-        },
-        {
-          "fecha": "2026-09-23",
-          "cierre": 14.36
-        },
-        {
-          "fecha": "2026-09-24",
-          "cierre": 16.53
-        },
-        {
-          "fecha": "2026-09-25",
-          "cierre": 15.96
-        },
-        {
-          "fecha": "2026-09-28",
-          "cierre": 16.63
-        },
-        {
-          "fecha": "2026-09-29",
-          "cierre": 15.84
-        },
-        {
-          "fecha": "2026-09-30",
-          "cierre": 14.59
-        },
-        {
-          "fecha": "2026-10-01",
-          "cierre": 13.74
-        },
-        {
-          "fecha": "2026-10-02",
-          "cierre": 12.99
-        },
-        {
-          "fecha": "2026-10-05",
-          "cierre": 11.7
-        },
-        {
-          "fecha": "2026-10-06",
-          "cierre": 12.7
-        },
-        {
-          "fecha": "2026-10-07",
-          "cierre": 11.4
-        },
-        {
-          "fecha": "2026-10-08",
-          "cierre": 12.66
-        }
-      ],
-      "noticias": [],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
-    },
-    {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
-      "ticker": "COCO",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 55.98,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 61.63
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 61.71
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 58.72
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 58.06
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 57.69
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 55.08
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 55.13
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 53.27
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 51.49
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 51.1
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 52.01
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 55.03
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 55.78
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 56.37
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 56.24
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 55.82
-        },
-        {
-          "fecha": "2026-09-21",
-          "cierre": 57.25
-        },
-        {
-          "fecha": "2026-09-22",
-          "cierre": 59.6
-        },
-        {
-          "fecha": "2026-09-23",
-          "cierre": 57.98
-        },
-        {
-          "fecha": "2026-09-24",
-          "cierre": 59.17
-        },
-        {
-          "fecha": "2026-09-25",
-          "cierre": 58.59
-        },
-        {
-          "fecha": "2026-09-28",
-          "cierre": 57.66
-        },
-        {
-          "fecha": "2026-09-29",
-          "cierre": 56.55
-        },
-        {
-          "fecha": "2026-09-30",
-          "cierre": 57.26
-        },
-        {
-          "fecha": "2026-10-01",
-          "cierre": 57.01
-        },
-        {
-          "fecha": "2026-10-02",
-          "cierre": 55.97
-        },
-        {
-          "fecha": "2026-10-05",
-          "cierre": 55.32
-        },
-        {
-          "fecha": "2026-10-06",
-          "cierre": 54.48
-        },
-        {
-          "fecha": "2026-10-07",
-          "cierre": 50.65
-        },
-        {
-          "fecha": "2026-10-08",
-          "cierre": 55.98
-        }
-      ],
-      "noticias": [],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
-    },
-    {
-      "hay_señal": true,
-      "tipo_setup": "momentum",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": 15.46,
-      "stop_loss": 14.22,
-      "objetivo": 17.94,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió 6.04% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
-      "ticker": "ERAS",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 15.46,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 19.49
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 18.03
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 17.88
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 16.76
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 16.37
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 16.26
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 16.19
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 16.28
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 15.7
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 16.03
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 15.88
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 16.16
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 16.25
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 15.36
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 15.34
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 14.77
-        },
-        {
-          "fecha": "2026-09-21",
-          "cierre": 15.04
-        },
-        {
-          "fecha": "2026-09-22",
-          "cierre": 15.55
-        },
-        {
-          "fecha": "2026-09-23",
-          "cierre": 13.94
-        },
-        {
-          "fecha": "2026-09-24",
-          "cierre": 14.52
-        },
-        {
-          "fecha": "2026-09-25",
-          "cierre": 14.25
-        },
-        {
-          "fecha": "2026-09-28",
-          "cierre": 14.13
-        },
-        {
-          "fecha": "2026-09-29",
-          "cierre": 14.21
-        },
-        {
-          "fecha": "2026-09-30",
-          "cierre": 14.66
-        },
-        {
-          "fecha": "2026-10-01",
-          "cierre": 14.58
-        },
-        {
-          "fecha": "2026-10-02",
-          "cierre": 14.74
-        },
-        {
-          "fecha": "2026-10-05",
-          "cierre": 14.72
-        },
-        {
-          "fecha": "2026-10-06",
-          "cierre": 14.3
-        },
-        {
-          "fecha": "2026-10-07",
-          "cierre": 14.12
-        },
-        {
-          "fecha": "2026-10-08",
-          "cierre": 15.46
-        }
-      ],
-      "noticias": [],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
-    },
-    {
-      "hay_señal": true,
-      "tipo_setup": "momentum",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": 29.81,
-      "stop_loss": 27.43,
-      "objetivo": 34.57,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió 7.54% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
-      "ticker": "CSGP",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 29.81,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 31.34
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 32.22
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 32.07
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 31.98
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 31.26
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 31.68
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 30.91
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 30.34
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 29.58
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 29.49
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 30.46
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 31.52
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 31.56
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 30.36
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 29.3
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 29.09
-        },
-        {
-          "fecha": "2026-09-21",
-          "cierre": 29.04
-        },
-        {
-          "fecha": "2026-09-22",
-          "cierre": 28.77
-        },
-        {
-          "fecha": "2026-09-23",
-          "cierre": 28.26
-        },
-        {
-          "fecha": "2026-09-24",
-          "cierre": 27.86
-        },
-        {
-          "fecha": "2026-09-25",
-          "cierre": 28.09
-        },
-        {
-          "fecha": "2026-09-28",
-          "cierre": 27.02
-        },
-        {
-          "fecha": "2026-09-29",
-          "cierre": 26.95
-        },
-        {
-          "fecha": "2026-09-30",
-          "cierre": 27.4
-        },
-        {
-          "fecha": "2026-10-01",
-          "cierre": 27.72
-        },
-        {
-          "fecha": "2026-10-02",
-          "cierre": 27.38
-        },
-        {
-          "fecha": "2026-10-05",
-          "cierre": 27.66
-        },
-        {
-          "fecha": "2026-10-06",
-          "cierre": 27.63
-        },
-        {
-          "fecha": "2026-10-07",
-          "cierre": 27.6
-        },
-        {
-          "fecha": "2026-10-08",
-          "cierre": 29.81
-        }
-      ],
-      "noticias": [],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
-    },
-    {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
-      "ticker": "AAOI",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 105.9,
-      "historial_precios": [
-        {
-          "fecha": "2026-08-27",
-          "cierre": 113.28
-        },
-        {
-          "fecha": "2026-08-28",
-          "cierre": 106.23
-        },
-        {
-          "fecha": "2026-08-31",
-          "cierre": 107.69
-        },
-        {
-          "fecha": "2026-09-01",
-          "cierre": 103.39
-        },
-        {
-          "fecha": "2026-09-02",
-          "cierre": 103.13
-        },
-        {
-          "fecha": "2026-09-03",
-          "cierre": 100.38
-        },
-        {
-          "fecha": "2026-09-04",
-          "cierre": 105.53
-        },
-        {
-          "fecha": "2026-09-08",
-          "cierre": 111.55
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 107.93
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 103.29
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 105.36
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 95.76
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 95.29
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 96.74
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 98.06
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 105.17
-        },
-        {
-          "fecha": "2026-09-21",
-          "cierre": 108.67
-        },
-        {
-          "fecha": "2026-09-22",
-          "cierre": 107.0
-        },
-        {
-          "fecha": "2026-09-23",
-          "cierre": 101.06
-        },
-        {
-          "fecha": "2026-09-24",
-          "cierre": 101.03
-        },
-        {
-          "fecha": "2026-09-25",
-          "cierre": 101.4
-        },
-        {
-          "fecha": "2026-09-28",
-          "cierre": 96.82
-        },
-        {
-          "fecha": "2026-09-29",
-          "cierre": 100.67
-        },
-        {
-          "fecha": "2026-09-30",
-          "cierre": 99.26
-        },
-        {
-          "fecha": "2026-10-01",
-          "cierre": 107.32
-        },
-        {
-          "fecha": "2026-10-02",
-          "cierre": 115.59
-        },
-        {
-          "fecha": "2026-10-05",
-          "cierre": 121.57
-        },
-        {
-          "fecha": "2026-10-06",
-          "cierre": 130.16
-        },
-        {
-          "fecha": "2026-10-07",
-          "cierre": 122.54
-        },
-        {
-          "fecha": "2026-10-08",
-          "cierre": 105.9
-        }
-      ],
-      "noticias": [],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
       "hay_señal": false,
@@ -2549,136 +1985,700 @@
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
-      "ticker": "MXL",
+      "ticker": "AUGO",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 93.7,
+      "precio_al_momento_del_analisis": 92.79,
       "historial_precios": [
         {
-          "fecha": "2026-08-27",
-          "cierre": 63.42
-        },
-        {
           "fecha": "2026-08-28",
-          "cierre": 61.73
+          "cierre": 84.53
         },
         {
           "fecha": "2026-08-31",
-          "cierre": 59.91
+          "cierre": 83.58
         },
         {
           "fecha": "2026-09-01",
-          "cierre": 57.59
+          "cierre": 79.04
         },
         {
           "fecha": "2026-09-02",
-          "cierre": 60.1
+          "cierre": 84.6
         },
         {
           "fecha": "2026-09-03",
-          "cierre": 59.45
+          "cierre": 88.11
         },
         {
           "fecha": "2026-09-04",
-          "cierre": 62.74
+          "cierre": 84.91
         },
         {
           "fecha": "2026-09-08",
-          "cierre": 66.5
-        },
-        {
-          "fecha": "2026-09-09",
-          "cierre": 71.51
-        },
-        {
-          "fecha": "2026-09-10",
-          "cierre": 69.34
-        },
-        {
-          "fecha": "2026-09-11",
-          "cierre": 74.57
-        },
-        {
-          "fecha": "2026-09-14",
-          "cierre": 64.79
-        },
-        {
-          "fecha": "2026-09-15",
-          "cierre": 67.12
-        },
-        {
-          "fecha": "2026-09-16",
-          "cierre": 69.51
-        },
-        {
-          "fecha": "2026-09-17",
-          "cierre": 74.99
-        },
-        {
-          "fecha": "2026-09-18",
-          "cierre": 81.12
-        },
-        {
-          "fecha": "2026-09-21",
-          "cierre": 85.98
-        },
-        {
-          "fecha": "2026-09-22",
-          "cierre": 87.43
-        },
-        {
-          "fecha": "2026-09-23",
-          "cierre": 84.32
-        },
-        {
-          "fecha": "2026-09-24",
           "cierre": 85.31
         },
         {
+          "fecha": "2026-09-09",
+          "cierre": 85.32
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 86.01
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 87.08
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 86.3
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 85.77
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 85.96
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 88.71
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 88.25
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 89.15
+        },
+        {
+          "fecha": "2026-09-22",
+          "cierre": 92.77
+        },
+        {
+          "fecha": "2026-09-23",
+          "cierre": 85.34
+        },
+        {
+          "fecha": "2026-09-24",
+          "cierre": 83.07
+        },
+        {
           "fecha": "2026-09-25",
-          "cierre": 93.84
+          "cierre": 83.57
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 90.0
+          "cierre": 77.72
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 92.72
+          "cierre": 79.36
         },
         {
           "fecha": "2026-09-30",
-          "cierre": 90.31
+          "cierre": 78.68
         },
         {
           "fecha": "2026-10-01",
-          "cierre": 92.12
+          "cierre": 78.85
         },
         {
           "fecha": "2026-10-02",
-          "cierre": 105.93
+          "cierre": 81.95
         },
         {
           "fecha": "2026-10-05",
-          "cierre": 105.49
+          "cierre": 85.17
         },
         {
           "fecha": "2026-10-06",
-          "cierre": 109.3
+          "cierre": 86.67
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 107.36
+          "cierre": 82.02
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 93.7
+          "cierre": 82.49
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 92.79
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento se mantiene neutral.",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de titulares recientes, no se identifican eventos que impulsen el precio con fuerza en el corto plazo. Por ello, la cotización podría moverse de forma lateral en los próximos días. Recordá que este análisis se basa únicamente en la falta de novedades informativas y no es una certeza."
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 221.31,
+      "stop_loss": 203.61,
+      "objetivo": 256.71,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.4x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "ticker": "MRNA",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 221.31,
+      "historial_precios": [
+        {
+          "fecha": "2026-08-28",
+          "cierre": 137.99
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 140.34
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 154.27
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 150.81
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 148.87
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 145.55
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 140.33
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 135.61
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 136.62
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 143.97
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 146.69
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 143.77
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 145.62
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 158.07
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 154.04
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 172.94
+        },
+        {
+          "fecha": "2026-09-22",
+          "cierre": 182.56
+        },
+        {
+          "fecha": "2026-09-23",
+          "cierre": 182.11
+        },
+        {
+          "fecha": "2026-09-24",
+          "cierre": 194.82
+        },
+        {
+          "fecha": "2026-09-25",
+          "cierre": 198.88
+        },
+        {
+          "fecha": "2026-09-28",
+          "cierre": 197.28
+        },
+        {
+          "fecha": "2026-09-29",
+          "cierre": 203.46
+        },
+        {
+          "fecha": "2026-09-30",
+          "cierre": 192.57
+        },
+        {
+          "fecha": "2026-10-01",
+          "cierre": 188.94
+        },
+        {
+          "fecha": "2026-10-02",
+          "cierre": 190.01
+        },
+        {
+          "fecha": "2026-10-05",
+          "cierre": 203.21
+        },
+        {
+          "fecha": "2026-10-06",
+          "cierre": 187.46
+        },
+        {
+          "fecha": "2026-10-07",
+          "cierre": 196.48
+        },
+        {
+          "fecha": "2026-10-08",
+          "cierre": 197.0
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 221.31
+        }
+      ],
+      "noticias": [],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 434.0,
+      "stop_loss": 399.28,
+      "objetivo": 503.44,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.7x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "ticker": "HUM",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 434.0,
+      "historial_precios": [
+        {
+          "fecha": "2026-08-28",
+          "cierre": 385.54
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 383.23
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 394.88
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 400.97
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 406.52
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 401.54
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 403.09
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 400.02
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 400.73
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 409.8
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 407.02
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 396.62
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 384.72
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 384.52
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 386.22
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 378.58
+        },
+        {
+          "fecha": "2026-09-22",
+          "cierre": 372.0
+        },
+        {
+          "fecha": "2026-09-23",
+          "cierre": 374.78
+        },
+        {
+          "fecha": "2026-09-24",
+          "cierre": 380.32
+        },
+        {
+          "fecha": "2026-09-25",
+          "cierre": 397.93
+        },
+        {
+          "fecha": "2026-09-28",
+          "cierre": 389.63
+        },
+        {
+          "fecha": "2026-09-29",
+          "cierre": 386.87
+        },
+        {
+          "fecha": "2026-09-30",
+          "cierre": 381.57
+        },
+        {
+          "fecha": "2026-10-01",
+          "cierre": 379.68
+        },
+        {
+          "fecha": "2026-10-02",
+          "cierre": 388.36
+        },
+        {
+          "fecha": "2026-10-05",
+          "cierre": 404.07
+        },
+        {
+          "fecha": "2026-10-06",
+          "cierre": 404.27
+        },
+        {
+          "fecha": "2026-10-07",
+          "cierre": 396.51
+        },
+        {
+          "fecha": "2026-10-08",
+          "cierre": 387.12
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 434.0
+        }
+      ],
+      "noticias": [],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 149.46,
+      "stop_loss": 161.42,
+      "objetivo": 125.54,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió -8.67% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "ticker": "TMUS",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 149.46,
+      "historial_precios": [
+        {
+          "fecha": "2026-08-28",
+          "cierre": 181.37
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 180.44
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 182.16
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 187.3
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 188.02
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 181.52
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 181.69
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 177.34
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 177.16
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 182.33
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 182.9
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 180.47
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 176.26
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 166.45
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 168.18
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 165.27
+        },
+        {
+          "fecha": "2026-09-22",
+          "cierre": 162.41
+        },
+        {
+          "fecha": "2026-09-23",
+          "cierre": 165.66
+        },
+        {
+          "fecha": "2026-09-24",
+          "cierre": 165.35
+        },
+        {
+          "fecha": "2026-09-25",
+          "cierre": 165.43
+        },
+        {
+          "fecha": "2026-09-28",
+          "cierre": 166.45
+        },
+        {
+          "fecha": "2026-09-29",
+          "cierre": 162.98
+        },
+        {
+          "fecha": "2026-09-30",
+          "cierre": 163.08
+        },
+        {
+          "fecha": "2026-10-01",
+          "cierre": 161.73
+        },
+        {
+          "fecha": "2026-10-02",
+          "cierre": 163.64
+        },
+        {
+          "fecha": "2026-10-05",
+          "cierre": 164.64
+        },
+        {
+          "fecha": "2026-10-06",
+          "cierre": 165.93
+        },
+        {
+          "fecha": "2026-10-07",
+          "cierre": 167.65
+        },
+        {
+          "fecha": "2026-10-08",
+          "cierre": 171.31
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 149.46
+        }
+      ],
+      "noticias": [],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+    },
+    {
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 50.39,
+      "stop_loss": 54.42,
+      "objetivo": 42.33,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió -13.79% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "ticker": "ASTS",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 50.39,
+      "historial_precios": [
+        {
+          "fecha": "2026-08-28",
+          "cierre": 58.05
+        },
+        {
+          "fecha": "2026-08-31",
+          "cierre": 59.1
+        },
+        {
+          "fecha": "2026-09-01",
+          "cierre": 55.8
+        },
+        {
+          "fecha": "2026-09-02",
+          "cierre": 62.4
+        },
+        {
+          "fecha": "2026-09-03",
+          "cierre": 62.13
+        },
+        {
+          "fecha": "2026-09-04",
+          "cierre": 62.31
+        },
+        {
+          "fecha": "2026-09-08",
+          "cierre": 66.12
+        },
+        {
+          "fecha": "2026-09-09",
+          "cierre": 62.42
+        },
+        {
+          "fecha": "2026-09-10",
+          "cierre": 59.91
+        },
+        {
+          "fecha": "2026-09-11",
+          "cierre": 59.86
+        },
+        {
+          "fecha": "2026-09-14",
+          "cierre": 60.0
+        },
+        {
+          "fecha": "2026-09-15",
+          "cierre": 58.77
+        },
+        {
+          "fecha": "2026-09-16",
+          "cierre": 59.27
+        },
+        {
+          "fecha": "2026-09-17",
+          "cierre": 62.71
+        },
+        {
+          "fecha": "2026-09-18",
+          "cierre": 58.52
+        },
+        {
+          "fecha": "2026-09-21",
+          "cierre": 61.89
+        },
+        {
+          "fecha": "2026-09-22",
+          "cierre": 63.69
+        },
+        {
+          "fecha": "2026-09-23",
+          "cierre": 59.98
+        },
+        {
+          "fecha": "2026-09-24",
+          "cierre": 61.06
+        },
+        {
+          "fecha": "2026-09-25",
+          "cierre": 61.81
+        },
+        {
+          "fecha": "2026-09-28",
+          "cierre": 61.0
+        },
+        {
+          "fecha": "2026-09-29",
+          "cierre": 59.4
+        },
+        {
+          "fecha": "2026-09-30",
+          "cierre": 58.86
+        },
+        {
+          "fecha": "2026-10-01",
+          "cierre": 57.04
+        },
+        {
+          "fecha": "2026-10-02",
+          "cierre": 58.45
+        },
+        {
+          "fecha": "2026-10-05",
+          "cierre": 58.44
+        },
+        {
+          "fecha": "2026-10-06",
+          "cierre": 63.12
+        },
+        {
+          "fecha": "2026-10-07",
+          "cierre": 60.65
+        },
+        {
+          "fecha": "2026-10-08",
+          "cierre": 56.93
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 50.39
+        }
+      ],
+      "noticias": [],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     }
   ]
 }
