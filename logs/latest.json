@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-14T20:09:12.116008+00:00",
+  "actualizado": "2026-10-14T23:51:52.530547+00:00",
   "resultados": [
     {
       "hay_señal": false,
@@ -436,7 +436,7 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 335.32,
+      "precio_al_momento_del_analisis": 335.28,
       "historial_precios": [
         {
           "fecha": "2026-09-02",
@@ -556,7 +556,7 @@
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 335.32
+          "cierre": 335.28
         }
       ],
       "noticias": [],
@@ -577,7 +577,7 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 391.39,
+      "precio_al_momento_del_analisis": 391.43,
       "historial_precios": [
         {
           "fecha": "2026-09-02",
@@ -697,7 +697,7 @@
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 391.39
+          "cierre": 391.43
         }
       ],
       "noticias": [],
@@ -711,14 +711,14 @@
       "tipo_setup": "reversion",
       "direccion": "short",
       "confianza": "media",
-      "entrada": 177.06,
+      "entrada": 177.01,
       "stop_loss": 177.43,
-      "objetivo": 176.32,
+      "objetivo": 176.17,
       "ratio_riesgo_beneficio": 2.0,
       "razon": "El RSI está en 75.0, una zona de sobrecompra que históricamente anticipa un posible giro.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 177.06,
+      "precio_al_momento_del_analisis": 177.01,
       "historial_precios": [
         {
           "fecha": "2026-09-02",
@@ -838,7 +838,7 @@
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 177.06
+          "cierre": 177.01
         }
       ],
       "noticias": [],
@@ -859,7 +859,7 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 222.14,
+      "precio_al_momento_del_analisis": 222.04,
       "historial_precios": [
         {
           "fecha": "2026-09-02",
@@ -979,7 +979,7 @@
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 222.14
+          "cierre": 222.04
         }
       ],
       "noticias": [],
@@ -1141,7 +1141,7 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "KO",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 91.8,
+      "precio_al_momento_del_analisis": 91.78,
       "historial_precios": [
         {
           "fecha": "2026-09-02",
@@ -1261,7 +1261,7 @@
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 91.8
+          "cierre": 91.78
         }
       ],
       "noticias": [],
@@ -1275,14 +1275,14 @@
       "tipo_setup": "pullback",
       "direccion": "long",
       "confianza": "media",
-      "entrada": 769.67,
-      "stop_loss": 747.44,
-      "objetivo": 814.13,
+      "entrada": 769.6,
+      "stop_loss": 747.43,
+      "objetivo": 813.94,
       "ratio_riesgo_beneficio": 2.0,
       "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 769.67,
+      "precio_al_momento_del_analisis": 769.6,
       "historial_precios": [
         {
           "fecha": "2026-09-02",
@@ -1402,7 +1402,7 @@
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 769.67
+          "cierre": 769.6
         }
       ],
       "noticias": [],
@@ -1561,7 +1561,7 @@
       "stop_loss": 49.18,
       "objetivo": 62.02,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 4.7x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 4.9x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "BSP",
       "sector": "Tendencia del día",
       "precio_al_momento_del_analisis": 53.46,
@@ -1839,14 +1839,14 @@
       "tipo_setup": "ruptura",
       "direccion": "long",
       "confianza": "alta",
-      "entrada": 19.39,
-      "stop_loss": 17.84,
-      "objetivo": 22.49,
+      "entrada": 19.5,
+      "stop_loss": 17.94,
+      "objetivo": 22.62,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.8x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.0x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "DAO",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 19.39,
+      "precio_al_momento_del_analisis": 19.5,
       "historial_precios": [
         {
           "fecha": "2026-09-02",
@@ -1966,7 +1966,7 @@
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 19.39
+          "cierre": 19.5
         }
       ],
       "noticias": [],
@@ -2117,15 +2117,15 @@
       "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 116.82,
+      "stop_loss": 107.47,
+      "objetivo": 135.52,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.3x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "HALO",
       "sector": "Tendencia del día",
       "precio_al_momento_del_analisis": 116.82,
