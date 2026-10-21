@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T20:04:09.182108+00:00",
+  "actualizado": "2026-10-21T23:59:20.244161+00:00",
   "resultados": [
     {
       "hay_señal": false,
@@ -138,9 +138,9 @@
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -279,9 +279,9 @@
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -420,9 +420,9 @@
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -436,7 +436,7 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 335.13,
+      "precio_al_momento_del_analisis": 335.19,
       "historial_precios": [
         {
           "fecha": "2026-09-10",
@@ -556,28 +556,28 @@
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 335.13
+          "cierre": 335.19
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": true,
       "tipo_setup": "reversion",
       "direccion": "short",
       "confianza": "media",
-      "entrada": 408.07,
+      "entrada": 407.85,
       "stop_loss": 409.53,
-      "objetivo": 405.15,
+      "objetivo": 404.49,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El RSI está en 76.4, una zona de sobrecompra que históricamente anticipa un posible giro.",
+      "razon": "El RSI está en 76.3, una zona de sobrecompra que históricamente anticipa un posible giro.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 408.07,
+      "precio_al_momento_del_analisis": 407.85,
       "historial_precios": [
         {
           "fecha": "2026-09-10",
@@ -697,14 +697,14 @@
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 408.07
+          "cierre": 407.85
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -718,7 +718,7 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 178.07,
+      "precio_al_momento_del_analisis": 178.09,
       "historial_precios": [
         {
           "fecha": "2026-09-10",
@@ -838,14 +838,14 @@
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 178.07
+          "cierre": 178.09
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -859,7 +859,7 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 226.76,
+      "precio_al_momento_del_analisis": 226.78,
       "historial_precios": [
         {
           "fecha": "2026-09-10",
@@ -979,14 +979,14 @@
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 226.76
+          "cierre": 226.78
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -1125,9 +1125,9 @@
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -1266,9 +1266,9 @@
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -1282,7 +1282,7 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 773.17,
+      "precio_al_momento_del_analisis": 773.09,
       "historial_precios": [
         {
           "fecha": "2026-09-10",
@@ -1402,14 +1402,14 @@
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 773.17
+          "cierre": 773.09
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -1548,9 +1548,9 @@
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": true,
@@ -1689,9 +1689,9 @@
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": true,
@@ -1830,23 +1830,23 @@
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 7.87,
+      "stop_loss": 7.24,
+      "objetivo": 9.13,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió 11.47% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "SKYD",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 7.86,
+      "precio_al_momento_del_analisis": 7.87,
       "historial_precios": [
         {
           "fecha": "2026-09-10",
@@ -1966,14 +1966,14 @@
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 7.86
+          "cierre": 7.87
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -2112,9 +2112,9 @@
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -2253,9 +2253,9 @@
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -2266,151 +2266,151 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
-      "ticker": "CDLR",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "ticker": "SMCI",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 24.9,
+      "precio_al_momento_del_analisis": 35.57,
       "historial_precios": [
         {
           "fecha": "2026-09-10",
-          "cierre": 25.49
+          "cierre": 37.38
         },
         {
           "fecha": "2026-09-11",
-          "cierre": 25.84
+          "cierre": 40.1
         },
         {
           "fecha": "2026-09-14",
-          "cierre": 25.16
+          "cierre": 36.74
         },
         {
           "fecha": "2026-09-15",
-          "cierre": 24.65
+          "cierre": 35.64
         },
         {
           "fecha": "2026-09-16",
-          "cierre": 25.13
+          "cierre": 36.85
         },
         {
           "fecha": "2026-09-17",
-          "cierre": 25.32
+          "cierre": 40.35
         },
         {
           "fecha": "2026-09-18",
-          "cierre": 25.5
+          "cierre": 39.09
         },
         {
           "fecha": "2026-09-21",
-          "cierre": 25.97
+          "cierre": 41.2
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 25.52
+          "cierre": 41.54
         },
         {
           "fecha": "2026-09-23",
-          "cierre": 24.58
+          "cierre": 41.44
         },
         {
           "fecha": "2026-09-24",
-          "cierre": 23.45
+          "cierre": 41.51
         },
         {
           "fecha": "2026-09-25",
-          "cierre": 23.51
+          "cierre": 43.26
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 22.9
+          "cierre": 41.78
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 22.59
+          "cierre": 41.02
         },
         {
           "fecha": "2026-09-30",
-          "cierre": 21.89
+          "cierre": 41.07
         },
         {
           "fecha": "2026-10-01",
-          "cierre": 21.42
+          "cierre": 41.92
         },
         {
           "fecha": "2026-10-02",
-          "cierre": 22.18
+          "cierre": 43.69
         },
         {
           "fecha": "2026-10-05",
-          "cierre": 21.9
+          "cierre": 43.19
         },
         {
           "fecha": "2026-10-06",
-          "cierre": 22.04
+          "cierre": 43.46
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 21.77
+          "cierre": 44.94
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 21.51
+          "cierre": 42.77
         },
         {
           "fecha": "2026-10-09",
-          "cierre": 21.8
+          "cierre": 41.86
         },
         {
           "fecha": "2026-10-12",
-          "cierre": 21.8
+          "cierre": 39.98
         },
         {
           "fecha": "2026-10-13",
-          "cierre": 21.75
+          "cierre": 39.07
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 21.3
+          "cierre": 35.78
         },
         {
           "fecha": "2026-10-15",
-          "cierre": 21.36
+          "cierre": 35.09
         },
         {
           "fecha": "2026-10-16",
-          "cierre": 21.73
+          "cierre": 31.63
         },
         {
           "fecha": "2026-10-19",
-          "cierre": 21.94
+          "cierre": 32.1
         },
         {
           "fecha": "2026-10-20",
-          "cierre": 22.69
+          "cierre": 32.47
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 24.9
+          "cierre": 35.57
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
       "hay_señal": true,
       "tipo_setup": "momentum",
       "direccion": "short",
       "confianza": "media",
-      "entrada": 19.11,
-      "stop_loss": 20.64,
-      "objetivo": 16.05,
+      "entrada": 19.1,
+      "stop_loss": 20.63,
+      "objetivo": 16.04,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -15.18% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "razon": "El precio se movió -15.22% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "RCUS",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 19.11,
+      "precio_al_momento_del_analisis": 19.1,
       "historial_precios": [
         {
           "fecha": "2026-09-10",
@@ -2530,155 +2530,155 @@
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 19.11
+          "cierre": 19.1
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
-      "ticker": "TLX",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 269.13,
+      "stop_loss": 265.72,
+      "objetivo": 275.95,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.8x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "ticker": "LAD",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 10.03,
+      "precio_al_momento_del_analisis": 269.13,
       "historial_precios": [
         {
           "fecha": "2026-09-10",
-          "cierre": 11.9
+          "cierre": 366.15
         },
         {
           "fecha": "2026-09-11",
-          "cierre": 11.29
+          "cierre": 358.02
         },
         {
           "fecha": "2026-09-14",
-          "cierre": 11.78
+          "cierre": 360.27
         },
         {
           "fecha": "2026-09-15",
-          "cierre": 12.83
+          "cierre": 345.91
         },
         {
           "fecha": "2026-09-16",
-          "cierre": 11.83
+          "cierre": 339.23
         },
         {
           "fecha": "2026-09-17",
-          "cierre": 12.51
+          "cierre": 321.68
         },
         {
           "fecha": "2026-09-18",
-          "cierre": 12.59
+          "cierre": 316.27
         },
         {
           "fecha": "2026-09-21",
-          "cierre": 11.31
+          "cierre": 316.15
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 11.95
+          "cierre": 312.32
         },
         {
           "fecha": "2026-09-23",
-          "cierre": 11.27
+          "cierre": 307.02
         },
         {
           "fecha": "2026-09-24",
-          "cierre": 11.31
+          "cierre": 309.6
         },
         {
           "fecha": "2026-09-25",
-          "cierre": 11.45
+          "cierre": 316.42
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 11.62
+          "cierre": 303.07
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 11.34
+          "cierre": 289.26
         },
         {
           "fecha": "2026-09-30",
-          "cierre": 10.97
+          "cierre": 291.83
         },
         {
           "fecha": "2026-10-01",
-          "cierre": 10.72
+          "cierre": 306.07
         },
         {
           "fecha": "2026-10-02",
-          "cierre": 10.55
+          "cierre": 307.77
         },
         {
           "fecha": "2026-10-05",
-          "cierre": 10.88
+          "cierre": 303.0
         },
         {
           "fecha": "2026-10-06",
-          "cierre": 10.78
+          "cierre": 292.51
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 11.12
+          "cierre": 287.37
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 11.01
+          "cierre": 288.87
         },
         {
           "fecha": "2026-10-09",
-          "cierre": 11.21
+          "cierre": 290.24
         },
         {
           "fecha": "2026-10-12",
-          "cierre": 11.29
+          "cierre": 286.45
         },
         {
           "fecha": "2026-10-13",
-          "cierre": 10.92
+          "cierre": 286.78
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 10.65
+          "cierre": 281.49
         },
         {
           "fecha": "2026-10-15",
-          "cierre": 10.57
+          "cierre": 295.31
         },
         {
           "fecha": "2026-10-16",
-          "cierre": 10.69
+          "cierre": 295.14
         },
         {
           "fecha": "2026-10-19",
-          "cierre": 10.74
+          "cierre": 293.17
         },
         {
           "fecha": "2026-10-20",
-          "cierre": 11.16
+          "cierre": 299.53
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 10.03
+          "cierre": 269.13
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "No hay noticias recientes disponibles para evaluar el sentimiento de este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al no contar con noticias o titulares recientes, no se identifican catalizadores que impulsen el precio de forma clara. Por esta razón, se proyecta un comportamiento lateral en los próximos días a la espera de nuevos eventos. Es importante recordar que esta interpretación se basa únicamente en la ausencia de noticias y no representa una certeza."
     }
   ]
 }
