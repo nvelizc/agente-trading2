@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-28T01:08:32.271752+00:00",
+  "actualizado": "2026-10-28T08:17:40.716339+00:00",
   "resultados": [
     {
       "hay_señal": false,
@@ -10,10 +10,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "AAPL",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 347.1,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -133,28 +133,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 347.1
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "pullback",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 531.33,
+      "stop_loss": 513.12,
+      "objetivo": 567.75,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "MSFT",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 531.33,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -274,14 +274,14 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 531.33
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
       "hay_señal": false,
@@ -292,10 +292,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "NVDA",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 217.94,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -415,14 +415,14 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 217.94
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
       "hay_señal": false,
@@ -433,10 +433,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 335.79,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -556,14 +556,14 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 335.79
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
       "hay_señal": false,
@@ -574,10 +574,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 401.86,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -697,28 +697,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 401.86
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "reversion",
-      "direccion": "short",
-      "confianza": "media",
-      "entrada": NaN,
-      "stop_loss": NaN,
-      "objetivo": NaN,
-      "ratio_riesgo_beneficio": NaN,
-      "razon": "El RSI está en 77.5, una zona de sobrecompra que históricamente anticipa un posible giro.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 179.91,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -838,28 +838,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 179.91
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "reversion",
-      "direccion": "short",
-      "confianza": "media",
-      "entrada": NaN,
-      "stop_loss": NaN,
-      "objetivo": NaN,
-      "ratio_riesgo_beneficio": NaN,
-      "razon": "El RSI está en 74.2, una zona de sobrecompra que históricamente anticipa un posible giro.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 228.23,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -979,14 +979,14 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 228.23
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
       "hay_señal": false,
@@ -997,10 +997,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "AMZN",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 253.1,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -1120,28 +1120,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 253.1
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "pullback",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 91.18,
+      "stop_loss": 87.36,
+      "objetivo": 98.82,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "KO",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 91.18,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -1261,14 +1261,14 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 91.18
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
       "hay_señal": false,
@@ -1279,10 +1279,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 769.66,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -1402,14 +1402,14 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 769.66
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
       "hay_señal": false,
@@ -1420,10 +1420,10 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "QQQ",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 721.25,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -1543,28 +1543,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 721.25
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 156.06,
+      "stop_loss": 143.58,
+      "objetivo": 181.02,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.8x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "HRI",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 156.06,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -1684,28 +1684,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 156.06
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 89.2,
+      "stop_loss": 82.06,
+      "objetivo": 103.48,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 3.1x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "KNSA",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 89.2,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -1825,28 +1825,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 89.2
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 17.49,
+      "stop_loss": 16.09,
+      "objetivo": 20.29,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió 10.98% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "CHRN",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 17.49,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -1966,28 +1966,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 17.49
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "reversion",
-      "direccion": "long",
-      "confianza": "media",
-      "entrada": NaN,
-      "stop_loss": NaN,
-      "objetivo": NaN,
-      "ratio_riesgo_beneficio": NaN,
-      "razon": "El RSI está en 21.1, una zona de sobreventa que históricamente anticipa un posible giro.",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "USAR",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 10.4,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -2107,28 +2107,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 10.4
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 10.51,
+      "stop_loss": 9.67,
+      "objetivo": 12.19,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.5x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "CTOS",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 10.51,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -2248,28 +2248,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 10.51
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "ruptura",
+      "direccion": "long",
+      "confianza": "alta",
+      "entrada": 153.85,
+      "stop_loss": 141.54,
+      "objetivo": 178.47,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.8x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "HWKN",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 153.85,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -2389,28 +2389,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 153.85
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 92.86,
+      "stop_loss": 100.29,
+      "objetivo": 78.0,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió -11.58% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "XYL",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 92.86,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -2530,28 +2530,28 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 92.86
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Sin tendencia clara ni patrón reconocible por ahora.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 168.18,
+      "stop_loss": 181.63,
+      "objetivo": 141.28,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió -11.7% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "BA",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": NaN,
+      "precio_al_momento_del_analisis": 168.18,
       "historial_precios": [
         {
           "fecha": "2026-09-16",
@@ -2671,14 +2671,14 @@
         },
         {
           "fecha": "2026-10-27",
-          "cierre": NaN
+          "cierre": 168.18
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No hay noticias recientes disponibles para analizar esta acción.",
+      "noticias_resumen": "No existen noticias recientes disponibles para analizar este activo.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de noticias recientes, no se identifican novedades que muevan el precio en el corto plazo. Por ello, la expectativa se mantiene en un comportamiento lateral por falta de catalizadores. Recuerde que este análisis se basa únicamente en los titulares disponibles y no es una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes, el sentimiento se mantiene neutral sin señales claras. Por lo tanto, la perspectiva del precio se inclina hacia un movimiento lateral en los próximos días. Esto es solo una lectura basada en la ausencia de titulares y no representa una certeza de mercado."
     }
   ]
 }
