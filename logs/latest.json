@@ -1,24 +1,20 @@
 {
-  "actualizado": "2026-10-30T06:59:00.220290+00:00",
+  "actualizado": "2026-10-30T14:01:23.805275+00:00",
   "resultados": [
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "hay_señal": true,
+      "tipo_setup": "pullback",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 345.27,
+      "stop_loss": 331.86,
+      "objetivo": 372.09,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "AAPL",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 348.91,
+      "precio_al_momento_del_analisis": 345.27,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 336.13
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 338.98
@@ -134,32 +130,32 @@
         {
           "fecha": "2026-10-29",
           "cierre": 348.91
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 345.27
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
       "confianza": "media",
-      "entrada": 530.14,
-      "stop_loss": 514.84,
-      "objetivo": 560.74,
+      "entrada": 524.93,
+      "stop_loss": 515.2,
+      "objetivo": 544.39,
       "ratio_riesgo_beneficio": 2.0,
       "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "MSFT",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 530.14,
+      "precio_al_momento_del_analisis": 524.93,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 493.78
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 501.61
@@ -275,13 +271,17 @@
         {
           "fecha": "2026-10-29",
           "cierre": 530.14
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 524.93
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": false,
@@ -292,15 +292,11 @@
       "stop_loss": null,
       "objetivo": null,
       "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "NVDA",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 213.66,
+      "precio_al_momento_del_analisis": 207.87,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 222.27
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 227.38
@@ -416,13 +412,17 @@
         {
           "fecha": "2026-10-29",
           "cierre": 213.66
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 207.87
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": false,
@@ -436,12 +436,8 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 343.58,
+      "precio_al_momento_del_analisis": 337.33,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 347.93
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 350.29
@@ -557,13 +553,17 @@
         {
           "fecha": "2026-10-29",
           "cierre": 343.58
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 337.33
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": false,
@@ -577,12 +577,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 410.54,
+      "precio_al_momento_del_analisis": 412.8,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 368.29
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 369.95
@@ -698,32 +694,32 @@
         {
           "fecha": "2026-10-29",
           "cierre": 410.54
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 412.8
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "hay_señal": true,
+      "tipo_setup": "reversion",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 187.81,
+      "stop_loss": 188.5,
+      "objetivo": 186.43,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El RSI está en 73.5, una zona de sobrecompra que históricamente anticipa un posible giro.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 183.29,
+      "precio_al_momento_del_analisis": 187.81,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 163.54
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 158.3
@@ -839,32 +835,32 @@
         {
           "fecha": "2026-10-29",
           "cierre": 183.29
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 187.81
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "hay_señal": true,
+      "tipo_setup": "reversion",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 235.46,
+      "stop_loss": 236.33,
+      "objetivo": 233.72,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El RSI está en 72.9, una zona de sobrecompra que históricamente anticipa un posible giro.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 231.46,
+      "precio_al_momento_del_analisis": 235.46,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 209.51
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 203.67
@@ -980,13 +976,17 @@
         {
           "fecha": "2026-10-29",
           "cierre": 231.46
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 235.46
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": false,
@@ -1000,12 +1000,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "AMZN",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 243.79,
+      "precio_al_momento_del_analisis": 238.87,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 253.71
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 258.45
@@ -1121,13 +1117,17 @@
         {
           "fecha": "2026-10-29",
           "cierre": 243.79
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 238.87
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": false,
@@ -1141,12 +1141,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "KO",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 92.82,
+      "precio_al_momento_del_analisis": 94.12,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 88.25
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 87.12
@@ -1262,32 +1258,32 @@
         {
           "fecha": "2026-10-29",
           "cierre": 92.82
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 94.12
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
       "confianza": "media",
-      "entrada": 769.36,
-      "stop_loss": 748.03,
-      "objetivo": 812.02,
+      "entrada": 760.81,
+      "stop_loss": 747.6,
+      "objetivo": 787.23,
       "ratio_riesgo_beneficio": 2.0,
       "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 769.36,
+      "precio_al_momento_del_analisis": 760.81,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 761.69
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 773.5
@@ -1403,13 +1399,17 @@
         {
           "fecha": "2026-10-29",
           "cierre": 769.36
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 760.81
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": false,
@@ -1423,12 +1423,8 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "QQQ",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 715.34,
+      "precio_al_momento_del_analisis": 698.31,
       "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 720.7
-        },
         {
           "fecha": "2026-09-21",
           "cierre": 741.47
@@ -1544,1141 +1540,1145 @@
         {
           "fecha": "2026-10-29",
           "cierre": 715.34
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 698.31
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 242.48,
-      "stop_loss": 223.08,
-      "objetivo": 281.28,
+      "tipo_setup": "reversion",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 89.3,
+      "stop_loss": 90.87,
+      "objetivo": 86.16,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 4.1x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "GKOS",
+      "razon": "El RSI está en 82.8, una zona de sobrecompra que históricamente anticipa un posible giro.",
+      "ticker": "CDNA",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 242.48,
+      "precio_al_momento_del_analisis": 89.3,
       "historial_precios": [
         {
-          "fecha": "2026-09-18",
-          "cierre": 163.81
-        },
-        {
           "fecha": "2026-09-21",
-          "cierre": 161.53
+          "cierre": 54.33
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 159.86
+          "cierre": 56.49
         },
         {
           "fecha": "2026-09-23",
-          "cierre": 153.49
+          "cierre": 54.31
         },
         {
           "fecha": "2026-09-24",
-          "cierre": 154.88
+          "cierre": 61.37
         },
         {
           "fecha": "2026-09-25",
-          "cierre": 154.43
+          "cierre": 63.68
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 158.56
+          "cierre": 64.6
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 158.55
+          "cierre": 64.02
         },
         {
           "fecha": "2026-09-30",
-          "cierre": 164.19
+          "cierre": 65.0
         },
         {
           "fecha": "2026-10-01",
-          "cierre": 163.17
+          "cierre": 66.23
         },
         {
           "fecha": "2026-10-02",
-          "cierre": 163.75
+          "cierre": 67.15
         },
         {
           "fecha": "2026-10-05",
-          "cierre": 164.01
+          "cierre": 69.85
         },
         {
           "fecha": "2026-10-06",
-          "cierre": 161.59
+          "cierre": 63.79
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 172.18
+          "cierre": 63.04
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 161.29
+          "cierre": 62.21
         },
         {
           "fecha": "2026-10-09",
-          "cierre": 165.69
+          "cierre": 63.67
         },
         {
           "fecha": "2026-10-12",
-          "cierre": 168.02
+          "cierre": 63.12
         },
         {
           "fecha": "2026-10-13",
-          "cierre": 165.5
+          "cierre": 65.43
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 167.89
+          "cierre": 64.69
         },
         {
           "fecha": "2026-10-15",
-          "cierre": 165.6
+          "cierre": 66.68
         },
         {
           "fecha": "2026-10-16",
-          "cierre": 164.84
+          "cierre": 64.0
         },
         {
           "fecha": "2026-10-19",
-          "cierre": 166.96
+          "cierre": 67.08
         },
         {
           "fecha": "2026-10-20",
-          "cierre": 173.43
+          "cierre": 69.2
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 176.85
+          "cierre": 70.74
         },
         {
           "fecha": "2026-10-22",
-          "cierre": 176.69
+          "cierre": 69.16
         },
         {
           "fecha": "2026-10-23",
-          "cierre": 178.88
+          "cierre": 69.21
         },
         {
           "fecha": "2026-10-26",
-          "cierre": 178.27
+          "cierre": 69.1
         },
         {
           "fecha": "2026-10-27",
-          "cierre": 181.17
+          "cierre": 70.53
         },
         {
           "fecha": "2026-10-28",
-          "cierre": 181.43
+          "cierre": 72.13
         },
         {
           "fecha": "2026-10-29",
-          "cierre": 242.48
+          "cierre": 71.52
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 89.3
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 9.87,
-      "stop_loss": 9.08,
-      "objetivo": 11.45,
+      "tipo_setup": "reversion",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 18.63,
+      "stop_loss": 19.14,
+      "objetivo": 17.61,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 10.8x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "ADT",
+      "razon": "El RSI está en 73.2, una zona de sobrecompra que históricamente anticipa un posible giro.",
+      "ticker": "CPRI",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 9.87,
+      "precio_al_momento_del_analisis": 18.63,
       "historial_precios": [
         {
-          "fecha": "2026-09-18",
-          "cierre": 6.9
-        },
-        {
           "fecha": "2026-09-21",
-          "cierre": 6.62
+          "cierre": 14.31
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 6.54
+          "cierre": 15.19
         },
         {
           "fecha": "2026-09-23",
-          "cierre": 6.34
+          "cierre": 15.43
         },
         {
           "fecha": "2026-09-24",
-          "cierre": 6.36
+          "cierre": 15.19
         },
         {
           "fecha": "2026-09-25",
-          "cierre": 6.4
+          "cierre": 15.1
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 6.19
+          "cierre": 14.79
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 6.14
+          "cierre": 14.66
         },
         {
           "fecha": "2026-09-30",
-          "cierre": 6.08
+          "cierre": 14.12
         },
         {
           "fecha": "2026-10-01",
-          "cierre": 6.23
+          "cierre": 14.48
         },
         {
           "fecha": "2026-10-02",
-          "cierre": 6.25
+          "cierre": 14.44
         },
         {
           "fecha": "2026-10-05",
-          "cierre": 6.21
+          "cierre": 14.49
         },
         {
           "fecha": "2026-10-06",
-          "cierre": 6.36
+          "cierre": 14.67
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 6.3
+          "cierre": 14.44
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 6.5
+          "cierre": 14.68
         },
         {
           "fecha": "2026-10-09",
-          "cierre": 6.43
+          "cierre": 14.95
         },
         {
           "fecha": "2026-10-12",
-          "cierre": 6.45
+          "cierre": 15.09
         },
         {
           "fecha": "2026-10-13",
-          "cierre": 6.61
+          "cierre": 15.16
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 6.6
+          "cierre": 15.02
         },
         {
           "fecha": "2026-10-15",
-          "cierre": 6.86
+          "cierre": 15.85
         },
         {
           "fecha": "2026-10-16",
-          "cierre": 6.87
+          "cierre": 15.95
         },
         {
           "fecha": "2026-10-19",
-          "cierre": 6.7
+          "cierre": 16.15
         },
         {
           "fecha": "2026-10-20",
-          "cierre": 6.79
+          "cierre": 16.51
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 6.8
+          "cierre": 15.7
         },
         {
           "fecha": "2026-10-22",
-          "cierre": 6.99
+          "cierre": 16.36
         },
         {
           "fecha": "2026-10-23",
-          "cierre": 6.9
+          "cierre": 15.87
         },
         {
           "fecha": "2026-10-26",
-          "cierre": 6.88
+          "cierre": 15.57
         },
         {
           "fecha": "2026-10-27",
-          "cierre": 6.87
+          "cierre": 15.42
         },
         {
           "fecha": "2026-10-28",
-          "cierre": 7.41
+          "cierre": 15.29
         },
         {
           "fecha": "2026-10-29",
-          "cierre": 9.87
+          "cierre": 16.06
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 18.63
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 8.91,
-      "stop_loss": 8.2,
-      "objetivo": 10.33,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 8.7x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "BHC",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "ticker": "CVCO",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 8.91,
+      "precio_al_momento_del_analisis": 620.82,
       "historial_precios": [
         {
-          "fecha": "2026-09-18",
-          "cierre": 5.67
-        },
-        {
           "fecha": "2026-09-21",
-          "cierre": 5.64
+          "cierre": 543.39
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 5.81
+          "cierre": 558.39
         },
         {
           "fecha": "2026-09-23",
-          "cierre": 5.71
+          "cierre": 541.84
         },
         {
           "fecha": "2026-09-24",
-          "cierre": 5.65
+          "cierre": 543.21
         },
         {
           "fecha": "2026-09-25",
-          "cierre": 5.69
+          "cierre": 557.28
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 5.77
+          "cierre": 557.53
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 5.8
+          "cierre": 556.12
         },
         {
           "fecha": "2026-09-30",
-          "cierre": 5.83
+          "cierre": 560.26
         },
         {
           "fecha": "2026-10-01",
-          "cierre": 5.73
+          "cierre": 577.2
         },
         {
           "fecha": "2026-10-02",
-          "cierre": 5.8
+          "cierre": 585.13
         },
         {
           "fecha": "2026-10-05",
-          "cierre": 5.89
+          "cierre": 576.27
         },
         {
           "fecha": "2026-10-06",
-          "cierre": 6.02
+          "cierre": 572.8
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 6.15
+          "cierre": 540.54
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 6.04
+          "cierre": 548.72
         },
         {
           "fecha": "2026-10-09",
-          "cierre": 6.04
+          "cierre": 532.43
         },
         {
           "fecha": "2026-10-12",
-          "cierre": 5.93
+          "cierre": 526.08
         },
         {
           "fecha": "2026-10-13",
-          "cierre": 5.89
+          "cierre": 528.64
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 5.89
+          "cierre": 506.3
         },
         {
           "fecha": "2026-10-15",
-          "cierre": 6.31
+          "cierre": 535.6
         },
         {
           "fecha": "2026-10-16",
-          "cierre": 6.3
+          "cierre": 521.96
         },
         {
           "fecha": "2026-10-19",
-          "cierre": 6.32
+          "cierre": 510.97
         },
         {
           "fecha": "2026-10-20",
-          "cierre": 6.42
+          "cierre": 519.54
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 6.45
+          "cierre": 516.25
         },
         {
           "fecha": "2026-10-22",
-          "cierre": 6.49
+          "cierre": 547.44
         },
         {
           "fecha": "2026-10-23",
-          "cierre": 6.44
+          "cierre": 534.25
         },
         {
           "fecha": "2026-10-26",
-          "cierre": 6.35
+          "cierre": 531.53
         },
         {
           "fecha": "2026-10-27",
-          "cierre": 6.31
+          "cierre": 539.21
         },
         {
           "fecha": "2026-10-28",
-          "cierre": 6.92
+          "cierre": 532.57
         },
         {
           "fecha": "2026-10-29",
-          "cierre": 8.91
+          "cierre": 547.25
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 620.82
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 20.89,
-      "stop_loss": 19.22,
-      "objetivo": 24.23,
+      "tipo_setup": "reversion",
+      "direccion": "short",
+      "confianza": "media",
+      "entrada": 919.77,
+      "stop_loss": 935.34,
+      "objetivo": 888.63,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 3.9x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "PRCH",
+      "razon": "El RSI está en 78.4, una zona de sobrecompra que históricamente anticipa un posible giro.",
+      "ticker": "REGN",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 20.89,
+      "precio_al_momento_del_analisis": 919.77,
       "historial_precios": [
         {
-          "fecha": "2026-09-18",
-          "cierre": 15.9
-        },
-        {
           "fecha": "2026-09-21",
-          "cierre": 16.64
+          "cierre": 798.17
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 17.07
+          "cierre": 803.9
         },
         {
           "fecha": "2026-09-23",
-          "cierre": 16.61
+          "cierre": 801.82
         },
         {
           "fecha": "2026-09-24",
-          "cierre": 16.47
+          "cierre": 796.02
         },
         {
           "fecha": "2026-09-25",
-          "cierre": 16.53
+          "cierre": 788.04
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 16.83
+          "cierre": 752.25
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 16.57
+          "cierre": 750.51
         },
         {
           "fecha": "2026-09-30",
-          "cierre": 16.66
+          "cierre": 758.27
         },
         {
           "fecha": "2026-10-01",
-          "cierre": 16.75
+          "cierre": 734.81
         },
         {
           "fecha": "2026-10-02",
-          "cierre": 17.31
+          "cierre": 735.2
         },
         {
           "fecha": "2026-10-05",
-          "cierre": 17.35
+          "cierre": 726.47
         },
         {
           "fecha": "2026-10-06",
-          "cierre": 17.17
+          "cierre": 738.72
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 17.31
+          "cierre": 742.12
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 17.53
+          "cierre": 739.57
         },
         {
           "fecha": "2026-10-09",
-          "cierre": 17.56
+          "cierre": 746.54
         },
         {
           "fecha": "2026-10-12",
-          "cierre": 17.69
+          "cierre": 762.81
         },
         {
           "fecha": "2026-10-13",
-          "cierre": 17.22
+          "cierre": 753.12
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 16.44
+          "cierre": 778.36
         },
         {
           "fecha": "2026-10-15",
-          "cierre": 17.57
+          "cierre": 796.34
         },
         {
           "fecha": "2026-10-16",
-          "cierre": 17.5
+          "cierre": 790.74
         },
         {
           "fecha": "2026-10-19",
-          "cierre": 17.65
+          "cierre": 782.04
         },
         {
           "fecha": "2026-10-20",
-          "cierre": 18.18
+          "cierre": 807.48
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 18.59
+          "cierre": 805.67
         },
         {
           "fecha": "2026-10-22",
-          "cierre": 17.94
+          "cierre": 819.09
         },
         {
           "fecha": "2026-10-23",
-          "cierre": 17.73
+          "cierre": 805.02
         },
         {
           "fecha": "2026-10-26",
-          "cierre": 17.37
+          "cierre": 807.67
         },
         {
           "fecha": "2026-10-27",
-          "cierre": 17.66
+          "cierre": 816.1
         },
         {
           "fecha": "2026-10-28",
-          "cierre": 16.3
+          "cierre": 813.27
         },
         {
           "fecha": "2026-10-29",
-          "cierre": 20.89
+          "cierre": 818.77
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 919.77
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
-      "hay_señal": true,
-      "tipo_setup": "ruptura",
-      "direccion": "long",
-      "confianza": "alta",
-      "entrada": 150.26,
-      "stop_loss": 138.24,
-      "objetivo": 174.3,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 4.0x el promedio, lo que sugiere que compradores fuertes están entrando.",
-      "ticker": "CROX",
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "ticker": "BTSG",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 150.26,
+      "precio_al_momento_del_analisis": 68.0,
       "historial_precios": [
         {
-          "fecha": "2026-09-18",
-          "cierre": 122.24
-        },
-        {
           "fecha": "2026-09-21",
-          "cierre": 123.69
+          "cierre": 55.86
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 124.58
+          "cierre": 56.55
         },
         {
           "fecha": "2026-09-23",
-          "cierre": 124.62
+          "cierre": 55.78
         },
         {
           "fecha": "2026-09-24",
-          "cierre": 123.44
+          "cierre": 56.02
         },
         {
           "fecha": "2026-09-25",
-          "cierre": 126.14
+          "cierre": 56.59
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 122.36
+          "cierre": 56.54
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 122.63
+          "cierre": 55.69
         },
         {
           "fecha": "2026-09-30",
-          "cierre": 117.31
+          "cierre": 56.75
         },
         {
           "fecha": "2026-10-01",
-          "cierre": 119.24
+          "cierre": 57.26
         },
         {
           "fecha": "2026-10-02",
-          "cierre": 118.09
+          "cierre": 60.25
         },
         {
           "fecha": "2026-10-05",
-          "cierre": 118.19
+          "cierre": 62.0
         },
         {
           "fecha": "2026-10-06",
-          "cierre": 120.22
+          "cierre": 63.75
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 115.2
+          "cierre": 63.8
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 116.84
+          "cierre": 63.66
         },
         {
           "fecha": "2026-10-09",
-          "cierre": 114.98
+          "cierre": 63.74
         },
         {
           "fecha": "2026-10-12",
-          "cierre": 116.9
+          "cierre": 63.01
         },
         {
           "fecha": "2026-10-13",
-          "cierre": 117.53
+          "cierre": 62.65
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 117.54
+          "cierre": 63.35
         },
         {
           "fecha": "2026-10-15",
-          "cierre": 124.77
+          "cierre": 62.36
         },
         {
           "fecha": "2026-10-16",
-          "cierre": 123.14
+          "cierre": 60.87
         },
         {
           "fecha": "2026-10-19",
-          "cierre": 120.18
+          "cierre": 61.29
         },
         {
           "fecha": "2026-10-20",
-          "cierre": 121.37
+          "cierre": 62.42
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 118.49
+          "cierre": 62.36
         },
         {
           "fecha": "2026-10-22",
-          "cierre": 120.99
+          "cierre": 60.86
         },
         {
           "fecha": "2026-10-23",
-          "cierre": 119.23
+          "cierre": 60.11
         },
         {
           "fecha": "2026-10-26",
-          "cierre": 118.85
+          "cierre": 58.88
         },
         {
           "fecha": "2026-10-27",
-          "cierre": 119.5
+          "cierre": 58.36
         },
         {
           "fecha": "2026-10-28",
-          "cierre": 119.69
+          "cierre": 59.46
         },
         {
           "fecha": "2026-10-29",
-          "cierre": 150.26
+          "cierre": 60.22
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 68.0
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
+    },
+    {
+      "hay_señal": false,
+      "tipo_setup": null,
+      "direccion": null,
+      "confianza": null,
+      "entrada": null,
+      "stop_loss": null,
+      "objetivo": null,
+      "ratio_riesgo_beneficio": null,
+      "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "ticker": "FDXF",
+      "sector": "Tendencia del día",
+      "precio_al_momento_del_analisis": 122.1,
+      "historial_precios": [
+        {
+          "fecha": "2026-09-21",
+          "cierre": 117.6
+        },
+        {
+          "fecha": "2026-09-22",
+          "cierre": 119.0
+        },
+        {
+          "fecha": "2026-09-23",
+          "cierre": 119.22
+        },
+        {
+          "fecha": "2026-09-24",
+          "cierre": 113.81
+        },
+        {
+          "fecha": "2026-09-25",
+          "cierre": 113.18
+        },
+        {
+          "fecha": "2026-09-28",
+          "cierre": 112.3
+        },
+        {
+          "fecha": "2026-09-29",
+          "cierre": 112.06
+        },
+        {
+          "fecha": "2026-09-30",
+          "cierre": 109.38
+        },
+        {
+          "fecha": "2026-10-01",
+          "cierre": 110.67
+        },
+        {
+          "fecha": "2026-10-02",
+          "cierre": 112.89
+        },
+        {
+          "fecha": "2026-10-05",
+          "cierre": 111.58
+        },
+        {
+          "fecha": "2026-10-06",
+          "cierre": 112.1
+        },
+        {
+          "fecha": "2026-10-07",
+          "cierre": 113.48
+        },
+        {
+          "fecha": "2026-10-08",
+          "cierre": 115.65
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 115.47
+        },
+        {
+          "fecha": "2026-10-12",
+          "cierre": 113.12
+        },
+        {
+          "fecha": "2026-10-13",
+          "cierre": 110.09
+        },
+        {
+          "fecha": "2026-10-14",
+          "cierre": 108.69
+        },
+        {
+          "fecha": "2026-10-15",
+          "cierre": 110.5
+        },
+        {
+          "fecha": "2026-10-16",
+          "cierre": 113.21
+        },
+        {
+          "fecha": "2026-10-19",
+          "cierre": 110.2
+        },
+        {
+          "fecha": "2026-10-20",
+          "cierre": 109.54
+        },
+        {
+          "fecha": "2026-10-21",
+          "cierre": 107.95
+        },
+        {
+          "fecha": "2026-10-22",
+          "cierre": 111.02
+        },
+        {
+          "fecha": "2026-10-23",
+          "cierre": 110.05
+        },
+        {
+          "fecha": "2026-10-26",
+          "cierre": 109.45
+        },
+        {
+          "fecha": "2026-10-27",
+          "cierre": 108.5
+        },
+        {
+          "fecha": "2026-10-28",
+          "cierre": 108.33
+        },
+        {
+          "fecha": "2026-10-29",
+          "cierre": 109.69
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 122.1
+        }
+      ],
+      "noticias": [],
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": true,
-      "tipo_setup": "momentum",
+      "tipo_setup": "reversion",
       "direccion": "long",
       "confianza": "media",
-      "entrada": 12.29,
-      "stop_loss": 11.31,
-      "objetivo": 14.25,
+      "entrada": 65.35,
+      "stop_loss": 64.12,
+      "objetivo": 67.81,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió 41.59% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
-      "ticker": "PURR",
+      "razon": "El RSI está en 24.9, una zona de sobreventa que históricamente anticipa un posible giro.",
+      "ticker": "INTC",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 12.29,
+      "precio_al_momento_del_analisis": 65.35,
       "historial_precios": [
         {
-          "fecha": "2026-09-18",
-          "cierre": 14.09
-        },
-        {
           "fecha": "2026-09-21",
-          "cierre": 13.55
+          "cierre": 121.78
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 13.95
+          "cierre": 123.86
         },
         {
           "fecha": "2026-09-23",
-          "cierre": 13.94
+          "cierre": 122.6
         },
         {
           "fecha": "2026-09-24",
-          "cierre": 14.09
+          "cierre": 127.39
         },
         {
           "fecha": "2026-09-25",
-          "cierre": 12.85
+          "cierre": 123.0
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 12.08
+          "cierre": 116.03
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 11.92
+          "cierre": 115.93
         },
         {
           "fecha": "2026-09-30",
-          "cierre": 12.27
+          "cierre": 120.23
         },
         {
           "fecha": "2026-10-01",
-          "cierre": 12.03
+          "cierre": 120.0
         },
         {
           "fecha": "2026-10-02",
-          "cierre": 11.89
+          "cierre": 119.33
         },
         {
           "fecha": "2026-10-05",
-          "cierre": 12.92
+          "cierre": 116.19
         },
         {
           "fecha": "2026-10-06",
-          "cierre": 12.5
+          "cierre": 112.5
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 11.73
+          "cierre": 113.12
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 11.3
+          "cierre": 107.08
         },
         {
           "fecha": "2026-10-09",
-          "cierre": 11.11
+          "cierre": 104.7
         },
         {
           "fecha": "2026-10-12",
-          "cierre": 10.4
+          "cierre": 101.35
         },
         {
           "fecha": "2026-10-13",
-          "cierre": 10.23
+          "cierre": 102.81
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 9.47
+          "cierre": 98.12
         },
         {
           "fecha": "2026-10-15",
-          "cierre": 9.8
+          "cierre": 95.37
         },
         {
           "fecha": "2026-10-16",
-          "cierre": 9.07
+          "cierre": 89.85
         },
         {
           "fecha": "2026-10-19",
-          "cierre": 8.97
+          "cierre": 92.03
         },
         {
           "fecha": "2026-10-20",
-          "cierre": 9.15
+          "cierre": 91.69
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 9.62
+          "cierre": 92.96
         },
         {
           "fecha": "2026-10-22",
-          "cierre": 8.68
+          "cierre": 85.49
         },
         {
           "fecha": "2026-10-23",
-          "cierre": 8.78
+          "cierre": 86.96
         },
         {
           "fecha": "2026-10-26",
-          "cierre": 9.07
+          "cierre": 90.47
         },
         {
           "fecha": "2026-10-27",
-          "cierre": 9.85
+          "cierre": 93.74
         },
         {
           "fecha": "2026-10-28",
-          "cierre": 9.97
+          "cierre": 95.53
         },
         {
           "fecha": "2026-10-29",
-          "cierre": 12.29
+          "cierre": 92.07
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 65.35
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     },
     {
       "hay_señal": true,
       "tipo_setup": "momentum",
       "direccion": "short",
       "confianza": "media",
-      "entrada": 9.56,
-      "stop_loss": 10.32,
-      "objetivo": 8.04,
+      "entrada": 98.14,
+      "stop_loss": 105.99,
+      "objetivo": 82.44,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -32.39% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
-      "ticker": "IOVA",
+      "razon": "El precio se movió -31.96% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "ticker": "RDDT",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 9.56,
+      "precio_al_momento_del_analisis": 98.14,
       "historial_precios": [
         {
-          "fecha": "2026-09-18",
-          "cierre": 10.25
-        },
-        {
           "fecha": "2026-09-21",
-          "cierre": 10.19
+          "cierre": 158.73
         },
         {
           "fecha": "2026-09-22",
-          "cierre": 10.64
+          "cierre": 155.67
         },
         {
           "fecha": "2026-09-23",
-          "cierre": 10.19
+          "cierre": 151.98
         },
         {
           "fecha": "2026-09-24",
-          "cierre": 10.8
+          "cierre": 152.72
         },
         {
           "fecha": "2026-09-25",
-          "cierre": 11.0
+          "cierre": 149.84
         },
         {
           "fecha": "2026-09-28",
-          "cierre": 10.99
+          "cierre": 143.08
         },
         {
           "fecha": "2026-09-29",
-          "cierre": 14.45
-        },
-        {
-          "fecha": "2026-09-30",
-          "cierre": 14.82
-        },
-        {
-          "fecha": "2026-10-01",
-          "cierre": 14.23
-        },
-        {
-          "fecha": "2026-10-02",
-          "cierre": 14.22
-        },
-        {
-          "fecha": "2026-10-05",
-          "cierre": 14.15
-        },
-        {
-          "fecha": "2026-10-06",
-          "cierre": 12.96
-        },
-        {
-          "fecha": "2026-10-07",
-          "cierre": 12.92
-        },
-        {
-          "fecha": "2026-10-08",
-          "cierre": 13.31
-        },
-        {
-          "fecha": "2026-10-09",
-          "cierre": 14.62
-        },
-        {
-          "fecha": "2026-10-12",
-          "cierre": 14.56
-        },
-        {
-          "fecha": "2026-10-13",
-          "cierre": 14.5
-        },
-        {
-          "fecha": "2026-10-14",
-          "cierre": 14.21
-        },
-        {
-          "fecha": "2026-10-15",
-          "cierre": 14.72
-        },
-        {
-          "fecha": "2026-10-16",
-          "cierre": 13.62
-        },
-        {
-          "fecha": "2026-10-19",
-          "cierre": 14.21
-        },
-        {
-          "fecha": "2026-10-20",
-          "cierre": 14.86
-        },
-        {
-          "fecha": "2026-10-21",
-          "cierre": 14.62
-        },
-        {
-          "fecha": "2026-10-22",
-          "cierre": 14.14
-        },
-        {
-          "fecha": "2026-10-23",
-          "cierre": 14.09
-        },
-        {
-          "fecha": "2026-10-26",
-          "cierre": 13.78
-        },
-        {
-          "fecha": "2026-10-27",
-          "cierre": 14.58
-        },
-        {
-          "fecha": "2026-10-28",
-          "cierre": 14.81
-        },
-        {
-          "fecha": "2026-10-29",
-          "cierre": 9.56
-        }
-      ],
-      "noticias": [],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
-    },
-    {
-      "hay_señal": true,
-      "tipo_setup": "momentum",
-      "direccion": "short",
-      "confianza": "media",
-      "entrada": 109.67,
-      "stop_loss": 118.44,
-      "objetivo": 92.13,
-      "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -30.15% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
-      "ticker": "NOW",
-      "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 109.67,
-      "historial_precios": [
-        {
-          "fecha": "2026-09-18",
-          "cierre": 135.47
-        },
-        {
-          "fecha": "2026-09-21",
-          "cierre": 137.68
-        },
-        {
-          "fecha": "2026-09-22",
-          "cierre": 137.0
-        },
-        {
-          "fecha": "2026-09-23",
-          "cierre": 140.78
-        },
-        {
-          "fecha": "2026-09-24",
-          "cierre": 137.78
-        },
-        {
-          "fecha": "2026-09-25",
-          "cierre": 135.62
-        },
-        {
-          "fecha": "2026-09-28",
-          "cierre": 131.45
-        },
-        {
-          "fecha": "2026-09-29",
-          "cierre": 129.94
-        },
-        {
-          "fecha": "2026-09-30",
-          "cierre": 134.01
-        },
-        {
-          "fecha": "2026-10-01",
-          "cierre": 137.76
-        },
-        {
-          "fecha": "2026-10-02",
-          "cierre": 134.38
-        },
-        {
-          "fecha": "2026-10-05",
-          "cierre": 136.08
-        },
-        {
-          "fecha": "2026-10-06",
-          "cierre": 137.97
-        },
-        {
-          "fecha": "2026-10-07",
-          "cierre": 137.87
-        },
-        {
-          "fecha": "2026-10-08",
-          "cierre": 139.75
-        },
-        {
-          "fecha": "2026-10-09",
-          "cierre": 140.86
-        },
-        {
-          "fecha": "2026-10-12",
-          "cierre": 140.32
-        },
-        {
-          "fecha": "2026-10-13",
-          "cierre": 138.61
-        },
-        {
-          "fecha": "2026-10-14",
-          "cierre": 139.98
-        },
-        {
-          "fecha": "2026-10-15",
-          "cierre": 148.57
-        },
-        {
-          "fecha": "2026-10-16",
-          "cierre": 141.97
-        },
-        {
-          "fecha": "2026-10-19",
           "cierre": 145.36
         },
         {
+          "fecha": "2026-09-30",
+          "cierre": 142.44
+        },
+        {
+          "fecha": "2026-10-01",
+          "cierre": 149.53
+        },
+        {
+          "fecha": "2026-10-02",
+          "cierre": 147.86
+        },
+        {
+          "fecha": "2026-10-05",
+          "cierre": 150.42
+        },
+        {
+          "fecha": "2026-10-06",
+          "cierre": 148.95
+        },
+        {
+          "fecha": "2026-10-07",
+          "cierre": 152.71
+        },
+        {
+          "fecha": "2026-10-08",
+          "cierre": 156.47
+        },
+        {
+          "fecha": "2026-10-09",
+          "cierre": 159.91
+        },
+        {
+          "fecha": "2026-10-12",
+          "cierre": 159.93
+        },
+        {
+          "fecha": "2026-10-13",
+          "cierre": 155.29
+        },
+        {
+          "fecha": "2026-10-14",
+          "cierre": 148.6
+        },
+        {
+          "fecha": "2026-10-15",
+          "cierre": 159.36
+        },
+        {
+          "fecha": "2026-10-16",
+          "cierre": 156.14
+        },
+        {
+          "fecha": "2026-10-19",
+          "cierre": 155.14
+        },
+        {
           "fecha": "2026-10-20",
-          "cierre": 149.54
+          "cierre": 155.65
         },
         {
           "fecha": "2026-10-21",
-          "cierre": 153.12
+          "cierre": 153.28
         },
         {
           "fecha": "2026-10-22",
-          "cierre": 157.0
+          "cierre": 150.26
         },
         {
           "fecha": "2026-10-23",
-          "cierre": 158.96
+          "cierre": 144.25
         },
         {
           "fecha": "2026-10-26",
-          "cierre": 158.18
+          "cierre": 138.45
         },
         {
           "fecha": "2026-10-27",
-          "cierre": 154.78
+          "cierre": 136.46
         },
         {
           "fecha": "2026-10-28",
-          "cierre": 150.13
+          "cierre": 134.7
         },
         {
           "fecha": "2026-10-29",
-          "cierre": 109.67
+          "cierre": 129.6
+        },
+        {
+          "fecha": "2026-10-30",
+          "cierre": 98.14
         }
       ],
       "noticias": [],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Al no haber noticias recientes disponibles, el sentimiento del mercado para este activo se mantiene neutral.",
+      "noticias_resumen": "No se registran noticias recientes para evaluar esta acción.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Debido a la ausencia de novedades recientes, no se identifican catalizadores que impulsen el precio en una dirección determinada. Por ello, la cotización podría mantenerse en un rango lateral en los próximos días. Esta estimación surge únicamente de la falta de titulares y no constituye una certeza."
+      "noticias_prediccion": "Al no haber noticias recientes disponibles, no existen titulares que impulsen el precio hacia arriba o hacia abajo en el corto plazo. Por este motivo, la lectura noticiosa sugiere un comportamiento lateral o sin tendencia definida. Tené en cuenta que esto es solo un análisis basado en la falta de información y no constituye una certeza."
     }
   ]
 }
