@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-11-07T20:47:26.475859+00:00",
+  "actualizado": "2026-11-08T00:24:21.406683+00:00",
   "resultados": [
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
-      "confianza": "alta",
+      "confianza": "media",
       "entrada": 342.37,
       "stop_loss": 333.08,
       "objetivo": 360.95,
@@ -138,6 +138,16 @@
       ],
       "noticias": [
         {
+          "titulo": "5 Worst Dow Stocks To Buy According to Analysts",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/5-worst-dow-stocks-buy-232028142.html",
+          "fuente": "Insider Monkey"
+        },
+        {
+          "titulo": "Dow Jones Futures: Market Needs Repair But Apple, Amazon, Microsoft Strong; Berkshire Doubles Stock Buyback",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-broken-apple-amazon-microsoft-strong-berkshire-earnings/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
+        },
+        {
           "titulo": "Republican Senator Who Won Reelection Is Selling Magnificent Seven Stocks: Here Are the Trades",
           "link": "https://finance.yahoo.com/markets/stocks/articles/republican-senator-won-reelection-selling-193025792.html",
           "fuente": "Benzinga"
@@ -151,22 +161,12 @@
           "titulo": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
           "link": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
           "fuente": "decrypt"
-        },
-        {
-          "titulo": "Dow Jones Futures: Market Needs Repair But Apple, Amazon, Microsoft Strong; Berkshire Doubles Stock Buyback",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-broken-apple-amazon-microsoft-strong-berkshire-earnings/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
-        },
-        {
-          "titulo": "Booking vs. DoorDash: Does Going Out or Staying In Make One Stock a Better Buy for 2027?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/07/booking-vs-doordash-does-going-out-or-staying-in-make-one-stock-a-better-buy-for-2027/",
-          "fuente": "Motley Fool"
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Noticias que destacan la fortaleza de Apple frente a un mercado volátil y potenciales ventajas regulatorias.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Las noticias señalan que la empresa se mantiene firme frente a la debilidad general del mercado y se beneficia de recompras de acciones. Por este motivo, el precio podría inclinarse al alza en los próximos días. Tenga en cuenta que esta estimación es solo una lectura informativa y no representa una certeza."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "Titulares mixtos entre la fortaleza de la empresa y la venta de acciones por parte de inversores.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "Apple muestra solidez frente a un mercado convulso, pero las ventas de acciones por parte de políticos e informes cautelosos atenúan el entusiasmo. Por esta razón, el precio podría mantenerse estable o en un rango lateral durante los próximos días. Tené en cuenta que esto es solo una lectura de noticias y no una certeza financiera."
     },
     {
       "hay_señal": true,
@@ -305,6 +305,11 @@
       ],
       "noticias": [
         {
+          "titulo": "Dow Jones Futures: Market Needs Repair But Apple, Amazon, Microsoft Strong; Berkshire Doubles Stock Buyback",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-broken-apple-amazon-microsoft-strong-berkshire-earnings/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
+        },
+        {
           "titulo": "What Concentrix (CNXC)'s AI Migration Tool Launch Means For Shareholders",
           "link": "https://finance.yahoo.com/markets/stocks/articles/concentrix-cnxc-ai-migration-tool-201248119.html",
           "fuente": "Simply Wall St."
@@ -323,23 +328,18 @@
           "titulo": "The Artificial Intelligence (AI) Boom Is Far From Over. Here Are 4 Potential Long-Term Winners",
           "link": "https://www.fool.com/investing/2026/11/07/the-artificial-intelligence-ai-boom-is-far-from-over-here-are-4-potential-long-term-winners/",
           "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
-          "link": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
-          "fuente": "decrypt"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Contraste entre avances en inteligencia artificial y la pérdida de un acuerdo significativo.",
+      "noticias_resumen": "Fortaleza en el sector de inteligencia artificial con contratiempos puntuales en acuerdos.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "A pesar del crecimiento en el sector de inteligencia artificial, la pérdida de un contrato con Oracle genera dudas entre los inversores. Debido a estos factores contrapuestos, el precio podría moverse de manera lateral a corto plazo. Recuerde que este análisis proviene únicamente de titulares periodísticos."
+      "noticias_prediccion": "A pesar de su posición destacada en el boom de la inteligencia artificial, la pérdida de un acuerdo con Oracle genera cierta prudencia. Se prevé que la cotización oscile sin una dirección clara a corto plazo. Cabe recordar que se trata de una interpretación periodística y no de un resultado garantizado."
     },
     {
       "hay_señal": true,
       "tipo_setup": "momentum",
       "direccion": "short",
-      "confianza": "media",
+      "confianza": "baja",
       "entrada": 186.64,
       "stop_loss": 201.57,
       "objetivo": 156.78,
@@ -472,35 +472,35 @@
       ],
       "noticias": [
         {
-          "titulo": "Wall Street Is Ignoring Bristol Myers Squibb's Cash Machine -- and That's an Opportunity for Income Investors",
-          "link": "https://www.fool.com/investing/2026/11/07/wall-street-is-ignoring-bristol-myers-squibbs-cash/",
+          "titulo": "Energy Transfer Just Raised Its Distribution for the 20th Straight Quarter. Here's How Much $10,000 Invested Pays Annually.",
+          "link": "https://www.fool.com/investing/2026/11/07/energy-transfer-just-raised-its-distribution-for-t/",
           "fuente": "Motley Fool"
         },
         {
-          "titulo": "Palantir Stock Just Fell 8 Days in a Row. History Says What Followed Its Only 2 Longer Losing Streaks.",
-          "link": "https://www.fool.com/investing/2026/11/07/palantir-stock-just-fell-8-days-in-a-row-history-says-what-followed-its-only-2-longer-losing-streaks/",
+          "titulo": "Novo Nordisk Just Delivered Great News for Investors. Is a Comeback Finally Underway?",
+          "link": "https://www.fool.com/investing/2026/11/07/novo-nordisk-just-delivered-great-news-for-investors-is-a-comeback-finally-underway/",
           "fuente": "Motley Fool"
         },
         {
-          "titulo": "Here's What $10,000 Invested in Bloom Energy (BE) Stock Could Be Worth in 3 Years",
-          "link": "https://www.fool.com/investing/2026/11/07/heres-what-10000-invested-in-bloom-energy-be-stock/",
-          "fuente": "Motley Fool"
+          "titulo": "5 Best Dow Stocks to Buy for 2027",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-dow-stocks-buy-231819373.html",
+          "fuente": "Insider Monkey"
         },
         {
-          "titulo": "Did Apple Just Get a Boost From Democrats? Data Center Moratoriums Could Benefit the iPhone Maker",
-          "link": "https://www.fool.com/investing/2026/11/07/apple-get-boost-democrats-data-center-iphone/",
-          "fuente": "Motley Fool"
+          "titulo": "NVIDIA And 2 Other AI Stocks To Watch",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-2-other-ai-stocks-231249303.html",
+          "fuente": "Simply Wall St."
         },
         {
-          "titulo": "Think It's Too Late to Buy Cloudflare Stock? Here's the 1 Reason Why There's Still Time",
-          "link": "https://www.fool.com/investing/2026/11/07/too-late-buy-cloudflare-stock-1-reason-still-time/",
+          "titulo": "Elon Musk Is Winding Down Cybertruck Production to Build Cybercabs. The Model S and Model X Already Gave Up Their Factory Space to Robots.",
+          "link": "https://www.fool.com/investing/2026/11/07/elon-musk-is-winding-down-cybertruck-production-to-build-cybercabs-the-model-s-and-model-x-already-gave-up-their-factory-space-to-robots/",
           "fuente": "Motley Fool"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Ausencia de catalizadores directos en los titulares, centrados en otras empresas tecnológicas.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Las noticias más recientes no presentan novedades directas o relevantes sobre la cotización de la empresa. En consecuencia, el precio podría mantener un comportamiento lateral en los próximos días mientras el mercado busca una dirección clara. Considere que esta apreciación se basa solo en las publicaciones recientes."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Atención continua y favorable dentro del sector de tecnología e inteligencia artificial.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "Nvidia sigue figurando como una opción predilecta entre las acciones tecnológicas a vigilar. Este interés mediático positivo sugiere que el valor podría inclinarse al alza en las próximas jornadas. Esta evaluación refleja únicamente el tono informativo reciente y no constituye una verdad absoluta."
     },
     {
       "hay_señal": false,
@@ -665,9 +665,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Declaraciones optimistas sobre la economía y un desempeño sólido en sus negocios.",
+      "noticias_resumen": "Declaraciones de liderazgo sólidas e inversiones estratégicas bien recibidas.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El liderazgo de la institución y el buen ritmo de sus líneas de negocio transmiten seguridad al mercado. Esto sugiere que la cotización podría experimentar un sesgo alcista en el corto plazo. Es importante recordar que esto es una lectura periodística y no una garantía financiera."
+      "noticias_prediccion": "El optimismo expresado por su dirección sobre la economía de EE. UU. y el buen desempeño de sus inversiones respaldan a la empresa. Es probable que la acción mantenga un sesgo alcista en el corto plazo. Recordá que esta proyección nace del análisis de los titulares y no es una recomendación infalible."
     },
     {
       "hay_señal": false,
@@ -832,9 +832,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Sólido incremento en el pago de dividendos y reportes financieros favorables.",
+      "noticias_resumen": "Sólido incremento en dividendos y buen rendimiento de ganancias reportado.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El importante aumento en sus dividendos y los sólidos resultados del trimestre aumentan el atractivo del valor. Por esta razón, el precio podría inclinarse hacia el alza en las próximas jornadas. Tenga presente que esta interpretación no constituye un resultado asegurado."
+      "noticias_prediccion": "El fuerte aumento del 16% en su dividendo y la justificación de su crecimiento trimestral atraen a los inversores. Por ello, la perspectiva apunta a un movimiento alcista en los próximos días. Tené presente que se trata de un resumen de noticias y no de una certeza del mercado."
     },
     {
       "hay_señal": false,
@@ -999,9 +999,9 @@
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Señales divididas entre grandes compras de fondos e importantes ventas de otros actores.",
+      "noticias_resumen": "Señales divididas entre la entrada de grandes fondos y ventas masivas de ETF.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Mientras algunos fondos realizan apuestas millonarias en la compañía, otros inversores institucionales han vendido parte de sus posiciones. Esta divergencia de opiniones orienta el precio hacia una tendencia lateral a corto plazo. Recuerde que este pronóstico surge exclusivamente de titulares."
+      "noticias_prediccion": "El interés de un fondo de miles de millones contrarresta la reciente venta masiva por parte de un ETF de energía. Esta falta de consenso puede hacer que el precio se mueva de forma lateral temporalmente. Esta lectura se basa en hechos de la prensa y no garantiza el movimiento futuro."
     },
     {
       "hay_señal": false,
@@ -1155,26 +1155,26 @@
           "fuente": "Zacks"
         },
         {
+          "titulo": "AbbVie or Chevron: I Can Only Pick One Dividend Stock for the Next 10 Years. Here’s Mine",
+          "link": "https://www.tikr.com/blog/abbvie-or-chevron-i-can-only-pick-one-dividend-stock-for-the-next-10-years-heres-mine?ref=yahoofinancedividend&tlnk=yf-261107-qcjmpv3v",
+          "fuente": "TIKR"
+        },
+        {
           "titulo": "$600,000 in Dividend Stocks: How a Roth IRA Could Save You $4,460 a Year",
           "link": "https://247wallst.com/investing/2026/11/06/600000-in-dividend-stocks-how-a-roth-ira-could-save-you-4460-a-year/",
           "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "Will Suncor's Refining Strength Continue to Drive Cash Flow?",
-          "link": "https://finance.yahoo.com/energy/articles/suncors-refining-strength-continue-drive-144500622.html",
-          "fuente": "Zacks"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Fuerte flujo de caja reportado e indicadores de que la acción cotiza con descuento.",
+      "noticias_resumen": "Fuerte flujo de caja y percepción de cotizar por debajo de su valor teórico.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Los datos sobre un flujo de efectivo saludable y la percepción de subvaluación atraen a los compradores. Por lo tanto, la acción podría registrar un movimiento alcista en los próximos días. Tenga en cuenta que esta lectura no debe tomarse como una verdad absoluta."
+      "noticias_prediccion": "El sólido flujo de efectivo en su reporte trimestral y la consideración de estar descontada atraen el apetito comprador. La cotización podría orientarse al alza durante las siguientes sesiones. Recordá que este pronóstico deriva de titulares y no representa una certeza."
     },
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
-      "confianza": "alta",
+      "confianza": "media",
       "entrada": 259.3,
       "stop_loss": 246.65,
       "objetivo": 284.6,
@@ -1307,6 +1307,16 @@
       ],
       "noticias": [
         {
+          "titulo": "Dow Jones Futures: Market Needs Repair But Apple, Amazon, Microsoft Strong; Berkshire Doubles Stock Buyback",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-broken-apple-amazon-microsoft-strong-berkshire-earnings/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
+        },
+        {
+          "titulo": "Is DoorDash (DASH) Undervalued Following Its New Lyft Partnership?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/doordash-dash-undervalued-following-lyft-211245604.html",
+          "fuente": "Simply Wall St."
+        },
+        {
           "titulo": "He Loses His Job at 62 as Amazon Cuts 95 More Positions. He Claims Social Security to Get By, Then Faces an $8,400 Bill to Undo It",
           "link": "https://247wallst.com/personal-finance/social-security/2026/11/07/he-loses-his-job-at-62-as-amazon-cuts-95-more-positions-he-claims-social-security-to-get-by-then-faces-an-8400-bill-to-undo-it/",
           "fuente": "24/7 Wall St."
@@ -1320,22 +1330,12 @@
           "titulo": "Walton Family Gets $100 Billion Richer As Walmart Surges",
           "link": "https://247wallst.com/investing/2026/11/07/walton-family-gets-100-billion-richer-as-walmart-surges/",
           "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "Apple Completes the Set: Every Magnificent Seven Stock Opts Out of OKX-ICE Venue",
-          "link": "https://decrypt.co/382768/apple-meta-every-magnificent-seven-stock-opts-out-okx-ice-venue",
-          "fuente": "decrypt"
-        },
-        {
-          "titulo": "Dow Jones Futures: Market Needs Repair But Apple, Amazon, Microsoft Strong; Berkshire Doubles Stock Buyback",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sandisk-micron-broken-apple-amazon-microsoft-strong-berkshire-earnings/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Innovación en beneficios para sus suscriptores y solidez reconocida en el mercado.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La expansión de beneficios para sus clientes y la fortaleza percibida por los analistas generan un ambiente favorable. Esto podría impulsar la cotización hacia arriba a corto plazo. Tenga en cuenta que este análisis se limita a la información reflejada en la prensa."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "Desempeño sólido en el mercado ensombrecido por titulares sobre despidos.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "Aunque Amazon se destaca como una empresa firme, la noticia de recortes de puestos de trabajo resta impulso comprador. Es esperable que el valor mantenga un comportamiento neutro o lateral a corto plazo. Es una apreciación basada en noticias y no asegura un comportamiento real."
     },
     {
       "hay_señal": false,
@@ -1474,7 +1474,7 @@
       ],
       "noticias": [
         {
-          "titulo": "50-year-old Six Flags theme park closing down forever in 2027",
+          "titulo": "50-year-old popular family theme park closes permanently",
           "link": "https://www.thestreet.com/retail/six-flags-california-great-america-closes",
           "fuente": "TheStreet"
         },
@@ -1500,9 +1500,9 @@
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Menciones en debates generales sobre dividendos y estrategia sin catalizadores propios.",
+      "noticias_resumen": "Perfil defensivo centrado en dividendos sin catalizadores inmediatos de peso.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "La empresa aparece en análisis generales sobre carteras de inversión defensivas sin noticias específicas de impacto. Debido a esto, el precio podría consolidarse en un rango lateral durante los próximos días. Esta estimación no garantiza movimientos concretos del mercado."
+      "noticias_prediccion": "Las menciones sobre Coca-Cola destacan su rol tradicional como pagadora de dividendos en portafolios de retiro. Sin noticias operativas de gran impacto, la cotización probablemente tienda a mantenerse estable. Tené en cuenta que esta estimación es solo una lectura mediática."
     },
     {
       "hay_señal": false,
@@ -1667,9 +1667,9 @@
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Aumento del temor en Wall Street y peor desempeño semanal del índice en meses.",
+      "noticias_resumen": "Semana con caídas relevantes y temores por el incremento en las tasas de interés.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "Las noticias enfatizan caídas severas en el mercado y un fuerte incremento en los indicadores de volatilidad o miedo. Estas condiciones favorecen una trayectoria bajista en el corto plazo. Cabe remarcar que este análisis no representa una certidumbre matemática."
+      "noticias_prediccion": "El mercado general viene de su peor semana en meses tras datos laborales que aumentan las probabilidades de alza de tasas. Esto sugiere que el fondo cotizado podría experimentar caídas continuadas en el corto plazo. Se aclara que esta conclusión procede de titulares y no de un resultado seguro."
     },
     {
       "hay_señal": false,
@@ -1834,9 +1834,9 @@
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Temores sobre una burbuja en inteligencia artificial y ventas masivas en fondos tecnológicos.",
+      "noticias_resumen": "Ventas intensas y preocupación de los consumidores sobre una burbuja tecnológica.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "La desconfianza del consumidor sobre el sector tecnológico y la cautela ante salidas a bolsa han desatado una ola de ventas. Por ello, el fondo podría mostrar un desempeño bajista en las próximas jornadas. Recuerde que esta conclusión se basa únicamente en los titulares provistos."
+      "noticias_prediccion": "Las noticias advierten sobre liquidaciones récord en ETF y dudas crecientes alrededor del sector tecnológico. Debido a esto, la inclinación del precio se perfila como bajista para los próximos días. Considerá que este análisis refleja el sentimiento de las noticias y no es una certeza."
     },
     {
       "hay_señal": true,
@@ -2001,9 +2001,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Adjudicación de un contrato para la misión a Marte y fuerte rebote bursátil.",
+      "noticias_resumen": "Fuerte subida tras reportar ganancias y ganar un contrato de la NASA.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La consecución del contrato espacial y los recientes incrementos porcentuales en su cotización generan entusiasmo. Con esto en mente, el valor podría mantener una marcha alcista a corto plazo. Es indispensable recordar que este criterio proviene solo de publicaciones de prensa."
+      "noticias_prediccion": "La adjudicación del contrato para la misión a Marte y el reciente salto del 42% demuestran un fuerte impulso comprador. Este clima positivo podría sostener la tendencia alcista a corto plazo. No olvides que esta predicción se apoya en noticias recientes y no garantiza rendimientos."
     },
     {
       "hay_señal": true,
@@ -2168,9 +2168,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Subida vertiginosa impulsada por el repunte del sector de tecnología espacial.",
+      "noticias_resumen": "Rebote del sector espacial y avances en proyectos estratégicos propios.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El notable aumento cercano al 37% refleja un fuerte apetito comprador en el sector espacial. Esto posiciona la cotización con probabilidades de continuar al alza en los próximos días. Considere que esta perspectiva es solo un análisis de titulares sin valor predictivo absoluto."
+      "noticias_prediccion": "El incremento del 36.8% en su cotización refleja un claro entusiasmo del mercado por sus planes espaciales. La tendencia inmediata favorece movimientos hacia la subida en los próximos días. Tené en cuenta que esto representa una interpretación informativa y no una certeza."
     },
     {
       "hay_señal": true,
@@ -2335,9 +2335,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Resultados trimestrales sobresalientes impulsados por la demanda de codificación con IA.",
+      "noticias_resumen": "Resultados financieros sobresalientes impulsados por herramientas de IA.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El informe financiero superó las expectativas del mercado provocando un fuerte salto en el precio de la acción. Esta inercia positiva sugiere que el activo podría inclinarse al alza en el corto plazo. Tenga presente que esta apreciación no asegura rendimientos futuros."
+      "noticias_prediccion": "Los ingresos sorpresivamente altos y el salto del 35% en el precio de su acción generan gran optimismo. Se anticipa que el valor continúe su impulso alcista durante las próximas jornadas. Recordá que esta observación se basa en noticias y no constituye un hecho garantizado."
     },
     {
       "hay_señal": false,
@@ -2502,9 +2502,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Reporte de márgenes de producto en niveles récord e ingresos acumulados sólidos.",
+      "noticias_resumen": "Reporte de márgenes de producto récord en sus últimos resultados.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La presentación de cuentas con márgenes financieros récord impulsa la confianza de los inversores. En consecuencia, el precio podría buscar una dirección alcista en los próximos días. Recuerde que este resumen no representa una garantía de inversión."
+      "noticias_prediccion": "Los datos del tercer trimestre mostraron márgenes récord e ingresos elevados, incentivando la compra de acciones. La perspectiva técnica y mediática apunta hacia subidas de corto plazo. Cabe remarcar que este análisis deriva de titulares y no asegura ganancias reales."
     },
     {
       "hay_señal": true,
@@ -2669,9 +2669,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Elevación de proyecciones de ingresos y posición dominante en su mercado específico.",
+      "noticias_resumen": "Incremento en las previsiones de ingresos y posición dominante en su nicho.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La revisión al alza de sus estimaciones de facturación y el estatus de casi monopolio apoyan el interés del mercado. Por lo tanto, la acción se encamina hacia un comportamiento alcista a corto plazo. Considere que esto es el reflejo de noticias recientes y no una certeza."
+      "noticias_prediccion": "El aumento en sus guías de facturación y un volumen inusual en el mercado de opciones sugieren interés comprador. Es probable que la acción mantenga un comportamiento alcista en el corto plazo. Es una lectura del entorno de noticias y no una certeza de inversión."
     },
     {
       "hay_señal": true,
@@ -2836,9 +2836,9 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Fuerte avance del 23% sustentado en el interés creciente por la computación cuántica.",
+      "noticias_resumen": "Gran repunte de precio generado por el interés en la computación cuántica.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El marcado ascenso registrado en su última jornada refleja una fuerte corriente especulativa favorable. Esto indica que el precio podría conservar cierta inercia alcista en el corto plazo. Esta evaluación se limita al tono noticioso actual."
+      "noticias_prediccion": "El incremento del 23% registrado en su última jornada muestra que los inversores están buscando exposición a la tecnología cuántica. Esta inercia podría llevar a la acción a cotizar al alza en los próximos días. Tené presente que este juicio surge de titulares y no es infalible."
     },
     {
       "hay_señal": true,
@@ -3003,9 +3003,9 @@
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Aumento en los ingresos del trimestre frente a una importante caída previa en el precio.",
+      "noticias_resumen": "Incremento del 14% en ingresos empañado por una pronunciada caída previa.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Si bien las ventas mostraron un crecimiento del 14%, la acción aún arrastra una fuerte desvalorización acumulada. Este equilibrio entre recuperación y desconfianza sugiere un movimiento lateral en los próximos días. Recuerde que este análisis es meramente informativo."
+      "noticias_prediccion": "El aumento del 14% en las ventas contrarresta en parte el desplome previo que sufrió la acción. Es probable que el precio busque estabilizarse en un rango lateral mientras los inversores evalúan la situación. Recordá que esta opinión se basa en noticias y no asegura movimientos."
     },
     {
       "hay_señal": true,
@@ -3144,6 +3144,11 @@
       ],
       "noticias": [
         {
+          "titulo": "DraftKings: 3 Key Takeaways for Long-Term Investors",
+          "link": "https://www.fool.com/earnings/takeaways/2026/11/07/draftkings-3-key-takeaways-for-long-term-investors/",
+          "fuente": "Motley Fool"
+        },
+        {
           "titulo": "DraftKings (DKNG) Sees Texas Betting Hopes Rise As Prediction Markets Draw Scrutiny",
           "link": "https://finance.yahoo.com/markets/stocks/articles/draftkings-dkng-sees-texas-betting-201359163.html",
           "fuente": "Simply Wall St."
@@ -3162,17 +3167,12 @@
           "titulo": "DraftKings Sinks on Weak 2027 Guidance. How Analysts Recommend Playing DKNG Stock From Here.",
           "link": "https://www.barchart.com/story/news/8709184/draftkings-sinks-on-weak-2027-guidance-how-analysts-recommend-playing-dkng-stock-from-here",
           "fuente": "Barchart"
-        },
-        {
-          "titulo": "Stocks to Watch Recap: DraftKings, Airbnb, Iren, CoreWeave",
-          "link": "https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026/card/stocks-to-watch-draftkings-airbnb-iren-coreweave-K3mHErTnFxPagbWPHHSI?siteid=yhoof2&yptr=yahoo",
-          "fuente": "The Wall Street Journal"
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Descenso pronunciado tras decepcionar en ganancias y ofrecer débiles proyecciones a futuro.",
+      "noticias_resumen": "Caídas en la cotización tras publicar proyecciones débiles para los próximos años.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "Los resultados por debajo de lo esperado y las previsiones negativas para 2027 han presionado la cotización a la baja. Por esta razón, el precio podría continuar inclinándose hacia la baja a corto plazo. Esta lectura no constituye un hecho garantizado."
+      "noticias_prediccion": "Un trimestre por debajo de las expectativas y una guía modesta para 2027 han presionado la acción hacia abajo. El tono dominante sugiere que el valor continuará con una tendencia bajista a corto plazo. Tené en cuenta que esta apreciación responde únicamente al análisis de prensa."
     }
   ]
 }
