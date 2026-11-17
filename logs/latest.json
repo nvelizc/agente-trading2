@@ -1,19 +1,19 @@
 {
-  "actualizado": "2026-11-16T20:56:26.584961+00:00",
+  "actualizado": "2026-11-17T03:40:54.355400+00:00",
   "resultados": [
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
-      "confianza": "media",
-      "entrada": 352.18,
-      "stop_loss": 336.0,
-      "objetivo": 384.54,
+      "confianza": "baja",
+      "entrada": 352.78,
+      "stop_loss": 336.03,
+      "objetivo": 386.28,
       "ratio_riesgo_beneficio": 2.0,
       "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "AAPL",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 352.18,
+      "precio_al_momento_del_analisis": 352.78,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -133,40 +133,40 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 352.18
+          "cierre": 352.78
         }
       ],
       "noticias": [
+        {
+          "titulo": "What's dragging down the S&P 500? Apple in focus",
+          "link": "https://finance.yahoo.com/video/whats-dragging-down-the-sp-500-apple-in-focus-214949304.html",
+          "fuente": "Yahoo Finance Video"
+        },
         {
           "titulo": "Eli Lilly is trouncing Nvidia — and the weight-loss drug trade is beating AI again",
           "link": "https://finance.yahoo.com/markets/article/eli-lilly-is-trouncing-nvidia--and-the-weight-loss-drug-trade-is-beating-ai-again-170530198.html",
           "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "Elon Musk Warns Against Pushing Founders Out — Steve Jobs and Travis Kalanick Lessons Resurface as Jensen Huang Exits Nvidia",
-          "link": "https://finance.yahoo.com/small-business/articles/elon-musk-warns-against-pushing-193008615.html",
-          "fuente": "Benzinga"
+          "titulo": "David Tepper’s Appaloosa Goes Big on SpaceX, While Slashing Alphabet Stake",
+          "link": "https://www.barrons.com/articles/david-tepper-appaloosa-spacex-alphabet-holdings-0d829940?siteid=yhoof2&yptr=yahoo",
+          "fuente": "Barrons.com"
         },
         {
-          "titulo": "Soros’s Fund Sold a Quarter of Its Berkshire Shares. Today Berkshire Reveals Its Own Trades",
-          "link": "https://247wallst.com/investing/2026/11/16/soross-fund-sold-a-quarter-of-its-berkshire-shares-today-berkshire-reveals-its-own-trades/",
-          "fuente": "24/7 Wall St."
+          "titulo": "Berkshire Boosts Lennar, Starts Bending Spoons, Trims Bank Of America In Q3",
+          "link": "https://stocktwits.com/news-articles/markets/equity/berkshire-boosts-lennar-starts-bending-spoons-trims-bank-of-america-in-q3/cNbJ2orR9g1",
+          "fuente": "Stocktwits"
         },
         {
-          "titulo": "The S&P 500's shot at 4 straight double-digit years is in Nvidia's hands",
-          "link": "https://finance.yahoo.com/markets/article/the-sp-500s-shot-at-4-straight-double-digit-years-is-in-nvidias-hands-191852498.html",
-          "fuente": "Yahoo Finance"
-        },
-        {
-          "titulo": "Apple adds facial recognition unlock to iPhone Duo",
-          "link": "https://finance.yahoo.com/news/apple-adds-facial-recognition-unlock-191440685.html",
-          "fuente": "Investing.com"
+          "titulo": "Huang’s ‘trillion-dollar dinners’ with Taiwan chip bosses were Nvidia’s secret weapon. Now he’s out. Can he be replaced?",
+          "link": "https://finance.yahoo.com/technology/articles/huang-trillion-dollar-dinners-taiwan-230000506.html",
+          "fuente": "Moneywise"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Nuevas funciones tecnológicas conviven con un entorno de cautela en el sector informático.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Es posible que el precio de la acción se mantenga en un rango estable durante los próximos días. Las innovaciones en sus teléfonos traen optimismo, pero el contexto general del sector tecnológico genera cierta prudencia. Tenga en cuenta que este análisis surge de los titulares recientes y no constituye una certeza de mercado."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Los titulares señalan que Apple está arrastrando a la baja al mercado general en medio de una menor preferencia por el sector tecnológico.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "Con base en las noticias recientes, la acción podría presionar a la baja en los próximos días debido a su impacto negativo en los índices principales. La atención de los inversores se ha desplazado temporalmente hacia otros sectores. Cabe aclarar que esto es solo un análisis informativo y no una certeza de mercado."
     },
     {
       "hay_señal": false,
@@ -180,7 +180,7 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "MSFT",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 517.47,
+      "precio_al_momento_del_analisis": 517.99,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -300,54 +300,54 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 517.47
+          "cierre": 517.99
         }
       ],
       "noticias": [
         {
-          "titulo": "FAA, Microsoft outages show the perils of system upgrades",
-          "link": "https://www.americanbanker.com/news/faa-microsoft-outages-show-the-perils-of-system-upgrades",
-          "fuente": "American Banker"
+          "titulo": "Bill Ackman Adds More To Netflix In Q3; Exits Hertz, Cuts Microsoft",
+          "link": "https://stocktwits.com/news-articles/markets/equity/bill-ackman-adds-more-to-netflix-in-q3-exits-hertz-cuts-microsoft/cNbaf33R9gj",
+          "fuente": "Stocktwits"
         },
         {
-          "titulo": "Customers of at least 4 major US banks report outages days after Microsoft issues",
-          "link": "https://www.independent.co.uk/tech/us-bank-outages-chase-wells-fargo-zelle-b3085937.html",
-          "fuente": "The Independent"
+          "titulo": "Learn Why The Bull Case For IBM Stock Could Change Following Quantum Computing Expansion",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-ibm-231929118.html",
+          "fuente": "Simply Wall St."
         },
         {
-          "titulo": "Chase, Bank of America, other banks hit by online service outages",
-          "link": "https://finance.yahoo.com/video/chase-bank-america-other-banks-202654532.html",
-          "fuente": "USA TODAY"
+          "titulo": "Daniel Loeb’s Third Point Returned to Nvidia Stock Just Before Its Fall",
+          "link": "https://www.barrons.com/articles/daniel-loebs-third-point-returned-to-nvidia-stock-just-before-its-fall-0c40f377?siteid=yhoof2&yptr=yahoo",
+          "fuente": "Barrons.com"
         },
         {
-          "titulo": "OpenAI Hit With Lawsuit by California AG Over Alleged Inadequate Safeguards, Monitoring of AI Models",
-          "link": "https://finance.yahoo.com/technology/ai/articles/openai-hit-lawsuit-california-ag-200308857.html",
-          "fuente": "MT Newswires"
+          "titulo": "A Third Outage Strikes, This Time at Chase, Big Banks. The Stocks Are Falling.",
+          "link": "https://www.barrons.com/articles/outages-jpmorgan-chase-bank-of-america-wells-fargo-stocks-0faf523e?siteid=yhoof2&yptr=yahoo",
+          "fuente": "Barrons.com"
         },
         {
-          "titulo": "Microsoft Stocks Move Lower as $1 Billion Anthropic Bet Precedes Ignite",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stocks-move-lower-1-194955766.html",
-          "fuente": "GuruFocus.com"
+          "titulo": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
+          "link": "https://finance.yahoo.com/video/nvidia-is-not-considering-rehiring-jensen-huang-and-amazons-data-center-gets-bought-221405344.html",
+          "fuente": "Yahoo Finance Video"
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "Fallas globales de sistema y conflictos legales de socios presionan el valor a la baja.",
+      "noticias_resumen": "La reducción de participación por parte de destacados inversores genera cautela sobre la acción a corto plazo.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "La cotización de la empresa podría experimentar presiones a la baja en las próximas jornadas. Las interrupciones en servicios bancarios asociados y la demanda a su socio de inteligencia artificial siembran dudas en los inversores. Considere que esta lectura se basa únicamente en las noticias y no representa una garantía."
+      "noticias_prediccion": "El precio de Microsoft podría inclinarse hacia la baja impulsado por las ventas de acciones por parte de importantes fondos de inversión. La debilidad generalizada en las grandes empresas de tecnología también afecta el ánimo comprador. Recordá que esta proyección proviene únicamente de los titulares y no garantiza el movimiento real."
     },
     {
       "hay_señal": true,
-      "tipo_setup": "reversion",
-      "direccion": "long",
-      "confianza": "baja",
-      "entrada": 155.74,
-      "stop_loss": 148.8,
-      "objetivo": 169.62,
+      "tipo_setup": "momentum",
+      "direccion": "short",
+      "confianza": "alta",
+      "entrada": 156.14,
+      "stop_loss": 168.63,
+      "objetivo": 131.16,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El RSI está en 22.6, una zona de sobreventa que históricamente anticipa un posible giro.",
+      "razon": "El precio se movió -12.61% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "NVDA",
       "sector": "Tecnología",
-      "precio_al_momento_del_analisis": 155.74,
+      "precio_al_momento_del_analisis": 156.14,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -467,40 +467,40 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 155.74
+          "cierre": 156.14
         }
       ],
       "noticias": [
         {
+          "titulo": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
+          "link": "https://finance.yahoo.com/video/nvidia-is-not-considering-rehiring-jensen-huang-and-amazons-data-center-gets-bought-221405344.html",
+          "fuente": "Yahoo Finance Video"
+        },
+        {
+          "titulo": "Nvidia stock valuation looks 'draconian,' even without Jensen Huang: Analyst",
+          "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-valuation-looks-draconian-even-without-jensen-huang-analyst-220000337.html",
+          "fuente": "Yahoo Finance"
+        },
+        {
+          "titulo": "The cost of ousting a founder: Is the 'bank of Nvidia' at risk?",
+          "link": "https://finance.yahoo.com/video/the-cost-of-ousting-a-founder-is-the-bank-of-nvidia-at-risk-214610525.html",
+          "fuente": "Yahoo Finance Video"
+        },
+        {
+          "titulo": "Nvidia to report Q3 earnings amid Huang scandal",
+          "link": "https://finance.yahoo.com/technology/article/nvidia-to-report-q3-earnings-amid-huang-scandal-211859827.html",
+          "fuente": "Yahoo Finance"
+        },
+        {
           "titulo": "Should Nvidia bring Jensen Huang back, as Silicon Valley's elite are demanding?",
           "link": "https://finance.yahoo.com/technology/article/should-nvidia-bring-jensen-huang-back-as-silicon-valleys-elite-are-demanding-200000408.html",
           "fuente": "Yahoo Finance"
-        },
-        {
-          "titulo": "Nvidia board needs 'some heavyweights,' ex-Medtronic CEO Bill George says",
-          "link": "https://finance.yahoo.com/technology/article/nvidia-board-needs-some-heavyweights-ex-medtronic-ceo-bill-george-says-191935557.html",
-          "fuente": "Yahoo Finance"
-        },
-        {
-          "titulo": "Why Nvidia may need an operator as CEO — not a visionary",
-          "link": "https://finance.yahoo.com/video/why-nvidia-may-need-an-operator-as-ceo--not-a-visionary-191904373.html",
-          "fuente": "Yahoo Finance Video"
-        },
-        {
-          "titulo": "The S&P 500's shot at 4 straight double-digit years is in Nvidia's hands",
-          "link": "https://finance.yahoo.com/markets/article/the-sp-500s-shot-at-4-straight-double-digit-years-is-in-nvidias-hands-191852498.html",
-          "fuente": "Yahoo Finance"
-        },
-        {
-          "titulo": "Sam Altman weighs in on Jensen Huang's potential Nvidia comeback",
-          "link": "https://finance.yahoo.com/video/sam-altman-weighs-in-on-jensen-huangs-potential-nvidia-comeback-184934634.html",
-          "fuente": "Yahoo Finance Video"
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "La incertidumbre alrededor del liderazgo y la directiva afecta la confianza a corto plazo.",
+      "noticias_resumen": "La salida de su fundador y la incertidumbre previa a la presentación de resultados impactan negativamente la percepción de la empresa.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "El precio de la acción podría mostrar una trayectoria descendente o de alta volatilidad en los días venideros. Las discusiones públicas sobre la salida y eventual regreso de su liderazgo generan dudas sobre los próximos resultados financieros. Recuerde que esta interpretación proviene de titulares informativos y no es una certeza."
+      "noticias_prediccion": "Es probable que la acción mantenga una tendencia bajista a corto plazo debido a la crisis de liderazgo y las dudas sobre su valoración actual. Los inversores muestran inquietud antes del reporte de ganancias sin la presencia de su histórico líder. Tené en cuenta que esta lectura se basa en noticias y no constituye una verdad absoluta."
     },
     {
       "hay_señal": false,
@@ -514,7 +514,7 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "JPM",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 338.16,
+      "precio_al_momento_del_analisis": 338.21,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -634,7 +634,7 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 338.16
+          "cierre": 338.21
         }
       ],
       "noticias": [
@@ -644,30 +644,30 @@
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Sector Update: Financial",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-202722172.html",
+          "titulo": "Why Are US Banks Reporting Outages? JPMorgan Rules Out Cyberattack, Blames Software Bug",
+          "link": "https://stocktwits.com/news-articles/markets/equity/why-are-us-banks-jpmorgan-wells-fargo-down-software-bug/cNbahm7R9gV",
+          "fuente": "Stocktwits"
+        },
+        {
+          "titulo": "What to Know About the Banking Service Outages Impacting Thousands of Customers",
+          "link": "https://time.com/article/2026/11/16/bank-outage-down-jpmorgan-chase-technical-issue/",
+          "fuente": "Time"
+        },
+        {
+          "titulo": "Thousands of Chase Bank customers report trouble with online banking services",
+          "link": "https://www.cnn.com/2026/11/16/business/bank-outage-chase-us-bank-bank-of-america",
+          "fuente": "CNN Business"
+        },
+        {
+          "titulo": "Update: JPMorgan, Bank of America, Wells Fargo Site Users Report Connectivity Issues, Downdetector Says",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-bank-america-wells-fargo-225417531.html",
           "fuente": "MT Newswires"
-        },
-        {
-          "titulo": "Rolling Outages Rock U.S. Bank Stocks",
-          "link": "https://app.moby.co/home/news/news-rolling-outages-rock-us-bank-stocks?utm_source=yahoo_finance&utm_medium=rss",
-          "fuente": "Moby"
-        },
-        {
-          "titulo": "Chase: Transactions Taking Longer to Process",
-          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-16-2026/card/chase-transactions-taking-longer-to-process-KOknkpFyP54dD8nSj2FX?siteid=yhoof2&yptr=yahoo",
-          "fuente": "The Wall Street Journal"
-        },
-        {
-          "titulo": "3 Financial Stocks to Buy and Hold That Turned $1,000 Into More Than $5,000 Over the Past Decade, Counting Dividends",
-          "link": "https://www.fool.com/investing/2026/11/16/3-financial-stocks-to-buy-and-hold-that-turned-100/",
-          "fuente": "Motley Fool"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Los avances en pagos digitales se cruzan con reportes de demoras operativas.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Se prevé que el precio del título se mueva sin una dirección única en el plazo inmediato. La innovación en movimiento de dólares digitalizados compensa los inconvenientes reportados en el procesamiento de transacciones. Es importante aclarar que esta perspectiva responde al flujo de noticias y no asegura resultados futuros."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Los fallos masivos en sus servicios bancarios digitales generan inquietud y presión a corto plazo.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "El precio de JPMorgan podría experimentar caídas temporales mientras se resuelven los problemas técnicos que afectaron a miles de clientes. Aunque la empresa descartó un ciberataque, este tipo de fallas suele generar desconfianza inmediata. Considerá que esta deducción surge de los titulares y no es una seguridad financiera."
     },
     {
       "hay_señal": false,
@@ -681,7 +681,7 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "V",
       "sector": "Finanzas",
-      "precio_al_momento_del_analisis": 426.41,
+      "precio_al_momento_del_analisis": 426.46,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -801,10 +801,20 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 426.41
+          "cierre": 426.46
         }
       ],
       "noticias": [
+        {
+          "titulo": "Top British Hedge Fund Loads Up on Martin Marietta Stock, Trims Stake in Visa",
+          "link": "https://www.barrons.com/articles/top-british-hedge-fund-chris-hohn-martin-marietta-visa-4b553be9?siteid=yhoof2&yptr=yahoo",
+          "fuente": "Barrons.com"
+        },
+        {
+          "titulo": "Visa (V) Warns Of Rapid Surge In AI Driven Payment Threats",
+          "link": "https://finance.yahoo.com/technology/ai/articles/visa-v-warns-rapid-surge-211145449.html",
+          "fuente": "Simply Wall St."
+        },
         {
           "titulo": "3 Financial Stocks to Buy and Hold That Turned $1,000 Into More Than $5,000 Over the Past Decade, Counting Dividends",
           "link": "https://www.fool.com/investing/2026/11/16/3-financial-stocks-to-buy-and-hold-that-turned-100/",
@@ -819,22 +829,12 @@
           "titulo": "PayPal Stock Trades at a Discount: Bargain Buy or Value Trap?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/paypal-stock-trades-discount-bargain-175000263.html",
           "fuente": "Zacks"
-        },
-        {
-          "titulo": "OpenAI wallet taps card networks",
-          "link": "https://www.paymentsdive.com/news/openai-wallet-taps-card-networks/874769/",
-          "fuente": "Payments Dive"
-        },
-        {
-          "titulo": "Can Mastercard's Mambu Deal Expand Its APAC Payments Reach?",
-          "link": "https://finance.yahoo.com/markets/currencies/articles/mastercards-mambu-deal-expand-apac-163200156.html",
-          "fuente": "Zacks"
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Su posicionamiento a largo plazo e integración en billeteras digitales respaldan la acción.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El valor podría inclinarse ligeramente al alza impulsado por su inclusión en nuevas redes de pago y recomendaciones de inversión. A pesar de las advertencias sobre amenazas de seguridad, el interés en su negocio sigue siendo sólido. Tenga presente que este pronóstico es una lectura de la prensa y no una certeza."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Las advertencias de la propia empresa sobre ciberamenazas y el recorte de posiciones por fondos reducen el entusiasmo.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "Las noticias sugieren una posible inclinación bajista a corto plazo debido a la preocupación por los nuevos riesgos de seguridad en pagos impulsados por inteligencia artificial. Además, la venta parcial de acciones por parte de un gran fondo refuerza la cautela. Esta apreciación es solo un resumen de noticias y no una garantía de precio."
     },
     {
       "hay_señal": false,
@@ -848,127 +848,127 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "XOM",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 167.09,
+      "precio_al_momento_del_analisis": 166.87,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
-          "cierre": 164.48
+          "cierre": 163.45
         },
         {
           "fecha": "2026-10-07",
-          "cierre": 164.05
+          "cierre": 163.02
         },
         {
           "fecha": "2026-10-08",
-          "cierre": 168.5
+          "cierre": 167.44
         },
         {
           "fecha": "2026-10-09",
-          "cierre": 168.94
+          "cierre": 167.88
         },
         {
           "fecha": "2026-10-12",
-          "cierre": 172.15
+          "cierre": 171.07
         },
         {
           "fecha": "2026-10-13",
-          "cierre": 174.08
+          "cierre": 172.99
         },
         {
           "fecha": "2026-10-14",
-          "cierre": 177.01
+          "cierre": 175.9
         },
         {
           "fecha": "2026-10-15",
-          "cierre": 174.68
+          "cierre": 173.58
         },
         {
           "fecha": "2026-10-16",
-          "cierre": 178.98
-        },
-        {
-          "fecha": "2026-10-19",
-          "cierre": 178.28
-        },
-        {
-          "fecha": "2026-10-20",
           "cierre": 177.86
         },
         {
+          "fecha": "2026-10-19",
+          "cierre": 177.16
+        },
+        {
+          "fecha": "2026-10-20",
+          "cierre": 176.74
+        },
+        {
           "fecha": "2026-10-21",
-          "cierre": 178.09
+          "cierre": 176.97
         },
         {
           "fecha": "2026-10-22",
-          "cierre": 178.23
+          "cierre": 177.11
         },
         {
           "fecha": "2026-10-23",
-          "cierre": 183.21
+          "cierre": 182.06
         },
         {
           "fecha": "2026-10-26",
-          "cierre": 184.54
+          "cierre": 183.38
         },
         {
           "fecha": "2026-10-27",
-          "cierre": 179.91
+          "cierre": 178.78
         },
         {
           "fecha": "2026-10-28",
-          "cierre": 182.02
+          "cierre": 180.88
         },
         {
           "fecha": "2026-10-29",
-          "cierre": 183.29
+          "cierre": 182.14
         },
         {
           "fecha": "2026-10-30",
-          "cierre": 187.25
+          "cierre": 186.08
         },
         {
           "fecha": "2026-11-02",
-          "cierre": 179.67
+          "cierre": 178.54
         },
         {
           "fecha": "2026-11-03",
-          "cierre": 177.46
+          "cierre": 176.35
         },
         {
           "fecha": "2026-11-04",
-          "cierre": 169.27
+          "cierre": 168.21
         },
         {
           "fecha": "2026-11-05",
-          "cierre": 165.3
+          "cierre": 164.26
         },
         {
           "fecha": "2026-11-06",
-          "cierre": 165.87
+          "cierre": 164.83
         },
         {
           "fecha": "2026-11-09",
-          "cierre": 164.73
+          "cierre": 163.7
         },
         {
           "fecha": "2026-11-10",
-          "cierre": 164.47
+          "cierre": 163.44
         },
         {
           "fecha": "2026-11-11",
-          "cierre": 166.71
+          "cierre": 165.66
         },
         {
           "fecha": "2026-11-12",
-          "cierre": 169.78
+          "cierre": 168.72
         },
         {
           "fecha": "2026-11-13",
-          "cierre": 170.59
+          "cierre": 169.52
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 167.09
+          "cierre": 166.87
         }
       ],
       "noticias": [
@@ -978,30 +978,30 @@
           "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "Sector Update: Energy Stocks Decline Monday Afternoon",
-          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-monday-184007140.html",
+          "titulo": "What ExxonMobil Stock's Guyana Expansion Means For Shareholders",
+          "link": "https://finance.yahoo.com/energy/articles/exxonmobil-stocks-guyana-expansion-means-232026527.html",
+          "fuente": "Simply Wall St."
+        },
+        {
+          "titulo": "Sector Update: Energy Stocks Retreat Late Afternoon",
+          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-retreat-afternoon-205814412.html",
           "fuente": "MT Newswires"
         },
         {
-          "titulo": "Can ExxonMobil's Longtail Project Unlock Guyana's Growth Potential?",
-          "link": "https://finance.yahoo.com/energy/articles/exxonmobils-longtail-project-unlock-guyanas-161700877.html",
-          "fuente": "Zacks"
+          "titulo": "Could Occidental Petroleum Be The Value Stock For Your Portfolio?",
+          "link": "https://www.trefis.com/stock/oxy/articles/625150/could-occidental-petroleum-be-the-value-stock-for-your-portfolio/2026-11-16",
+          "fuente": "Trefis"
         },
         {
-          "titulo": "Petrobras Stock After Q3 Earnings - Buy, Sell or Hold for Now?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/petrobras-stock-q3-earnings-buy-142300376.html",
-          "fuente": "Zacks"
-        },
-        {
-          "titulo": "4 High Yield Stocks That Have Never Missed a Dividend Payment",
-          "link": "https://247wallst.com/investing/2026/11/16/4-high-yield-stocks-that-have-never-missed-a-dividend-payment/",
-          "fuente": "24/7 Wall St."
+          "titulo": "Sector Update: Energy Stocks Decline Monday Afternoon",
+          "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-decline-monday-184007140.html",
+          "fuente": "MT Newswires"
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Nuevos proyectos de exploración y un historial sólido de dividendos generan atractivo.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La acción podría mostrar un comportamiento alcista en el corto plazo. El potencial de crecimiento en proyectos internacionales y la estabilidad en el pago de dividendos atraen a los compradores. Recuerde que esta apreciación se apoya solo en las noticias publicadas y no constituye una verdad absoluta."
+      "noticias_sentimiento": "neutral",
+      "noticias_resumen": "Las buenas noticias sobre su expansión en Guyana se compensan con el retroceso general del sector energético.",
+      "noticias_perspectiva": "lateral",
+      "noticias_prediccion": "El valor de ExxonMobil podría mantenerse estable o moverse de forma lateral en los próximos días. Por un lado, la expansión operativa impulsa el negocio, pero por otro, el sector energético en su conjunto muestra debilidad. Esta lectura parte de la información disponible y no garantiza resultados futuros."
     },
     {
       "hay_señal": false,
@@ -1015,7 +1015,7 @@
       "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "CVX",
       "sector": "Energía",
-      "precio_al_momento_del_analisis": 217.27,
+      "precio_al_momento_del_analisis": 217.14,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -1135,54 +1135,54 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 217.27
+          "cierre": 217.14
         }
       ],
       "noticias": [
         {
-          "titulo": "Can ExxonMobil's Longtail Project Unlock Guyana's Growth Potential?",
-          "link": "https://finance.yahoo.com/energy/articles/exxonmobils-longtail-project-unlock-guyanas-161700877.html",
-          "fuente": "Zacks"
+          "titulo": "Chevron, Texaco offer drivers a new way to save on gas",
+          "link": "https://www.thestreet.com/retail/chevron-texaco-offers-thanksgiving-gas-deal-to-rival-costco",
+          "fuente": "TheStreet"
         },
         {
-          "titulo": "Petrobras Stock After Q3 Earnings - Buy, Sell or Hold for Now?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/petrobras-stock-q3-earnings-buy-142300376.html",
-          "fuente": "Zacks"
+          "titulo": "Why Iraq Just Fast-Tracked Chevron’s Takeover Of A 14-Billion-Barrel Supergiant",
+          "link": "https://finance.yahoo.com/energy/articles/why-iraq-just-fast-tracked-010000317.html",
+          "fuente": "Oilprice.com"
         },
         {
-          "titulo": "4 High Yield Stocks That Have Never Missed a Dividend Payment",
-          "link": "https://247wallst.com/investing/2026/11/16/4-high-yield-stocks-that-have-never-missed-a-dividend-payment/",
-          "fuente": "24/7 Wall St."
+          "titulo": "Gavin Newsom Calls Trump ‘Wholly Owned Subsidiary of Big Oil’ as Iran Tensions Rattle Oil Markets: Says President’s ‘Head Is Stuck in Sand Soaked With Oil’",
+          "link": "https://finance.yahoo.com/energy/articles/gavin-newsom-calls-trump-wholly-003005558.html",
+          "fuente": "Benzinga"
         },
         {
-          "titulo": "Investors Heavily Search Chevron Corporation (CVX): Here is What You Need to Know",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-chevron-corporation-130004171.html",
-          "fuente": "Zacks"
+          "titulo": "Chevron Reportedly Moves Ahead in Talks to Buy Majority Stake in Gulf Oil Producer Beacon",
+          "link": "https://www.ibtimes.com/chevron-beacon-offshore-energy-majority-stake-deal-3809841",
+          "fuente": "International Business Times"
         },
         {
-          "titulo": "Shell Starts Mina West Gas Production to Boost Egypt's Supply",
-          "link": "https://finance.yahoo.com/energy/articles/shell-starts-mina-west-gas-124800273.html",
-          "fuente": "Zacks"
+          "titulo": "Could Occidental Petroleum Be The Value Stock For Your Portfolio?",
+          "link": "https://www.trefis.com/stock/oxy/articles/625150/could-occidental-petroleum-be-the-value-stock-for-your-portfolio/2026-11-16",
+          "fuente": "Trefis"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "El elevado interés de búsqueda y su perfil pagador de dividendos sostienen su valor.",
+      "noticias_resumen": "El rápido avance en adquisiciones e inversiones estratégicas en el exterior genera un entorno optimista.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Es probable que el precio tienda a subir o mantenerse firme durante los próximos días. La búsqueda activa por parte de inversores y la confianza en sus retornos respaldan la cotización. Cabe señalar que esta predicción deriva de titulares recientes y no es una garantía de rendimiento."
+      "noticias_prediccion": "Se prevé una posible inclinación alcista a corto plazo respaldada por la aceleración de proyectos de gran escala en Irak y potenciales compras corporativas. Las noticias reflejan un sólido dinamismo en su estrategia de expansión. Tené presente que este análisis de prensa no asegura un comportamiento positivo."
     },
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
-      "confianza": "alta",
-      "entrada": 257.81,
+      "confianza": "baja",
+      "entrada": 257.75,
       "stop_loss": 249.39,
-      "objetivo": 274.65,
+      "objetivo": 274.47,
       "ratio_riesgo_beneficio": 2.0,
       "razon": "La tendencia de fondo es alcista (media de 20 días por encima de la de 50) y el precio retrocedió hasta esa media sin romper la estructura.",
       "ticker": "AMZN",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 257.81,
+      "precio_al_momento_del_analisis": 257.75,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -1302,54 +1302,54 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 257.81
+          "cierre": 257.75
         }
       ],
       "noticias": [
         {
-          "titulo": "How Chewy's CEO plans to lower the $2,000 vet ER bill",
-          "link": "https://finance.yahoo.com/video/how-chewys-ceo-plans-to-lower-the-2000-vet-er-bill-142648306.html",
+          "titulo": "Nvidia is not considering rehiring Jensen Huang, and Amazon's data center gets bought",
+          "link": "https://finance.yahoo.com/video/nvidia-is-not-considering-rehiring-jensen-huang-and-amazons-data-center-gets-bought-221405344.html",
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Stock Market Today: Dow Dives As Nvidia Makes Huang Decision; These AI Plays Plunge (Live Coverage)",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-stock-nvda-jensen-huang/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
+          "titulo": "Delta CEO: Most airlines touting Starlink “haven’t even started yet”",
+          "link": "https://finance.yahoo.com/video/delta-ceo-most-airlines-touting-030013371.html",
+          "fuente": "Fortune"
         },
         {
-          "titulo": "EXCLUSIVE: Zalando’s New Retail Media Boss Wants to Give Fashion Brands Data ‘Superpower’",
-          "link": "https://wwd.com/business-news/retail/exclusive-zalandos-new-hire-wants-to-give-brands-data-superpower-1239417600/",
-          "fuente": "WWD"
+          "titulo": "Boeing (BA) ULA Rocket Failure Halts Deployment Of 40 Broadband Satellites",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-ba-ula-rocket-failure-001959401.html",
+          "fuente": "Simply Wall St."
         },
         {
-          "titulo": "Dan Ives Has One IPO in Mind as a Test for AI Stocks",
-          "link": "https://finance.yahoo.com/technology/ai/articles/dan-ives-one-ipo-mind-193721606.html",
-          "fuente": "GuruFocus.com"
+          "titulo": "Your $300,000 in XLY Holds $125,585 in Amazon and Tesla Alone",
+          "link": "https://247wallst.com/investing/etf/2026/11/16/your-300000-in-xly-holds-125585-in-amazon-and-tesla-alone/",
+          "fuente": "24/7 Wall St."
         },
         {
-          "titulo": "Trump to Name Nvidia, Amazon and Microsoft AI “National Champions” as Bessent Demands a Shakeup",
-          "link": "https://www.tikr.com/blog/trump-to-name-nvidia-amazon-and-microsoft-ai-national-champions-as-bessent-demands-a-shakeup?ref=yahoofinance&tlnk=yf-261116-r77v6cf3",
-          "fuente": "TIKR"
+          "titulo": "Stock Market Today, Nov. 16: Amazon Falls on New AI Chip Export Rule and Leo Satellite Launch Failure",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-amazon-falls-on-new-ai-chip-export-rule-and-leo-satellite-launch-failure/",
+          "fuente": "Motley Fool"
         }
       ],
-      "noticias_sentimiento": "positivo",
-      "noticias_resumen": "La consideración como referente nacional de inteligencia artificial otorga impulso al papel.",
-      "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La acción podría orientarse hacia la suba en las siguientes jornadas comerciales. El reconocimiento gubernamental a su papel en tecnología fortalece su posicionamiento frente a la competencia. Tome en cuenta que este análisis parte de la actualidad noticiosa y no implica una certeza absoluta."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Nuevas restricciones a la exportación de microchips de inteligencia artificial y un fallo satelital afectan la cotización.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "La acción de Amazon podría enfrentar caídas en el corto plazo tras el tropiezo en el lanzamiento de sus satélites y los límites regulatorios impuestos al sector tecnológico. El mercado suele reaccionar con cautela ante este tipo de noticias operativas y regulatorias. Esta predicción es puramente interpretativa y no una certeza."
     },
     {
       "hay_señal": true,
       "tipo_setup": "reversion",
       "direccion": "short",
       "confianza": "baja",
-      "entrada": 99.44,
+      "entrada": 99.48,
       "stop_loss": 100.56,
-      "objetivo": 97.2,
+      "objetivo": 97.32,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El RSI está en 74.1, una zona de sobrecompra que históricamente anticipa un posible giro.",
+      "razon": "El RSI está en 74.2, una zona de sobrecompra que históricamente anticipa un posible giro.",
       "ticker": "KO",
       "sector": "Consumo",
-      "precio_al_momento_del_analisis": 99.44,
+      "precio_al_momento_del_analisis": 99.48,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -1469,14 +1469,24 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 99.44
+          "cierre": 99.48
         }
       ],
       "noticias": [
         {
+          "titulo": "5 Consumer Staples Stocks Reaching New Highs as Markets Retreat",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/5-consumer-staples-stocks-reaching-231000495.html",
+          "fuente": "Zacks"
+        },
+        {
           "titulo": "What Does Warren Buffett’s 90/10 Rule Say to a 74-Year-Old With $1 Million of Coca-Cola at a Record?",
           "link": "https://247wallst.com/investing/2026/11/16/what-does-warren-buffetts-90-10-rule-say-to-a-74-year-old-with-1-million-of-coca-cola-at-a-record/",
           "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "Unusual Call Option Activity in Coca-Cola - Is KO Stock Undervalued or Overvalued?",
+          "link": "https://www.barchart.com/story/news/8859763/unusual-call-option-activity-in-coca-cola-is-ko-stock-undervalued-or-overvalued",
+          "fuente": "Barchart"
         },
         {
           "titulo": "PepsiCo Stock Drops 2.4% in 6 Months: Is More Downside Ahead?",
@@ -1487,22 +1497,12 @@
           "titulo": "Coca-Cola Has Crushed PepsiCo in 2026, but Retirement Investors Face a Different Dividend Decision",
           "link": "https://247wallst.com/investing/2026/11/16/coca-cola-has-crushed-pepsico-in-2026-but-retirement-investors-face-a-different-dividend-decision/",
           "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "WisdomTree U.S. Dividend Growth (DGRW) Adds Microsoft and Nvidia on Nov. 12",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/wisdomtree-u-dividend-growth-dgrw-110425336.html",
-          "fuente": "GuruFocus.com"
-        },
-        {
-          "titulo": "Forget Nvidia: One Investor Says “the Bubble Is in Consumer Staple Stocks” Like Coca-Cola",
-          "link": "https://www.tikr.com/blog/forget-nvidia-one-investor-says-the-bubble-is-in-consumer-staple-stocks-like-coca-cola?ref=yahoofinance&tlnk=yf-261116-g53858xf",
-          "fuente": "TIKR"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Mantiene un rendimiento superior frente a competidores y atrae a inversores defensivos.",
+      "noticias_resumen": "Coca-Cola cotiza en niveles récord y supera a sus principales competidores en preferencia del mercado.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Se prevé que la cotización mantenga un sesgo positivo en el corto plazo. Su desempeño positivo frente a rivales directos la ubica como una opción preferida en momentos de prudencia. Remarcamos que esta proyección surge de revisar noticias y no representa una certeza financiera."
+      "noticias_prediccion": "La perspectiva apunta a una continuidad alcista a corto plazo gracias al impulso de sus máximos históricos y al atractivo de su dividendo. El interés de los inversores en empresas de consumo defensivo fortalece la cotización. Recordá que esto se basa en la lectura de titulares y no es una garantía financiera."
     },
     {
       "hay_señal": false,
@@ -1516,7 +1516,7 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "SPY",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 739.46,
+      "precio_al_momento_del_analisis": 739.95,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -1636,10 +1636,15 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 739.46
+          "cierre": 739.95
         }
       ],
       "noticias": [
+        {
+          "titulo": "NVIDIA After Jensen: What's Next for the AI Trade?",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-jensen-whats-next-ai-213900593.html",
+          "fuente": "Zacks"
+        },
         {
           "titulo": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
           "link": "https://247wallst.com/investing/2026/11/16/stock-market-today-nasdaq-100-sinks-1-as-nvidia-faces-its-first-earnings-without-jensen-huang/",
@@ -1659,17 +1664,12 @@
           "titulo": "Pre-Markets Lower as Puzzle Pieces Sorted",
           "link": "https://finance.yahoo.com/economy/policy/articles/pre-markets-lower-puzzle-pieces-140300474.html",
           "fuente": "Zacks"
-        },
-        {
-          "titulo": "Berkshire Hathaway Hits an All-Time High: Here’s What $10,000 Invested a Year Ago Is Worth Now",
-          "link": "https://247wallst.com/investing/2026/11/16/berkshire-hathaway-hits-an-all-time-high-heres-what-1000-invested-a-year-ago-is-worth-now/",
-          "fuente": "24/7 Wall St."
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "La debilidad en acciones tecnológicas principales y ventas de fondos presionan al índice.",
+      "noticias_resumen": "El retroceso de las principales acciones de inteligencia artificial y la retirada de riesgo por fondos de inversión presionan al mercado.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "El fondo cotizado que representa al mercado podría registrar caídas en las próximas sesiones. El desapalancamiento de grandes fondos y el retroceso en empresas líderes pesan sobre el indicador general. Tenga en cuenta que este análisis se basa exclusivamente en los titulares y no es una garantía."
+      "noticias_prediccion": "El índice que representa a las mayores empresas de EE. UU. podría inclinarse a la baja en los próximos días arrastrado por el sector tecnológico. La menor disposición al riesgo por parte de los grandes inversores suele generar caídas generales. Cabe enfatizar que este diagnóstico surge de las noticias y no es un hecho seguro."
     },
     {
       "hay_señal": false,
@@ -1683,7 +1683,7 @@
       "razon": "Tendencia bajista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
       "ticker": "QQQ",
       "sector": "Índices",
-      "precio_al_momento_del_analisis": 661.58,
+      "precio_al_momento_del_analisis": 661.75,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -1803,10 +1803,15 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 661.58
+          "cierre": 661.75
         }
       ],
       "noticias": [
+        {
+          "titulo": "NVIDIA After Jensen: What's Next for the AI Trade?",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-jensen-whats-next-ai-213900593.html",
+          "fuente": "Zacks"
+        },
         {
           "titulo": "Exchange-Traded Funds Lower as US Equities Drop After Midday",
           "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-us-181915979.html",
@@ -1826,31 +1831,26 @@
           "titulo": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Weakness in AI-Linked Stocks",
           "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141346501.html",
           "fuente": "MT Newswires"
-        },
-        {
-          "titulo": "Invesco QQQ (QQQ) Adds Apple and Nvidia on Nov. 12",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-qqq-qqq-adds-apple-110402348.html",
-          "fuente": "GuruFocus.com"
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "El bajón generalizado en las empresas de innovación arrastra al fondo tecnológico.",
+      "noticias_resumen": "La caída del Nasdaq-100 y la debilidad en el sector tecnológico inclinan el sentimiento hacia el terreno negativo.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "Se anticipa un posible movimiento a la baja en el precio del índice a corto plazo. Las caídas en firmas clave de tecnología afectan de forma directa a la valoración de este conjunto de acciones. Considere que esta conclusión proviene del panorama informativo y no asegura un resultado."
+      "noticias_prediccion": "Es probable que este fondo tecnológico muestre una tendencia bajista a corto plazo debido a las fuertes ventas en acciones de microchips e inteligencia artificial. El mercado refleja un momento de corrección en las grandes empresas de innovación. Tomá en cuenta que se trata de un análisis periodístico y no de una certeza."
     },
     {
       "hay_señal": true,
       "tipo_setup": "ruptura",
       "direccion": "long",
       "confianza": "alta",
-      "entrada": 84.54,
-      "stop_loss": 77.78,
-      "objetivo": 98.06,
+      "entrada": 84.78,
+      "stop_loss": 78.0,
+      "objetivo": 98.34,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 5.2x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 6.0x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "CGON",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 84.54,
+      "precio_al_momento_del_analisis": 84.78,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -1970,10 +1970,15 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 84.54
+          "cierre": 84.78
         }
       ],
       "noticias": [
+        {
+          "titulo": "CG Oncology Exceeds Even The 'Most Bullish Conversations;' Shares Break Out",
+          "link": "https://www.investors.com/news/technology/cg-oncology-stock-bladder-cancer-treatment/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
+        },
         {
           "titulo": "2 Cancer-Drug Developers Seeing Unusual Options Volume",
           "link": "https://finance.yahoo.com/markets/options/articles/2-cancer-drug-developers-seeing-180119084.html",
@@ -1990,34 +1995,29 @@
           "fuente": "BioPharma Dive"
         },
         {
-          "titulo": "CG Oncology Exceeds Even The 'Most Bullish Conversations;' Shares Break Out",
-          "link": "https://www.investors.com/news/technology/cg-oncology-stock-bladder-cancer-treatment/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
-        },
-        {
           "titulo": "CG Oncology’s stock up as gene therapy gains second win in NMIBC",
           "link": "https://www.clinicaltrialsarena.com/news/cg-oncologys-stock-up-as-gene-therapy-gains-second-win-in-nmibc/",
           "fuente": "Clinical Trials Arena"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Resultados clínicos destacados en tratamientos contra el cáncer disparan el entusiasmo.",
+      "noticias_resumen": "Resultados clínicos excepcionales en sus ensayos contra el cáncer llevaron a la acción a máximos históricos.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El valor del título se encamina hacia un crecimiento en los próximos días por el fuerte impulso de compra. Los datos sobresalientes en las pruebas médicas superaron las previsiones más optimistas del mercado. Recuerde que esta lectura depende de la información de los titulares y no constituye una certeza."
+      "noticias_prediccion": "La acción se perfila para mantener una tendencia alcista a corto plazo motivada por los contundentes avances científicos anunciados. Este tipo de logros en biotecnología suele atraer compras intensas por parte del mercado. Considerá que este comentario se basa en titulares y no garantiza rendimientos futuros."
     },
     {
       "hay_señal": true,
       "tipo_setup": "ruptura",
       "direccion": "long",
       "confianza": "alta",
-      "entrada": 9.61,
-      "stop_loss": 8.84,
-      "objetivo": 11.15,
+      "entrada": 9.57,
+      "stop_loss": 8.8,
+      "objetivo": 11.11,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 5.1x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 5.5x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "TU",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 9.61,
+      "precio_al_momento_del_analisis": 9.57,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -2137,14 +2137,24 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 9.61
+          "cierre": 9.57
         }
       ],
       "noticias": [
         {
-          "titulo": "Sector Update: Consumer Stocks Mixed Monday Afternoon",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-monday-183618178.html",
-          "fuente": "MT Newswires"
+          "titulo": "TELUS (TSX:T) Drops Vancouver AI Data Centre Plans And Bets On Kamloops",
+          "link": "https://finance.yahoo.com/technology/ai/articles/telus-tsx-t-drops-vancouver-031021614.html",
+          "fuente": "Simply Wall St."
+        },
+        {
+          "titulo": "TELUS (TSX:T) Stock Trades Below Fair Value On Cash Flow Views",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/telus-tsx-t-stock-trades-020729514.html",
+          "fuente": "Simply Wall St."
+        },
+        {
+          "titulo": "Disruption from Musk’s Starlink and others behind $31 billion pursuit of Telus, Peladeau says",
+          "link": "https://financialpost.com/technology/disruption-from-musks-starlink-and-others-behind-31-billion-pursuit-of-telus-peladeau-says/",
+          "fuente": "Financial Post"
         },
         {
           "titulo": "Quebecor Makes $21.96 Billion Bid for Telus in Canadian Telecom Deal",
@@ -2155,36 +2165,26 @@
           "titulo": "Tech, Media & Telecom Roundup: Market Talk",
           "link": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-514a4a49?siteid=yhoof2&yptr=yahoo",
           "fuente": "The Wall Street Journal"
-        },
-        {
-          "titulo": "Telus drops its involvement in two planned AI data centres in Vancouver",
-          "link": "https://financialpost.com/technology/telus-drops-its-involvement-in-two-planned-ai-data-centres-in-vancouver/",
-          "fuente": "Financial Post"
-        },
-        {
-          "titulo": "Telus shares surge as Quebecor makes US$21.7 billion takeover proposal",
-          "link": "https://www.proactiveinvestors.com/companies/news/1101857/telus-shares-surge-as-quebecor-makes-us-21-7-billion-takeover-proposal-1101857.html",
-          "fuente": "Proactive"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Una oferta de compra multimillonaria impulsa con fuerza la cotización de la empresa.",
+      "noticias_resumen": "Una oferta millonaria de adquisición por parte de Quebecor genera un fuerte estímulo comprador.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "Se espera que el precio de la acción registre alzas moderadas o altas en las siguientes jornadas. La propuesta formal de adquisición por parte de un grupo competidor eleva el atractivo de la firma. Tenga presente que esta previsión responde únicamente a las noticias recientes sin ser una garantía."
+      "noticias_prediccion": "El precio de Telus podría subir considerablemente en los próximos días impulsado por la propuesta formal de compra por miles de millones de dólares. Las ofertas de adquisición suelen elevar de inmediato la valoración de una empresa en bolsa. Tené en cuenta que esta apreciación es de carácter informativo y no asegura el comportamiento del activo."
     },
     {
       "hay_señal": true,
       "tipo_setup": "momentum",
       "direccion": "long",
       "confianza": "alta",
-      "entrada": 232.65,
-      "stop_loss": 214.04,
-      "objetivo": 269.87,
+      "entrada": 233.09,
+      "stop_loss": 214.44,
+      "objetivo": 270.39,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió 14.41% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "razon": "El precio se movió 14.63% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "MOH",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 232.65,
+      "precio_al_momento_del_analisis": 233.09,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -2304,7 +2304,7 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 232.65
+          "cierre": 233.09
         }
       ],
       "noticias": [
@@ -2335,23 +2335,23 @@
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Cambios favorables en las reglas de Medicaid mejoran sus proyecciones de ganancias.",
+      "noticias_resumen": "El retraso en los requisitos del programa Medicaid y la mejora en sus proyecciones de margen favorecen a la empresa.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La acción podría experimentar un repunte alcista en el plazo cercano. El alivio en los requisitos normativos ayuda a despejar incertidumbres sobre su rentabilidad futura. Es importante destacar que este comentario se basa en titulares y no asegura retornos en el mercado."
+      "noticias_prediccion": "Es esperable una inclinación alcista a corto plazo beneficiada por alivios regulatorios que mejoran las proyecciones de ganancias futuras. El mercado reaccionó favorablemente a la menor presión normativa sobre el negocio. Esta proyección surge del análisis de prensa y no representa una verdad garantizada."
     },
     {
       "hay_señal": true,
       "tipo_setup": "ruptura",
       "direccion": "long",
       "confianza": "alta",
-      "entrada": 54.75,
-      "stop_loss": 50.37,
-      "objetivo": 63.51,
+      "entrada": 54.88,
+      "stop_loss": 50.49,
+      "objetivo": 63.66,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.7x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.1x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "HTHT",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 54.75,
+      "precio_al_momento_del_analisis": 54.88,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -2471,10 +2471,15 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 54.75
+          "cierre": 54.88
         }
       ],
       "noticias": [
+        {
+          "titulo": "H World Group (HTHT) Stock May Be 17% Undervalued On Raised 2026 Outlook",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/h-world-group-htht-stock-002143520.html",
+          "fuente": "Simply Wall St."
+        },
         {
           "titulo": "H World Group: 3 Key Takeaways for Long-Term Investors",
           "link": "https://www.fool.com/earnings/takeaways/2026/11/16/h-world-group-3-key-takeaways-for-long-term-investors/",
@@ -2494,31 +2499,26 @@
           "titulo": "H World Group (HTHT) Beats Q3 Earnings and Revenue Estimates",
           "link": "https://finance.yahoo.com/markets/stocks/articles/h-world-group-htht-beats-111002801.html",
           "fuente": "Zacks"
-        },
-        {
-          "titulo": "H World Group: Q3 Earnings Snapshot",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/h-world-group-q3-earnings-102516015.html",
-          "fuente": "Associated Press"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Superó los pronósticos de ingresos y ganancias en su último reporte financiero.",
+      "noticias_resumen": "Resultados trimestrales que superaron las previsiones y una mejora en las perspectivas a futuro impulsan el valor.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "La cotización proyecta una inclinación al alza para los próximos días. Reportar números mejores a los esperados por los analistas suele atraer a nuevos compradores. Considere que esta apreciación es una deducción noticiosa y no representa una garantía bursátil."
+      "noticias_prediccion": "El precio de la acción podría orientarse al alza en el corto plazo impulsado por los sólidos reportes de ganancias e ingresos que superaron lo esperado. El ajuste al alza de sus metas muestra fortaleza en sus operaciones. Recordá que esta estimación se fundamenta solo en los titulares y no es un resultado seguro."
     },
     {
       "hay_señal": true,
       "tipo_setup": "ruptura",
       "direccion": "long",
       "confianza": "alta",
-      "entrada": 63.64,
-      "stop_loss": 58.55,
-      "objetivo": 73.82,
+      "entrada": 63.95,
+      "stop_loss": 58.83,
+      "objetivo": 74.19,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.6x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 2.1x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "TSN",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 63.64,
+      "precio_al_momento_del_analisis": 63.95,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -2638,7 +2638,7 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 63.64
+          "cierre": 63.95
         }
       ],
       "noticias": [
@@ -2648,44 +2648,44 @@
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Sector Update: Consumer Stocks Mixed Late Afternoon",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-afternoon-204930753.html",
+          "titulo": "Stock Market Today, Nov. 16: Tech Selloff Deepens as AI Leadership Crisis Rattles Nasdaq",
+          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-today-nov-16-tech-selloff-deepens-as-ai-leadership-crisis-rattles-nasdaq/",
+          "fuente": "Motley Fool"
+        },
+        {
+          "titulo": "Tyson Foods, Inc. Q4 2026 Earnings Call Summary",
+          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-tyson-foods-inc-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
+          "fuente": "Moby"
+        },
+        {
+          "titulo": "US Equity Markets End Lower Amid Sell-Off in Mega-Cap Chipmakers After Commerce Department's Planned Restrictions",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-213248506.html",
           "fuente": "MT Newswires"
         },
         {
           "titulo": "Tyson, Starbucks Lead The S&P 500, Nasdaq 100 As Investors Play Defense",
           "link": "https://www.investors.com/news/defensive-stocks-tyson-starbucks-lead-sp500-nasdaq-100-ai-sell-off/?src=A00220&yptr=yahoo",
           "fuente": "Investor's Business Daily"
-        },
-        {
-          "titulo": "Sector Update: Consumer Stocks Mixed Monday Afternoon",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-monday-183618178.html",
-          "fuente": "MT Newswires"
-        },
-        {
-          "titulo": "Stock Market Midday, Nov. 16: Nasdaq Tumbles as Wall Street Braces for Nvidia Earnings and Bitcoin Slides",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/16/stock-market-midday-nov-16-stocks-slide-as-tech-selling-intensifies-across-the-market/",
-          "fuente": "Motley Fool"
         }
       ],
       "noticias_sentimiento": "positivo",
-      "noticias_resumen": "Lidera el mercado como opción defensiva y proyecta mejoras en sus márgenes de negocio.",
+      "noticias_resumen": "Tyson Foods destaca de manera positiva en el mercado mientras los inversores buscan refugio en empresas defensivas.",
       "noticias_perspectiva": "alcista",
-      "noticias_prediccion": "El precio del papel podría orientarse hacia una mejora paulatina a corto plazo. La búsqueda de acciones estables por parte de inversores ante caídas generales favorece a esta compañía. Tenga en cuenta que esta lectura parte de las noticias del día y no es una certeza."
+      "noticias_prediccion": "La acción podría mostrar un recorrido alcista a corto plazo debido a la rotación del capital hacia sectores más seguros ante la caída de las tecnológicas. Las expectativas de mejora en la rentabilidad de su negocio cárnico también apoyan esta inclinación. Cabe aclarar que esta perspectiva es fruto del análisis de titulares y no una certeza."
     },
     {
-      "hay_señal": false,
-      "tipo_setup": null,
-      "direccion": null,
-      "confianza": null,
-      "entrada": null,
-      "stop_loss": null,
-      "objetivo": null,
-      "ratio_riesgo_beneficio": null,
-      "razon": "Tendencia alcista de fondo, pero sin un gatillo claro (ni ruptura, ni pullback a la media, ni RSI extremo) todavía.",
+      "hay_señal": true,
+      "tipo_setup": "momentum",
+      "direccion": "long",
+      "confianza": "media",
+      "entrada": 231.98,
+      "stop_loss": 213.42,
+      "objetivo": 269.1,
+      "ratio_riesgo_beneficio": 2.0,
+      "razon": "El precio se movió 12.65% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "HUBS",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 230.51,
+      "precio_al_momento_del_analisis": 231.98,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -2805,10 +2805,15 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 230.51
+          "cierre": 231.98
         }
       ],
       "noticias": [
+        {
+          "titulo": "How Phone Companies Kill Global Service",
+          "link": "https://thehustle.videonest.co/videos/1786804/how-phone-companies-kill-global-service-zfQR3bMbPq",
+          "fuente": "The Hustle"
+        },
         {
           "titulo": "CEO Halligan Backs His HubSpot Turnaround With $5 Million of Stock",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ceo-halligan-backs-hubspot-turnaround-194607238.html",
@@ -2828,31 +2833,26 @@
           "titulo": "He spent 90% of his money on a mistake",
           "link": "https://myfirstmillion.videonest.co/videos/1787249/he-spent-90-of-his-money-on-a-mistake-90PUeqJZ1N",
           "fuente": "My First Million"
-        },
-        {
-          "titulo": "Why the US Handed This Entire Industry to China",
-          "link": "https://thehustle.videonest.co/videos/1786798/why-the-us-handed-this-entire-industry-to-china-8IdHJndfDE",
-          "fuente": "The Hustle"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "Las compras de acciones por parte de su dirección equilibran la creciente competencia con IA.",
+      "noticias_resumen": "La compra de acciones por parte de su director ejecutivo equilibra las dudas sobre la creciente competencia.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "El comportamiento del precio tiende a mantenerse plano o en un rango acotado próximamente. La señal de confianza dada por su ejecutivo al invertir capital propio compensa la presión de nuevos rivales emergentes. Recuerde que esto es un análisis derivado de la prensa y no una certeza."
+      "noticias_prediccion": "El precio podría fluctuar de manera lateral a corto plazo sin una dirección clara definida. El respaldo financiero de su líder da confianza, pero la llegada de competidores con nueva financiación genera prudencia. Considerá que este pronóstico parte estrictamente de los titulares y no constituye una garantía."
     },
     {
       "hay_señal": true,
       "tipo_setup": "momentum",
       "direccion": "short",
       "confianza": "alta",
-      "entrada": 11.84,
-      "stop_loss": 12.79,
-      "objetivo": 9.94,
+      "entrada": 11.82,
+      "stop_loss": 12.77,
+      "objetivo": 9.92,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -33.66% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "razon": "El precio se movió -33.74% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "SMMT",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 11.84,
+      "precio_al_momento_del_analisis": 11.82,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -2972,10 +2972,20 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 11.84
+          "cierre": 11.82
         }
       ],
       "noticias": [
+        {
+          "titulo": "Summit Therapeutics (SMMT) Hits 52-Week Low After FDA Setback",
+          "link": "https://finance.yahoo.com/healthcare/articles/summit-therapeutics-smmt-hits-52-022043094.html",
+          "fuente": "Insider Monkey"
+        },
+        {
+          "titulo": "Summit Crumbles After FDA Rejects Merck-Rivaling Lung Cancer Drug",
+          "link": "https://www.investors.com/news/technology/summit-therapeutics-stock-fda-rejects-vegf-pd-1-merck-rival/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
+        },
         {
           "titulo": "2 Cancer-Drug Developers Seeing Unusual Options Volume",
           "link": "https://finance.yahoo.com/markets/options/articles/2-cancer-drug-developers-seeing-180119084.html",
@@ -2987,39 +2997,29 @@
           "fuente": "The Wall Street Journal"
         },
         {
-          "titulo": "Nvidia, Sandisk, SpaceX, L3Harris, Strategy, Tyson, and More Stocks That Explain Today’s Market",
-          "link": "https://www.barrons.com/articles/stock-movers-dcfe4add?siteid=yhoof2&yptr=yahoo",
-          "fuente": "Barrons.com"
-        },
-        {
           "titulo": "Summit Therapeutics (SMMT) Faces An FDA Reset, Is The Downside Already Priced In?",
           "link": "https://finance.yahoo.com/healthcare/articles/summit-therapeutics-smmt-faces-fda-171447262.html",
           "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "Summit shares fall as FDA rejects closely watched PD-1/VEGF drug",
-          "link": "https://www.biopharmadive.com/news/summit-akeso-fda-ivonescimab-reject-egfr-lung-cancer/874745/",
-          "fuente": "BioPharma Dive"
         }
       ],
       "noticias_sentimiento": "negativo",
-      "noticias_resumen": "El rechazo regulatorio a su fármaco principal provoca caídas pronunciadas en la cotización.",
+      "noticias_resumen": "El rechazo de la FDA a su principal medicamento contra el cáncer desplomó la acción a mínimos anuales.",
       "noticias_perspectiva": "bajista",
-      "noticias_prediccion": "Es probable que el valor del título continúe bajo presión bajista durante las próximas sesiones. La decisión negativa de la agencia de salud sobre su medicamento contra el cáncer golpea severamente las expectativas. Tenga presente que esta visión se fundamenta en las noticias y no es una verdad absoluta."
+      "noticias_prediccion": "La cotización mantendrá previsiblemente una postura bajista en el corto plazo tras sufrir un duro revés regulatorio que frena sus planes comerciales. La desaprobación de fármacos suele provocar ventas masivas y desconfianza prolongada. Tené presente que este análisis es solo una lectura de noticias y no una certeza operativa."
     },
     {
       "hay_señal": true,
       "tipo_setup": "momentum",
       "direccion": "short",
-      "confianza": "media",
-      "entrada": 16.96,
-      "stop_loss": 18.32,
-      "objetivo": 14.24,
+      "confianza": "alta",
+      "entrada": 16.9,
+      "stop_loss": 18.25,
+      "objetivo": 14.2,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio se movió -23.81% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
+      "razon": "El precio se movió -24.08% en los últimos 5 días con volumen por encima del promedio, mostrando una aceleración fuerte en esa dirección.",
       "ticker": "GDS",
       "sector": "Tendencia del día",
-      "precio_al_momento_del_analisis": 16.96,
+      "precio_al_momento_del_analisis": 16.9,
       "historial_precios": [
         {
           "fecha": "2026-10-06",
@@ -3139,10 +3139,20 @@
         },
         {
           "fecha": "2026-11-16",
-          "cierre": 16.96
+          "cierre": 16.9
         }
       ],
       "noticias": [
+        {
+          "titulo": "GDS Holdings (GDS) Plunges Double Digits. Here’s What Happened",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/gds-holdings-gds-plunges-double-021248936.html",
+          "fuente": "Insider Monkey"
+        },
+        {
+          "titulo": "Safe Pro Group Inc. (SPAI) Reports Q3 Loss, Beats Revenue Estimates",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/safe-pro-group-inc-spai-212502232.html",
+          "fuente": "Zacks"
+        },
         {
           "titulo": "Is GDS Holdings (NasdaqGM:GDS) Undervalued Given Its AI Data Center Scale?",
           "link": "https://finance.yahoo.com/technology/ai/articles/gds-holdings-nasdaqgm-gds-undervalued-080835357.html",
@@ -3157,22 +3167,12 @@
           "titulo": "GDS Holdings (GDS) Stock May Still Trade At A Discount On Earnings",
           "link": "https://finance.yahoo.com/markets/stocks/articles/gds-holdings-gds-stock-may-051624174.html",
           "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "How Investors May Respond To GDS Holdings (GDS) Surge In Implied Volatility And Bearish Analyst Revisions",
-          "link": "https://finance.yahoo.com/markets/options/articles/investors-may-respond-gds-holdings-101722765.html",
-          "fuente": "Simply Wall St."
-        },
-        {
-          "titulo": "Are Options Traders Betting on a Big Move in GDS Holdings Stock?",
-          "link": "https://finance.yahoo.com/markets/options/articles/options-traders-betting-big-move-130200160.html",
-          "fuente": "Zacks"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "El interés por sus centros de datos para IA contrasta con revisiones pesimistas de analistas.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "Se prevé que el precio cotice con cierta indecisión o lateralidad en el corto plazo. El atractivo de su infraestructura se ve frenado por la volatilidad y las expectativas negativas de algunos especialistas. Remarcamos que esta proyección surge únicamente de los titulares y no constituye una certeza."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Un desplome de dos dígitos en su cotización refleja fuerte presión vendedora en el mercado.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "La tendencia del precio se perfila como bajista a corto plazo como consecuencia de la brusca caída reciente en el valor de sus acciones. Aunque algunos análisis debatan su valoración, la inercia del desplome suele pesar de forma negativa en los días siguientes. Esta predicción se basa únicamente en titulares y no es una garantía de rendimiento."
     }
   ]
 }
