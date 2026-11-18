@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-11-17T22:11:36.139116+00:00",
+  "actualizado": "2026-11-18T04:10:08.744224+00:00",
   "resultados": [
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
-      "confianza": "media",
+      "confianza": "baja",
       "entrada": 351.91,
       "stop_loss": 336.64,
       "objetivo": 382.45,
@@ -143,30 +143,30 @@
           "fuente": "Yahoo Finance"
         },
         {
-          "titulo": "Fund Manager Lists Three Reasons He Still Won’t Buy Tesla Stock",
-          "link": "https://stocktwits.com/news-articles/markets/equity/fund-manager-lists-three-reasons-he-still-won-t-buy-tesla-stock/cNbOJB3R9hQ",
-          "fuente": "Stocktwits"
-        },
-        {
-          "titulo": "Apple Pay outage blocks instant crypto purchases",
-          "link": "https://www.thestreet.com/crypto/markets/apple-pay-outage-blocks-instant-crypto-purchases",
-          "fuente": "TheStreet"
-        },
-        {
-          "titulo": "Warren Buffett Buys: 3 Forever Stocks the Billionaire Investor Has Invested In",
-          "link": "https://www.fool.com/investing/2026/11/17/warren-buffett-buys-3-forever-stocks-the-billionaire-investor-has-invested-in/",
+          "titulo": "Broadcom vs. Micron Technology: Which Tech Stock Is the Better Buy for 2027?",
+          "link": "https://www.fool.com/coverage/better-buy/2026/11/17/broadcom-vs-micron-technology-which-tech-stock-is-the-better-buy-for-2027/",
           "fuente": "Motley Fool"
         },
         {
-          "titulo": "Coca-Cola Stock (KO) May Struggle to Repeat Its Strong 2026 Performance",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-stock-ko-may-213800936.html",
-          "fuente": "TipRanks"
+          "titulo": "A Retiree With $400,000 in His 401(k) Tries to Move Money Before Stocks Fall Further. Apple’s Widespread Outage Raises the Stakes of a Missed Trade",
+          "link": "https://247wallst.com/personal-finance/2026/11/17/a-retiree-with-400000-in-his-401k-tries-to-move-money-before-stocks-fall-further-apples-widespread-outage-raises-the-stakes-of-a-missed-trade/",
+          "fuente": "24/7 Wall St."
+        },
+        {
+          "titulo": "Mary Barra Transformed GM. Her Successor May Have to Do It Again.",
+          "link": "https://www.wsj.com/business/autos/mary-barra-transformed-gm-her-successor-may-have-to-do-it-again-aca050e9?siteid=yhoof2&yptr=yahoo",
+          "fuente": "The Wall Street Journal"
+        },
+        {
+          "titulo": "Nvidia says 'no' to rehiring Huang and WSJ reports SEC is probing the chipmaker",
+          "link": "https://finance.yahoo.com/news/nvidia-board-forms-committee-national-102208048.html",
+          "fuente": "Reuters"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Múltiples fallas e interrupciones del servicio generan preocupación en los inversores.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "Las noticias recientes sobre fallas masivas en iCloud y la App Store están afectando la confianza a corto plazo. Es probable que la acción experimente presión a la baja mientras se resuelve la situación operativa. Recordá que esto es solo una lectura del sentimiento de los titulares y no una certeza de mercado."
     },
     {
       "hay_señal": false,
@@ -305,6 +305,16 @@
       ],
       "noticias": [
         {
+          "titulo": "Nvidia with a positive Q3 despite SEC probing Nvidia amid Huang Scandal",
+          "link": "https://finance.yahoo.com/video/nvidia-with-a-positive-q3-despite-sec-probing-nvidia-amid-huang-scandal-223224298.html",
+          "fuente": "Yahoo Finance Video"
+        },
+        {
+          "titulo": "AI industry still needs to be 'extremely careful,' Microsoft exec says",
+          "link": "https://finance.yahoo.com/video/ai-industry-still-needs-extremely-223000085.html",
+          "fuente": "Yahoo Finance Video"
+        },
+        {
           "titulo": "Microsoft AI chief says compute isn't a bottleneck — for now",
           "link": "https://finance.yahoo.com/video/microsoft-ai-chief-says-compute-isnt-a-bottleneck--for-now-213157737.html",
           "fuente": "Yahoo Finance Video"
@@ -318,28 +328,18 @@
           "titulo": "Is AI to blame for basic IT gaps in Big Tech, airlines, and more?",
           "link": "https://finance.yahoo.com/video/is-ai-to-blame-for-basic-it-gaps-in-big-tech-airlines-and-more-184504929.html",
           "fuente": "Yahoo Finance Video"
-        },
-        {
-          "titulo": "What far cheaper AI compute in space could mean for Elon Musk",
-          "link": "https://finance.yahoo.com/video/what-far-cheaper-ai-compute-in-space-could-mean-for-elon-musk-162707073.html",
-          "fuente": "Yahoo Finance Video"
-        },
-        {
-          "titulo": "JPMorgan, Microsoft, United, FAA service outages: What exactly is going on?",
-          "link": "https://finance.yahoo.com/video/jpmorgan-microsoft-united-faa-service-outages-what-exactly-is-going-on-140732645.html",
-          "fuente": "Yahoo Finance Video"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Se observan señales mixtas entre el crecimiento en gasto de IA y llamados a la precaución.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Por un lado, el fuerte gasto de las empresas en sus modelos de inteligencia artificial apoya el negocio de la compañía, pero por el otro persisten advertencias sobre riesgos en la industria. Esto podría mantener el precio oscilando sin una dirección clara en los próximos días. Esta perspectiva se basa en los titulares actuales y no constituye una garantía."
     },
     {
       "hay_señal": true,
       "tipo_setup": "momentum",
       "direccion": "short",
-      "confianza": "media",
+      "confianza": "alta",
       "entrada": 155.46,
       "stop_loss": 167.9,
       "objetivo": 130.58,
@@ -472,35 +472,35 @@
       ],
       "noticias": [
         {
-          "titulo": "AMD, Broadcom, and TSMC stocks rise on Nvidia earnings beat",
-          "link": "https://finance.yahoo.com/markets/stocks/article/amd-broadcom-tsmc-stocks-rise-on-nvidia-earnings-coreweave-nebius-shares-also-rally-220159436.html",
-          "fuente": "Yahoo Finance"
-        },
-        {
-          "titulo": "Nvidia’s Q3 earnings show its advantage as the bank of the AI boom",
-          "link": "https://finance.yahoo.com/video/nvidias-q3-earnings-show-its-advantage-as-the-bank-of-the-ai-boom-215423703.html",
+          "titulo": "Nvidia's Q3 numbers were pretty good. Its earnings call optics were another story.",
+          "link": "https://finance.yahoo.com/video/nvidias-q3-numbers-were-pretty-good-its-earnings-call-optics-were-another-story-234451647.html",
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Why a Jensen Huang comeback could become a major battle in Washington",
-          "link": "https://finance.yahoo.com/video/why-a-jensen-huang-comeback-could-become-a-major-battle-in-washington-214402053.html",
+          "titulo": "Nvidia earnings special coverage: \"The street wants to believe in Nvidia after Jensen\"",
+          "link": "https://finance.yahoo.com/video/nvidia-earnings-special-coverage-the-street-wants-to-believe-in-nvidia-after-jensen-233044562.html",
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "What to make of Jensen Huang's apology letter",
-          "link": "https://finance.yahoo.com/video/what-to-make-of-jensen-huangs-apology-letter-213601392.html",
+          "titulo": "Nvidia with a positive Q3 despite SEC probing Nvidia amid Huang Scandal",
+          "link": "https://finance.yahoo.com/video/nvidia-with-a-positive-q3-despite-sec-probing-nvidia-amid-huang-scandal-223224298.html",
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Nvidia beats Q3 earnings expectations in first report without Jensen Huang",
-          "link": "https://finance.yahoo.com/video/nvidia-beats-q3-earnings-expectations-in-first-report-without-jensen-huang-213316995.html",
+          "titulo": "Nvidia interim-CEO Colette Kress speaks on quarterly revenue hitting $116B",
+          "link": "https://finance.yahoo.com/video/nvidia-interim-ceo-colette-kress-speaks-on-quarterly-revenue-hitting-116b-224125904.html",
+          "fuente": "Yahoo Finance Video"
+        },
+        {
+          "titulo": "Nvidia chair says board 'does not intend to reinstate Jensen as CEO'",
+          "link": "https://finance.yahoo.com/video/nvidia-chair-says-board-does-not-intend-to-reinstate-jensen-as-ceo-233753438.html",
           "fuente": "Yahoo Finance Video"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Excelentes ingresos eclipsados por investigaciones de la SEC y escándalos de liderazgo.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "A pesar de reportar ingresos récord, la investigación de la SEC y la polémica salida de su CEO generan gran incertidumbre. La desconfianza del mercado podría presionar el precio hacia la baja en el corto plazo. Tené en cuenta que se trata de un análisis de titulares y no de un resultado seguro."
     },
     {
       "hay_señal": false,
@@ -649,31 +649,31 @@
           "fuente": "Yahoo Finance"
         },
         {
+          "titulo": "America's AI Boom Has a Hidden Cost — Top Economist Warns Inflation Is Rising, Capital Is Being Sucked Away, and the Rest of the Economy Is Falling Behind",
+          "link": "https://finance.yahoo.com/economy/policy/articles/americas-ai-boom-hidden-cost-233027907.html",
+          "fuente": "Benzinga"
+        },
+        {
+          "titulo": "A Third Outage Strikes, This Time at Chase, Big Banks. The Stocks Are Falling.",
+          "link": "https://www.barrons.com/articles/outages-jpmorgan-chase-bank-of-america-wells-fargo-stocks-0faf523e?siteid=yhoof2&yptr=yahoo",
+          "fuente": "Barrons.com"
+        },
+        {
           "titulo": "After IPO Day: Executing as a Public Company, 6th Palm Beach CorpGov Forum",
           "link": "https://finance.yahoo.com/markets/stocks/articles/ipo-day-executing-public-company-195033529.html",
           "fuente": "CorpGov.com"
-        },
-        {
-          "titulo": "As tech crashes mount, how can banks respond?",
-          "link": "https://www.americanbanker.com/news/as-tech-crashes-mount-how-can-banks-respond",
-          "fuente": "American Banker"
-        },
-        {
-          "titulo": "JPMorgan’s CFO plans exit, company names internal successor",
-          "link": "https://www.americanbanker.com/news/jpmorgan-s-cfo-plans-exit-company-names-internal-successor",
-          "fuente": "American Banker"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Interrupciones del sistema, problemas técnicos y cambios en la dirección pesan sobre el banco.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "Los fallos de software que congelaron servicios junto con la renuncia del director financiero impactan negativamente en la percepción de los inversores. Es probable que la acción sufra retrocesos temporales en las próximas jornadas. Esta predicción surge de las noticias más recientes y no es una verdad absoluta."
     },
     {
       "hay_señal": true,
       "tipo_setup": "pullback",
       "direccion": "long",
-      "confianza": "media",
+      "confianza": "alta",
       "entrada": 416.77,
       "stop_loss": 404.38,
       "objetivo": 441.55,
@@ -831,10 +831,10 @@
           "fuente": "Simply Wall St."
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Momentum positivo apoyado en nuevos lanzamientos y dinámicas alcistas.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "El impulso por el lanzamiento de pagos QR en Asia Pacífico y su presencia en listas alcistas están generando optimismo. Aunque existen disputas legales de larga fecha, la tendencia reciente parece favorecer el crecimiento del precio. Considerá que esta interpretación de noticias no garantiza el comportamiento futuro."
     },
     {
       "hay_señal": false,
@@ -998,10 +998,10 @@
           "fuente": "Trefis"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Movimientos estratégicos para sanear balances y mantener buenos rendimientos.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "Las medidas de reestructuración financiera por 3.000 millones de dólares y el atractivo de sus dividendos sostienen el interés comprador. El precio podría continuar inclinándose al alza en el corto plazo. Recordá que esta estimación proviene del análisis periodístico y no es una certeza."
     },
     {
       "hay_señal": false,
@@ -1140,6 +1140,16 @@
       ],
       "noticias": [
         {
+          "titulo": "Chevron Says AI Has Already Captured Over $100 Million in Value. Here's Where It Might Find an Even Bigger Payoff.",
+          "link": "https://www.fool.com/investing/2026/11/17/chevron-says-ai-has-already-captured-over-usd100-million-in-value-here-s-where-it-might-find-an-even-bigger-payoff/",
+          "fuente": "Motley Fool"
+        },
+        {
+          "titulo": "Chevron (CVX) Nears $5 Billion Gulf Deal And Iraq Oilfield Takeover",
+          "link": "https://finance.yahoo.com/energy/articles/chevron-cvx-nears-5-billion-001620087.html",
+          "fuente": "Simply Wall St."
+        },
+        {
           "titulo": "Sector Update: Energy Stocks Lower in Afternoon Trading",
           "link": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-lower-afternoon-190033166.html",
           "fuente": "MT Newswires"
@@ -1153,22 +1163,12 @@
           "titulo": "4 High-Yield Energy Stocks That Pay Roth IRA Investors Tax-Free Income",
           "link": "https://247wallst.com/investing/2026/11/17/4-high-yield-energy-stocks-that-pay-roth-ira-investors-tax-free-income/",
           "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "What Triggered Venture Global Stock's 5% Drop?",
-          "link": "https://www.trefis.com/stock/vg/articles/625834/what-triggered-venture-global-stocks-5-drop/2026-11-17",
-          "fuente": "Trefis"
-        },
-        {
-          "titulo": "Brent Stuck Near $93 as Hormuz Tanker Attacks Offset Gulf Export Surge",
-          "link": "https://finance.yahoo.com/energy/articles/brent-stuck-near-93-hormuz-160000297.html",
-          "fuente": "Oilprice.com"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Grandes acuerdos de inversión y generación de valor mediante inteligencia artificial.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "Los avances en la captura de valor con IA y las negociaciones multimillonarias en el Golfo e Irak impulsan las expectativas sobre la empresa. La acción presenta buenas posibilidades de subir en los próximos días. Tené presente que se trata de una lectura de titulares y no de una garantía financiera."
     },
     {
       "hay_señal": false,
@@ -1322,20 +1322,20 @@
           "fuente": "Yahoo Finance Video"
         },
         {
-          "titulo": "Trading Day: AI trade unwind continues, but Nvidia beats",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/trading-day-ai-trade-unwind-220340221.html",
-          "fuente": "Reuters"
+          "titulo": "Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-earnings-target-anthropic-ipo/?src=A00220&yptr=yahoo",
+          "fuente": "Investor's Business Daily"
         },
         {
-          "titulo": "SpaceX, Rivals Win $985 Million In Launch Awards. Cathie Wood, David Tepper Shift Space Holdings.",
-          "link": "https://www.investors.com/news/spacex-nssl-launch-contract-985-million-blue-origin-ula-cathie-wood-ark-david-tepper-appaloosa-space-stocks/?src=A00220&yptr=yahoo",
-          "fuente": "Investor's Business Daily"
+          "titulo": "A Rocket Failure Just Cost Amazon 40 Internet Satellites. It's Good News for SpaceX, but I'd Still Want a Lower Stock Price.",
+          "link": "https://www.fool.com/investing/2026/11/17/a-rocket-failure-just-cost-amazon-40-internet-satellites-it-s-good-news-for-spacex-but-i-d-still-want-a-lower-stock-price/",
+          "fuente": "Motley Fool"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Contrastes entre avances comerciales e incidentes en sus proyectos satelitales.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "La pérdida de 40 satélites genera un costo operativo inmediato, mientras que la expectativa por salidas a bolsa vinculadas y su negocio de entretenimiento equilibran el panorama. Es esperable una cotización estable o sin tendencia definida a corto plazo. Esta lectura no asegura movimientos de precio definitivos."
     },
     {
       "hay_señal": false,
@@ -1474,6 +1474,11 @@
       ],
       "noticias": [
         {
+          "titulo": "Coca-Cola (KO) Named a 2027 Best Idea by TD Cowen",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-named-2027-232431419.html",
+          "fuente": "Simply Wall St."
+        },
+        {
           "titulo": "Warren Buffett Buys: 3 Forever Stocks the Billionaire Investor Has Invested In",
           "link": "https://www.fool.com/investing/2026/11/17/warren-buffett-buys-3-forever-stocks-the-billionaire-investor-has-invested-in/",
           "fuente": "Motley Fool"
@@ -1492,17 +1497,12 @@
           "titulo": "What Threatens Keurig Dr Pepper Stock Most?",
           "link": "https://www.trefis.com/stock/kdp/articles/625673/what-threatens-keurig-dr-pepper-stock-most/2026-11-17",
           "fuente": "Trefis"
-        },
-        {
-          "titulo": "How Is Coca-Cola's Packaging Strategy Supporting Growth?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/coca-colas-packaging-strategy-supporting-154100998.html",
-          "fuente": "Zacks"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Respaldada por inversores históricos pero con dudas sobre mantener su ritmo de crecimiento.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Aunque sigue siendo calificada como una gran idea a largo plazo y cuenta con el apoyo de grandes inversores, existen dudas sobre si podrá repetir su rendimiento previo. Esto sugiere un comportamiento de precio pausado en el futuro cercano. Considerá que esto refleja únicamente el tono de las noticias."
     },
     {
       "hay_señal": false,
@@ -1667,9 +1667,9 @@
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Expectativa generalizada del mercado a la espera de definiciones en el sector tecnológico.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "Al ser un fondo que agrupa a las principales empresas, la cautela de los inversores ante eventos clave mantiene al índice en un estado de espera. El precio podría moverse de forma lateral sin grandes saltos. Esta previsión es un análisis de titulares y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -1808,6 +1808,11 @@
       ],
       "noticias": [
         {
+          "titulo": "The Nasdaq-100 Is Doing Something It Did Only in 2000 and 2018. Here’s What Happened Next Both Times",
+          "link": "https://247wallst.com/investing/2026/11/17/the-nasdaq-100-is-doing-something-it-did-only-in-2000-and-2018-heres-what-happened-next-both-times/",
+          "fuente": "24/7 Wall St."
+        },
+        {
           "titulo": "Exchange-Traded Funds Fall as US Equities Drop After Midday",
           "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-fall-us-181122717.html",
           "fuente": "MT Newswires"
@@ -1826,17 +1831,12 @@
           "titulo": "Forget QQQ: The Company Behind It Runs the Same Index for $30 Less a Year on a $100K Balance",
           "link": "https://247wallst.com/investing/etf/2026/11/17/forget-qqq-the-company-behind-it-runs-the-same-index-for-30-less-a-year-on-a-100k-balance-2/",
           "fuente": "24/7 Wall St."
-        },
-        {
-          "titulo": "The Nasdaq-100 Is Headed for Its Worst November Since 2008",
-          "link": "https://247wallst.com/investing/2026/11/17/the-nasdaq-100-is-headed-for-its-worst-november-since-2008/",
-          "fuente": "24/7 Wall St."
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Caídas en el sector tecnológico y patrones históricos que sugieren precaución.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "Las caídas recientes en las acciones tecnológicas y comparaciones con períodos históricos de corrección generan temor de ajustes adicionales. La inclinación del precio tiende a ser a la baja a corto plazo. Recordá que esto es una lectura del clima de noticias y no una garantía."
     },
     {
       "hay_señal": true,
@@ -1975,6 +1975,21 @@
       ],
       "noticias": [
         {
+          "titulo": "SLS Joins MRNA And ANL In Biotech’s Top 3 This Year — Here’s How A Late-2025 Bet Could Grow 10x From Here",
+          "link": "https://stocktwits.com/news-articles/markets/equity/sls-mrna-anl-biotech-top-3-this-year-how-late-2025-bet-grow-10x/cNbXVXXR9hm",
+          "fuente": "Stocktwits"
+        },
+        {
+          "titulo": "SELLAS Stock In Focus After Phase 3 AML Trial Win",
+          "link": "https://finance.yahoo.com/healthcare/articles/sellas-stock-focus-phase-3-001833461.html",
+          "fuente": "Simply Wall St."
+        },
+        {
+          "titulo": "Sellas Life Sciences stock falls on $150M stock offering",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sellas-life-sciences-stock-falls-221740101.html",
+          "fuente": "Investing.com"
+        },
+        {
           "titulo": "Another Cancer Vaccine Just Scored A Home Run; Shares Catapult 150%",
           "link": "https://www.investors.com/news/technology/sellas-life-sciences-stock-cancer-vaccine-aml/?src=A00220&yptr=yahoo",
           "fuente": "Investor's Business Daily"
@@ -1983,27 +1998,12 @@
           "titulo": "‘Pharma Bro’ Shkreli Calls SLS Results ‘Sketch,’ Compares Leukemia Vaccine Data To Capricor’s Deramiocel",
           "link": "https://stocktwits.com/news-articles/markets/equity/pharma-bro-shkreli-calls-sls-results-sketch-compares-leukemia-vaccine-data-to-capricor-s-deramiocel/cNbO4Q6R9hf",
           "fuente": "Stocktwits"
-        },
-        {
-          "titulo": "Sellas Life Sciences shares surge 175% after cancer vaccine succeeds in late-stage trial",
-          "link": "https://www.proactiveinvestors.com/companies/news/1101942/sellas-life-sciences-shares-surge-175-after-cancer-vaccine-succeeds-in-late-stage-trial-1101942.html",
-          "fuente": "Proactive"
-        },
-        {
-          "titulo": "BC-Most Active Stocks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021431.html",
-          "fuente": "Associated Press"
-        },
-        {
-          "titulo": "SELLAS Life Sciences stock soars 240% on positive cancer trial",
-          "link": "https://finance.yahoo.com/healthcare/articles/sellas-life-sciences-stock-soars-141221879.html",
-          "fuente": "Investing.com"
         }
       ],
       "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
+      "noticias_resumen": "Grandes avances en ensayos clínicos empañados por la dilución de acciones.",
       "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_prediccion": "El éxito en sus pruebas contra la leucemia hizo subir fuerte la acción, pero el anuncio de una nueva emisión masiva de acciones frena el entusiasmo. Es probable que el precio experimente alta volatilidad sin una dirección clara en los próximos días. Esta deducción se basa exclusivamente en la prensa."
     },
     {
       "hay_señal": true,
@@ -2142,6 +2142,11 @@
       ],
       "noticias": [
         {
+          "titulo": "BILL Holdings (BILL) Stock Still Looks Undervalued After A 78% Five Year Fall",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-stock-still-011455851.html",
+          "fuente": "Simply Wall St."
+        },
+        {
           "titulo": "BILL Stock Hits Fresh 21-Month High On Report Of TPG Nearing Take-Private Deal",
           "link": "https://stocktwits.com/news-articles/markets/equity/bill-stock-hits-fresh-21-month-high-on-report-of-tpg-nearing-take-private-deal/cNbOP7LR9h9",
           "fuente": "Stocktwits"
@@ -2160,17 +2165,12 @@
           "titulo": "BILL or SAIL: Which Is the Better Value Stock Right Now?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/bill-sail-better-value-stock-154002241.html",
           "fuente": "Zacks"
-        },
-        {
-          "titulo": "BILL Holdings, Inc. (BILL) Hit a 52 Week High, Can the Run Continue?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-inc-bill-hit-131502958.html",
-          "fuente": "Zacks"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Rumores de compra por parte de un fondo privado impulsan con fuerza la acción.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "Los reportes sobre un posible acuerdo para retirar la empresa de la bolsa hicieron que la acción alcanzara máximos de varios meses. La expectativa de adquisición suele mantener el precio elevado en el corto plazo. Tené en cuenta que las especulaciones de noticias no aseguran el resultado del mercado."
     },
     {
       "hay_señal": true,
@@ -2309,6 +2309,16 @@
       ],
       "noticias": [
         {
+          "titulo": "Is AECOM (ACM) Fully Valued As Strong Earnings And 2027 Guidance Lift Interest?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/aecom-acm-fully-valued-strong-002355944.html",
+          "fuente": "Simply Wall St."
+        },
+        {
+          "titulo": "AECOM (ACM) Q4 2026 Earnings Call Transcript",
+          "link": "https://www.fool.com/earnings/call-transcripts/2026/11/17/aecom-acm-q4-2026-earnings-call-transcript/",
+          "fuente": "Motley Fool"
+        },
+        {
           "titulo": "AECOM Stocks Jump 11.21% as Record Margins Lead to Upbeat 2027 Outlook",
           "link": "https://finance.yahoo.com/markets/stocks/articles/aecom-stocks-jump-11-21-180235139.html",
           "fuente": "GuruFocus.com"
@@ -2322,22 +2332,12 @@
           "titulo": "Why Aecom Stock Popped Today",
           "link": "https://www.fool.com/investing/2026/11/17/why-aecom-stock-popped-today/",
           "fuente": "Motley Fool"
-        },
-        {
-          "titulo": "AECOM Q4 Earnings Call Highlights",
-          "link": "https://www.marketbeat.com/instant-alerts/transcript-aecom-q4-earnings-call-highlights-2026-11-17/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "fuente": "MarketBeat"
-        },
-        {
-          "titulo": "Aecom Q4 2026 Earnings Call Summary",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-aecom-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss",
-          "fuente": "Moby"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Sólidos resultados financieros y proyecciones muy favorables para los próximos años.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "La empresa superó las expectativas del mercado con márgenes récord y una guía de ganancias muy optimista, provocando fuertes subas. Es probable que la tendencia positiva continúe unos días más mientras se asimila la noticia. Esto es solo una interpretación periodística y no una certeza."
     },
     {
       "hay_señal": true,
@@ -2348,7 +2348,7 @@
       "stop_loss": 107.28,
       "objetivo": 135.27,
       "ratio_riesgo_beneficio": 2.0,
-      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.3x el promedio, lo que sugiere que compradores fuertes están entrando.",
+      "razon": "El precio rompió el máximo de los últimos 20 días con un volumen 1.4x el promedio, lo que sugiere que compradores fuertes están entrando.",
       "ticker": "RYTM",
       "sector": "Tendencia del día",
       "precio_al_momento_del_analisis": 116.61,
@@ -2501,10 +2501,10 @@
           "fuente": "Stocktwits"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Oferta multimillonaria de adquisición por parte de una gran farmacéutica.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "La noticia sobre la oferta de compra de 10.000 millones de dólares por parte de AstraZeneca provocó el mejor día de la acción en meses. La cotización tiende a sostenerse al alza ante este tipo de compras corporativas. Recordá que el análisis de titulares no garantiza rendimientos futuros."
     },
     {
       "hay_señal": true,
@@ -2668,16 +2668,16 @@
           "fuente": "Zacks"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Superó estimaciones de ingresos y muestra señales de recuperación comercial.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "El crecimiento superior al 14% en sus ingresos trimestrales y la percepción de que la acción está a buen precio están impulsando su recuperación. Las probabilidades favorecen un movimiento hacia arriba en el corto plazo. Cabe aclarar que esta perspectiva es una lectura de prensa y no un dato seguro."
     },
     {
       "hay_señal": true,
       "tipo_setup": "momentum",
       "direccion": "long",
-      "confianza": "media",
+      "confianza": "baja",
       "entrada": 5.5,
       "stop_loss": 5.06,
       "objetivo": 6.38,
@@ -2835,10 +2835,10 @@
           "fuente": "TIKR"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "negativo",
+      "noticias_resumen": "Ingresos publicitarios decepcionantes y retrasos en sus nuevos productos.",
+      "noticias_perspectiva": "bajista",
+      "noticias_prediccion": "La falta de fechas para el lanzamiento de sus anteojos inteligentes y un crecimiento en publicidad por debajo de lo esperado provocaron caídas pronunciadas. El clima alrededor de la empresa sugiere que la presión vendedora podría continuar. Esta proyección proviene de los titulares y no representa una certeza."
     },
     {
       "hay_señal": false,
@@ -3002,16 +3002,16 @@
           "fuente": "Zacks"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Expansión en el sector de energía renovable con un historial de pedidos récord.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "El anuncio de una cartera de pedidos que supera los 6.000 millones de dólares y su diversificación en servicios consolidan su crecimiento. La perspectiva inmediata para la acción se perfila hacia la suba. Considerá que esta evaluación se basa en noticias y no constituye una garantía."
     },
     {
       "hay_señal": true,
       "tipo_setup": "momentum",
       "direccion": "short",
-      "confianza": "media",
+      "confianza": "baja",
       "entrada": 27.4,
       "stop_loss": 29.59,
       "objetivo": 23.02,
@@ -3144,6 +3144,11 @@
       ],
       "noticias": [
         {
+          "titulo": "Is IDEAYA Biosciences (IDYA) Undervalued After Its FDA Backed IDE849 Trial Plan?",
+          "link": "https://finance.yahoo.com/healthcare/articles/ideaya-biosciences-idya-undervalued-fda-011214792.html",
+          "fuente": "Simply Wall St."
+        },
+        {
           "titulo": "IDEAYA Biosciences, Inc. (IDYA) Reports Q3 Loss, Tops Revenue Estimates",
           "link": "https://finance.yahoo.com/healthcare/articles/ideaya-biosciences-inc-idya-reports-112502073.html",
           "fuente": "Zacks"
@@ -3162,17 +3167,12 @@
           "titulo": "Earnings Preview: Acadia Pharmaceuticals (ACAD) Q3 Earnings Expected to Decline",
           "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-acadia-pharmaceuticals-acad-130024116.html",
           "fuente": "Zacks"
-        },
-        {
-          "titulo": "IDEAYA Biosciences, Inc. (IDYA) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ideaya-biosciences-inc-idya-expected-130014293.html",
-          "fuente": "Zacks"
         }
       ],
-      "noticias_sentimiento": "neutral",
-      "noticias_resumen": "No se pudo analizar el sentimiento después de reintentar.",
-      "noticias_perspectiva": "lateral",
-      "noticias_prediccion": "No se pudo generar una perspectiva por un problema técnico al consultar el modelo."
+      "noticias_sentimiento": "positivo",
+      "noticias_resumen": "Respaldos regulatorios y resultados de ingresos que superan lo esperado.",
+      "noticias_perspectiva": "alcista",
+      "noticias_prediccion": "El aval de la FDA para avanzar en sus ensayos clínicos junto con ingresos mejores de lo previsto refuerzan la confianza de los inversores. La inclinación del precio para los próximos días se percibe favorable. No olvides que esta lectura del mercado no es una verdad absoluta."
     }
   ]
 }
